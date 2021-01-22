@@ -1,0 +1,303 @@
+/* CSS File for team.html */
+
+:root {
+  --member-animation: all .35s cubic-bezier(.14,.51,0,1);
+  --team-web: 13, 71, 161;
+  --team-sponsor: 51, 105, 30;
+  --team-design: 136, 14, 79;
+  --team-content: 183,28,28;
+  --team-social: 49, 27, 146;
+  --team-community: 38, 50, 56;
+}
+
+#team h4 {
+  color: #616161;
+  font-size: 1.25rem;
+  text-align: left;
+  padding-top: 3rem;
+  font-weight: 200;
+  padding-bottom: 6rem;
+  line-height: 1.618;
+}
+
+#team .team-description {
+  padding: 0;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#team .team-description h4 {
+  padding: 0;
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+.container-year-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-year-button .gs-button-container {
+  margin-right: 30px;
+}
+
+.container-year-button .gs-button-container:last-child {
+  margin-right: 0px;
+}
+
+/* TEAM GRID */
+#teamGrid {
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.gs-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-content: center;
+  align-items: stretch;
+  grid-gap: 110px 6%;
+}
+
+.gs-team-member {
+  padding: 20px 60px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 0px 0px rgba(239, 112, 0, 0.10), 20px 16px 50px -20px rgb(240, 112, 0);
+  position: relative;
+  transition: var(--member-animation);
+}
+
+.gs-team-member-image {
+  height: 100px;
+  overflow: visible;
+  background-position: center;
+  position: relative;
+}
+
+.gs-team-member-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  position: absolute;
+  top: -70px;
+  left: -30px;
+  box-shadow: 8px 12px 20px -10px rgb(183, 183, 183);
+}
+
+.gs-team-member-info {
+  font-family: var(--font-family-2);
+}
+
+.gs-team-member-info .gs-fullname {
+  font-size: 2rem;
+  line-height: 38px;
+  margin-bottom: 10px;
+  color: #EF6F00;
+  transition: var(--member-animation);
+  font-weight: bold;
+}
+
+.gs-team-member-info .gs-position {
+  font-family: monospace, sans-serif;
+  font-size: 1.1rem;
+}
+
+.gs-team-member-social {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.gs-team-member-social a {
+  padding: 8px 12px;
+  font-size: 1.3rem;
+  text-align: center;
+  border: none;
+  border-image-width: 0;
+  background-color: rgba(239, 112, 0, 0.75);
+  color: white;
+  outline: none;
+  transition: var(--member-animation);
+}
+
+.gs-team-member-social a:first-child {
+  border-top-right-radius: 10px;
+}
+
+.gs-team-member-social a:last-child {
+  border-bottom-left-radius: 10px;
+}
+
+.button-active {
+  position: relative;
+}
+
+.button-active button, .button-active button:hover, .button-active button:active, .button-active button:focus {
+  background-color: rgba(240, 112, 0, 0.63);
+  cursor: default;
+  box-shadow: 0 7px 15px #ffae3e;
+  border-bottom: 5px solid #EF6F00;
+}
+
+.button-active::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #EF6F00;
+}
+
+.gs-team-member:hover {
+  box-shadow: 10px 10px 0px 0px rgba(239, 112, 0, 0.20), 20px 16px 40px -20px rgb(240, 112, 0);
+  transition: var(--member-animation);
+}
+
+.gs-team-member:hover .gs-team-member-social a {
+  transition: var(--member-animation);
+}
+
+.gs-team-member:hover .gs-team-member-info .gs-fullname {
+  color: #EF6F00;
+}
+
+.gs-team-member .gs-team-member-social a:hover {
+  background-color: #ef7000a8;
+}
+
+@media (max-width: 1500px) {
+  .gs-team-grid {
+    grid-gap: 100px 12%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .gs-team-grid {
+    grid-gap: 110px 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .gs-team-grid {
+    grid-gap: 100px 10%;
+  }
+
+  .gs-team-member-image img {
+    width: 150px;
+    height: 150px;
+    top: -70px;
+    left: 0px;
+    box-shadow: 8px 12px 20px -10px rgb(183, 183, 183);
+  }
+}
+
+/** THEMES **/
+/* web */
+.gs-team--web {
+  box-shadow: 10px 10px 0px 0px rgba(var(--team-web), 0.1), 20px 16px 50px -20px rgb(var(--team-web)) !important;
+}
+.gs-team--web *::selection {
+  background-color: rgb(var(--team-web));
+}
+.gs-team--web .gs-team-member-social a {
+  background-color: rgba(var(--team-web), 0.75);
+}
+.gs-team--web .gs-team-member-social a:hover {
+  background-color: rgba(var(--team-web), 0.65);
+}
+.gs-team--web .gs-team-member-info .gs-fullname, .gs-team--web:hover .gs-team-member-info .gs-fullname {
+  color: rgb(var(--team-web));
+}
+
+/* sponsor */
+.gs-team--sponsor {
+  box-shadow: 10px 10px 0px 0px rgba(var(--team-sponsor), 0.1), 20px 16px 50px -20px rgb(var(--team-sponsor)) !important;
+}
+.gs-team--sponsor *::selection {
+  background-color: rgb(var(--team-sponsor));
+}
+.gs-team--sponsor .gs-team-member-social a {
+  background-color: rgba(var(--team-sponsor), 0.75);
+}
+.gs-team--sponsor .gs-team-member-social a:hover {
+  background-color: rgba(var(--team-sponsor), 0.65);
+}
+.gs-team--sponsor .gs-team-member-info .gs-fullname, .gs-team--sponsor:hover .gs-team-member-info .gs-fullname {
+  color: rgb(var(--team-sponsor));
+}
+
+/* design */
+.gs-team--design {
+  box-shadow: 10px 10px 0px 0px rgba(var(--team-design), 0.1), 20px 16px 50px -20px rgb(var(--team-design)) !important;
+}
+.gs-team--design *::selection {
+  background-color: rgb(var(--team-design));
+}
+.gs-team--design .gs-team-member-social a {
+  background-color: rgba(var(--team-design), 0.75);
+}
+.gs-team--design .gs-team-member-social a:hover {
+  background-color: rgba(var(--team-design), 0.65);
+}
+.gs-team--design .gs-team-member-info .gs-fullname, .gs-team--design:hover .gs-team-member-info .gs-fullname {
+  color: rgb(var(--team-design));
+}
+
+/* content */
+.gs-team--content {
+  box-shadow: 10px 10px 0px 0px rgba(var(--team-content), 0.1), 20px 16px 50px -20px rgb(var(--team-content)) !important;
+}
+.gs-team--content *::selection {
+  background-color: rgb(var(--team-content));
+}
+.gs-team--content .gs-team-member-social a {
+  background-color: rgba(var(--team-content), 0.75);
+}
+.gs-team--content .gs-team-member-social a:hover {
+  background-color: rgba(var(--team-content), 0.65);
+}
+.gs-team--content .gs-team-member-info .gs-fullname, .gs-team--content:hover .gs-team-member-info .gs-fullname {
+  color: rgb(var(--team-content));
+}
+
+/* social */
+.gs-team--social {
+  box-shadow: 10px 10px 0px 0px rgba(var(--team-social), 0.1), 20px 16px 50px -20px rgb(var(--team-social)) !important;
+}
+.gs-team--social *::selection {
+  background-color: rgb(var(--team-social));
+}
+.gs-team--social .gs-team-member-social a {
+  background-color: rgba(var(--team-social), 0.75);
+}
+.gs-team--social .gs-team-member-social a:hover {
+  background-color: rgba(var(--team-social), 0.65);
+}
+.gs-team--social .gs-team-member-info .gs-fullname, .gs-team--social:hover .gs-team-member-info .gs-fullname {
+  color: rgb(var(--team-social));
+}
+
+/* community */
+.gs-team--community {
+  box-shadow: 10px 10px 0px 0px rgba(var(--team-community), 0.1), 20px 16px 50px -20px rgb(var(--team-community)) !important;
+}
+.gs-team--community *::selection {
+  background-color: rgb(var(--team-community));
+}
+.gs-team--community .gs-team-member-social a {
+  background-color: rgba(var(--team-community), 0.75);
+}
+.gs-team--community .gs-team-member-social a:hover {
+  background-color: rgba(var(--team-community), 0.65);
+}
+.gs-team--community .gs-team-member-info .gs-fullname, .gs-team--community:hover .gs-team-member-info .gs-fullname {
+  color: rgb(var(--team-community));
+}
