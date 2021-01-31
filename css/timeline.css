@@ -1,0 +1,240 @@
+#schedule {
+    border-bottom: 2px solid black ;
+}
+
+.timeline-heading {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-family: var(--font-family-1);
+    font-size: 3em;
+    color: var(--heading-color);
+}
+
+.timeline-container {
+    display: grid;
+    grid-template-columns: auto auto 90px auto auto;
+    grid-template-rows: 100px repeat(8, 50px 100px); 
+    grid-template-areas: 
+        "it1 it2 it3 it4 it5"
+        ". . vrt1 . ."
+        "it6 it7 it8 it9 it10"
+        ". . vrt2 . ."
+        "it11 it12 it13 it14 it15"
+        ". . vrt3 . ."
+        "it16 it17 it18 it19 it20"
+        ". . vrt4 . ."
+        "it21 it22 it23 it24 it25"
+        ". . vrt5 . ."
+        "it26 it27 it28 it29 it30"
+        ". . vrt6 . ."
+        "it31 it32 it33 it34 it35"
+        ". . vrt7 . ."
+        "it36 it37 it38 it39 it40"
+        ". . vrt8 . ."
+        "it41 it42 it43 it44 it45"
+    ;     
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0px;
+}
+.hrz {
+    width: 48px;
+    justify-self: stretch;
+    color: rgb(244, 100, 31);
+    text-align: center;
+    background-color: rgb(244, 100, 31);
+}
+.text, .text1 {
+    border: 2px solid rgb(244, 100, 31);
+    border-radius: 25%;
+    justify-self: end;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1.5;
+    font-family: var(--font-family-2);
+}
+.text1 {
+    justify-self: start;
+    border-radius: 8%;
+}
+
+.vrt1 {
+    grid-area: vrt1;
+}
+.vrt2 {
+    grid-area: vrt2;
+}
+.vrt3 {
+    grid-area: vrt3;
+}
+.vrt4 {
+    grid-area: vrt4;
+}
+.vrt5 {
+    grid-area: vrt5;
+}
+.vrt6 {
+    grid-area: vrt6;
+}
+.vrt7 {
+    grid-area: vrt7;
+}
+.vrt8 {
+    grid-area: vrt8;
+}
+.it1 {
+    grid-area: it1;
+}
+.it2 {
+    grid-area: it2;
+}
+.it3 {
+    grid-area: it3;
+}
+.it4 {
+    grid-area: it4;
+}
+.it5 {
+    grid-area: it5;
+}
+.it6 {
+    grid-area: it6;
+}
+.it7 {
+    grid-area: it7;
+}
+.it8 {
+    grid-area: it8;
+}
+.it9 {
+    grid-area: it9;
+}
+.it10 {
+    grid-area: it10;
+}
+.it11 {
+    grid-area: it11;
+}
+.it12 {
+    grid-area: it12;
+}
+.it13 {
+    grid-area: it13;
+}
+.it14 {
+    grid-area: it14;
+}
+.it15 {
+    grid-area: it15;
+}
+.it16 {
+    grid-area: it16;
+}
+.it17 {
+    grid-area: it17;
+}
+.it18 {
+    grid-area: it18;
+}
+.it19 {
+    grid-area: it19;
+}
+.it20 {
+    grid-area: it20;
+}
+.it21 {
+    grid-area: it21;
+}
+.it22 {
+    grid-area: it22;
+}
+.it23 {
+    grid-area: it23;
+}
+.it24 {
+    grid-area: it24;
+}
+.it25 {
+    grid-area: it25;
+}
+.it26 {
+    grid-area: it26;
+}
+.it27 {
+    grid-area: it27;
+}
+.it28 {
+    grid-area: it28;
+}
+.it29 {
+    grid-area: it29;
+}
+.it30 {
+    grid-area: it30;
+}
+.it31 {
+    grid-area: it31;
+}
+.it32 {
+    grid-area: it32;
+}
+.it33 {
+    grid-area: it33;
+}
+.it34 {
+    grid-area: it34;
+}
+.it35 {
+    grid-area: it35;
+}
+.it36 {
+    grid-area: it36;
+}
+.it37 {
+    grid-area: it37;
+}
+.it38 {
+    grid-area: it38;
+}
+.it39 {
+    grid-area: it39;
+}
+.it40 {
+    grid-area: it40;
+}
+.it41 {
+    grid-area: it41;
+}
+.it42 {
+    grid-area: it42;
+}
+.it43 {
+    grid-area: it43;
+}
+.it44 {
+    grid-area: it44;
+}
+.it45 {
+    grid-area: it45;
+}
+
+/* Making svg icons smaller */
+@media only screen and (max-width: 420px) {
+    .container {
+        grid-template-columns: auto auto 50px auto auto;
+        grid-template-rows: auto repeat(8, 10px auto); 
+    }
+    .ig {
+        width: 70px;
+        height: 70px;
+    }
+    .hrz {
+        width: 20px;
+    }
+
+}

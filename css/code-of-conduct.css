@@ -1,0 +1,48 @@
+/* CSS File for code-of-conduct.html */
+
+ol.gradient-list > li, ol.gradient-list > li::before {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  margin-bottom: 104px;
+}
+ol.gradient-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1.2rem 1.2rem 1.2rem 3.5rem;
+  position: relative;
+  font-size: 1.3rem;
+  font-family: 'Nunito', sans-serif;
+}
+ol.gradient-list > li::before, ol.gradient-list > li::after {
+  background: linear-gradient(135deg, rgba(255,186,8,1) 0%, rgba(255,127,21,1) 100%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: '';
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
+}
+ol.gradient-list > li::before {
+  align-items: flex-end;
+  content: counter(gradient-counter);
+  color: #fff;
+  display: flex;
+  font: 900 1.5em/1 'Montserrat';
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+}
+
+ol.gradient-list > li + li {
+  margin-top: 2rem;
+}

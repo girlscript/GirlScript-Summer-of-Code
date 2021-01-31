@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>GSSoC-19 | GirlScript Summer of Code 2021</title>
+		<meta name="description" content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India to build the main website of GirlScript, GirlScript mobile app and websites for various GirlScript Chapters. Not only for the accolades we have in our batch but also for the people new to opensource. Right from word go, be it basic git skills, first timers only issues or helping mentors hone their team leading and guiding skills - be it the rookie or the veteran dev - GirlScript Summer of Code offers something for everyone.">
+	
+		<!-- META -->
+		<meta name="application-name" content="GirlScript Foundation India">
+		<meta name="author" content="GirlScript Summer of Code 2021">
+		<meta name="msapplication-tooltip" content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India">
+		<meta name="apple-mobile-web-app-title" content="GirlScript Summer of Code 2021">
+		<meta name="og:site_name" content="gssoc.tech" />
+		<meta name="og:title" content="GirlScript Summer of Code 2021" />
+		<meta name="og:url" content="https://gssoc.tech/" />
+		<meta name="og:image" content="images/favicon/favicon.png" />
+		<meta name="robots" content="index" , "follow">
+	
+		<!-- ICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="images/favicon/site.webmanifest">
+		<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#EF6E00">
+		<link rel="shortcut icon" href="images/favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#EF6E00">
+	
+		<!-- FONTS -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito:300,400,700&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+	
+		<!-- CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link rel="stylesheet" href="css/common/materialize.min.css">
+	
+		<link rel="stylesheet" href="css/common/nav.css">  <!-- common for all pages -->
+		<link rel="stylesheet" href="css/common/footer.css">  <!-- common for all pages -->
+		<link rel="stylesheet" href="css/common/common.css">  <!-- common for all pages -->
+		<link rel="stylesheet" href="css/gssoc19.css">  <!-- only for this page -->
+		<link href="css/common/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/common/animate.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/testimonial.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	  
+		<!-- SCRIPTS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="js/common/materialize.min.js"></script>
+		<script src="js/common/init.js"></script>  <!-- common for all pages -->
+		<script src="js/faqs.js"></script>
+		<script src="js/gianniAccordion.min.js"></script>
+		<script src="lib/jquery.waypoints.min.js"></script>
+		<script src="lib/noframework.waypoints.min.js"></script>
+		<script src="lib/shortcuts/inview.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+		<!-- Tracking code  -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134247465-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+	
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'UA-134247465-1');
+		</script>
+		<style>
+			@media only screen and (min-width: 601px) {
+				.row .col.m3 {
+					width: 22.5%;
+					margin-left: auto;
+					left: auto;
+					right: auto;
+				}
+			}
+			section {
+				padding: 4% 0%;
+			}
+		</style>
+	</head>
+
+<body>
+	<!--================================ NAV v2 ================================-->
+	<header>
+		<!-- Navigation Bar Starts -->
+		<div class="navbar-fixed">	
+			<nav id="nav-bar" class="scroll-down">	  
+			  <div id="nav-wrapper" class="nav-wrapper container">
+				<a id="logo-container" href="index.html" class="brand-logo white-text">
+				  <img src="images/type.png" class="nav-logo-type" alt="GSSoC Logo">	       
+				</a>
+	  
+				<ul id="nav-list" class="hide-on-med-and-down main-menu right" role="navigation" aria-label="Main">
+				  <li><a href="index.html#about">About</a></li>
+				  <!-- <li><a href="profile.html">Profile</a></li> -->
+				  <!-- <li><a href="index.html#register">Register</a></li> -->
+				  <li><a href="schedule.html">Schedule</a></li>
+				  <li><a href="projects.html">Projects</a></li>
+				  <li><a href="index.html#sponsors">Sponsors</a></li>
+				  <li><a href="FAQs.html">FAQs</a></li>
+				  <li><a href="team.html">Team</a></li>
+				  <li><a href="#footer-main">Contact</a></li>
+				  <li class="dropdown">
+					<a href="javascript:void(0);">More&nbsp;<i class="fas fa-caret-down fa-sm"></i></a>
+					<ul>
+					  <li><div class="dn"><a href="campus_ambassador.html">Campus Ambassador</a></div></li>
+					  <li><div class="dn"><a href="https://medium.com/girlscript-summer-of-code">Blog</a></div></li>
+					  <li><div class="dn"><a href="gssoc18.html">GSSoC-18</a></div></li>
+					  <li><div class="dn"><a href="gssoc19.html">GSSoC-19</a></div></li>
+					</ul>
+				  </li>
+				</ul>
+				<ul id="nav-mobile" class="sidenav" role="navigation" aria-label="Main">
+				  <div class="center">
+					<img class="nav-logo" src="images/type.png" alt="GSSoC Logo">
+				  </div>
+				  <li><a href="index.html#about">About</a></li>
+				  <li><a href="profile.html">Profile</a></li>
+				  <!-- <li><a href="index.html#register">Register</a></li> -->
+				  <li><a href="index.html#schedule">Schedule</a></li>
+				  <li><a href="projects.html">Projects</a></li>
+				  <li><a href="index.html#sponsors">Sponsors</a></li>
+				  <li><a href="FAQs.html">FAQs</a></li>
+				  <li><a href="team.html">Team</a></li>
+				  <li><a href="#footer-main">Contact</a></li>
+				  <li>
+					<a href="JavaScript:Void(0);" class="dropdown-btn">More&nbsp;<i class="fas fa-caret-down fa-sm"></i></a>
+					<div class="dropdown-container">
+					  <a href="https://medium.com/girlscript-summer-of-code">Blog</a>
+					  <a href="gssoc18.html">GSSoC-18</a>
+					  <a href="gssoc19.html">GSSoC-19</a>
+					</div>
+				  </li>
+				</ul>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger">
+				  <i class="material-icons">menu</i>
+				</a>
+			  </div>
+			</nav>
+		  </div>
+		<!-- Navigation Bar finishes -->
+	
+		<!-- Social Media Links starts -->
+    <div class="social">
+      <ul class="social-media">
+        <li class="sm">
+          <a href="https://www.facebook.com/girlscriptsoc/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://twitter.com/girlscriptsoc" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://www.instagram.com/girlscript/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://www.linkedin.com/company/girlscriptsoc/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </li>
+        <li class="sm">
+          <a href="mailto:girlscriptsoc@gmail.com" target="_blank" title="Mail"><i class="far fa-envelope"></i></a>
+        </li>
+      </ul>
+    </div>
+    <!-- Social Media Links finishes-->
+		
+	  </header>
+	  <!--================================ NAV v2 end ================================-->
+
+	<section class="container-fluid" id="projects">
+		<h4 class="header section-heading center">Glimpse of projects GSSoC-2019</h4>
+		<div class="row" data-aos="flip-up">
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h5>Project:
+					</b> She Endeavors</h5>
+				</p>
+					<button onclick="displayModal(1)" class="w3-button w3-black detailsButton">Details</button>
+			</div>
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h5>Project:
+					</b> ZeroGravity</h5>
+				</p>
+					<button onclick="displayModal(2)"
+						class="w3-button w3-black detailsButton">Details</button>
+			</div>
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h6>Project:
+					</b> Blood Connect</h6>
+				</p>
+				<p>
+					<button onclick="displayModal(3)"
+						class="w3-button w3-black detailsButton">Details</button>
+				</p>
+			</div>
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h4>Project:
+					</b> UPAY </h4>
+				</p>
+				<p>
+					<button onclick="displayModal(4)"
+						class="w3-button w3-black detailsButton">Details</button>
+
+			</div>
+		</div>
+		<div class="row" data-aos="fade-right">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>
+						<h5>Project:
+					</b> Images-to-PDF </h5>
+				</p>
+					<button onclick="displayModal(5)"
+						class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Travel-Mate </p>
+				<button onclick="displayModal(6)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Ignitus-Client-Side-Development</p>
+				<button onclick="displayModal(7)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> QuizApp</p>
+				<button onclick="displayModal(8)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-left">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> B.E.N.J.I.</p>
+				<button onclick="displayModal(9)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> MentorFix </p>
+				<button onclick="displayModal(10)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> CircuitVerse </p>
+				<button onclick="displayModal(11)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Cosmos</p>
+				<button onclick="displayModal(12)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-right">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> in-time </p>
+				<button onclick="displayModal(13)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Groot </p>
+				<button onclick="displayModal(14)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Drive-CLI </p>
+				<button onclick="displayModal(15)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Connect-Me </p>
+				<button onclick="displayModal(16)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-left">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Techtonica Web Development Curriculum </p>
+				<button onclick="displayModal(17)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b>MEVN-CLI </p>
+				<button onclick="displayModal(18)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Algo Ds Notes </p>
+				<button onclick="displayModal(19)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Social Platform Donut </p>
+				<button onclick="displayModal(20)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-right">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Delern Flashcards </p>
+				<button onclick="displayModal(21)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Mathball </p>
+				<button onclick="displayModal(22)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> HackerRank Testcase Generator </p>
+				<button onclick="displayModal(23)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+	</section>
+
+	<!----------------- PROJECT DESCRIPTION FOR MODAL --------------------->
+	<div id="projectDesc">
+		<div id="id01" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id01').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>&nbsp;Our engrossment is to bring a comprehensive growth on
+						GENDER EQUALITY & WOMEN EMPOWERMENT to lead the sustainable development goal 5 under
+						UNDP . Our credible approaches point out for the implementation of programs and
+						activities to adopt the notion of women empowerment. In spite of lacking financial
+						support, support from the family, prone to physical abuses, pressurized to
+						molestation and mental trauma women are breaking all the social taboos in order to
+						achieve their goals and prove the world that they are unstoppable. She Endeavors
+						stands for the rights of women, strives for it and supports it. Our intention is to
+						reach out the maximum individuals to make our objectives happen. We believe that
+						true inspiration comes with an ideal example for giving trust. </p>
+					<p>
+						<p><b>Tech stack: </b>(Any) Make from scratch</p> <b>Admin: Mani teja</b>
+						<br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id02" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id02').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>&nbsp;Youth Led volunteer Network works in Education, Healthcare
+						and Shelter </p>
+					<p>
+						<p><b>Tech stack: </b>(Any) Make from scratch
+							<br>
+						</p> <b>Admin: Maitreyi Jichkar</b>
+						<br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id03" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id03').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>&nbsp;Blood cannot be manufactured in factories; it can only come
+						from generous donors. To cater to this demand, BloodConnect was launched on 1st
+						April, 2010 (as a project under NSS IIT Delhi) with an unparalleled objective of
+						solving the problem of blood shortage in India. According to WHO data, India faces a
+						shortage of 3 million blood units. This shortage can easily be eliminated if only an
+						additional 2% of India's youth donates blood. To make this possible, BloodConnect
+						acts as a channel connecting voluntary blood donors with those who need blood. It is
+						a youth-run organization and provides free help and specially works to target the
+						poor and the needy. </p>
+					<p>
+						<p><b>Tech Stack: </b>(Any) Make from scratch</p> <b>Admin: Rahul Motwani</b>
+						<br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id04" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id04').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>&nbsp;The foundation of development for every society is the
+						education of its youth. Keeping this in mind, an NGO UPAY (Underprivileged
+						Advancement by Youth), was founded in May 2010 by an IIT Kharagpur Alumnus &
+						Engineer from NTPC Ltd, Mr Varun Shrivastava with the help of few young engineers
+						from IITs and NITs. Its main aim is to provide opportunities to underprivileged
+						children and bring smiles on the dejected faces.on 19.09.2011, UPAY has been
+						registered as NGO under Society Registration Act 1860 and Mumbai public Trust act
+						1950(Reg No-Maharashtra/268/2011/Bhandara). </p>
+					<p>
+						<p><b>Tech Stack: </b>(Any) Make from scratch</p> <b>Admin: Piyush</b>
+						<br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id05" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id05').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p>
+						<p> <b>Description:</b> An app to convert images to PDF file. </p>
+						<p><b>Tech Stack: </b>Android; Java</p>
+						<p> <b>Admin:</b> Swati Garg
+							<br> <i class="fa fa-github"></i> <a href="https://github.com/Swati4star/Images-to-PDF"
+								target="_blank">@images-to-pdf</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id06" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id06').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p>
+						<p> <b>Description:</b> A complete travel guide.</p>
+						<p><b>Tech Stack: </b>Android Java, Python Django</p>
+						<p> <b>Admin:</b> Swati Garg, Prabhakar Gupta
+							<br> <i class="fa fa-github"></i> <a href="https://github.com/project-travel-mate"
+								target="_blank">@travelmate</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id07" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id07').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> Ignitus Web Application written in Node.js, React.js. To get an
+						overview of tech stack please visit - https://github.com/Ignitus/Tools.</p>
+					<p><b>Tech Stack: </b>JavaScript</p>
+					<p> <b>Admin:</b> Divyanshu Rawat
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/Ignitus/Ignitus-Client-Side-Development"
+							target="_blank">@icsDevelopment</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id08" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id08').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> A quiz portal where users can play quizzes curated by the
+						admins.</p>
+					<p><b>Tech Stack: </b>Go, React</p>
+					<p> <b>Admin:</b> Pulkit Gera
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/darthgera123/QuizApp"
+							target="_blank">@quizapp</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id09" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id09').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> A digital assistant for keeping your hands off your device! </p>
+					<p><b>Tech Stack: </b>Python</p>
+					<p> <b>Admin:</b> Dhruv Apte
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/the-ethan-hunt/B.E.N.J.I."
+							target="_blank">@B.E.N.J.I.</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id010" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id010').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> The project aims at making the mentorship readily available to
+						people searching for it. A mentee can find mentors of particular niche. </p>
+					<p><b>Tech Stack: </b>React,Redux,Meteor,MongoDB</p>
+					<p> <b>Admin:</b> Abhishek Prasad
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/WrippleFoss/mentorFix"
+							target="_blank">@mentorFix</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id011" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id011').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>CircuitVerse.org is an easy to use digital logic circuit
+						simulator which aims at providing a platform to create, share and learn digital
+						circuits. The platform currently has over 1800 registered users and over 4000 saved
+						projects. 100s of users use the platform every day. The platform has been used in
+						several universities officially as part of their introductory courses.
+						<br> At the core, the project is a powerful digital logic simulator. It can simulate
+						anything from a simple adder to a full fledged 4 bit computer.
+						<br> The platform has been designed for academia use. The platform has been modeled
+						based on MIT Scratch. The vision is to develop a community around the platform which
+						will aid students to self-learn digital logic design. I can confidently claim that
+						CircuitVerse is the best online digital logic circuit simulator out there.</p>
+					<p><b>Tech Stack: </b>Ruby (RoR), JavaScript </p>
+					<p> <b>Admin:</b> Satvik Ramaprasad
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/CircuitVerse/"
+							target="_blank">@circuitVerse</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id012" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id012').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description: </b>Cosmos is an umbrella project which deals with making knowledge
+						and development related to algorithms and data structure accessible. Cosmos has been
+						one of the most popular and contributor friendly projects at GitHub and has over 800
+						contributors. The main repository of Cosmos serves as the data store for our other
+						projects and a reference study material for thousands of students. Some of the
+						sister projects of Cosmos are:
+						<br> * Quark: An offline search engine for developers
+						<br> * Cosmos Search: A search engine focused on reducing search time for developers
+						<br> * Falcon: A command line tool for collaborative coding
+						<br> * Rikimaru: a VSCode plugin to search for code from VSCode and many others.
+					</p>
+					<p><b>Tech Stack: </b>C++, Java, Python, JavaScript, C</p>
+					<p> <b>Admin:</b> Aditya Chatterjee
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/OpenGenus/cosmos"
+							target="_blank">@cosmos</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id013" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id013').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> A cross platform mobile application to be always in time.
+						<br> The app will help students to get all the work done in time and track his
+						activities The students will be notified about their timetable, classes to attend,
+						other todos to be done. It will help the student keep track of the number of class
+						he/she has missed. It will also show motiviational quotes with todos to be done so
+						that the student stays motivated.</p>
+					<p><b>Tech Stack: </b>Dart</p>
+					<p> <b>Admin:</b> Nityananda Gohain
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/nityanandagohain/in-time"
+							target="_blank">@in-time</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id014" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id014').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> Groot is a open-source assistance made to make virtual life fun
+						and easy. It can perform many tasks like opening a website, playing music video or
+						any video on youtube over voice command and much more. It's a platform-independent
+						so you can use it on mac, windows or Linux.
+						<br> It's 100% written in python and easy to modify according to your needs.</p>
+					<p>
+						<p><b>Tech Stack: </b>electronjs for GUI, python(Django/flask) for Back-end and
+							Machine learning for other stuffs</p> <b>Admin:</b> Omkar Yadav
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/omi10859/groot"
+							target="_blank">@project-groot</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id015" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id015').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> A command line interface for accessing google drive.</p>
+					<p>
+						<p><b>Tech Stack: </b>Python</p> <b>Admin:</b> Chirag Shetty
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/nurdtechie98/drive-cli"
+							target="_blank">@project-drive-cli</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id016" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id016').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> A Chrome and Firefox Extension for connecting with @fossasia.
+					</p>
+					<p>
+						<p><b>Tech Stack: </b>JavaScript, HTML, CSS</p> <b>Admin:</b> PIYUSH RAJ
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/fossasia/Connect-Me"
+							target="_blank">@Connect-Me</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id017" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id017').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>The curriculum of Techtonica, a free tech training and job
+						placement program for women and non-binary adults with low incomes.</p>
+					<p>
+						<p><b>Tech Stack: </b>Markdown, Git, Javascript, HTML, CSS</p> <b>Admin:</b> Alina
+						Lodahl
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/Techtonica/curriculum/"
+							target="_blank">@curriculum</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id018" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id018').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>A CLI tool for the MEVN stack, https://mevn.madhacks.co .</p>
+					<p>
+						<p><b>Tech Stack: </b>NodeJS</p> <b>Admin:</b> James George, Ajo John
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/madlabsinc/mevn-cli"
+							target="_blank">@mevn-cli</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id019" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id019').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>This project is focussed on collection of algorithms and data
+						structures in different languages. </p>
+					<p>
+						<p><b>Tech Stack: </b>C++, C, Java, Python, Ruby, JavaScript, C#</p> <b>Admin:</b>
+						Aman Jain
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/jainaman224/Algo_Ds_Notes"
+							target="_blank">@Algo_Ds_Notes</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id020" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id020').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>The world we currently live in is full of Technologies and with
+						each passing day a new gadget or a jargonic device is introduced in the market which
+						tends to improve the life of people in one or the other way and the present globe
+						needs a flexible social base for collaboration, representation and implementation.
+						So DONUT is an Open-Source social researching environment kit developed in Node.js
+						and React that tends to serve robust frameworks solutions which could span the
+						entire world within an organisation through building their own custom social
+						environments, discussion portals and collaboration platforms for raising products
+						under social open Source. It's lightweight, powerful and comes with a user-friendly
+						interface. With DONUT you can create your own customized social network, social
+						intranet or huge social enterprise application that really fits into organisation
+						needs. </p>
+					<p>
+						<p><b>Tech Stack: </b>Node.js, React.js, Vue.js, JavaScript , HTML, CSS</p>
+						<b>Admin:</b> Devesh Verma
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/codeuino/Social-Platform-Donut"
+							target="_blank">@Social-Platform-Donut</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id021" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id021').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>This is a platform for learning anything. The application works
+						on the principle of flashcards and uses spaced repetition system. The app uses
+						modern new frameworks such as flutter, firebase. </p>
+					<p>
+						<p><b>Tech Stack: </b>Dart</p> <b>Admin:</b> Katarina Sheremet
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/dasfoo/delern"
+							target="_blank">@delern</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id022" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id022').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>Mathball is an npm package for competitive programming in
+						JavaScript with a focus on common mathematical utilities being implemented in
+						relevant algorithms & data structures for optimized performance! </p>
+					<p>
+						<p><b>Tech Stack: </b>JavaScript</p> <b>Admin:</b> Priyabrata Biswas
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/pbiswas101/Mathball"
+							target="_blank">@Algo_Ds_Notes</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id023" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id023').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> In world of competitve programming, making problems is tough but
+						generating Test Cases is bigger headache, this tool currently works with CLI and
+						needs some knowledge of Coding for person to Generate Code.</p>
+					<p><b>Tech Stack: </b>Python</p>
+					<p> <b>Admin:</b> Aashutosh Rathi
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/aashutoshrathi/HackerRank-Test-Case-Generator"
+							target="_blank">@HackerRank-TestCase-Generator</a> </p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container" id="sponsors">
+		<div class="section">
+			<h4 class="header section-heading center">Previous Sponsors</h4>
+			<h6 class="header left-align light section-text" style="margin-bottom:30px;">Sponsors make it possible for
+				Girlscript Summer Of Code to provide the perks for participants. Their generous donations
+				allow students to participate in the program and focus on learning. Sponsors receive a great deal of
+				publicity and
+				exposure as a result of the program. So register to be a sponsor today!</h6>
+			<div class="row">
+				<div class="col m6 s12 center">
+					<a href="https://www.twilio.com/" target="_blank">
+						<img src="images/sponsor/twilio.png" width="70%">
+						<p>Title Sponsor</p>
+					</a>
+				</div>
+				<div class="col m6 s12 center">
+					<a href="https://www.gojek.io" target="_blank">
+						<img src="images/sponsor/go-jek.jpg" width="70%">
+						<p>Title Sponsor</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://www.redhat.com/en" target="_blank">
+						<img src="images/sponsor/redhat.png" width="80%">
+						<p>Platinum Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://erpnext.com/" target="_blank">
+						<img src="images/sponsor/erpnext.png" width="80%">
+						<p>Silver Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.mozilla.org/en-US/" target="_blank">
+						<img src="images/sponsor/mozilla.png" width="80%">
+						<p>Bronze Sponsor</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m6 s12 center">
+					<a href="https://balsamiq.com/" target="_blank">
+						<img src="images/sponsor/balsamiq.png" width="50%">
+						<p>Bronze Sponsor</p>
+					</a>
+				</div>
+				<div class="col m6 s12 center">
+					<a href="JavaScript:Void(0);" target="_blank">
+						<img src="images/sponsor/katsam.jpg" width="40%">
+						<p>Community Partner</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://github.com/" target="_blank">
+						<img src="images/sponsor/github.png" width="45%">
+						<p>Platform Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.elastic.co" target="_blank">
+						<img src="images/sponsor/elastic.png" width="45%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.thehackingschool.com/" target="_blank">
+						<img src="images/sponsor/THS.png" width="45%">
+						<p>Tech Incubation Partner</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://www.hackerearth.com/" target="_blank">
+						<img src="images/sponsor/hackerearth.png" width="70%">
+						<p>Innovation Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.facebook.com/bitsofmischief/" target="_blank">
+						<img src="images/sponsor/bits_mischief.jpg" width="50%">
+						<p>Expression Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://altcampus.io/" target="_blank">
+						<img src="images/sponsor/ac-logo.png" width="60%">
+						<p>Technical Training Partner</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://www.showbie.com/" target="_blank">
+						<img src="images/sponsor/Showbie.png" width="30%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.jetbrains.com/" target="_blank">
+						<img src="images/sponsor/Jetbrains.png" width="30%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.creative-tim.com/" target="_blank">
+						<img src="images/sponsor/Creative-TimLOGO.jpg" width="50%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://yourstory.com/" target="_blank">
+						<img src="images/sponsor/Ys.png" width="70%">
+						<p>Media Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.duexpress.in/" target="_blank">
+						<img src="images/sponsor/duexpress.png" width="90%">
+						<p>Media Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.igniteengineers.com/" target="_blank">
+						<img src="images/sponsor/Ignite-Engineers.png" width="80%">
+						<p>Media Partner</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row center"> <a class="waves-effect waves-light btn-large orange"
+				href="https://drive.google.com/file/d/1PxzBeRs_YwbxoPCdO35b61l_Y17fKUFQ/view?usp=sharing"
+				target="_blank">Sponsor Us</a> </div>
+	</div>
+	<section id="testimonials">
+		<h4 class="header section-heading center">What our Alma mater has to say</h4>
+		<div class="testimonial">
+			<div class="card">
+				<div class="layer"></div>
+				<div class="content">
+					<p><i>“GirlScript Summer of Code was just an idea to help clueless beginners in open source. We
+							never expected 1000 participants from 4 countries but it happened and we successfully
+							completed it. The program also helped some NGOs to get their projects built without spending
+							any money and therefore we created an impact. Although, there were some flaws in first
+							edition, we are coming again in 2019 with corrections and additions!”</i> </p>
+					<div class="image"><img src="images/review/Anubha.jpg" alt="avatar"> </div>
+					<div class="details">
+						<h2>Anubha Maneshwar</h2>
+						<br> <span>Founder</span>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="layer"></div>
+				<div class="content">
+					<p><i>“Being a part of the organising team of GSSoC 2018 and 2019, has a great learning
+							experience for me. Working towards encouraging new comers dive into open source gave me
+							immense satisfaction. With such a huge participation, managing such a large event with
+							participants spread all over the country wasn't a cake walk, but the team made it possible.
+							With GSSoC making larger impact each year, I hope this year's edition encourages many more
+							to begin their open source journey.”</i></p>
+					<div class="image"><img src="images/review/Akshita.jpg" alt="avatar"> </div>
+					<div class="details">
+						<h2>Akshita Aggarwal</h2>
+						<br> <span>Operations Lead</span>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="layer"></div>
+				<div class="content">
+					<p><i>“Organising GSSoC'19 was an amazing experience for me. I faced challenges and did things I
+							never did before.
+							Working with community, upholding Code of Conduct, organising a large scale event, all this
+							helped me grow in
+							my skills and understand developer community better. GSSoC'19 was a hell of ride, with some
+							amazing contributions
+							and I hope coming editions of GSSoC are even more impactful and inclusive.”</i> </p>
+					<div class="image"><img src="images/review/Aakanksha.jpg" alt="avatar"> </div>
+					<div class="details">
+						<h2>Aakanksha Jain</h2>
+						<br> <span>Project Lead</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row center"> <a class="waves-effect waves-light btn-large orange" href="review.html">Know More</a>
+		</div>
+	</section>
+
+	<!--==================== TWITTER ====================-->
+  <!-- SOCIAL section -->
+  <div class="empty-area-60"></div>
+  <section id="social">
+    <!-- WAVE ANIMATION seperator -->
+    <svg class="wave-animation"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 "
+      preserveAspectRatio="none">
+    <defs>
+    <path id="gentle-wave"
+    d="M-160 44c30 0 
+        58-18 88-18s
+        58 18 88 18 
+        58-18 88-18 
+        58 18 88 18
+        v44h-352z" />
+      </defs>
+      <g class="parallax1"><use xlink:href="#gentle-wave" x="50" y="3" fill="#BBE2FB"/></g>
+      <g class="parallax2"><use xlink:href="#gentle-wave" x="50" y="0" fill="#A4D9FA"/></g>
+      <g class="parallax3"><use xlink:href="#gentle-wave" x="50" y="9" fill="#4AB3F5"/></g>
+      <g class="parallax4"><use xlink:href="#gentle-wave" x="50" y="6" fill="#1DA1F3"/></g>
+    </svg>
+
+    <div class="twitter social-box">
+      <h3 class="section-heading center">Follow Us on <b>Twitter</b></h3>
+      <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" data-link-color="#E95F28"
+        href="https://twitter.com/girlscriptsoc?ref_src=twsrc%5Etfw">Tweets by girlscriptsoc</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </section>
+  <!--==================== TWITTER end ====================-->
+  
+	<!--================ FOOTER ================-->
+	<!--=== FOOTER MAIN section ===-->
+	<div class="empty-area-120"></div>
+	<footer id="footer-main">
+		<!-- SOIL separator -->
+		<div class="row">
+		  <div class="chg_icons">
+			<svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep5" viewBox="0 0 1600 200"
+			  style="display: block;" data-height="200">
+			  <polygon class="ply" style="fill: #5D3824;"
+				points="1488,134 1304,100 1068,152 909.935,92.044 672,198 364,142 242,32 -4,95 -4,204 1604,204 1604,0 ">
+			  </polygon>
+			  <polygon class="" style="opacity: 1;fill: #4A2C1C"
+				points="672,198 364,142 242,32 -4,95 -4,82.333 242,32 374,136 "></polygon>
+			  <polygon class="" style="opacity: 1;fill: #7D5F4F;" points="894,86 672,198 909.935,92.044 "></polygon>
+			  <polygon class="" style="opacity: 1;fill: #4A2C1C;"
+				points="1068,152 1302,86 1486,126 1604,0 1488,134 1304,100 "></polygon>
+			</svg>
+		  </div>
+		</div>
+		<!-- SOIL separator end -->
+	
+		<div class="footer-main-info">
+	
+		  <div class="gs-row container footer-main-gs-container">
+				<div class="gs-col footer-main-logo">
+					<img src="images/gslogo.png" class="footer-logo">
+				</div>
+				<div class="gs-col footer-main-gs-info">
+					<h3>GirlScript India Foundation</h3>
+					<p>GirlScript is the fastest growing tech-community in India. It is a non-profit project brought to you by
+					GirlScript Foundation to help beginners in technology. Be a part, spread knowledge & happiness.</p>
+				</div>
+		  </div>
+	
+		  <!-- Social Media Links starts -->
+      <div class="social1">
+        <ul class="social-media1">
+          <li class="sm1">
+            <a href="https://www.facebook.com/girlscriptsoc/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="sm1">
+            <a href="https://twitter.com/girlscriptsoc" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="sm1">
+            <a href="https://www.instagram.com/girlscript/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="sm1">
+            <a href="https://www.linkedin.com/company/girlscriptsoc/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li class="sm1">
+            <a href="mailto:girlscriptsoc@gmail.com" target="_blank" title="Mail"><i class="far fa-envelope"></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Social Media Links finishes-->
+	
+		  
+		  <div class="gs-row container">
+				<div class="footer-coc">
+					<a href="code-of-conduct.html" class="underline"><i class="fal fa-book-heart"></i>&nbsp;&nbsp;Code of Conduct</a>
+				</div>
+		  </div>
+		</div>
+	</footer>
+
+	<!--=== FOOTER COPYRIGHT section ===-->
+	<section id="footer-copyright">
+
+		<!-- ROCK separator -->
+		<div class="row grey-blue">
+			<div>
+				<svg id="" preserveAspectRatio="xMidYMax meet" class="svg-separator sep6" viewBox="0 0 1600 200"
+					style="display: block;" data-height="200">
+					<polygon class="" style="fill: rgb(108, 122, 137);"
+						points="-4,188.586 174,76 292,124 402,60 536,108 752,8 882,66 990,32 1210,116 1380,64 1536,150 1604,115.09 1604,204 -4,204 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #95a5a6;" points="174,76 174,78 -4,198 -4,188.586 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #95a5a6;" points="292,124 302,138 402,64 402,60 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #95a5a6;" points="536,108 544,120 752,12 752,8 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #95a5a6;" points="882,66 890,78 990,36 990,32 "></polygon>
+					<polygon class="" style="opacity: 1;fill: #95a5a6;" points="1210,116 1222,130 1380,68 1380,64 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #95a5a6;"
+						points="1536,150 1546,164 1604,124 1604,115.09 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #34495e;" points="174,76 292,124 282,140 174,78 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #34495e;" points="402,60 536,108 528,120 402,64 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #34495e;" points="752,8 882,66 874,80 752,12 "></polygon>
+					<polygon class="" style="opacity: 1;fill: #34495e;" points="990,32 990,36 1192,130 1210,116 ">
+					</polygon>
+					<polygon class="" style="opacity: 1;fill: #34495e;" points="1380,64 1536,150 1526,168 1380,68 ">
+					</polygon>
+				</svg>
+			</div>
+		</div>
+		<!-- ROCK separator end -->
+
+		<div class="container footer-copyright-info">
+			<div class="footer-copyright-left">
+				<p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a class="yellow-text underline"
+						href="https://www.girlscript.tech/" target="_blank">GirlScript India</a></p>
+			</div>
+			<div class="footer-copyright-right">
+				Copyright © 2021 GirlScript Foundation. All rights reserved.
+			</div>
+		</div>
+
+	</section>
+	<!--================ FOOTER end ================-->
+	<!--  Scripts-->
+	<script>
+		/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+		var newId, modal;
+
+		for (i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+					dropdownContent.style.display = "none";
+				} else {
+					dropdownContent.style.display = "block";
+				}
+			});
+		}
+
+		displayModal = function(id) {
+			newId = 'id0' + id;
+			document.getElementById(newId).style.display='block';
+			modal = document.getElementById(newId)
+		}
+
+
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+
+		AOS.init({
+			duration: 1000,
+		})
+	</script>
+</body>
+
+</html>

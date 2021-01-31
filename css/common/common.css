@@ -1,0 +1,465 @@
+/* Common Stylesheet */
+
+/**
+ * Include in all pages. Contains CSS common to add pages.
+ * Use this file to store CSS that might be used in more than one page.
+ */
+
+:root {
+  --selector-text-color: #FFFFFF;
+  --selector-background-color: #EF6F00;
+  --heading-color: #EF6F00;
+  --subheading-color: #F4821F;
+  --font-family-1: 'Josefin Sans', sans-serif;
+  --font-family-2: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+p {
+  line-height: 2rem;
+}
+
+a {
+  color: rgba(224, 101, 0, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(224, 101, 0, 0.75);
+  text-decoration: none;
+}
+
+.underline:hover {
+  border-bottom: 2px dotted;
+}
+
+/* SCROLL BAR */
+@media(min-width: 1094px){
+  ::-webkit-scrollbar-track {
+      border-radius: 0px;
+      background-color: rgba(248, 248, 248, 0.2);
+  }
+  
+  ::-webkit-scrollbar {
+      width: 12px;
+      background-color: #F5F5F5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+      background-color: rgb(180, 180, 180);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+      border-radius: 0px;
+      background-color: rgba(247, 118, 35, 0.8);
+  }
+}
+/* SCROLL BAR end */
+
+/* SELECT HIGHLIGHT */
+::-moz-selection {
+  color: var(--selector-text-color);
+  background: var(--selector-background-color);
+}
+
+::selection {
+  color: var(--selector-text-color);
+  background: var(--selector-background-color);
+}
+/* SELECT HIGHLIGHT end */
+
+.align{
+	text-align: left;
+	font-size: 140%;
+  line-height: 130%;
+}
+
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-flicker {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.row {
+  margin: 0px;
+}
+
+section {
+  padding: 120px 0;
+}
+
+.section-heading {
+  font-family: var(--font-family-1);
+  font-size: 3em;
+  margin-bottom: 32px;
+  color: var(--heading-color);
+  width: 100%;
+  user-select: none;
+}
+
+.section-subheading {
+  font-size: 2rem;
+  font-family: var(--font-family-1);
+  margin-bottom: 24px;
+  color: var(--subheading-color);
+}
+
+.section-image {
+  width: 80%;
+  margin-top: 16px;
+}
+
+.section-text {
+  font-size: 1.3rem;
+  font-family: var(--font-family-2);
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 100px 0;
+  }
+}
+
+/* Social Media */
+ul.social {list-style:none;}
+ul.social li {display:inline; padding: 0; margin:0 5px;}
+ul.social li a {display:inline-block; margin:0 auto; -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%; text-align:center; width: 50px; height: 50px; font-size:20px; position:relative; background-color: #ff9800;}
+ul.social li a i {color:#FFF; text-align: center; margin:0; line-height:50px; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; -o-transition: all 0.8s; -ms-transition: all 0.8s; transition: all 0.8s;}
+ul.social li a:hover i { -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -ms--transform: rotate(360deg);	transform: rotate(360deg);
+                         -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s; transition: all 0.2s;}
+
+.social li a.face:hover {background-color:#3B5998;}
+.social li a.twit:hover {background-color:#33ccff;}
+.social li a.insta:hover {background-color:#8a3ab9;}
+.social li a.github:hover {background-color:#333;}
+.social li a.linkedin:hover {background-color:#0077b5;}
+.social li a.medium:hover {background-color:#00ab6c;}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container .row:first-child {
+  margin-top: 0px;
+}
+
+.container .row:last-child {
+  margin-bottom: 0px;
+}
+
+/* TIMELINE */
+.gs-timeline {
+  margin: 0 auto;
+  position: relative;
+  left: 120px;
+  width: 80%;
+  max-width: 900px;
+  margin-top: 16px;
+  margin-left: 5%;
+}
+
+.gs-timeline-item {
+  color: #ffffff;
+  font-family: var(--font-family-2);
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-left: 4px solid #fff;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  --item-width: calc(100%);
+}
+
+.gs-timeline-item:last-child {
+  border-bottom: none;
+}
+
+.gs-timeline-item::before {
+  content: "";
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  position: absolute;
+  left: -10px;
+  top: 21px;
+}
+
+.gs-timeline-item::after {
+  position: absolute;
+  right: calc(var(--item-width) + 40px);
+  top: 16px;
+  float: right;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* .gs-tl-1::after {
+  content: "Jan 2020";
+} */
+
+@media only screen and (max-width: 800px) {
+  .gs-timeline-item{
+    font-size: 1.1rem;
+  }
+
+  .gs-timeline-item::after {
+    right: calc(var(--item-width) + 30px);
+  }
+  
+  .gs-timeline {
+    margin: 0 auto;
+    position: relative;
+    left: 85px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .gs-timeline-item::after {
+    right: calc(var(--item-width) + 20px);
+  }
+  .gs-timeline-item{
+    padding: 1rem 1.5rem 1rem 0.5rem;
+  }
+}
+/* TIMELINE end */
+
+/* TWITTER SECTION */
+#social {
+  padding: 0px;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+#social .social-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 96px 10%;
+}
+
+#social .twitter {
+  background-color: #1DA1F3;
+}
+
+#social h3 {
+  color: #ffffff;
+}
+
+#twitter-widget-0 {
+  margin: 0 auto;
+}
+/* TWITTER SECTION end */
+
+/****** GS BUTTON ******/
+.gs-button {
+  position: relative;
+  padding: 20px 35px;
+  margin: 0px 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  align-items: flex-start;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BUTTON ORANGE */
+.gs-button-orange {
+  background-color:#EF6F00;
+  color: #ffffff;
+  box-shadow: 0 7px 15px #ffae3e;
+}
+
+.gs-button-orange:hover {
+  background-color: #EF6F00;
+  color: #ffffff;
+  box-shadow: 0 7px 30px #ff9a0e;
+}
+
+.gs-button-orange:active {
+  background-color: #EF6F00;
+  color: #ffffff;
+  top: 2px;
+}
+
+.gs-button-orange:focus {
+  background-color: #EF6F00;
+  color: #ffffff;
+}
+/* BUTTON COLORED end */
+
+/* BUTTON WHITE */
+.gs-button-white {
+  background-color: #ffffff;
+  color: #f4911f;
+  box-shadow: 0 7px 15px #ffdaa5;
+}
+
+.gs-button-white:hover {
+  background-color: #ffffff;
+  color: #f4911f;
+  box-shadow: 0 7px 30px #ffefd9;
+}
+
+.gs-button-white:active {
+  background-color: #ffffff;
+  color: #f4911f;
+  top: 2px;
+}
+
+.gs-button-white:focus {
+  background-color: #ffffff;
+  color: #f4911f;
+}
+/* BUTTON WHITE end */
+
+.gs-button-disabled, .gs-button-disabled:hover, .gs-button-disabled:active, .gs-button-disabled:focus {
+  background-color: #ECECEC;
+  color: #8A888F;
+  box-shadow: none;
+}
+
+.gs-button-disabled:hover {
+  cursor: default;
+}
+
+.gs-button-disabled:active {
+  top: 0;
+}
+
+.gs-button-link {
+  margin: 15px 0;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 420px) {
+  .gs-button {
+    padding: 15px 20px;
+  }
+
+  .gs-button-link {
+    width: 100%;
+  }
+
+  .gs-button-link .gs-button {
+    width: 100%;
+  }
+}
+/****** GS BUTTON end ******/
+
+@media only screen and (max-width: 800px) {
+  img.image.responsive-img {
+    transform: translate(-50%, 0) !important;
+  }
+}
+
+/* All page social media starts */
+
+
+.social {
+  position: fixed;
+  width: 36px;
+  float: bottom;
+  line-height: 36px;
+  margin: 150px 5px 0px 0px;
+  right: 20px;
+  z-index: 100;
+}
+
+ul[class="social-media"], li[class="sm"]{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 100;
+  float: right;
+}
+
+li[class="sm"] a {
+  position: relative;
+  z-index: 100;
+  color: rgb(244, 100, 31);
+  background-color: #fff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+
+li[class="sm"] a:hover, li[class="sm1"] a:hover {
+  background-color: black;
+  width: 36px;
+}
+/* All page social media finishes */
+
+/* Footer Social Media links starts. */
+ul[class="social-media1"]{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+li[class="sm1"] a{
+  margin: 0px 20px;
+  position: relative;
+  z-index: 100;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+/* Footer Social Media links finishes. */
+
+/* For responsive floating social media links */
+@media only screen and (max-width: 700px) {
+  .social {
+    display: none;
+    visibility: hidden;
+  }
+}
