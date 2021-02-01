@@ -1,76 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>GirlScript Summer of Code 2021 | GirlScript Foundation India</title>
-  <meta name="description"
-    content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India to build the main website of GirlScript, GirlScript mobile app and websites for various GirlScript Chapters. Not only for the accolades we have in our batch but also for the people new to opensource. Right from word go, be it basic git skills, first timers only issues or helping mentors hone their team leading and guiding skills - be it the rookie or the veteran dev - GirlScript Summer of Code offers something for everyone.">
-
-  <!-- META -->
-  <meta name="application-name" content="GirlScript Foundation India">
-  <meta name="author" content="GirlScript Summer of Code 2021">
-  <meta name="msapplication-tooltip"
-    content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India">
-  <meta name="apple-mobile-web-app-title" content="GirlScript Summer of Code 2021">
-  <meta name="og:site_name" content="gssoc.tech" />
-  <meta name="og:title" content="GirlScript Summer of Code 2021" />
-  <meta name="og:url" content="https://gssoc.tech/" />
-  <meta name="og:image" content="images/favicon/favicon.png" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- ICONS -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#EF6E00">
-  <link rel="shortcut icon" href="images/favicon/favicon.ico">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#EF6E00">
-
-  <!-- Animation on Scroll -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-  <!-- FONTS -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito:300,400,700&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GirlScript Summer of Code 2021 | GirlScript Foundation India</title>
+    <meta name="description"
+      content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India to build the main website of GirlScript, GirlScript mobile app and websites for various GirlScript Chapters. Not only for the accolades we have in our batch but also for the people new to opensource. Right from word go, be it basic git skills, first timers only issues or helping mentors hone their team leading and guiding skills - be it the rookie or the veteran dev - GirlScript Summer of Code offers something for everyone.">
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/common/materialize.min.css">
+    <!-- META -->
+    <meta name="application-name" content="GirlScript Foundation India">
+    <meta name="author" content="GirlScript Summer of Code 2021">
+    <meta name="msapplication-tooltip"
+      content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India">
+    <meta name="apple-mobile-web-app-title" content="GirlScript Summer of Code 2021">
+    <meta name="og:site_name" content="gssoc.tech" />
+    <meta name="og:title" content="GirlScript Summer of Code 2021" />
+    <meta name="og:url" content="https://gssoc.tech/" />
+    <meta name="og:image" content="images/favicon/favicon.png" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/common/nav.css"> <!-- common for all pages -->
-  <link rel="stylesheet" href="css/common/footer.css"> <!-- common for all pages -->
-  <link rel="stylesheet" href="css/common/common.css"> <!-- common for all pages -->
-  <link rel="stylesheet" href="css/index.css"> <!-- only for this page -->
-  <link rel="stylesheet" href="css/timeline.css"> <!-- only for this page -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-
-
-  <!-- SCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/common/materialize.min.js"></script>
-  <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
-  <script src="js/common/init.js"></script> <!-- common for all pages -->
-  <script src="js/index.js"></script> <!-- only for this page -->
-
-  <!-- Tracking code  -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134247465-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-134247465-1');
-  </script>
-</head>
-
+    <!-- ICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#EF6E00">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#EF6E00">
+  
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito:300,400,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common/materialize.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common/nav.css"> <!-- common for all pages -->
+    <link rel="stylesheet" href="css/common/footer.css"> <!-- common for all pages -->
+    <link rel="stylesheet" href="css/common/common.css"> <!-- common for all pages -->
+    <link rel="stylesheet" href="css/index.css"> <!-- only for this page -->
+    <link rel="stylesheet" href="css/timeline.css"> <!-- only for this page -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  
+  
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/common/materialize.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script src="js/common/init.js"></script> <!-- common for all pages -->
+    <script src="js/index.js"></script> <!-- only for this page -->
+  
+    <!-- Tracking code  -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134247465-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-134247465-1');
+    </script>
+  </head>
 <body>
   <!--================================ NAV v2 ================================-->
   <header>
@@ -81,10 +76,9 @@
           <a id="logo-container" href="#" class="brand-logo white-text">
             <img src="images/type.png" class="nav-logo-type" alt="GSSoC Logo">
           </a>
-  
           <ul id="nav-list" class="hide-on-med-and-down main-menu" role="navigation" aria-label="Main">
             <li><a href="index.html#about">About</a></li>
-            <!-- <li><a href="profile.html">Profile</a></li> -->
+            <li><a href="profile.html">Profile</a></li>
             <!-- <li><a href="index.html#register">Register</a></li> -->
             <li><a href="schedule.html">Schedule</a></li>
             <li><a href="projects.html">Projects</a></li>
@@ -95,10 +89,18 @@
             <li class="dropdown">
               <a href="javascript:void(0);">More&nbsp;<i class="fas fa-caret-down fa-sm"></i></a>
               <ul>
-                 <li><div class="dn"><a href="campus_ambassador.html">Campus Ambassador</a></div></li>
-                <li><div class="dn"><a href="https://medium.com/girlscript-summer-of-code">Blog</a></div></li>
-                <li><div class="dn"><a href="gssoc18.html">GSSoC-18</a></div></li>
-                <li><div class="dn"><a href="gssoc19.html">GSSoC-19</a></div></li>
+                <li>
+                  <div class="dn"><a href="campus_ambassador.html">Campus Ambassador</a></div>
+                </li>
+                <li>
+                  <div class="dn"><a href="https://medium.com/girlscript-summer-of-code">Blog</a></div>
+                </li>
+                <li>
+                  <div class="dn"><a href="gssoc18.html">GSSoC-18</a></div>
+                </li>
+                <li>
+                  <div class="dn"><a href="gssoc19.html">GSSoC-19</a></div>
+                </li>
               </ul>
             </li>
           </ul>
@@ -109,7 +111,7 @@
             <li><a href="index.html#about">About</a></li>
             <li><a href="profile.html">Profile</a></li>
             <!-- <li><a href="index.html#register">Register</a></li> -->
-            <li><a href="index.html#schedule">Schedule</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="index.html#sponsors">Sponsors</a></li>
             <li><a href="FAQs.html">FAQs</a></li>
@@ -131,21 +133,23 @@
       </nav>
     </div>
     <!-- Navigation Bar finishes -->
-
     <!-- Social Media Links starts -->
     <div class="social">
       <ul class="social-media">
         <li class="sm">
-          <a href="https://www.facebook.com/girlscriptsoc/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/girlscriptsoc/" target="_blank" title="Facebook"><i
+              class="fab fa-facebook"></i></a>
         </li>
         <li class="sm">
           <a href="https://twitter.com/girlscriptsoc" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
         </li>
         <li class="sm">
-          <a href="https://www.instagram.com/girlscript/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/girlscript/" target="_blank" title="Instagram"><i
+              class="fab fa-instagram"></i></a>
         </li>
         <li class="sm">
-          <a href="https://www.linkedin.com/company/girlscriptsoc/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/company/girlscriptsoc/" target="_blank" title="Linkedin"><i
+              class="fab fa-linkedin-in"></i></a>
         </li>
         <li class="sm">
           <a href="mailto:girlscriptsoc@gmail.com" target="_blank" title="Mail"><i class="far fa-envelope"></i></a>
@@ -153,10 +157,8 @@
       </ul>
     </div>
     <!-- Social Media Links finishes-->
-    
   </header>
   <!--================================ NAV v2 end ================================-->
-
   <div id="index-banner" class="landing">
     <div class="header-content-container center">
       <img src="images/type-logo.png" class="logo-type responsive-img" alt="GSSoC Logo">
@@ -167,17 +169,16 @@
             <span class="iconify" data-icon="fa-solid:medal" data-inline="false"></span>&nbsp;&nbsp;Results Out!
           </button>
         </a>-->
-      <a class="gs-button-link" href="#" class="center-margin">
+        <a class="gs-button-link" href="https://docs.google.com/forms/d/e/1FAIpQLSd5tLKz31RWJwA_7nrx5A5k7D2SJNAJDeQpjx6nk5C3Ty3Xnw/viewform?usp=sf_link" class="center-margin">
           <button class="gs-button gs-button-orange animate__animated">
-            <span class="iconify" data-icon="ri:file-paper-2-line" data-inline="false"></span></span>&nbsp;&nbsp;Registrations opening soon
+            <span class="iconify" data-icon="ri:file-paper-2-line"
+              data-inline="false"></span></span>&nbsp;&nbsp;Registrations Open!
           </button>
         </a>
       </div>
     </div>
-
     <a href="#about-girlscript" class="scroll-down-button"><span></span></a>
   </div>
-
   <!-- ABOUT GIRLSCRIPT -->
   <section id="about-girlscript">
     <!-- BIG TRIANGLE separator -->
@@ -194,38 +195,44 @@
         </svg>
       </div>
     </div>
-
-      <div class="container"> 
+    <div class="container">
+      <div class="row">
         <div class="col-lg-8 col-12">
           <h2 class="section-heading" id="gs-heading">About <b>GirlScript</b></h2>
-          <p class="section-text left-align"><b>GirlScript Foundation</b>, a non-profit registered by Government of India, has come up with a unique and India's first women oriented technical festival.</p>
-          <p class="section-text left-align"><b>GirlScript</b> started as a project has been selected by Mozilla under Open Leadership program out of 51 open-source projects worldwide. The main motto of GirlScript is not only to encourage gender equality in technical sector but also to help all the beginner in technology who are clueless at the starting phase of their education.</p>
+          <p class="section-text left-align"><b>GirlScript Foundation</b>, a non-profit registered by Government of
+            India, has come up with a unique and India's first women oriented technical festival.</p>
+          <p class="section-text left-align"><b>GirlScript</b> started as a project has been selected by Mozilla under
+            Open Leadership program out of 51 open-source projects worldwide. The main motto of GirlScript is not only
+            to encourage gender equality in technical sector but also to help all the beginner in technology who are
+            clueless at the starting phase of their education.</p>
         </div>
         <div class="col-lg-4 col-12 flex-center">
           <img class="section-image" src="images/gslogo.png" alt="GirlScript">
         </div>
       </div>
-
     </div>
-
   </section>
-
   <!-- ABOUT GSSOC section -->
   <section id="about">
     <div class="container">
-
       <div class="row">
         <div class="col-lg-8">
           <h2 class="section-heading" id="gssoc-heading">About <b>GSSoC</b></h2>
-          <p class="section-text left-align"><b>GirlScript Summer of Code</b> is the 3 month long Open Source program during
-            summers conducted by <b>GirlScript Foundation</b>, started in 2018, with an aim to help beginners get started with
-            <b>Open Source Development</b> while encouraging diversity. Throughout the program, participants contribute to
+          <p class="section-text left-align"><b>GirlScript Summer of Code</b> is the 3 month long Open Source program
+            during
+            summers conducted by <b>GirlScript Foundation</b>, started in 2018, with an aim to help beginners get
+            started with
+            <b>Open Source Development</b> while encouraging diversity. Throughout the program, participants contribute
+            to
             different projects under guidance of experienced mentors. Top participants get exciting goodies and
-            opportunities.</p>
-          <p class="section-text left-align"><b>GirlScript Summer of Code 2020</b> witnessed overwhelming participation and
+            opportunities.
+          </p>
+          <p class="section-text left-align"><b>GirlScript Summer of Code 2020</b> witnessed overwhelming participation
+            and
             2021 edition will carry the legacy forward while promising to be even more impactful and grand.</p>
           <div class="btn-spread-the-word">
-            <a class="gs-button-link" href="https://drive.google.com/file/d/1ceKeoNc4w8Hp6zt3Q0r6oON0WEZRn3cW/view" target="_blank">
+            <a class="gs-button-link" href="https://drive.google.com/file/d/1ceKeoNc4w8Hp6zt3Q0r6oON0WEZRn3cW/view"
+              target="_blank">
               <button class="gs-button gs-button-orange">Spread The Word</button>
             </a class="gs-button-link">
           </div>
@@ -234,10 +241,8 @@
           <img class="section-image" src="images/favicon/favicon.png" alt="GirlScript">
         </div>
       </div>
-
     </div>
   </section>
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -249,15 +254,14 @@
       <img src="images/img1.jpg" class="image responsive-img" alt="Unsplashed background img 3">
     </div>
   </div>
-
   <!-- REGISTER section -->
   <section id="register">
     <div class="container">
       <div class="row">
         <h2 class="section-heading center"><b>Registration</b></h2>
-        <div class="reg-soon-text center">
-          <p class="section-text"><!--Registrations Closed!--><b>Registrations are starting soon!</b>&nbsp;&nbsp; <p style="color: rgb(187, 187, 187);">Stay Tuned !!</p><i class="fal fa-do-not-enter"></i></p>
-        </div>
+        <!-- <div class="reg-soon-text center">
+          <p class="section-text"><Registrations Closed<b>Registrations are starting soon!</b>&nbsp;&nbsp; <p style="color: rgb(187, 187, 187);">Stay Tuned !!</p><i class="fal fa-do-not-enter"></i></p>
+        </div> -->
 
         <div class="row border-orange-wrapper">
           <div class="section-column">
@@ -269,8 +273,9 @@
             </div>
             <div class="row center">
 
-              <a data-end="Opens 1st Feb, 2021" class="gs-button-link" href="javascript:void(0)" class="center-margin">
-                <button class="gs-button gs-button-orange gs-button-disabled"><!--Closed--><!--Participate Now!-->Opening Soon</button>
+              <a data-end="" class="gs-button-link" href="https://docs.google.com/forms/d/e/1FAIpQLSd5tLKz31RWJwA_7nrx5A5k7D2SJNAJDeQpjx6nk5C3Ty3Xnw/viewform?usp=sf_link" class="center-margin">
+                <!-- <button class="gs-button gs-button-orange gs-button-disabled">Participate Now</button> -->
+                <button class="gs-button gs-button-orange">Participate Now</button>
               </a>
             </div>
           </div>
@@ -285,8 +290,9 @@
             </div>
             <div class="row center">
 
-              <a data-end="Opens 1st Feb, 2021" class="gs-button-link" href="javascript:void(0)" class="center-margin">
-                <button class="gs-button gs-button-orange gs-button-disabled"><!--Closed--><!--Be a Mentor!-->Opening Soon</button>
+              <a data-end="" class="gs-button-link" href="https://docs.google.com/forms/d/e/1FAIpQLScJJTLAFysl6zyQbmxH8Jl8XLSAmcUBAfv55WQpfQ5QS8OYCQ/viewform?usp=sf_link" class="center-margin">
+                <!-- <button class="gs-button gs-button-orange gs-button-disabled">Be a Mentor</button> -->
+                <button class="gs-button gs-button-orange">Be a Mentor</button>
               </a>
             </div>
           </div>
@@ -309,21 +315,23 @@
     </div>
     <img class="section-back-icon" src="images/icons/leader.svg">
   </section> -->
-
   <!-- CALL FOR PROJECTS section -->
   <section id="call-for-projects">
     <div class="container">
       <div class="row">
         <h2 class="section-heading left-align">Call for <b>Projects - NGOs</b></h2>
-        <p class="section-text">If you are an NGO with a particular project idea in mind (website, app, etc.), then this is the perfect opportunity for you to get it built while also helping numerous students in turn.</p>
-        <a class="gs-button-link" href="https://docs.google.com/forms/d/e/1FAIpQLScvVrw9fMHEP0CP8nweCTZQVslgPWaWFqThAFtGLOw6L-xawA/viewform" target="_blank">
-            <button class="gs-button gs-button-white">Add Your Project</button>
-        </a class="gs-button-link">
+        <p class="section-text">If you are an NGO with a particular project idea in mind (website, app, etc.), then this
+          is the perfect opportunity for you to get it built while also helping numerous students in turn.</p>
+        <!-- <a class="gs-button-link"
+          href="https://lnkd.in/dvUr_Qw"
+          target="_blank">
+          <button class="gs-button gs-button-white">Add Your Project</button>
+        </a> -->
+        <a href="https://lnkd.in/dvUr_Qw" target="_blank"><button class="gs-button gs-button-white">Add Your Project</button></a>
       </div>
     </div>
     <img class="section-back-icon" src="images/icons/github.svg">
   </section>
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -363,8 +371,11 @@
     <div class="container">
       <div class="row">
         <h2 class="section-heading"><b>Eligibility</b></h2>
-        <p class="section-text">The <b>GirlScript Summer of Code (GSSoC)</b> proudly entertains participation of <em>all genders</em>. All willing candidates can apply for mentorship for an amazing learning and leadership experience.</p>
-        <p class="section-text">Also, the Summer of Code, being open for all, provides a platform to all the participants, both students and professionals, to showcase their talent on a national level.</p>
+        <p class="section-text">The <b>GirlScript Summer of Code (GSSoC)</b> proudly entertains participation of <em>all
+            genders</em>. All willing candidates can apply for mentorship for an amazing learning and leadership
+          experience.</p>
+        <p class="section-text">Also, the Summer of Code, being open for all, provides a platform to all the
+          participants, both students and professionals, to showcase their talent on a national level.</p>
       </div>
     </div>
     <img class="section-back-icon" src="images/icons/diversity.svg">
@@ -375,10 +386,12 @@
     <div class="container">
       <div class="row">
         <h2 class="section-heading">How <b>Does It Work?</b></h2>
-        <p class="section-text"><b>Girlscript Summer Of Code</b> is a 3-month long open source project under <b>Girlscript India</b>.
+        <p class="section-text"><b>Girlscript Summer Of Code</b> is a 3-month long open source project under
+          <b>Girlscript India</b>.
           In this Summer Of Code, all the registered participants would get an exquisite opportunity to interact with
 
-          the mentors and the Organizing Team from 20th February 2021 to 28th February 2021.</p>
+          the mentors and the Organizing Team from 20th February 2021 to 28th February 2021.
+        </p>
         <p class="section-text">In this period they can extract any help or can resolve any  sort of query or
           uncertainty that they might be having regarding the projects or it’s implementation. The team and the mentors
           will endeavour to provide the required help from their best possible resources. From 1st March onwards, the
@@ -390,9 +403,12 @@
           The participants would be continuously evaluated on all the projects that they contribute to and thereby the
            mentors will have to maintain a leaderboard and submit a biweekly evaluation of their respective mentees.</p>
 
-        <p class="section-text">After the conclusion of event <!--on 31st May 2021-->the leaderboards of the mentors would be
+        <p class="section-text">After the conclusion of event
+          <!--on 31st May 2021-->the leaderboards of the mentors would be
           taken into consideration by the organizing team for the final evaluation of the participants and the result
-          would be declared.<!-- by 15th June 2021.--></p>
+          would be declared.
+          <!-- by 15th June 2021.-->
+        </p>
       </div>
     </div>
   </section>
@@ -408,7 +424,7 @@
       <img src="images/4.jpeg" class="image responsive-img" alt="Unsplashed background img 3">
     </div>
   </div>
-  
+
   <!-- SCHEDULE section -->
   <section id="schedule">
     <div class="timeline-heading">
@@ -608,9 +624,7 @@
         </div>
 
         <div class="row center">
-          <a class="gs-button-link" href="https://bit.ly/GSSOCSponsorship" target="_blank">
-            <button class="gs-button gs-button-orange">Sponsor Us</button>
-          </a>
+          <a href="https://lnkd.in/dvUr_Qw" target="_blank" ><button class="gs-button gs-button-orange">Sponsor Us</button></a>
         </div>
       </div>
     </div>
@@ -621,24 +635,28 @@
   <div class="empty-area-60"></div>
   <section id="social">
     <!-- WAVE ANIMATION seperator -->
-    <svg class="wave-animation"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28 "
-      preserveAspectRatio="none">
-    <defs>
-    <path id="gentle-wave"
-    d="M-160 44c30 0 
+    <svg class="wave-animation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 
         58-18 88-18s
         58 18 88 18 
         58-18 88-18 
         58 18 88 18
         v44h-352z" />
       </defs>
-      <g class="parallax1"><use xlink:href="#gentle-wave" x="50" y="3" fill="#BBE2FB"/></g>
-      <g class="parallax2"><use xlink:href="#gentle-wave" x="50" y="0" fill="#A4D9FA"/></g>
-      <g class="parallax3"><use xlink:href="#gentle-wave" x="50" y="9" fill="#4AB3F5"/></g>
-      <g class="parallax4"><use xlink:href="#gentle-wave" x="50" y="6" fill="#1DA1F3"/></g>
+      <g class="parallax1">
+        <use xlink:href="#gentle-wave" x="50" y="3" fill="#BBE2FB" />
+      </g>
+      <g class="parallax2">
+        <use xlink:href="#gentle-wave" x="50" y="0" fill="#A4D9FA" />
+      </g>
+      <g class="parallax3">
+        <use xlink:href="#gentle-wave" x="50" y="9" fill="#4AB3F5" />
+      </g>
+      <g class="parallax4">
+        <use xlink:href="#gentle-wave" x="50" y="6" fill="#1DA1F3" />
+      </g>
     </svg>
 
     <div class="twitter social-box">
@@ -689,16 +707,20 @@
       <div class="social1">
         <ul class="social-media1">
           <li class="sm1">
-            <a href="https://www.facebook.com/girlscriptsoc/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/girlscriptsoc/" target="_blank" title="Facebook"><i
+                class="fab fa-facebook"></i></a>
           </li>
           <li class="sm1">
-            <a href="https://twitter.com/girlscriptsoc" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/girlscriptsoc" target="_blank" title="Twitter"><i
+                class="fab fa-twitter"></i></a>
           </li>
           <li class="sm1">
-            <a href="https://www.instagram.com/girlscript/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/girlscript/" target="_blank" title="Instagram"><i
+                class="fab fa-instagram"></i></a>
           </li>
           <li class="sm1">
-            <a href="https://www.linkedin.com/company/girlscriptsoc/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/company/girlscriptsoc/" target="_blank" title="Linkedin"><i
+                class="fab fa-linkedin-in"></i></a>
           </li>
           <li class="sm1">
             <a href="mailto:girlscriptsoc@gmail.com" target="_blank" title="Mail"><i class="far fa-envelope"></i></a>
@@ -707,10 +729,11 @@
       </div>
       <!-- Social Media Links finishes-->
 
-      
+
       <div class="gs-row container">
         <div class="footer-coc">
-          <a href="code-of-conduct.html" class="underline"><i class="fal fa-book-heart"></i>&nbsp;&nbsp;Code of Conduct</a>
+          <a href="code-of-conduct.html" class="underline"><i class="fal fa-book-heart"></i>&nbsp;&nbsp;Code of
+            Conduct</a>
         </div>
       </div>
     </div>
@@ -746,7 +769,8 @@
 
     <div class="container footer-copyright-info">
       <div class="footer-copyright-item">
-        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a class="yellow-text underline" href="https://www.girlscript.tech/" target="_blank">GirlScript India</a></p>
+        <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a class="yellow-text underline"
+            href="https://www.girlscript.tech/" target="_blank">GirlScript India</a></p>
       </div>
       <div class="footer-copyright-item">
         Copyright © 2021 GirlScript Foundation. All rights reserved.
@@ -756,15 +780,11 @@
   <!--================================ FOOTER v2 end ================================-->
 
   <!-- SCRIPTS -->
-  <!-- Animation on scroll -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <script>
+    AOS.init();
+  </script>
+  
 </body>
 
 </html>
