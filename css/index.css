@@ -388,7 +388,7 @@
   background: linear-gradient(0deg, rgb(244, 100, 31) 0%, var(--heading-color) 100%);
   position: relative;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
 
 #call-for-projects .section-heading {
