@@ -9,10 +9,10 @@
     font-size: 3em;
     color: var(--heading-color);
 }
-
+ 
 .timeline-container {
     display: grid;
-    grid-template-columns: auto auto 90px auto auto;
+    grid-template-columns: auto auto 90px auto 250px;
     grid-template-rows: 100px repeat(8, 50px 100px); 
     grid-template-areas: 
         "it1 it2 it3 it4 it5"
@@ -233,5 +233,7 @@
     .hrz {
         width: 20px;
     }
-
+  .timeline-container{
+    grid-template-columns: auto auto 90px auto auto;
+  }
 }
