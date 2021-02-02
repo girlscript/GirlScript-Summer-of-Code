@@ -4,7 +4,7 @@
  * by overwriting the following property variable 
  * in your HTML file's own CSS file
  */
-:root {
+ :root {
   --footer-emptyspace1-color: #ffffff;
   --footer-emptyspace1-size: 60px;
   --footer-emptyspace2-color: #1DA1F3;
@@ -34,8 +34,8 @@
 
 /* FOOTER MAIN start */
 #footer-main {
-  padding-top: 60px;
-  padding-bottom: 20%;
+  padding-top: 10px;
+  padding-bottom: 20px;
   position: relative;
   background-color: #5D3824;
   display: block;
@@ -77,17 +77,18 @@
 
 /* row 1 */
 .footer-logo {
-  height:150px;
+  width:400px;
 }
 
 .footer-main-info .gs-row .footer-main-logo {
   flex-direction: column;
   align-items: flex-end;
   flex: 3;
+  margin: auto;
 }
 
 .footer-main-info .gs-row .footer-main-logo img {
-  padding-right: 16%;
+  padding-bottom: 5%;
 }
 
 .footer-main-info .gs-row .footer-main-gs-info {
@@ -103,6 +104,9 @@
 
 .footer-main-info .gs-row .footer-main-gs-info p {
   font-size: 1.2rem;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
 }
 
 
@@ -235,7 +239,8 @@ footer.page-footer {
 }
 
 .footer-copyright-item {
-  flex: 1;
+  margin: auto;
+  text-align: center;
 }
 
 .drag-target {
@@ -255,7 +260,7 @@ footer.page-footer {
 
   #footer-main .footer-main-logo img {
       padding-right: 0px;
-      margin-bottom: 64px;
+      margin-bottom: 20px;
   }
 
   #footer-main .footer-main-gs-info p, #footer-main .footer-main-gs-info h3 {

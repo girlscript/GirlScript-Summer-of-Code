@@ -85,6 +85,7 @@ const team_data = {
           "position": "Web Developer",
           "image": "images/team/2021/shlok.jpeg",
           "social": {
+            "github": "https://github.com/vngarg",
             "linkedin": "https://www.linkedin.com/in/shlokgarg01/"
           },
           "teamcode": "web"
@@ -124,6 +125,7 @@ const team_data = {
           "position": "Web Developer",
           "image": "images/team/2021/aryan.jpeg",
           "social": {
+            "github" : "https://github.com/weebo-ary",
             "linkedin": "https://www.linkedin.com/in/aryan-bhardwaj-7b0486176/",
           },
           "teamcode": "web"
@@ -131,7 +133,7 @@ const team_data = {
         {
           "fullname": "Chirag Agrawal",
           "position": "Graphic Designer",
-          "image": "images/team/2021/ChiragAgrawal.jpeg",
+          "image": "images/team/2021/chirag.jpeg",
           "social": {
             "linkedin": "https://www.linkedin.com/in/chirag-agrawal-933b411aa/",
             "facebook": "https://www.facebook.com/chirag.agrawal.79462"
@@ -341,17 +343,27 @@ const team_data = {
           "position": "Content Writer",
           "image": "images/team/2021/Saumya.jpg",
           "social": {
-            
+            "linkedin":"https://www.linkedin.com/in/saumya-ba2a53194"
           },
           "teamcode": "content"
         },
         {
           "fullname": "Prakriti Agrawal",
           "position": "Public Relation Team",
-          "image": "images/team/2021/PrakritiAgrawal.jpeg",
+          "image": "images/team/2021/prakriti.jpeg",
           "social": {
             "github": "https://github.com/prakriti24",
             "linkedin": "https://www.linkedin.com/in/prakriti-agrawal-0a7b77194/"
+          },
+          "teamcode": "social"
+        },
+        {
+          "fullname": "V Nikhita",
+          "position": "Public Relation Team",
+          "image": "images/team/2021/VNikhita.jpeg",
+          "social": {
+            "github": "https://github.com/Nikhita28",
+            "linkedin": "https://www.linkedin.com/in/v-nikhita-5463701ba/"
           },
           "teamcode": "social"
         },
@@ -361,6 +373,28 @@ const team_data = {
           "image": "images/team/2021/niharika.jpeg",
           "social": {
             "linkedin": "http://linkedin.com/in/nniharikaverma30"
+          },
+          "teamcode": "social"
+        },
+        {
+          "fullname": "Vanshika Bhasin",
+          "position": "Public Relation Team",
+          "image": "images/team/2021/VanshikaBhasin.jpg",
+          "social": {
+            "github": "https://github.com/vanshika-bhasin",
+            "linkedin": "https://www.linkedin.com/in/vanshika-bhasin-73b1aa17a/",
+            "facebook" : "https://www.facebook.com/vanshika.bhasin.7"
+          },
+          "teamcode": "social"
+        },
+        {
+          "fullname": "Kalindi",
+          "position": "Public Relation Team",
+          "image": "images/team/2021/kalindi.jpeg",
+          "social": {
+            "github": "https://github.com/Kalindi7",
+            "linkedin": "https://www.linkedin.com/in/kalindi-26791018b",
+            "facebook" : " https://www.facebook.com/profile.php?id=100002043660461"
           },
           "teamcode": "social"
         },
