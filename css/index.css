@@ -352,7 +352,7 @@
 
 #campus-ambassador .section-text {
   color: #ffffff;
-  padding-right: 150px;
+  padding-right: 150px; 
 }
 
 #campus-ambassador .section-back-icon {
@@ -937,8 +937,8 @@
   height: 160x;
 }
 
-#sponsors img{
-} 
+/* #sponsors img{
+}  */
 
 /* Style the back side */
 .flip-card-back {
