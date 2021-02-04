@@ -37,6 +37,8 @@
     align-items: center;
     justify-content: center;
     column-gap: 0px;
+    box-shadow: 0 15px 20px rgb(240 112 0 / 23%), 0 20px 10px rgb(240 112 0 / 50%);
+    border-radius: 2%;
 }
 .hrz {
     width: 48px;
