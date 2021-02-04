@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>GSSoC-20 | GirlScript Summer of Code 2021</title>
+		<meta name="description" content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India to build the main website of GirlScript, GirlScript mobile app and websites for various GirlScript Chapters. Not only for the accolades we have in our batch but also for the people new to opensource. Right from word go, be it basic git skills, first timers only issues or helping mentors hone their team leading and guiding skills - be it the rookie or the veteran dev - GirlScript Summer of Code offers something for everyone.">
+	
+		<!-- META -->
+		<meta name="application-name" content="GirlScript Foundation India">
+		<meta name="author" content="GirlScript Summer of Code 2021">
+		<meta name="msapplication-tooltip" content="Girlscript Summer Of Code is a 3-month long open source project under Girlscript Foundation India">
+		<meta name="apple-mobile-web-app-title" content="GirlScript Summer of Code 2021">
+		<meta name="og:site_name" content="gssoc.tech" />
+		<meta name="og:title" content="GirlScript Summer of Code 2021" />
+		<meta name="og:url" content="https://gssoc.tech/" />
+		<meta name="og:image" content="images/favicon/favicon.png" />
+		<meta name="robots" content="index" , "follow">
+	
+		<!-- ICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="images/favicon/site.webmanifest">
+		<link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#EF6E00">
+		<link rel="shortcut icon" href="images/favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#EF6E00">
+	
+		<!-- FONTS -->
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito:300,400,700&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+	
+		<!-- CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link rel="stylesheet" href="css/common/materialize.min.css">
+	
+		<link rel="stylesheet" href="css/common/nav.css">  <!-- common for all pages -->
+		<link rel="stylesheet" href="css/common/footer.css">  <!-- common for all pages -->
+		<link rel="stylesheet" href="css/common/common.css">  <!-- common for all pages -->
+		<link rel="stylesheet" href="css/gssoc19.css">  <!-- only for this page -->
+		<link href="css/common/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/common/animate.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/testimonial.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	  
+		<!-- SCRIPTS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="js/common/materialize.min.js"></script>
+		<script src="js/common/init.js"></script>  <!-- common for all pages -->
+		<script src="js/faqs.js"></script>
+		<script src="js/gianniAccordion.min.js"></script>
+		<script src="lib/jquery.waypoints.min.js"></script>
+		<script src="lib/noframework.waypoints.min.js"></script>
+		<script src="lib/shortcuts/inview.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+		<!-- Tracking code  -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134247465-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+	
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'UA-134247465-1');
+		</script>
+		<style>
+			@media only screen and (min-width: 601px) {
+				.row .col.m3 {
+					width: 22.5%;
+					margin-left: auto;
+					left: auto;
+					right: auto;
+				}
+			}
+			section {
+				padding: 4% 0%;
+			}
+		</style>
+	</head>
+
+<body>
+  <!--================================ NAV v2 ================================-->
+  <div id="header"></div>
+  
+  <!--================================ NAV v2 end ================================-->
+
+	<section class="container-fluid" id="projects">
+		<h4 class="header section-heading center">Glimpse of projects GSSoC-2020</h4>
+		<div class="row" data-aos="flip-up">
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h5>Project:
+					</b> BlogMan</h5>
+				</p>
+					<button onclick="displayModal(1)" class="w3-button w3-black detailsButton">Details</button>
+			</div>
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h5>Project:
+					</b> PyDataStructs</h5>
+				</p>
+					<button onclick="displayModal(2)"
+						class="w3-button w3-black detailsButton">Details</button>
+			</div>
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						<h6>Project:
+					</b> Webtech</h6>
+				</p>
+				<p>
+					<button onclick="displayModal(3)"
+						class="w3-button w3-black detailsButton">Details</button>
+				</p>
+			</div>
+			<div class="box-grad col m3 s12 effect8"  >
+				<p> <b>
+						Project:
+					</b> Water Monitoring System</h4>
+				</p>
+				<p>
+					<button onclick="displayModal(4)"
+						class="w3-button w3-black detailsButton">Details</button>
+
+			</div>
+		</div>
+		<div class="row" data-aos="fade-right">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>
+						Project:
+					</b> Bench-routes </h5>
+				</p>
+					<button onclick="displayModal(5)"
+						class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Footsteps-app </p>
+				<button onclick="displayModal(6)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Jarvis Personal Assistant</p>
+				<button onclick="displayModal(7)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Algo DS Notes</p>
+				<button onclick="displayModal(8)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-left">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> MapBot</p>
+				<button onclick="displayModal(9)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> whatsapp-play </p>
+				<button onclick="displayModal(10)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Ovuli </p>
+				<button onclick="displayModal(11)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Techtonica Curriculum</p>
+				<button onclick="displayModal(12)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-right">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Travel-Safe </p>
+				<button onclick="displayModal(13)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> MentorFix</p>
+				<button onclick="displayModal(14)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Ignitus-client </p>
+				<button onclick="displayModal(15)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> barview-android </p>
+				<button onclick="displayModal(16)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-left">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Plant Disease Detection Web Application </p>
+				<button onclick="displayModal(17)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> The-Vision-Jarvis-Web </p>
+				<button onclick="displayModal(18)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> The-Vision-Jarvis-Core </p>
+				<button onclick="displayModal(19)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> The-Vision-Jarvis-Telegram </p>
+				<button onclick="displayModal(20)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+		</div>
+		<div class="row" data-aos="fade-right">
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Crop Ai - Frontend </p>
+				<button onclick="displayModal(21)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Crop Ai - Backend </p>
+				<button onclick="displayModal(22)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+			</div>
+			<div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Crop Ai - Data Modeling </p>
+				<button onclick="displayModal(23)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Crop Ai - Android App </p>
+				<button onclick="displayModal(024)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-left">
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Awesome-React-Modules - React Pincode </p>
+				<button onclick="displayModal(24)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Awesome-React-Modules - React Dark </p>
+				<button onclick="displayModal(24)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Awesome-React-Modules - React Pincode Website</p>
+				<button onclick="displayModal(24)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Awesome-React-Modules - React Dark Website </p>
+				<button onclick="displayModal(24)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+        </div>
+        <div class="row" data-aos="fade-right">
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> RootTheBox CTF Framework </p>
+				<button onclick="displayModal(25)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Conference-Notify </p>
+				<button onclick="displayModal(26)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Book Uploader Bot </p>
+				<button onclick="displayModal(27)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+            
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Spotify Recommendation Engine </p>
+				<button onclick="displayModal(28)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+        </div>
+        
+        <div class="row" data-aos="fade-left">
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> BOSSY </p>
+				<button onclick="displayModal(29)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Simulate </p>
+				<button onclick="displayModal(30)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> AmbSQL </p>
+				<button onclick="displayModal(31)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Cosmos </p>
+				<button onclick="displayModal(32)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-right">
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> GirlScript Community App </p>
+				<button onclick="displayModal(33)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Footsteps-extension </p>
+				<button onclick="displayModal(34)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> Footsteps-flutter-app </p>
+				<button onclick="displayModal(35)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> GirlScript Chennai Website </p>
+				<button onclick="displayModal(36)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-left">
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> CatsInTech-Rezume </p>
+				<button onclick="displayModal(37)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> CatsInTech-Website </p>
+				<button onclick="displayModal(37)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+
+            <div class="box col m3 s12 effect8"  >
+				<p> <b>Project:</b> MentorFix-API </p>
+				<button onclick="displayModal(38)"
+					class="w3-round-large w3-button w3-orange w3-tiny mindetailsButton">Details</button>
+            </div>
+        </div>
+	</section>
+
+	<!----------------- PROJECT DESCRIPTION FOR MODAL --------------------->
+	<div id="projectDesc">
+		<div id="id01" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id01').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b>&nbsp;"Publish your words in your way! Whether you'd like to share your 
+                        knowledge, experiences or the latest news, publish your own articles in a unique and smart way"
+                        BlogMan is a new social blogging platform where anybody can share their 
+                        views and read other's opinion related to any topic. It is a way to connect 
+                        with people and to know how the world is thinking. BlogMan is created using 
+                        the MongoDB, Express, React and NodeJS (MERN Stack). </p>
+					<p>
+						<p><b>Tech stack: </b>MERN Stack</p> <b>Admin: Avijit Das</b>
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/adavijit"
+                        target="_blank">@adavijit</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id02" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id02').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b>&nbsp; This project aims at helping people from academia and sports 
+                        programmers to use data structures whenever they need without thinking about the 
+                        complexities of implementation. We have previously participated in Kharagpur Winter of 
+                        Code, 2019 organized by KOSS, IIT Kharagpur. We want to carry forward this journey by 
+                        participating in GSSoC.
+					 </p>
+					<p>
+						<p><b>Tech stack: </b>Python 3.5+, Travis CI, Codecov
+							<br>
+						</p> <b>Admin: Gagandeep Singh</b>
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/czgdp1807"
+                        target="_blank">@czgdp1807</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id03" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id03').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b>&nbsp;Identify the technologies used on 
+                        websites. (Dig-deep into web tech from your terminal) </p>
+					<p>
+						<p><b>Tech Stack: </b>Python</p> <b>Admin: Anoop Krishnan</b>
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/kaiiyer"
+                        target="_blank">@kaiiyer</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id04" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id04').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b>&nbsp;Water Monitoring System is an IOT 
+                        based Liquid Level Monitoring system that has mechanisms to 
+                        keep the user alerted in case of liquid overflow or when 
+                        tank depletes. </p>
+					<p>
+                        <p><b>Tech Stack: </b>HTML, CSS, JavaScript, JQuery, Arduino</p> 
+                        <b>Admin: Vinit Shahdeo</b>
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/vinitshahdeo"
+                        target="_blank">@vinitshahdeo</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id05" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id05').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p>
+                        <p> <b>Description:</b> Bench-routes is a GUI-powered highly scalable 
+                            monitoring and performance testing industry-grade application that 
+                            monitors the performance of the routes in any web/routing - application 
+                            and the deployed virtual-machine instance. Bench-routes would perform a 
+                            series of networking algorithms and calculations involved to find the 
+                            real-time state of routes in an application andsaving the result in a 
+                            time-series database. It monitors the routes at regular intervals and 
+                            analyzes the response and the time involved in the same. The moment, 
+                            the delta in response rises above a threshold limit, an alert would be
+                            sent to the admin of the respective manager. The entire result of the 
+                            metrics can be visualised in form of continuous charts from which 
+                            necessary conclusions can be drawn. </p>
+						<p><b>Tech Stack: </b>Golang, React, ChartJS</p>
+						<p> <b>Admin:</b> Harkishen Singh
+							<br> <i class="fa fa-github"></i> <a href="https://github.com/Harkishen-Singh"
+								target="_blank">@Harkishen-Singh</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id06" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id06').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p>
+                        <p> <b>Description:</b> A search engine for community-made learning 
+                            resources for the 21st-century learner. Learn by following the 
+                            footsteps (resources) of experts.</p>
+						<p><b>Tech Stack: </b>JavaScript, ReactJS, GatsbyJS, GraphQL, PostgreSQL</p>
+						<p> <b>Admin:</b>Abhishek Uniyal
+							<br> <i class="fa fa-github"></i> <a href="https://github.com/xlogix"
+								target="_blank">@xlogix</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id07" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id07').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> The project aims to develop a personal-assistant 
+                        for Linux-based systems. Jarvis draws its inspiration from virtual 
+                        assistants like Cortana for Windows, and Siri for iOS. It has been 
+                        designed to provide a user-friendly interface for carrying out a 
+                        variety of tasks by employing certain well-defined commands. Users 
+                        can interact with the assistant either through voice commands or 
+                        using a keyboard input.
+                    </p>
+					<p><b>Tech Stack: </b>AngularJS, GoLang, Python, JavaScript</p>
+					<p> <b>Admin:</b> Muskan Khedia
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/muskankhedia"
+							target="_blank">@muskankhedia</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id08" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id08').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Collection of algorithms and data 
+                        structures in various programming languages. Project's 
+                        Requirements: Good understanding of algorithms and data 
+                        structures OR Understanding of web development Tasks And 
+                        Features: Adding more algorithms and data structures 
+                        Creating a web app</p>
+					<p><b>Tech Stack: </b>C, C++, CoffeeScript, CSharp, Java, JavaScript, PHP, Python, Ruby, GO</p>
+					<p> <b>Admin:</b> Aman Jain, Somya Kapoor
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/jainaman224"
+                            target="_blank">@jainaman224</a>
+                        <br> <i class="fa fa-github"></i> <a href="https://github.com/20somya-kapoor"
+                        target="_blank">@20somya-kapoor</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id09" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id09').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> The project aims to give users a new way 
+                        to interact with Google Maps by building engaging text-based 
+                        conversational interfaces. Using Natural Language Processing, 
+                        it analyses the user's intent and responds in the most useful 
+                        way. https://chatbotslife.com/how-i-developed-my-own-learning-chatbot-in-python-from-scratch-and-deployed-it-on-facebook-88bc828be0a8 
+                        (This project is a great stepping stone for participants 
+                        interested to try their hands in the popular NLP algorithms 
+                        but don't have a lot of experience to start on something 
+                        extravagant) </p>
+					<p><b>Tech Stack: </b>Python, MySQL, GoogleMapsAPI</p>
+					<p> <b>Admin:</b> Vishakha Lall
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/vishakha-lall"
+							target="_blank">@vishakha-lall</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id010" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id010').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Whatsapp-play is command-line software through 
+                        which you can play with your WhatsApp. It is having different 
+                        options to play with your WhatsApp like message blast, online 
+                        tracking, whatsapp chat, etc. This software aims to provide all 
+                        the facilities which we can do with WhatsApp. </p>
+					<p><b>Tech Stack: </b>Python</p>
+					<p> <b>Admin:</b> Rohit Potter
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/rpotter12"
+							target="_blank">@rpotter12</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id011" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id011').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> Ovulation Calculator and Calendar</p>
+					<p><b>Tech Stack: </b>JavaScript, React Native, Express </p>
+					<p> <b>Admin:</b> Sarthak Sharma
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/sarthology"
+							target="_blank">@sarthology</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id012" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id012').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description: </b>Techtonica is a free intensive tech 
+                        training and job placement for low-income women. This 
+                        repo is the curriculum for our students and guests.
+					</p>
+					<p><b>Tech Stack: </b>JavaScript, HTML, CSS, Linux</p>
+					<p> <b>Admin:</b> William DePhillips
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/vegetabill"
+							target="_blank">@vegetabill</a> </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id013" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id013').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Women safety is one of the most controversial 
+                        issues in our country such heinous crimes are now carried out in 
+                        broad daylight which has dampened the morale of women to step 
+                        outdoors. Despite this, girls have to go to school, college, tuitions
+                        and the working dames must make it to their workplace. When traveling 
+                        alone, it’s best to raise your guards, stay alert and make use of the 
+                        technology that entertains you and lies comfortably in your purse – your 
+                        mobile phone, for your safety. Travel-safe simplifies safety for women 
+                        in the digital world by making it easy to stay connected to the nearest 
+                        police station. With Travel-safe: - user can create her own private group 
+                        to share live location tracking whenever switched on - when the user 
+                        decides to share her location, the nearest police station also gets a 
+                        regular update on it. - Based on historical data, a heatmap will be 
+                        created for the crime prone areas so that the user is alerted about it. 
+                        Also, it will help police understand and increase patrolling in such areas 
+                        identified by the system. -Collectively assistance feature that alerts all 
+                        the verified people near you who are registered in the app</p>
+					<p><b>Tech Stack: </b>Flutter, Firebase</p>
+					<p> <b>Admin:</b> Ajitesh singh
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/CodingIndia"
+							target="_blank">@CodingIndia</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id014" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id014').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> MentorFix is an open source initiative 
+                        to find mentors for people around who have certain projects 
+                        in mind but need people/volunteers to bring those into life.</p>
+					<p>
+                        <p><b>Tech Stack: </b>React, MongoDB, GraphQL, nodeJS</p>
+                        <b>Admin:</b> Abhishek Prasad
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/abhishek71994"
+							target="_blank">@abhishek71994</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id015" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id015').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> I’d like to introduce you to Ignitus 
+                        (A Non-Profit Organization for the welfare of student community ) 
+                        that helps students and professionals get handpicked top-quality 
+                        global research and industrial internships, for free! The students 
+                        participate in projects and training programs supervised by our 
+                        experts.The platform has got exponential growth after successful 
+                        internship completion by the associated students with researchers 
+                        from SAIL (Stanford AI Lab) and Oxford University.</p>
+					<p>
+                        <p><b>Tech Stack: </b>Node.js, React.js, Redux.js, Prop-Types, Jest, Redux-Sagas, Styled Components (Emotion), SASS</p> 
+                        <b>Admin:</b> Divyanshu Rawat
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/divyanshu-rawat"
+							target="_blank">@divyanshu-rawat</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id016" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id016').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> BarView is a native android UI library 
+                        that provides the representation of numerical data in the 
+                        form of a bar graph, with a plethora of customizability 
+                        options.
+					</p>
+					<p>
+                        <p><b>Tech Stack: </b>Java, Native Android</p> 
+                        <b>Admin:</b> Kumar Harsh
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/krharsh17"
+							target="_blank">@krharsh17</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id017" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id017').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> It is web application deep learning project which detects disease in Plant's leaf</p>
+					<p>
+						<p><b>Tech Stack: </b>Fastai, Pytorch, Python, GCloud, AWS, Starlette API </p>
+                             <b>Admin:</b> Shubham Kumar
+						
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/imskr"
+							target="_blank">@imskr</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id018" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id018').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Evolution of JARVIS, it aims to write 
+                        generic modules which can be exposed as standalone APIs as 
+                        well as plugged into various platforms like Messenger, Slack, 
+                        Discord, Telegram, Skype, etc.</p>
+					<p>
+                        <p><b>Tech Stack: </b>Python/Flask, JavaScript</p> 
+                        <b>Admin:</b> Swapnil Agarwal
+						<br> <i class="fa fa-github"></i> <a href=" https://github.com/swapagarwal"
+							target="_blank">@swapagarwal</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id019" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id019').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Evolution of JARVIS, it aims to write 
+                        generic modules which can be exposed as standalone APIs as 
+                        well as plugged into various platforms like Messenger, Slack, 
+                        Discord, Telegram, Skype, etc. </p>
+					<p>
+                        <p><b>Tech Stack: </b>Python/Flask, JavaScript </p> 
+                        <b>Admin:</b> Swapnil Agarwal
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/swapagarwal"
+							target="_blank">@swapagarwal</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id020" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id020').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b>The intention of the project is to familiarise 
+                        the student with open source development in the field of Machine 
+                        Learning, Deep Learning and Android Development. It will be done 
+                        by making a real-life application that can be used by the consumers. 
+                        Our aim is to make an end to end crop advisory app for farmers and 
+                        gardeners. It can diagnose pest damage, plant disease and nutrient 
+                        deficiencies that are affecting crops and can offer corresponding 
+                        treatment measures. </p>
+					<p>
+						<p><b>Tech Stack: </b>Tensorflow-Keras, Java, NodeJS, HTML, CSS, Javascript, jQuery, Bootstrap</p>
+						<b>Admin:</b> Sahil Sulekhiya
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/Sulekhiya"
+							target="_blank">@Sulekhiya</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id021" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id021').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> The intention of the project is to familiarise 
+                        the student with open source development in the field of Machine 
+                        Learning, Deep Learning and Android Development. It will be done 
+                        by making a real-life application that can be used by the consumers. 
+                        Our aim is to make an end to end crop advisory app for farmers and 
+                        gardeners. It can diagnose pest damage, plant disease and nutrient 
+                        deficiencies that are affecting crops and can offer corresponding 
+                        treatment measures. </p>
+					<p>
+                        <p><b>Tech Stack: </b>Tensorflow-Keras, Java, NodeJS, HTML, CSS, Javascript, jQuery, Bootstrap</p>
+                         <b>Admin:</b> Sahil Sulekhiya
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/Sulekhiya"
+							target="_blank">@Sulekhiya</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id022" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id022').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b>The intention of the project is to familiarise 
+                        the student with open source development in the field of Machine 
+                        Learning, Deep Learning and Android Development. It will be done 
+                        by making a real-life application that can be used by the consumers. 
+                        Our aim is to make an end to end crop advisory app for farmers and 
+                        gardeners. It can diagnose pest damage, plant disease and nutrient 
+                        deficiencies that are affecting crops and can offer corresponding 
+                        treatment measures. </p>
+					<p>
+                        <p><b>Tech Stack: </b>Tensorflow-Keras, Java, NodeJS, HTML, CSS, Javascript, jQuery, Bootstrap</p>
+                         <b>Admin:</b> Sahil Sulekhiya
+						<br> <i class="fa fa-github"></i> <a href="https://github.com/Sulekhiya"
+							target="_blank">@Sulekhiya</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="id023" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id023').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+					<p> <b>Description:</b> The intention of the project is to familiarise 
+                        the student with open source development in the field of Machine 
+                        Learning, Deep Learning and Android Development. It will be done 
+                        by making a real-life application that can be used by the consumers. 
+                        Our aim is to make an end to end crop advisory app for farmers and 
+                        gardeners. It can diagnose pest damage, plant disease and nutrient 
+                        deficiencies that are affecting crops and can offer corresponding 
+                        treatment measures.</p>
+					<p><b>Tech Stack: </b>Tensorflow-Keras, Java, NodeJS, HTML, CSS, Javascript, jQuery, Bootstrap</p>
+					<p> <b>Admin:</b> Sahil Sulekhiya
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/Sulekhiya"
+							target="_blank">@Sulekhiya</a> </p>
+				</div>
+			</div>
+        </div>
+        
+        <div id="id024" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id024').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This Organisation contains various ReactJS 
+                        NPM module which can be used inside a ReactJS application to 
+                        add interesting features inside any project. Presently it has 
+                        two NPM modules React-Pincode and React-Dark. Each of the modules 
+                        has more than 250 downloads on the official NPM website. The 
+                        detailed description of each project as follows:- 
+                        1) React-Pincode:- provides smooth functionality in an application
+                         to autofill city and state input field as users enter a Pincode 
+                         in the input field. When a user enters an invalid Pincode which 
+                         doesn't exist it throws an error. The workflow of the module is 
+                         when a user enters a pin code it fetches the details from official 
+                         Indian postal code API which contains all the details related to 
+                         the Pincode. The module fetches only city and state information 
+                         and updates the fields. Ir provides a method to add CSS classes 
+                         to all three input fields to make it as per the user's choice. 
+                         This module is very flexible and fast. Currently, this works 
+                         only for Indian Pincodes. The module uses Webpack for module 
+                         bundling and Babel for compiling. Link - https://www.npmjs.com/package/react-pincode 2) 
+                         React-Dark:- is an interesting module which allows a developer 
+                         to add a dark theme to any application is just a few easy and 
+                         smooth steps. It provides an option to toggle between dark and 
+                         light theme. It provides a flexible method to change the theme 
+                         colour when required. The workflow of the module is as the user 
+                         toggle the theme checkbox the CSS styles which were set for the 
+                         sark theme will be applied to the whole project. The module uses
+                          Webpack for module bundling and Babel for compiling. Link - https://www.npmjs.com/package/react-dark</p>
+					<p><b>Tech Stack: </b>ReactJS, Webpack, Babel</p>
+					<p> <b>Admin:</b> Apoorv Taneja
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/plxity"
+							target="_blank">@plxity</a> </p>
+				</div>
+			</div>
+        </div>
+        
+        
+
+
+        <div id="id025" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id025').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> A lightweight, easy to deploy CTF framework(in Flask) for HackTheBox style machines.</p>
+					<p><b>Tech Stack: </b>Python(Flask), PostgreSQL, HTML, CSS, Jinja2 templa</p>
+					<p> <b>Admin:</b> Eshaan Bansal
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/eshaan7"
+							target="_blank">@eshaan7</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id026" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id026').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Conference-Notify will be an open source web 
+                        based application that will aggregate conference information from 
+                        wikicfp , guide2research and other such websites to create a single 
+                        point of aggregated information and build index over the same. These 
+                        information can then be searched by users through plain text queries. 
+                        On finding relevant conferences the user can create recurring notifiers 
+                        for themselves for the date reminders which can be enabled on both mobile 
+                        devices and through browser notification.</p>
+					<p>
+                        <b>Tech Stack: </b>Python, MEAN, Elastic search, Kafka</p>
+					<p> <b>Admin:</b> Rajat Kanti Bhattacharjee
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/rajatkb"
+							target="_blank">@rajatkb</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id027" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id027').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> It's an open source tool that uploads 
+                        books from public libraries like Google Books and Panjab 
+                        Digital Library to Archive.org.</p>
+					<p>
+                        <b>Tech Stack: </b>JavaScript, React.js, Node</p>
+					<p> <b>Admin:</b> Anmol Wassan
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/coderwassananmol"
+							target="_blank">@coderwassananmol</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id028" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id028').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This is a rapid prototyped presentation 
+                        of how a Spotify Recommendation Engine should work . A system 
+                        that recommends songs from your existing playlists using 
+                        Spotify API and a bit of classical machine learning techniques.</p>
+					<p>
+                        <b>Tech Stack: </b>Python, Scikit-Learn, Flutte</p>
+					<p> <b>Admin:</b> Sayantan Das
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/ucalyptus"
+							target="_blank">@ucalyptus</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id029" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id029').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This is an entire API and a unique 
+                        employee management application to serve information for 
+                        today's most accomplished entrepreneurs. It helps 
+                        entrepreneurs keep track of their employees and handle 
+                        all the annoying meetings that keep getting added to their 
+                        busy schedule. It also helps them to organize their brilliant 
+                        ideas in a click.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>JavaScript, React, Express.js, Node.js, Linux, Chai, Mocha, CSS, HTML</p>
+					<p> <b>Admin:</b> Aditya Sharma
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/sharmaaditya570191"
+							target="_blank">@sharmaaditya570191</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id030" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id030').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> A collection of simulations and visualizations 
+                        for all sorts of stuff (Majorly Algorithmic or Mathematical) in a 
+                        cross platform app based on flutter.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>Flutter, Dart</p>
+					<p> <b>Admin:</b> Yash Lamba
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/yashlamba"
+							target="_blank">@yashlamba</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id031" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id031').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> It is a database management system focusing 
+                        on making the database management easy with making it as fast as 
+                        a database.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>Python3, pandas, numpy, sqlite3, html, css, js</p>
+					<p> <b>Admin:</b> Ambuj Raj
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/ambujraj"
+							target="_blank">@ambujraj</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id032" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id032').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> Cosmos is an umbrella project at OpenGenus 
+                        that deals with Algorithms and Data Structures specifically and 
+                        Computer Science in general. OpenGenus is sponsored by GitHub, 
+                        DigitalOcean and Discourse.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>C, C++, Java, Python, Django, HTML, CSS, JavaScript</p>
+					<p> <b>Admin:</b> Aditya Chatterjee
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/AdiChat"
+							target="_blank">@AdiChat</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id033" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id033').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This is an app built using Flutter for 
+                        GirlScipt Chennai Chapter that is to be used by the tech 
+                        community associated with it and to later serve as a template 
+                        for other tech communities as well.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>Dart, Flutter, Firebase, HTML, CSS, Javascript, UX/UI</p>
+					<p> <b>Admin:</b> Smaranjit Ghose
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/Smaranjitghose"
+							target="_blank">@Smaranjitghose</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id034" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id034').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This app helps to archive the same 
+                        functionality as the browser extension on PCs since extensions 
+                        don’t exist in web browsers for Android or iOS.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>JavaScript, HTML, CSS</p>
+					<p> <b>Admin:</b> Abhishek Uniyal
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/xlogix"
+							target="_blank">@xlogix</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id035" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id035').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This app helps to archive the same 
+                        functionality as the browser extension on PCs since extensions 
+                        don’t exist in web browsers for Android or iOS.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>Flutter, Android, iOS</p>
+					<p> <b>Admin:</b> Abhishek Uniyal
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/xlogix"
+							target="_blank">@xlogix</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id036" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id036').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> This project is the website meant to build 
+                        for GirlScript Chennai Chapter for announcements of events and 
+                        portrayal of the members' achievements both as a team and solo. 
+                        Furhtermore it shall serve as open source project built by the 
+                        community for the community itself, i.e. a platform for everyone 
+                        to hone their skills which will eventually serve as a boilerplate 
+                        for them use in their communities(whichever chapter they belong to).
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>HTML, CSS, Javascript</p>
+					<p> <b>Admin:</b> Smaranjit Ghose
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/Smaranjitghose"
+							target="_blank">@Smaranjitghose</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id037" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id037').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> A team and set of tools to guide and get 
+                        curious beginners into tech! It is specially for training 
+                        students to be industry ready with skills on MERN Stack and 
+                        LAMP Stack.The base website will be designed by the team. 
+                        It’s gonna be for them and by them. (HTML, CSS, JavaScript, 
+                        jQuery, PHP & MySQL - for contact forms). Rezume: An app that 
+                        helps to build your CVs online - similar to represent.io. 
+                        Comparator: MySmartPrix for comparing anything - starting with 
+                        Companies. The two projects - Rezume and Comparator are going 
+                        to be built on React JS & Node JS.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>HTML, CSS, JavaScript, jQuery, PHP, MySQL, React JS, Node JS</p>
+					<p> <b>Admin:</b> Praveen Kumar
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/praveenscience"
+							target="_blank">@praveenscience</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id038" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id038').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> A team and set of tools to guide and get 
+                        curious beginners into tech! It is specially for training 
+                        students to be industry ready with skills on MERN Stack and 
+                        LAMP Stack.The base website will be designed by the team. 
+                        It’s gonna be for them and by them. (HTML, CSS, JavaScript, 
+                        jQuery, PHP & MySQL - for contact forms). Rezume: An app that 
+                        helps to build your CVs online - similar to represent.io. 
+                        Comparator: MySmartPrix for comparing anything - starting with 
+                        Companies. The two projects - Rezume and Comparator are going 
+                        to be built on React JS & Node JS.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>HTML, CSS, JavaScript, jQuery, PHP, MySQL, React JS, Node JS</p>
+					<p> <b>Admin:</b> Praveen Kumar
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/praveenscience"
+							target="_blank">@praveenscience</a> </p>
+				</div>
+			</div>
+        </div>
+
+        <div id="id039" class="w3-modal">
+			<div class="w3-modal-content">
+				<div class="w3-container" style="color: black"> <span
+						onclick="document.getElementById('id039').style.display='none'"
+						class="w3-button w3-display-topright">&times;</span>
+                    <p> <b>Description:</b> MentorFix is an open source initiative to 
+                        find mentors for people around who have certain projects in mind 
+                        but need people/volunteers to bring those into life.
+                    </p>
+					<p>
+                        <b>Tech Stack: </b>React, MongoDB, GraphQL, nodeJS</p>
+					<p> <b>Admin:</b> Abhishek Prasad
+						<br> <i class="fa fa-github"></i> <a
+							href="https://github.com/abhishek71994"
+							target="_blank">@abhishek71994</a> </p>
+				</div>
+			</div>
+        </div>
+	</div>
+
+	<div class="container" id="sponsors">
+		<div class="section">
+			<h4 class="header section-heading center">Previous Sponsors</h4>
+			<h6 class="header left-align light section-text" style="margin-bottom:30px;">Sponsors make it possible for
+				Girlscript Summer Of Code to provide the perks for participants. Their generous donations
+				allow students to participate in the program and focus on learning. Sponsors receive a great deal of
+				publicity and
+				exposure as a result of the program. So register to be a sponsor today!</h6>
+			<div class="row">
+				<div class="col m6 s12 center">
+					<a href="https://www.twilio.com/" target="_blank">
+						<img src="images/sponsor/twilio.png" width="70%">
+						<p>Title Sponsor</p>
+					</a>
+				</div>
+				<div class="col m6 s12 center">
+					<a href="https://www.gojek.io" target="_blank">
+						<img src="images/sponsor/go-jek.jpg" width="70%">
+						<p>Title Sponsor</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://www.redhat.com/en" target="_blank">
+						<img src="images/sponsor/redhat.png" width="80%">
+						<p>Platinum Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://erpnext.com/" target="_blank">
+						<img src="images/sponsor/erpnext.png" width="80%">
+						<p>Silver Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.mozilla.org/en-US/" target="_blank">
+						<img src="images/sponsor/mozilla.png" width="80%">
+						<p>Bronze Sponsor</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m6 s12 center">
+					<a href="https://balsamiq.com/" target="_blank">
+						<img src="images/sponsor/balsamiq.png" width="50%">
+						<p>Bronze Sponsor</p>
+					</a>
+				</div>
+				<div class="col m6 s12 center">
+					<a href="JavaScript:Void(0);" target="_blank">
+						<img src="images/sponsor/katsam.jpg" width="40%">
+						<p>Community Partner</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://github.com/" target="_blank">
+						<img src="images/sponsor/github.png" width="45%">
+						<p>Platform Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.elastic.co" target="_blank">
+						<img src="images/sponsor/elastic.png" width="45%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.thehackingschool.com/" target="_blank">
+						<img src="images/sponsor/THS.png" width="45%">
+						<p>Tech Incubation Partner</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://www.hackerearth.com/" target="_blank">
+						<img src="images/sponsor/hackerearth.png" width="70%">
+						<p>Innovation Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.facebook.com/bitsofmischief/" target="_blank">
+						<img src="images/sponsor/bits_mischief.jpg" width="50%">
+						<p>Expression Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://altcampus.io/" target="_blank">
+						<img src="images/sponsor/ac-logo.png" width="60%">
+						<p>Technical Training Partner</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://www.showbie.com/" target="_blank">
+						<img src="images/sponsor/Showbie.png" width="30%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.jetbrains.com/" target="_blank">
+						<img src="images/sponsor/Jetbrains.png" width="30%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.creative-tim.com/" target="_blank">
+						<img src="images/sponsor/Creative-TimLOGO.jpg" width="50%">
+						<p>In-kind Sponsor</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4 s12 center">
+					<a href="https://yourstory.com/" target="_blank">
+						<img src="images/sponsor/Ys.png" width="70%">
+						<p>Media Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.duexpress.in/" target="_blank">
+						<img src="images/sponsor/duexpress.png" width="90%">
+						<p>Media Partner</p>
+					</a>
+				</div>
+				<div class="col m4 s12 center">
+					<a href="https://www.igniteengineers.com/" target="_blank">
+						<img src="images/sponsor/Ignite-Engineers.png" width="80%">
+						<p>Media Partner</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row center"> <a class="waves-effect waves-light btn-large orange"
+				href="https://drive.google.com/file/d/1PxzBeRs_YwbxoPCdO35b61l_Y17fKUFQ/view?usp=sharing"
+				target="_blank">Sponsor Us</a> </div>
+	</div>
+	<section id="testimonials">
+		<h4 class="header section-heading center">What our Alma mater has to say</h4>
+		<div class="testimonial">
+			<div class="card">
+				<div class="layer"></div>
+				<div class="content">
+					<p><i>“GirlScript Summer of Code was just an idea to help clueless beginners in open source. We
+							never expected 1000 participants from 4 countries but it happened and we successfully
+							completed it. The program also helped some NGOs to get their projects built without spending
+							any money and therefore we created an impact. Although, there were some flaws in first
+							edition, we are coming again in 2019 with corrections and additions!”</i> </p>
+					<div class="image"><img src="images/review/Anubha.jpg" alt="avatar"> </div>
+					<div class="details">
+						<h2>Anubha Maneshwar</h2>
+						<br> <span>Founder</span>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="layer"></div>
+				<div class="content">
+					<p><i>“Being a part of the organising team of GSSoC 2018 and 2019, has a great learning
+							experience for me. Working towards encouraging new comers dive into open source gave me
+							immense satisfaction. With such a huge participation, managing such a large event with
+							participants spread all over the country wasn't a cake walk, but the team made it possible.
+							With GSSoC making larger impact each year, I hope this year's edition encourages many more
+							to begin their open source journey.”</i></p>
+					<div class="image"><img src="images/review/Akshita.jpg" alt="avatar"> </div>
+					<div class="details">
+						<h2>Akshita Aggarwal</h2>
+						<br> <span>Operations Lead</span>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="layer"></div>
+				<div class="content">
+					<p><i>“Organising GSSoC'19 was an amazing experience for me. I faced challenges and did things I
+							never did before.
+							Working with community, upholding Code of Conduct, organising a large scale event, all this
+							helped me grow in
+							my skills and understand developer community better. GSSoC'19 was a hell of ride, with some
+							amazing contributions
+							and I hope coming editions of GSSoC are even more impactful and inclusive.”</i> </p>
+					<div class="image"><img src="images/review/Aakanksha.jpg" alt="avatar"> </div>
+					<div class="details">
+						<h2>Aakanksha Jain</h2>
+						<br> <span>Project Lead</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row center"> <a class="waves-effect waves-light btn-large orange" href="review.html">Know More</a>
+		</div>
+    </section>
+
+  <!--================================ FOOTER v2 ================================-->
+  <div id="footer"></div>
+
+  <!--================================ FOOTER v2 end ================================-->
+	<!--  Scripts-->
+	<script>
+		/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+		var newId, modal;
+
+		for (i = 0; i < dropdown.length; i++) {
+			dropdown[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var dropdownContent = this.nextElementSibling;
+				if (dropdownContent.style.display === "block") {
+					dropdownContent.style.display = "none";
+				} else {
+					dropdownContent.style.display = "block";
+				}
+			});
+		}
+
+		displayModal = function(id) {
+			newId = 'id0' + id;
+			document.getElementById(newId).style.display='block';
+			modal = document.getElementById(newId)
+		}
+
+
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+
+		AOS.init({
+			duration: 1000,
+		})
+	</script>
+</body>
+
+</html>

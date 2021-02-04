@@ -41,7 +41,7 @@ const team_data = {
         "teamcode": "gs"
       },
       {
-        "fullname": "Jahanavi Shah",
+        "fullname": "Jahnavi Shah",
         "position": "Program Manager",
         "image": "images/team/2021/JahanaviShah.jpeg",
         "social": {
