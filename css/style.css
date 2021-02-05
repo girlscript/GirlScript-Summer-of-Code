@@ -9,11 +9,11 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background: #ffb413;
+  background: #fca457;
 }
 ::selection{
   color: #fff;
-  background: #ffb413;
+  background: #fca457;
 }
 .wrapper{
   max-width: 1080px;
