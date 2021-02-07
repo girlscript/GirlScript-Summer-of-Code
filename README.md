@@ -8,7 +8,7 @@ GirlScript Summer of Code is the 3 month long Open Source program during summers
 
 ## What to do once registrations over?
 
-Once the registrations are over, we should enable the profile field of the header and disable the register field of the header. Alongwith that, we should also be graying out and deactivating the concerned buttons from the home page and updating the text accordingly.
+Once the registrations are over, we should enable the profile field of the header and disable the register field of the header. Along with that, we should also be graying out and deactivating the concerned buttons from the home page and updating the text accordingly.
 
 ## Updating Website Data
 
