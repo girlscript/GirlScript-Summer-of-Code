@@ -60,7 +60,7 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   justify-content: center;
   align-items: stretch;
-  grid-gap: 110px 6%;
+  grid-gap: 110px 3%;
 }
 
 .gs-team-member {
