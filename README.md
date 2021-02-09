@@ -1,4 +1,4 @@
-<img align="right" width="200" height="200" src="https://www.gssoc.tech/images/favicon/favicon.png">
+<img align="right" width="200" height="200" src="images/favicon/favicon.png">
 
 # GirlScript Summer of Code
 
