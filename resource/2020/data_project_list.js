@@ -194,7 +194,7 @@ const project_list = {
     {
       project_id: 6,
       owner_name: "Akshita Gupta",
-      github_username: "xlogix",
+      github_username: "akshitagupta15june",
       project_name: "Face-X",
       project_description:
         "Demonstration of different algorithms and operations on faces. Despite a variety of open-source face recognition frameworks available, there was no ready-made solution to implement. So In this project all kind of algorithms are implemented and even with various operations that can be implemented in a frontal face.",
@@ -424,7 +424,7 @@ const project_list = {
     {
       project_id: 11,
       owner_name: "Pranav Mendiratta",
-      github_username: "ALPHAVIO",
+      github_username: "Pranav016",
       project_name: "BlogSite",
       project_description: "This is a dynamically updating Blog posting website developed primarily using HTML, CSS with EJS template engine, Node JS and Mongoose as ODM(Object Data Modeling library). It has been deployed using Heroku.",
       // vision_for_project:
@@ -1403,7 +1403,7 @@ const project_list = {
       // vision_for_project:
       //   "I see this project turning into a simple, effective, easy to use and attractive employee management platform that can be used easily on different devices. ",
       technology_used:
-        "Flutter",
+        "Android, IOS, Cross-Platform, Algorithms, Mathematics, Physics, Simulations, Flutter, Dart, Visualizations",
       repo_fullname: "cod-ed/simulate",
       // project_slack_channel: "proj_bossy",
       github: "https://github.com/cod-ed/simulate",
@@ -1976,7 +1976,7 @@ const project_list = {
     },
     {
       project_id: 48,
-      owner_name: "N/A",
+      owner_name: "IndianOpenSourceFoundation",
       github_username: "IndianOpenSourceFoundation",
       project_name: "Dynamic-CLI",
       project_description:
@@ -2180,50 +2180,9 @@ const project_list = {
       ],
     },
     {
-      project_id: 53,
-      owner_name: "Masudha Meher",
-      github_username: "",
-      project_name: "Artseum",
-      project_description:
-        "The main problem that the art community now a days face is exposure. Being an artist myself, I know how hard it is to gather enough audience to showcase your artworks and even if you manage to do so, there is no way you will get 100% honest insights. Almost all of the world's population is now on the internet and yet, it is hard to find a perfect audience that has a keen eye for art. Instagram, for example, gives enough platform to artists to showcase their work but due to lack of a proper showcasing algorithm, artists somehow get lost in the crowd. Artseum solves such problems. It is an application where artists can browse, share and sell artwork. Since the users are artists themselves, the feedback is honest. It also allows the users to create a moodboard of artworks they like for inspiration, thus, solving another one of art related problems called Art Block. Furthermore, the users can directly connect to the art community to stay up to date with upcoming trends and styles and with the help of a dedicated news panel, the users will get updates regarding upcoming art events, or helpful art tips by renowned artists. In addition to the above features, Artseum also allows the users to build a creative resume comprising oftheir best artworks, making it easy for the companies to hire them. Four specific functions : Browse and Share Artworks, Buy and Sell Artworks, Create a moodboard for inspiration, Build creative resume comprising of user's best artworks.",
-      // vision_for_project:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
-      technology_used: "Flutter, Nodejs or Firebase",
-      repo_fullname: "",
-      // project_slack_channel: "proj_mentorfix",
-      github: "",
-          email: "kasturimeh@gmail.com",
-      mentors_id: [
-        // {
-        //   name: "Jayshree Panda",
-        //   github: "https://github.com/Jayashree-panda",
-        //   email: "jayashreepanda12345@gmail.com ",
-        //   slackId: "UUC8L15G8",
-        // },
-        // {
-        //   name: "Avikant Wadhwa",
-        //   github: "https://github.com/avikantwadhwa",
-        //   email: "avikantwadhwa@gmail.com",
-        //   slackId: "UTZH4BELS",
-        // },
-        // {
-        //   name: "Laveesh  Gupta",
-        //   github: "https://github.com/laveesh",
-        //   email: "laveeshgupta@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-        // },
-        // {
-        //   name: "Surisetty Harshavardhan",
-        //   github: "https://github.com/harsha-iiiv",
-        //   email: "201752039@iiitvadodara.ac.in",
-        //   slackId: "UUE2B5JHM",
-        // },
-      ],
-    },
-    {
       project_id: 54,
       owner_name: "Rituraj Jain",
-      github_username: "CSwala",
+      github_username: "riturajjain2000",
       project_name: "CSwala-android",
       project_description:
         "An app that is a one-stop destination for all the CS enthusiasts, providing resources like best YT channels, courses available free-of-cost, etc.  & knowledge about every domain and field that exists on the Internet related to Computer Science along with News, Jobs, and Internships opportunities in these domains along with valuable tips and hacks from mentors for a particular domain.",
@@ -2507,5 +2466,129 @@ const project_list = {
         // },
       ],
     },
+    {
+      project_id: 61,
+      owner_name: "Ankita Puri",
+      github_username: "ankitapuri",
+      project_name: "Pixelvibe",
+      project_description:
+        "A front end project where a user can create his pixel artwork and also save for future. Moreover it can also convert an imported image from the desktop into pixel format .",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Front-End Web tools",
+      repo_fullname: "ankitapuri/pixelvibe",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/ankitapuri/pixelvibe",
+          email: "puriankita30@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 62,
+      owner_name: "Chiraag Kakar",
+      github_username: "chiraag-kakar",
+      project_name: "Share N Learn",
+      project_description:
+        "Share N Learn is a Common Platform for Students & Faculties to upload and share - files including all sorts of study material which will be accessible to all the registered members built using Django Framework. The Goal of the project is to create a secure and scalable platform common to both college students and faculties so that they can easily share the files / resources related to coursework , Competitive exams and others hence reducing the dependency on social media platforms. In future the platform can also serve as an e-library for the college students.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: " HTML5, CSS3, JS, JQuery, Bootstrap, Backend : Python(Django), Database : Sqlite3 (will be migrated to Postgres soon)",
+      repo_fullname: "chiraag-kakar/sharenlearn",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/chiraag-kakar/sharenlearn",
+          email: "ck2222@cse.jgec.ac.in",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 63,
+      owner_name: "Masudha Meher",
+      github_username: "N/A",
+      project_name: "Artseum",
+      project_description:
+        "The main problem that the art community now a days face is exposure. Being an artist myself, I know how hard it is to gather enough audience to showcase your artworks and even if you manage to do so, there is no way you will get 100% honest insights. Almost all of the world's population is now on the internet and yet, it is hard to find a perfect audience that has a keen eye for art. Instagram, for example, gives enough platform to artists to showcase their work but due to lack of a proper showcasing algorithm, artists somehow get lost in the crowd. Artseum solves such problems. It is an application where artists can browse, share and sell artwork. Since the users are artists themselves, the feedback is honest. It also allows the users to create a moodboard of artworks they like for inspiration, thus, solving another one of art related problems called 'Art Block'. Furthermore, the users can directly connect to the art community to stay up to date with upcoming trends and styles and with the help of a dedicated news panel, the users will get updates regarding upcoming art events, or helpful art tips by renowned artists. In addition to the above features, Artseum also allows the users to build a creative resume comprising of their best artworks, making it easy for the companies to hire them. Four specific functions : Browse and Share Artworks, Buy and Sell Artworks, Create a moodboard for inspiration, Build creative resume comprising of user's best artworks. ",				
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Flutter, Nodejs or Firebase",
+      repo_fullname: "N/A",
+      // project_slack_channel: "proj_mentorfix",
+      github: "N/A",
+          email: "kasturimeh@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    
   ],
 };
