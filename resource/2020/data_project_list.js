@@ -47,8 +47,7 @@ const project_list = {
       github_username: "awantika10",
       project_name: "Desgen",
       project_description: "We are trying to develop innovative designs through lastest UI/UX technologies. Most of the open source organisation and platforms have Web development, Android Development, ML etc, but ever wonder any organization or project which is completely dedicated to solving real world problems related to UI? Think about designing a wireless garden management system, or a smart video management system!! Here we provide a platform to learn and build innovative solutions for such problem. We love to brainstorm and come up with different techniques and approaches to design problems which we face in our day-to-day basis.",
-      // vision_for_project:
-      //   "This project aims at helping people from academia and sports programmers to use data structures whenever they need without thinking about the complexities of implementation. We have previously participated in Kharagpur Winter of Code, 2019 organized by KOSS, IIT Kharagpur. We want to carry forward this journey by participating in GSSoC. ",
+      vision_for_project: "https://youtu.be/cEWfIYKSuyw",
       technology_used: "HTML, CSS, Figma, AdobeXD, Illustrator, Framer, Anima",
       github: "https://github.com/awantika10/Desgen",
       email: "awantikanigam101220@gmail.com",
@@ -116,8 +115,7 @@ const project_list = {
       project_name: "Operationalizing ML",
       project_description:
         "The main objective of this project is to build a machine learning model using Azure Container Services.We have to work with the banking datasets.",
-      // vision_for_project:
-      //   "Goals of this project : - To reduce the wastage of water across the city - To provide better water supply to the people",
+      vision_for_project: "https://youtu.be/LRcmz5xVQAI",
       technology_used: "HTML, CSS, JavaScript, JQuery, Arduino",
       repo_fullname: "vaibhavirohilla741/Operationalizing-ML",
       // project_slack_channel: "proj_water-monitoring-system",
@@ -157,8 +155,7 @@ const project_list = {
       project_name: "Foss Events",
       project_description:
         "A simple website with a collection of open-source events happening across the globe. This is a beginner-friendly repository that helps you learn git and contribute to web project.",
-      // vision_for_project:
-      //   "Stability of any complex web application having millions of application endpoints is low. We want them to be more reliable and this is done through constant and regular monitoring of the web app and VM instance.",
+      vision_for_project: "https://youtu.be/iGlDyq-igpQ",
       technology_used: "HTML, CSS, JS, NodeJS, MongoDB",
       repo_fullname: "DSC-JSS-NOIDA/foss-events",
       // project_slack_channel: "proj_bench-routes",
@@ -198,8 +195,7 @@ const project_list = {
       project_name: "Face-X",
       project_description:
         "Demonstration of different algorithms and operations on faces. Despite a variety of open-source face recognition frameworks available, there was no ready-made solution to implement. So In this project all kind of algorithms are implemented and even with various operations that can be implemented in a frontal face.",
-      // vision_for_project:
-      //   "I envisioned the project to solve the problems faced by 21st-century learners. A modern learner finds a flood of resources from Google Search but doesn't always find the right resources since it's the website with the best SEO (search engine optimisation) that wins. There are so many free resources available on the internet made by experts in their field and yet we pay for outdated courses promoted by big companies and universities.  With Footsteps, we take a mentor/subject knowledge expert first approach to solve the problem. The domain experts save their learning journey with our app and browser extension & make it available for everyone else to follow. Every resource is called a 'footstep' (added in a chronological manner) and a collection of footsteps makes up a learning path. The learner can \"fork\" the learning path made by the expert and keep a track of his progress. The app suggests resources & keeps an updated list with users upvotes & collaborative filtering.  Upcoming features include: 1) Ability to make the path private/public. 2) The ability to \"fork\" a learning path & suggest changes. 3) A collaborative filtering recommendation system for recommending the right resources to a learner. 4) Ability to save your progress in a learning path.",
+      vision_for_project: "https://youtu.be/iFdvbv8eI1E",
       technology_used: "Python, AI/ML, OpenCV, CNN",
       repo_fullname: "akshitagupta15june/Face-X",
       // project_slack_channel: "proj_footsteps-app",
@@ -239,8 +235,7 @@ const project_list = {
       project_name: "RollCall",
       project_description:
         "RollCall is an automatic and smart attendance marking and management system which uses Microsoft Azure’s Cognitive service at its core to create a system that could make sure that no human intervention is required and provides government the ability to monitor the attendance of the schools.",
-      // vision_for_project:
-      //   "To develop reliable Personal Assistant for Linux Enviroments",
+      vision_for_project: "https://youtu.be/opSyXXa6Cdg",
       technology_used: "Python,  HTML, CSS, Javascript, OpenCV, Computer Vision",
       repo_fullname: "Swarnimashukla/Automatic-attendance-management-system",
       // project_slack_channel: "proj_jarvis-personal-assistant",
@@ -340,8 +335,7 @@ const project_list = {
       project_name: "ScanIt",
       project_description:
         "ScanIt is an Android application that aims to be your all in one scanner. Key Features: Easily converts images into a PDF file. Automatically detects edges from the image, so you don't have to. Live scanning of documents. Quickly extract texts from image. Read and Generate QR codes.",
-      // vision_for_project:
-      //   "The project currently is in its embryonic stage and provides tremendous possibilities for growth. Here are a few of those: 1. Enhancing the NLP algorithm to improve the text based conversation and make it more predictable and accurate. I welcome all kinds of approaches from basic to the most advanced. (Currently uses StanfordCoreNLP) 2. Improving the mySQL back end database and hosting it on an open source platform or a simple cloud machine. 3. Working on either a UI for the bot or deploying it on several platforms to improve connectivity. (Currently the bot was adapted for Facebook Messenger) 4. Working on a solution to host the server on either open source platforms or a cloud machine to ensure availability.",
+      vision_for_project: "https://youtu.be/j_Hy7k0SNpg",
       technology_used: "Java, Kotlin",
       repo_fullname: "mishraaditya595/ScanIt",
       // project_slack_channel: "proj_mapbot",
@@ -381,8 +375,7 @@ const project_list = {
       project_name: "Kurakoo",
       project_description:
         "Kurakoo is an online community of people providing answers to questions just like Quora site. Kurakoo is especially for school-college students, people from around the different colleges visit Kurakoo to ask questions from a community of people who answer them.",
-      // vision_for_project:
-      //   "This software aims to provide all the facilities which we can do with WhatsApp.",
+      vision_for_project: "https://youtu.be/ZGMUU20efZM",
       technology_used: "MERN stack, UI/UX design, html, css, js, nodejs, reactjs",
       repo_fullname: "purnima143/Kurakoo",
       // project_slack_channel: "proj_whatsapp-play",
@@ -468,8 +461,7 @@ const project_list = {
       project_name: "Plasma Donor",
       project_description:
         "An Open Source App which fills the gap between the patients and the Plasma Donors. Begginer Friendly Repository made for Open Source Enthusiast who can make the contribution in the App.",
-      // vision_for_project:
-      //   "Overall, we want to expand our program to serve more students. In the shorter term for this summer of code, we would like to improve the curriculum, especially by fixing small issues users have reported that no volunteers have had time to fix. If it is a stronger curriculum, it can be used more effectively by our students and anyone in the world for free.",
+      vision_for_project: "https://youtu.be/KOO5nJj1co0",
       technology_used: "Android, Kotlin, Firebase",
       repo_fullname: "DSC-JSS-NOIDA/Plasma-Donor-App",
       // project_slack_channel: "proj_techtonica-curriculum",
@@ -503,8 +495,7 @@ const project_list = {
       project_name: "Doc2pen",
       project_description:
         "Doc2pen is an Open Source Software that converts your Typed Docs into Handwritten Docs.",
-      // vision_for_project:
-      //   "To collaborate with government to create the best safety app",
+      vision_for_project: "https://youtu.be/0BxAoaBsJSU",
       technology_used: "Reactjs, HTML, CSS",
       repo_fullname: "smaranjitghose/doc2pen",
       // project_slack_channel: "proj_travel-safe",
@@ -550,8 +541,7 @@ const project_list = {
       project_name: "Relic Bazaar",
       project_description:
         "A Retro Theme based e-commerce app for antiques.",
-      // vision_for_project:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      vision_for_project: "https://youtu.be/J8KGv62x0f4",
       technology_used: "Flutter, Firebase, Matic API, TensorFlow, TensorFlow Lite",
       repo_fullname: "himanshusharma89/relic_bazaar",
       // project_slack_channel: "proj_mentorfix",
@@ -591,8 +581,7 @@ const project_list = {
       project_name: "Algo-Tree",
       project_description:
         "Algo-Tree is a collection of Algorithms and data structures which are fundamentals to efficient code and good software design. Creating and designing excellent algorithms is required for being an exemplary programmer. It contains solutions in various languages such as C++, Python and Java.",
-      // vision_for_project:
-      //   "Skyrocketing a students’ career by providing best global opportunities",
+      vision_for_project:"https://youtu.be/TV2B4wQjiOw",
       technology_used:
         "C++, Java, Python",
       repo_fullname: "Algo-Phantoms/Algo-Tree",
@@ -633,8 +622,7 @@ const project_list = {
       project_name: "Algo-Phantoms-Android",
       project_description:
         "Algo-Phantoms-Android App is an Android Application that provides a code editor along with pathways and quizzes to help you towards your DSA journey.",
-      // vision_for_project:
-      //   "BarView currently is in its first release state. A lot of the planned graphic effects such as colored shadows, auto re-scaling, intro animation, over-scroll effects have to be added. Also, the code requires a lot of documentation. The long-term goal of the project is to provide native android developers with a lightweight yet fully customizable bar graph library that can cover maximum of their requirements. For this, the library may have to be rewritten utilizing the native graphic methods, when the current version would serve as a reference.",
+      vision_for_project: "https://youtu.be/3Czr7RiU3w4",
       technology_used: "Android, Kotlin",
       repo_fullname: "Algo-Phantoms/Algo-Phantoms-Android",
       // project_slack_channel: "proj_barview-android",
@@ -680,8 +668,7 @@ const project_list = {
       project_name: "Algo-Phantoms-Backend",
       project_description:
         "Algo-Phantoms is an Application that provides pathways and quizzes along with a code editor to help students towards their DSA journey. This project contains the backend code of the application built using Django REST Framework.",
-      // vision_for_project:
-      //   "Want to make the project more awesome with different frameworks. Also, improve the real world accuracy. ",
+      vision_for_project: "https://youtu.be/OZpczTApCO8",
       technology_used: "Python, Django, Django REST Framework",
       repo_fullname: "Algo-Phantoms/Algo-Phantoms-Backend",
       // project_slack_channel: "proj_plant-disease-webapp",
@@ -727,8 +714,7 @@ const project_list = {
       project_name: "Algo-ScriptML",
       project_description:
         "Scripts of Machine Learning Algorithms from Scratch. Implementations of machine learning models and algorithms using nothing but NumPy with a focus on accessibility. The goal of this project is not to create algorithms that are as streamlined and computationally efficient as possible, but rather to present their inner workings in a clear and usable manner.",
-      // vision_for_project:
-      //   "https://docs.google.com/document/d/1YtMCjAf8gXyJyq_t7dRKbYp5bn9Yr3BUDFA-7jLxErA/edit?usp=sharing",
+      vision_for_project: "https://youtu.be/De4LBWcUmm4",
       technology_used: "Python, NumPy, Machine Learning",
       repo_fullname: "Algo-Phantoms/Algo-ScriptML",
       // project_slack_channel: "proj_the-vision",
@@ -774,8 +760,7 @@ const project_list = {
       project_name: "Algo-Phantoms-Frontend",
       project_description:
         "Algo-Phantoms-Frontend is a Website that provides pathways and quizzes along with a code editor to help you towards your DSA journey. The features of website is that user can write and edit their code in the website, can play quizzes to improve their DSA fundamentals, Give their DSA journey a proper guide using pathways in the website.",
-      // vision_for_project:
-      //   "https://docs.google.com/document/d/1YtMCjAf8gXyJyq_t7dRKbYp5bn9Yr3BUDFA-7jLxErA/edit?usp=sharing",
+      vision_for_project:"https://youtu.be/HohxoCpFHRA",
       technology_used: "HTML, CSS, Bootstrap, Javascript, VanillaJs",
       repo_fullname: "Algo-Phantoms/Algo-Phantoms-Frontend",
       // project_slack_channel: "proj_the-vision",
@@ -821,8 +806,7 @@ const project_list = {
       project_name: "Image-Processing-OpenCV",
       project_description:
         "This repository is focused on having various feature implementation of OpenCV in Python. The aim is to have a minimal code implementation of all image processing OpenCV techniques together, under one roof.",
-      // vision_for_project:
-      //   "https://docs.google.com/document/d/1YtMCjAf8gXyJyq_t7dRKbYp5bn9Yr3BUDFA-7jLxErA/edit?usp=sharing",
+      vision_for_project: "https://youtu.be/w3z5USeoyMQ",
       technology_used: "Python, OpenCV, Machine Learning",
       repo_fullname: "geekquad/Image-Processing-OpenCV",
       // project_slack_channel: "proj_the-vision",
@@ -868,8 +852,7 @@ const project_list = {
       project_name: "HealthCheck",
       project_description:
         "Health Check is a Machine Learning project. It is a Web Application that is made using Flask that can predict diseases like Diabetes, Heart Disease, and Cancer. Machine Learning can do wonders in the field of Healthcare, if used properly, keeping this in mind, I've created a web application, anyone who wants to know about diseases mentioned above just has to fill in the required information and that will provide the user with the report as either positive or negative. The models have been trained and tested on datasets from Kaggle. The project also used Deep learning to train some models. The project is good for someone who wants a perfect project i.e. it uses flask, machine learning, deep learning, and python. All the analysis on the datasets has been done in Jupyter Notebooks.",
-      // vision_for_project:
-      //   "To engage more students into open source development by encouraging them to contribute in one or more of the following technologies Machine Learning And Deep Learning Android Backend Frontend To teach about best practices in Development, Machine Learning and Deep Learning. ",
+      vision_for_project: "https://youtu.be/PqzzYjT11zA",
       technology_used:
         "Python, Flask, Machine Learning, Deep Learning",
       repo_fullname: "kritikaparmar-programmer/HealthCheck",
@@ -964,8 +947,7 @@ const project_list = {
       project_name: "CoinShift-Imaging-Box",
       project_description:
         "CoinShift Imaging Box: A collection of efficient and faster implementation of SOTA Object Detection and Segementation Models.",
-      // vision_for_project:
-      //   "To engage more students into open source development by encouraging them to contribute in one or more of the following technologies Machine Learning And Deep Learning Android Backend Frontend To teach about best practices in Development, Machine Learning and Deep Learning. ",
+      vision_for_project: "https://youtu.be/2gtpqOms7AA",
       technology_used:
         "Python, Tensorflow, Pytorch",
       repo_fullname: "CoinShift-Imaging/CoinShift-Imaging-Box",
@@ -1012,8 +994,7 @@ const project_list = {
       project_name: "Friday",
       project_description:
         "Friday - Your Personal Class Manager Assistant, It'll never let you miss another assignment deadline or any upcoming test. Since after the pandemic almost everything has been moved on virtual world So has Education. All our classes has been moved online and with that all our assignments, test, exams, Viva are being held on online platform as well, With so many assignments deadlines, upcoming exams dates and being busy with our life we forget the deadlines and examdates on most occasion. I don't know how many of you but it happens to me frequently. So I came up with this app which once feeded with all the required data it'll remind you of the assignement deadlines, upcoming exams, unfinished homework. So, you can plan your schedule accordingly.",
-      // vision_for_project:
-      //   "To engage more students into open source development by encouraging them to contribute in one or more of the following technologies Machine Learning And Deep Learning Android Backend Frontend To teach about best practices in Development, Machine Learning and Deep Learning. ",
+      vision_for_project: "https://youtu.be/WSxsOAiOq1M",
       technology_used:
         "Flutter, Dart, UI/UX, Firebase, HTML, CSS, JS",
       repo_fullname: "avinashkranjan/Friday",
@@ -1060,8 +1041,7 @@ const project_list = {
       project_name: "SFC-Foundations Website",
       project_description:
         "SFC foundations is an NGO, standing tall against all odds and having a good website is a must. So we propose young developers to get their coding hats on and build something amazing.",
-      // vision_for_project:
-      //   "There is a scope of improvement in both the NPM modules. 1) React-Pincode as of now works only for Indian Pincodes. This needs to be implemented for international pin codes so that it can be used by developers globally. Improve error handling functionality of the module. This module should be tested for React Native application if not make it compatible so it can be used cross-platform. Improve the documentation of the module.   2) React-Dark toggles only between two different themes but as per the trend in the industry if a project can have an option to set multiple themes it would be really great support for many applications. Improve the flow of the module for more smooth functioning.  Improve the documentation of the module.",
+      vision_for_project: "https://youtu.be/4q5fKI5cay4",
       technology_used: "Web development",
       repo_fullname: "himanshu007-creator/SFC-foundations",
       // project_slack_channel: "proj_awesome-react-modules",
@@ -1101,8 +1081,7 @@ const project_list = {
       project_name: "RocketMeet",
       project_description:
         "Quickly find the best time for team meetings and one-on-ones with RocketMeet — a free and open source meeting scheduling app.",
-      // vision_for_project:
-      //   "There is a scope of improvement in both the NPM modules. 1) React-Pincode as of now works only for Indian Pincodes. This needs to be implemented for international pin codes so that it can be used by developers globally. Improve error handling functionality of the module. This module should be tested for React Native application if not make it compatible so it can be used cross-platform. Improve the documentation of the module.   2) React-Dark toggles only between two different themes but as per the trend in the industry if a project can have an option to set multiple themes it would be really great support for many applications. Improve the flow of the module for more smooth functioning.  Improve the documentation of the module.",
+      vision_for_project: "https://youtu.be/2TUyVUQhMb8",
       technology_used: "Typescript, Next.js, Express.js, MongoDB, Firebase, Redux",
       repo_fullname: "RocketMeet",
       // project_slack_channel: "proj_awesome-react-modules",
@@ -1183,8 +1162,7 @@ const project_list = {
       project_name: "Indra-A virtual assistant",
       project_description:
         "Indra-A virtual assistant has been developed using NLP Technology(TTS-TEXT-TO-SPEECH) & (STT-SPEECH-TO-TEXT), AI, ML. She (Indra)will give useful methods for preventing ourselves from the corona(Ayurvedic measures). I've been added multiple responses for the Indra bot so that users can easily understand. Indra has the capability to predict disease and will give solutions according to that particular problem. I hope it would be helpful for users!!",
-      // vision_for_project:
-      //   "There is a scope of improvement in both the NPM modules. 1) React-Pincode as of now works only for Indian Pincodes. This needs to be implemented for international pin codes so that it can be used by developers globally. Improve error handling functionality of the module. This module should be tested for React Native application if not make it compatible so it can be used cross-platform. Improve the documentation of the module.   2) React-Dark toggles only between two different themes but as per the trend in the industry if a project can have an option to set multiple themes it would be really great support for many applications. Improve the flow of the module for more smooth functioning.  Improve the documentation of the module.",
+      vision_for_project: "https://youtu.be/b7er3lsaxfM",
       technology_used: "AI Technology-Chatbots ,Voice app,NLP(NATURAL LANGUAGE PROCESSING),TTS(TEXT-TO-SPEECH),STT(SPEECH-TO-TEXT)",
       repo_fullname: "Srimathij/Indra_Bot",
       // project_slack_channel: "proj_awesome-react-modules",
@@ -1224,8 +1202,7 @@ const project_list = {
       project_name: "Pentesting-and-Hacking-Scripts",
       project_description:
         "A curated collection of Pentesting-and-Hacking-Scripts for Script Kidde to Advance Pentesters. One Place for pentesting and hacking scripts to exploit vulnerablities of a system or pull a prank on friends computer.",
-      // vision_for_project:
-      //   "Provide a lightweight and easily configurable and deployable scoring engine for Capture The Flag competitions.",
+      vision_for_project: "ttps://youtu.be/eadYFek0J2U",
       technology_used: "Python, NodeJS, C, Go, Java, HTML, CSS, JS",
       repo_fullname: "dscciem/Pentesting-and-Hacking-Scripts",
       // project_slack_channel: "proj_root-the-box-ctf-framework",
@@ -1353,7 +1330,7 @@ const project_list = {
       project_name: "Alumni Connect",
       project_description:
         "Alumini Connect is a long awaited dream project for our college, JSS Academy Of Technical Education, Noida. Concerning the ever increasing competitive and challenging atmosphere, the opportunity of connections among college students and alumini may serve a professional and heart warming support. We aim to build a website that serves to connect our college folk, which would bring the clan support and nostalgia in few clicks.",
-      // vision_for_project:
+      vision_for_project: "https://youtu.be/aD-dgnwkQfc",
       //   "To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.",
       technology_used: "",
       repo_fullname: "",
@@ -1435,8 +1412,7 @@ const project_list = {
       project_name: "Libro",
       project_description:
         "An App Built using flutter using which we can share books with people around us !! With 34% of the illiteracy rate of the world, building a book donation app is one of the great ideas on the list. With the increasing cost of education, there are underprivileged sections of the society that can’t afford to buy new books for them. The NGOs and libraries can access book donation apps to collect books for the needy and may help in reducing illiteracy rate. Simple yet unique ideas like book donation apps can build up a platform where donors and receivers can connect and meet the needs of society.",
-      // vision_for_project:
-      //   "Having more than 50 simulations from all domains, major work currently is algorithmic, mathematical and biological. The future plans include, working on first release (15+ simulations) and improving UX and scientific accuracy of all simulations. Animating current simulations is also under radar but not on the major priority list. ",
+      vision_for_project: "https://youtu.be/blZv3H-Ho-w",
       technology_used: "Flutter , Firebase , REST",
       repo_fullname: "infiniteoverflow/Libro",
       // project_slack_channel: "proj_simulate",
@@ -1517,8 +1493,7 @@ const project_list = {
       project_name: "ELEKTRA",
       project_description:
         "A ML powered Electricity Outage prediction tool. In India, there is a problem of Electricity Outage every now and then, especially in some states. So, we want to build a web app wherein people are able to report the electricity outages in their area of the city, in response to which the Electricity Department will try to track and solve the fault and we are able to monitor and predict the frequency of Electricity Outage in our area or in any part of the city.",
-      // vision_for_project:
-      //   "The focus of our project is to enable programmers to work offline at longer stretch and reduce the time spent on searching.",
+      vision_for_project: "https://youtu.be/a5x16WNZh1Y",
       technology_used: "Django, HTML, CSS, JS",
       repo_fullname: "khannakshat7/Elektra",
       // project_slack_channel: "proj_cosmos",
@@ -1552,8 +1527,7 @@ const project_list = {
       project_name: "Study Partner",
       project_description:
         "An application to manage Notes, Attendance, Reminders and much more Have trouble finding notes scattered all over your phone a day before the exam? Have to think twice before missing a class? Maybe your file manager is not capable of storing different types of notes in one place. No need to worry we have you covered. Study Partner does all this and much more. STUDY PARTNER helps you organize your student life just at your fingertips. An application to store NOTES, ATTENDANCE, REMINDERS, and much more. Coherent and utilitarian tool for storing notes. A true partner a student need. An application made for students by students.",
-      // vision_for_project:
-      //   "From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the app is made by the community for the community is something that shall add on to its elegance.",
+      vision_for_project: "https://youtu.be/QXch6D5Kkd8",
       technology_used: "Java, XML, GSON, Jetpack Navigation, MVC",
       repo_fullname: "krayong/Study_Partner",
       // project_slack_channel: "proj_girlscriptcommunityapp",
@@ -1587,8 +1561,7 @@ const project_list = {
       project_name: "Certificate Generation and Verification System",
       project_description:
         "Certificate Generation and Verification System project aims in developing a computerized system to maintain and generate the certificate. It has admin login through which the admin can monitor the whole system .It also has a facility where user after logging in their account can monitor and generate certificate to their particular user. Admin will manage user logins, will have option to deactivate any user. Every time any changes is done an automated email will be sent depending on the update. Overall this project is being developed to help the users in the best way possible and also to reduce the human efforts.",
-      // vision_for_project:
-      //   "I envisioned the project to solve the problems faced by 21st-century learners. A modern learner finds a flood of resources from Google Search but doesn't always find the right resources since it's the website with the best SEO (search engine optimisation) that wins. There are so many free resources available on the internet made by experts in their field and yet we pay for outdated courses promoted by big companies and universities.  With Footsteps, we take a mentor/subject knowledge expert first approach to solve the problem. The domain experts save their learning journey with our app and browser extension & make it available for everyone else to follow. Every resource is called a 'footstep' (added in a chronological manner) and a collection of footsteps makes up a learning path. The learner can \"fork\" the learning path made by the expert and keep a track of his progress. The app suggests resources & keeps an updated list with users upvotes & collaborative filtering.  Upcoming features include: 1) Ability to make the path private/public. 2) The ability to \"fork\" a learning path & suggest changes. 3) A collaborative filtering recommendation system for recommending the right resources to a learner. 4) Ability to save your progress in a learning path.",
+      vision_for_project: "https://youtu.be/grXypg1-Uc0",
       technology_used: "Flask, Bootstrap, Python, JavaScript",
       repo_fullname: "vigneshshettyin/Flask-Generate-Certificate",
       // project_slack_channel: "proj_footsteps-app",
@@ -1628,8 +1601,7 @@ const project_list = {
       project_name: "Gurujii",
       project_description:
         "This is a MERN stack web development project. Which solves a real-world problem. In any city, there are various tuition teachers for school going students, but the students are confused, like to which teacher they should go, for their classes? who is the best teacher for them? This project solves that problem, now the teachers globally could register on it by making a profile using Google login, and then telling about their qualifications, experience, teaching style, and locality. It sends a welcome and a farewell email to the teacher's mail ID with which they are logged in, when they create and delete their profile. Students could go to the same platform and filter the list of teachers on the basis of their locality, subjects they want to learn, and the class they are in. Moreover, if any teacher wants to edit the details of their profile then it is also possible, after clicking on the edit profile button a form with the existing details opens, now he/she could edit the details at their comfort and submit the form.",
-      // vision_for_project:
-      //   "I envisioned the project to solve the problems faced by 21st-century learners. A modern learner finds a flood of resources from Google Search but doesn't always find the right resources since it's the website with the best SEO (search engine optimisation) that wins. There are so many free resources available on the internet made by experts in their field and yet we pay for outdated courses promoted by big companies and universities.  With Footsteps, we take a mentor/subject knowledge expert first approach to solve the problem. The domain experts save their learning journey with our app and browser extension & make it available for everyone else to follow. Every resource is called a 'footstep' (added in a chronological manner) and a collection of footsteps makes up a learning path. The learner can \"fork\" the learning path made by the expert and keep a track of his progress. The app suggests resources & keeps an updated list with users upvotes & collaborative filtering.  Upcoming features include: 1) Ability to make the path private/public. 2) The ability to \"fork\" a learning path & suggest changes. 3) A collaborative filtering recommendation system for recommending the right resources to a learner. 4) Ability to save your progress in a learning path.",
+      vision_for_project: "https://youtu.be/oygxPVBOXVg",
       technology_used: "MERN-stack",
       repo_fullname: "Namanl2001/MERN-Gurujii-dev",
       // project_slack_channel: "proj_footsteps-app",
@@ -1743,8 +1715,7 @@ const project_list = {
       project_name: "Kitabe",
       project_description:
         "Book Recommendation System built for Book Lovers📖. Simply Rate ⭐ some books and get immediate recommendations.",
-      // vision_for_project:
-      //   "A team and set of tools to guide and get curious beginners into tech! It is specially for training students to be industry ready with skills on MERN Stack and LAMP Stack.",
+      vision_for_project: "https://youtu.be/N2179jIbijw",
       technology_used:
         "HTML, CSS, JavaScript, Python, Django, Surprise",
       repo_fullname: "Praful932/Kitabe",
@@ -1776,7 +1747,7 @@ const project_list = {
       project_name: "Jssconnect",
       project_description:
         "Provides a common platform to all the students of JSSATE(and other engineering colleges) to connect with each other , find all study related resources (can even contribute some) , read and add blogs . Engineering students can *Get books, notes and previous year papers. *Read and write Blogs that will help you and others too. *With our Built in Blog Previewer you can customize and design your blog in a way that seems more appealing and interesting. *Resources like books and notes(pdfs) sharing made easier. So you can help us in providing Resources that are helpful to engineering students.",
-      // vision_for_project:
+      vision_for_project: "https://youtu.be/prXRpP6URgU",
       //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
       technology_used: "Node JS, Express JS, Mongo DB, EJS, HTML5, CSS3, JAVASCRIPT",
       repo_fullname: "threefreespirited/Jssconnect",
