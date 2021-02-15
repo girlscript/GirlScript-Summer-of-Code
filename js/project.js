@@ -4,8 +4,8 @@ function displayModalData(ele) {
 
   let modalTitle = document.querySelector('.gs-modal-name');
   let modalDesc = document.querySelector('.gs-modal-desc');
-  let modalVision = document.querySelector('.gs-modal-vision');
-  let modalVisionLink = document.querySelector('.gs-modal-vision');
+  let modalProject = document.querySelector('.gs-modal-project');
+  let modalProjectLink = document.querySelector('.gs-modal-project-link');
   let modalTech = document.querySelector('.gs-modal-tech');
   let modalRepo = document.querySelector('.gs-modal-repo');
   let modalRepoLink = document.querySelector('.gs-repo-link');
@@ -29,8 +29,8 @@ function displayModalData(ele) {
   modalRepoLink.setAttribute('href', `https://github.com/${p_data.repo_fullname}`);
   modalOwner.innerHTML = `<span class="iconify" data-icon="octicon:mark-github" data-inline="false"></span>${p_data.owner_name}`;
   modalOwnerLink.setAttribute('href', `https://github.com/${p_data.github_username}`);
-  modalVision.innerText = `${p_data.vision_for_project}`;
-  modalVisionLink.setAttribute('href', `${p_data.vision_for_project}`);
+  modalProject.innerText = `${p_data.project_video_link}`;
+  modalProjectLink.setAttribute('href', `${p_data.project_video_link}`);
   modalMentorsTitle.innerText = `${p_data.mentors_id.length != 0? 'Mentors':''}`;
   modalMentors.innerHTML = p_data.mentors_id.map(ele => {
     return `
