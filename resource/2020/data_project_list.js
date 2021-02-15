@@ -191,7 +191,7 @@ const project_list = {
     {
       project_id: 6,
       owner_name: "Akshita Gupta",
-      github_username: "xlogix",
+      github_username: "akshitagupta15june",
       project_name: "Face-X",
       project_description:
         "Demonstration of different algorithms and operations on faces. Despite a variety of open-source face recognition frameworks available, there was no ready-made solution to implement. So In this project all kind of algorithms are implemented and even with various operations that can be implemented in a frontal face.",
@@ -417,7 +417,7 @@ const project_list = {
     {
       project_id: 11,
       owner_name: "Pranav Mendiratta",
-      github_username: "ALPHAVIO",
+      github_username: "Pranav016",
       project_name: "BlogSite",
       project_description: "This is a dynamically updating Blog posting website developed primarily using HTML, CSS with EJS template engine, Node JS and Mongoose as ODM(Object Data Modeling library). It has been deployed using Heroku.",
       // vision_for_project:
@@ -1380,7 +1380,7 @@ const project_list = {
       // vision_for_project:
       //   "I see this project turning into a simple, effective, easy to use and attractive employee management platform that can be used easily on different devices. ",
       technology_used:
-        "Flutter",
+        "Android, IOS, Cross-Platform, Algorithms, Mathematics, Physics, Simulations, Flutter, Dart, Visualizations",
       repo_fullname: "cod-ed/simulate",
       // project_slack_channel: "proj_bossy",
       github: "https://github.com/cod-ed/simulate",
@@ -1755,31 +1755,811 @@ const project_list = {
       github: "https://github.com/threefreespirited/Jssconnect",
           email: "harshitsharma9270@gmail.com",
       mentors_id: [
-        {
-          name: "Jayshree Panda",
-          github: "https://github.com/Jayashree-panda",
-          email: "jayashreepanda12345@gmail.com ",
-          slackId: "UUC8L15G8",
-        },
-        {
-          name: "Avikant Wadhwa",
-          github: "https://github.com/avikantwadhwa",
-          email: "avikantwadhwa@gmail.com",
-          slackId: "UTZH4BELS",
-        },
-        {
-          name: "Laveesh  Gupta",
-          github: "https://github.com/laveesh",
-          email: "laveeshgupta@gmail.com",
-          slackId: "UU0PYRJ3V",
-        },
-        {
-          name: "Surisetty Harshavardhan",
-          github: "https://github.com/harsha-iiiv",
-          email: "201752039@iiitvadodara.ac.in",
-          slackId: "UUE2B5JHM",
-        },
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
       ],
     },
+    {
+      project_id: 44,
+      owner_name: "Yash Kumar Verma",
+      github_username: "uniauth",
+      project_name: "UniAuth",
+      project_description:
+        "UniAuth is a suite of services that allows anyone to launch a secure, stable, private, and customizable identity manager within seconds, something that organizations desperately need. It packs a fully functional OAuth Server written in JS, and client libraries are being written in numerous languages to allow swift integration with any framework. UniAuth stands for security and allows organizations to deploy their own sign-in services comparable to Google-SignIn. There is no central data storage or governing body to restrict its privacy-first model, and provisions to compete with big industry players, the open-source way.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "MERN, Golang, Python Java, Kotlin, Swift",
+      repo_fullname: "uniauth",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/uniauth",
+          email: "yk.verma2000@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 45,
+      owner_name: "Manvi Tyagi",
+      github_username: "Girl-Code-It",
+      project_name: "Opportunity Calendar (FrontEnd)",
+      project_description:
+        "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Frontend: Wireframing & Designing - AdobeXD Library - ReactJs Framework - React-Bootstrap",
+      repo_fullname: "Girl-Code-It/Opportunity-Calendar-Frontend",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/Girl-Code-It/Opportunity-Calendar-Frontend",
+          email: "manvityagi770@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 46,
+      owner_name: "Manvi Tyagi",
+      github_username: "Girl-Code-It",
+      project_name: "Opportunity Calendar (BackEnd)",
+      project_description:
+        "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Backend: Framework - Django Rest Framework Database - PostgreSQL Python - version 3.8.2",
+      repo_fullname: "Girl-Code-It/Opportunity-Calendar-Backend",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/Girl-Code-It/Opportunity-Calendar-Backend",
+          email: "manvityagi770@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 47,
+      owner_name: "Arya Soni",
+      github_username: "CodeTrophs",
+      project_name: "CodeTrophs",
+      project_description:
+        "CodeTrophs is an open source project that provides an interactive user interface for beginners and aims at bridging the gap between students and research professors worldwide. Moreover, the platform plans on acting as a helping hand to individuals who are preparing for the coding interviews, providing them with real live interview experience. A distinguished point for the users is the application distinction feature that we provide to our users. This entails the bifurcation of projects based on the categorical arrangement in the language in which the code is written and its implementation for example, as kotlin links to android as python links to machine learning. The user will be able to save the repository that he/she wishes to explore more in their dashboard. The UI provides the user with the number of PR’s and issues in the repository that he/she is viewing. We are also expanding into the field of AI. We are aiming at making a feature on the platform that allows the student looking to intern under a professor to select a professor by assisting them with the professor's field of study, research papers and field of expertise, assigning each of his papers with specific tags given by the model and an abstract about each paper. Further we are opening a whole new avenue for the professors who are bombarded with emails from students willing to under him/her. This will be done by a list based on the professor's requirements from the student on the basis of his/her profile containing the skills, GPA, field of interest in a well categorised format created by them. In-short we are bridging the gap between a professor and a student, To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "React.js , Next.js , MongoDB , Node.js .",
+      repo_fullname: "CodeTrophs",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/CodeTrophs",
+          email: "aryasoni98@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 48,
+      owner_name: "IndianOpenSourceFoundation",
+      github_username: "IndianOpenSourceFoundation",
+      project_name: "Dynamic-CLI",
+      project_description:
+        "A command line utility that can connect to an external databases, also fetch suggestions from different developer communities like stack-overflow and Reddit.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Python",
+      repo_fullname: "IndianOpenSourceFoundation/dynamic-cli",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/IndianOpenSourceFoundation/dynamic-cli",
+          email: "aryasoni98@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 49,
+      owner_name: "Harsh Bardhan Mishra",
+      github_username: "harshcasper",
+      project_name: "SpeakEd",
+      project_description:
+        "SpeakEd is a Community Platform developed for Community Leads and Volunteers as well as Speakers to come on a single Unified Platforms leading to greater visibility, helping you to find the right Speaker for your Event. With an integrated Portfolio Feature for Speakers, you would be able to find the Events, Workshops or Podcasts they have spoken at, and will allow you to contact them at ease in a secure manner. Speakers would be able to build their Portfolio around this, showcasing the speaking skills they have got along with the expertise and clarity that possess while teaching or instructing someone. This Community Application would allow Speakers to connect with Community Leads/Volunteers over their love for Community Building and helping out each other in an effective way, benefitting the Community in the longer run.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "MongoDB, Flask, ReactJS, AWS, Github Actions",
+      repo_fullname: "harshcasper/speaked",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/harshcasper/speaked",
+          email: "erbeusgriffincasper@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 50,
+      owner_name: "Vaibhav Arra",
+      github_username: "CodeFlow201",
+      project_name: "Forest Tree Tagging",
+      project_description:
+        "In forests or any locality, maintaining the count of tree and diversity of species is a very significant task, For making this task to be done in an efficient way, we propose this project, in which the official responsible for this task could use this interface to tag the tree by arguments: tree species, exact location( by OCR), and more. Initially, data is stored locally, but once the device gets a network it is uploaded to the main database.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Flutter, Python, Django",
+      repo_fullname: "CodeFlow201/forestTreesTagging",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/CodeFlow201/forestTreesTagging",
+          email: "aroravaibhav102@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 51,
+      owner_name: "Rhythm Agrawal",
+      github_username: "rhythm98",
+      project_name: "Food Ordering Application for cloud kitchen",
+      project_description:
+        "A beginner friendly project which helps you to create a green corridor so that your meal can be delivered to you in a very efficient manner :)",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "MERN Stack - Web",
+      repo_fullname: "rhythm98/Food-Ordering-Application",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/rhythm98/Food-Ordering-Application",
+          email: "rhythm.agrawal98@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 52,
+      owner_name: "Rhythm Agrawal",
+      github_username: "rhythm98",
+      project_name: "Food Ordering Application for cloud kitchen",
+      project_description:
+        "A beginner friendly project which helps you to create a green corridor so that your meal can be delivered to you in a very efficient manner :)",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Android Native (Kotlin)",
+      repo_fullname: "rhythm98/Food_Ordering_App",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/rhythm98/Food_Ordering_App",
+          email: "rhythm.agrawal98@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 54,
+      owner_name: "Rituraj Jain",
+      github_username: "riturajjain2000",
+      project_name: "CSwala-android",
+      project_description:
+        "An app that is a one-stop destination for all the CS enthusiasts, providing resources like best YT channels, courses available free-of-cost, etc.  & knowledge about every domain and field that exists on the Internet related to Computer Science along with News, Jobs, and Internships opportunities in these domains along with valuable tips and hacks from mentors for a particular domain.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Android, Kotlin/Java, XML, Firebase Real Time Database, Firebase Fire Store, Firebase Authentication, Google Analytics, Material I/O",
+      repo_fullname: "CSwala/CSwala-android",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/CSwala/CSwala-android",
+          email: "rrjain20122000@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 55,
+      owner_name: "Vishal",
+      github_username: "Vishal-raj-1",
+      project_name: "Awesome JavaScript Projects",
+      project_description:
+        "I am Open Source Enthusiasts. I know the value of open source programs. I want to aware more and more students toward open sourcing.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "HTML5, CSS, Vanilla JS, Bootstrap",
+      repo_fullname: "Vishal-raj-1/Awesome-JavaScript-Projects",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/Vishal-raj-1/Awesome-JavaScript-Projects",
+          email: "rajputvishal33786@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 56,
+      owner_name: "Ankit Dobhal",
+      github_username: "ankitdobhal",
+      project_name: "Ashok",
+      project_description:
+        "Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned .So Ashok is one of the Incredible & fastest recon tool for penetration tester which is specially designed for Reconnaissance phase. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Python3, Docker, LInux, Shell Scripting",
+      repo_fullname: "ankitdobhal/Ashok",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/ankitdobhal/Ashok",
+          email: "dobhal.ankit@protonmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 57,
+      owner_name: "Altamas Bari",
+      github_username: "Developer-Student-Clubs-VSSUT-Burla",
+      project_name: "College Comrade",
+      project_description:
+        "A student portal application for University students. It's an ALL-IN-ONE app. Notes, syllabus, holiday list you name it. The whole idea revolves around making students life a whole lot easier.  Its exciting features enables a user to upload timetable(image or document) which can be converted into Attendance Manager. It also tags along a handy to-do list to keep you on track. Students can also share cool hangout places nearby.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Android, Java, Firebase",
+      repo_fullname: "Developer-Student-Clubs-VSSUT-Burla/College-Comrade",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/Developer-Student-Clubs-VSSUT-Burla/College-Comrade",
+          email: "altamasbari@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 58,
+      owner_name: "Rittik Biswal",
+      github_username: "Developer-Student-Clubs-VSSUT-Burla",
+      project_name: "CamOps",
+      project_description:
+        "This project is developed to count the number of faces in a live video stream captured from the phone camera . This is implemented using Haar Cascading library of OpenCv module in Java Android . The best part is that the app works completely offline . Future prospects include applying image processing algorithms on the captured live stream , image modifications such as size and format as well as saving the captured image .",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Java , OpenCV , Android",
+      repo_fullname: "Developer-Student-Clubs-VSSUT-Burla/CamOps",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/Developer-Student-Clubs-VSSUT-Burla/CamOps",
+          email: "rittikbiswal2000@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 59,
+      owner_name: "Aditya Bisoi",
+      github_username: "adityabisoi",
+      project_name: "REST-fetch",
+      project_description:
+        "A community-owned REST API service for testers and developers. Fetch provides REST API endpoints for different types of placeholders, which can be easily used during testing and development without the need for creating sample data manually. It aims to create a free-for-all REST API service that is open-sourced so that developers can have the ease of making feature requests for a new end-point, or report a security bug. The code should be explicit and easy to contribute to for beginners with no or less apparent knowledge of REST APIs. The standalone API endpoints should be easy to use during development, with minimal setup effort.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "NodeJS, MongoBD, REST API, TypeScript, JavaScript, CI/CD, ReactJS",
+      repo_fullname: "adityabisoi/REST-fetch",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/adityabisoi/REST-fetch",
+          email: "adityabisoi1999@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 60,
+      owner_name: "Gagandeep Singh",
+      github_username: "codezonediitj",
+      project_name: "PyDataStructs",
+      project_description:
+        "Currently, the project aims to be a Python package for various data structures in computer science. Besides, we are also working on including parallel algorithms. To the best of our knowledge, a well-designed library/package which has covered most of the data structures and algorithms including their parallel implementation doesn't exist. In future, i.e, after a few releases of the package when the software design will become stable, we also aim to provide APIs for the code in C++ and Java as well.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Python 3.0, Git",
+      repo_fullname: "codezonediitj/pydatastructs",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/codezonediitj/pydatastructs",
+          email: "gdp.1807@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 61,
+      owner_name: "Ankita Puri",
+      github_username: "ankitapuri",
+      project_name: "Pixelvibe",
+      project_description:
+        "A front end project where a user can create his pixel artwork and also save for future. Moreover it can also convert an imported image from the desktop into pixel format .",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Front-End Web tools",
+      repo_fullname: "ankitapuri/pixelvibe",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/ankitapuri/pixelvibe",
+          email: "puriankita30@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 62,
+      owner_name: "Chiraag Kakar",
+      github_username: "chiraag-kakar",
+      project_name: "Share N Learn",
+      project_description:
+        "Share N Learn is a Common Platform for Students & Faculties to upload and share - files including all sorts of study material which will be accessible to all the registered members built using Django Framework. The Goal of the project is to create a secure and scalable platform common to both college students and faculties so that they can easily share the files / resources related to coursework , Competitive exams and others hence reducing the dependency on social media platforms. In future the platform can also serve as an e-library for the college students.",
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: " HTML5, CSS3, JS, JQuery, Bootstrap, Backend : Python(Django), Database : Sqlite3 (will be migrated to Postgres soon)",
+      repo_fullname: "chiraag-kakar/sharenlearn",
+      // project_slack_channel: "proj_mentorfix",
+      github: "https://github.com/chiraag-kakar/sharenlearn",
+          email: "ck2222@cse.jgec.ac.in",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    {
+      project_id: 63,
+      owner_name: "Masudha Meher",
+      github_username: "N/A",
+      project_name: "Artseum",
+      project_description:
+        "The main problem that the art community now a days face is exposure. Being an artist myself, I know how hard it is to gather enough audience to showcase your artworks and even if you manage to do so, there is no way you will get 100% honest insights. Almost all of the world's population is now on the internet and yet, it is hard to find a perfect audience that has a keen eye for art. Instagram, for example, gives enough platform to artists to showcase their work but due to lack of a proper showcasing algorithm, artists somehow get lost in the crowd. Artseum solves such problems. It is an application where artists can browse, share and sell artwork. Since the users are artists themselves, the feedback is honest. It also allows the users to create a moodboard of artworks they like for inspiration, thus, solving another one of art related problems called 'Art Block'. Furthermore, the users can directly connect to the art community to stay up to date with upcoming trends and styles and with the help of a dedicated news panel, the users will get updates regarding upcoming art events, or helpful art tips by renowned artists. In addition to the above features, Artseum also allows the users to build a creative resume comprising of their best artworks, making it easy for the companies to hire them. Four specific functions : Browse and Share Artworks, Buy and Sell Artworks, Create a moodboard for inspiration, Build creative resume comprising of user's best artworks. ",				
+      // vision_for_project:
+      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      technology_used: "Flutter, Nodejs or Firebase",
+      repo_fullname: "N/A",
+      // project_slack_channel: "proj_mentorfix",
+      github: "N/A",
+          email: "kasturimeh@gmail.com",
+      mentors_id: [
+        // {
+        //   name: "Jayshree Panda",
+        //   github: "https://github.com/Jayashree-panda",
+        //   email: "jayashreepanda12345@gmail.com ",
+        //   slackId: "UUC8L15G8",
+        // },
+        // {
+        //   name: "Avikant Wadhwa",
+        //   github: "https://github.com/avikantwadhwa",
+        //   email: "avikantwadhwa@gmail.com",
+        //   slackId: "UTZH4BELS",
+        // },
+        // {
+        //   name: "Laveesh  Gupta",
+        //   github: "https://github.com/laveesh",
+        //   email: "laveeshgupta@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+        // },
+        // {
+        //   name: "Surisetty Harshavardhan",
+        //   github: "https://github.com/harsha-iiiv",
+        //   email: "201752039@iiitvadodara.ac.in",
+        //   slackId: "UUE2B5JHM",
+        // },
+      ],
+    },
+    
   ],
 };
