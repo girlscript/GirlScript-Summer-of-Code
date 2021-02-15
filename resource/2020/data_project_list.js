@@ -2485,8 +2485,7 @@ const project_list = {
       project_name: "Share N Learn",
       project_description:
         "Share N Learn is a Common Platform for Students & Faculties to upload and share - files including all sorts of study material which will be accessible to all the registered members built using Django Framework. The Goal of the project is to create a secure and scalable platform common to both college students and faculties so that they can easily share the files / resources related to coursework , Competitive exams and others hence reducing the dependency on social media platforms. In future the platform can also serve as an e-library for the college students.",
-      // vision_for_project:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      vision_for_project: "https://youtu.be/8sBOdGHHJkc",
       technology_used: " HTML5, CSS3, JS, JQuery, Bootstrap, Backend : Python(Django), Database : Sqlite3 (will be migrated to Postgres soon)",
       repo_fullname: "chiraag-kakar/sharenlearn",
       // project_slack_channel: "proj_mentorfix",
@@ -2526,8 +2525,7 @@ const project_list = {
       project_name: "Artseum",
       project_description:
         "The main problem that the art community now a days face is exposure. Being an artist myself, I know how hard it is to gather enough audience to showcase your artworks and even if you manage to do so, there is no way you will get 100% honest insights. Almost all of the world's population is now on the internet and yet, it is hard to find a perfect audience that has a keen eye for art. Instagram, for example, gives enough platform to artists to showcase their work but due to lack of a proper showcasing algorithm, artists somehow get lost in the crowd. Artseum solves such problems. It is an application where artists can browse, share and sell artwork. Since the users are artists themselves, the feedback is honest. It also allows the users to create a moodboard of artworks they like for inspiration, thus, solving another one of art related problems called 'Art Block'. Furthermore, the users can directly connect to the art community to stay up to date with upcoming trends and styles and with the help of a dedicated news panel, the users will get updates regarding upcoming art events, or helpful art tips by renowned artists. In addition to the above features, Artseum also allows the users to build a creative resume comprising of their best artworks, making it easy for the companies to hire them. Four specific functions : Browse and Share Artworks, Buy and Sell Artworks, Create a moodboard for inspiration, Build creative resume comprising of user's best artworks. ",				
-      // vision_for_project:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      vision_for_project: "https://youtu.be/3EEs6uL7tLM",
       technology_used: "Flutter, Nodejs or Firebase",
       repo_fullname: "N/A",
       // project_slack_channel: "proj_mentorfix",
