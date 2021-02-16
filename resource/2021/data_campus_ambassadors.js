@@ -550,16 +550,6 @@ const campus_ambassadors = {
         }
       },
       {
-        "name": "Anurag Tiwari",
-        "college": "Academy Of Technology",
-        "city": "Kolkata",
-        "email": "anurag.tiwari.20@aot.edu.in",
-        "image": "images/campus_ambassador/2021/IMG20210121091104 - Anurag Tiwari.jpg",
-        "social": {
-          "linkedin": "https://www.linkedin.com/in/anurag-tiwari-317b741b9"
-        }
-      },
-      {
         "name": "Dhanush Vasudevaraju ",
         "college": "Ks School Of Engineering And Management ",
         "city": "Bengaluru ",
