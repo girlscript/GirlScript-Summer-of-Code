@@ -655,6 +655,7 @@ const campus_ambassadors = {
         "city": "Silchar",
         "email": "sidkamalapuri@gmail.com",
         "image": "images/campus_ambassador/2021/IMG20190301134142 - Amar Kamalapuri.jpg",
+        "social": {}
       },
       {
         "name": "Omar Elsherif",
@@ -685,7 +686,8 @@ const campus_ambassadors = {
         "college": "Pes University",
         "city": "Bangalore",
         "email": "sreyahsri@gmail.com",
-        "image": "images/campus_ambassador/2021/IMG20191229175317 - Sreyahsri S.jpg"
+        "image": "images/campus_ambassador/2021/IMG20191229175317 - Sreyahsri S.jpg",
+        "social": {}
       },
       {
         "name": "Meera Jayaram",
