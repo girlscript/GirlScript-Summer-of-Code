@@ -1237,41 +1237,6 @@ const project_list = {
     },
     {
       project_id: 30,
-      owner_name: "Rohit Singh Rathaur",
-      github_username: "osDFS",
-      project_name: "YouthIcon",
-      project_description:
-        "YouthIcon as the name suggest will be a research effort for NLP for Indian languages that is LOW RESOURCED, OPEN SOURCE, CONTRY-WIDE, DISTRIBUTED and ONLINE. The YouthIcon will contain the data, code, results and research for building open baseline NLP results for Indian languages. YouthIcon-MT will contain the Machine Transaltion model. As Machine Translation (MT), an application area of Natural Language Processing (NLP) and a subfield of computational linguistics, facilitates automated translation of text or speech in a source natural language to corresponding text or speech in a different target natural language. Language incomprehensibility has wide-ranging adverse impacts on several aspects of human living, and the same can be reasonably alleviated with effective use of MT. Besides, the crucial idea of MT is to bridge communication barriers among people from different linguistic backgrounds. YouthIcon project will run under osDFS.",
-      // project_video_link:
-      //   "The project have not been built as of yet and will be started from grounds up. It must go through following phases 1. Start out with Scrappers for websites like wikicfp and guide2research. Establish a common format for conference data for the system. 1.Build a test server with support for query on indexed data of scrapper. 2. Create user front end for web users along with creating the api for interaction for interactions from other platforms.  The project must have the basic feature 1. Backend: It should be able to index and catalogue various conference data from other sites, handle duplicates and have consistent view. 2. Frontend: A user should be able to view tag and set recurring reminder for conferences.  Future prospect and features:  1. Backend should be able to update the dates from the original website automatically and create push notifications for same. 2. Using message brokers update users on update of the dates.",
-      technology_used: "PyTorch, Tensorflow, Python, ML, DL, NLP",
-      repo_fullname: "osDFS/YouthIcon",
-      // project_slack_channel: "proj_conference-notify",
-      github: "https://github.com/osDFS/YouthIcon",
-          email: "rohitrathore.imh55@gmail.com",
-      mentors_id: [
-        // {
-        //   name: "Maham Arif",
-        //   github: "https://github.com/MahamArif",
-        //   email: "mahamarif2197@gmail.com",
-        //   slackId: "UU1KYBHPT",
-        // },
-        // {
-        //   name: "Anoop Singh",
-        //   github: "https://github.com/anoopsingh1996",
-        //   email: "anoopraghuvansi@gmail.com",
-        //   slackId: "UUBSA2L1J",
-        // },
-        // {
-        //   name: "Sagar",
-        //   github: "https://github.com/sagar-sehgal",
-        //   email: "sagar.r16@iiits.in",
-        //   slackId: "UU1QSQ4P3",
-        // },
-      ],
-    },
-    {
-      project_id: 31,
       owner_name: "Harsh Bardhan Mishra",
       github_username: "TesseractCoding",
       project_name: "NeoAlgo",
@@ -1324,7 +1289,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 32,
+      project_id: 31,
       owner_name: "Chetna Sharma",
       github_username: "",
       project_name: "Alumni Connect",
@@ -1371,7 +1336,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 33,
+      project_id: 32,
       owner_name: "Yashu Garg",
       github_username: "cod-ed",
       project_name: "Simulate",
@@ -1406,7 +1371,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 34,
+      project_id: 33,
       owner_name: "Aswin Gopinathan",
       github_username: "infiniteoverflow",
       project_name: "Libro",
@@ -1446,7 +1411,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 35,
+      project_id: 34,
       owner_name: "Shagun Goyal",
       github_username: "shagun25",
       project_name: "SheHeroes",
@@ -1487,7 +1452,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 36,
+      project_id: 35,
       owner_name: "Akshat Khanna",
       github_username: "khannakshat7",
       project_name: "ELEKTRA",
@@ -1521,7 +1486,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 37,
+      project_id: 36,
       owner_name: "Karan Gourisaria",
       github_username: "krayong",
       project_name: "Study Partner",
@@ -1555,7 +1520,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 38,
+      project_id: 37,
       owner_name: "Vignesh",
       github_username: "vigneshshettyin",
       project_name: "Certificate Generation and Verification System",
@@ -1595,7 +1560,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 39,
+      project_id: 38,
       owner_name: "Naman Lakhwani",
       github_username: "Namanl2001",
       project_name: "Gurujii",
@@ -1635,7 +1600,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 40,
+      project_id: 39,
       owner_name: "Vikas",
       github_username: "vikasdo",
       project_name: "Retailer Book recommendation analysis",
@@ -1676,7 +1641,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 41,
+      project_id: 40,
       owner_name: "Pooja Mittal",
       github_username: "PoojaMittal2842",
       project_name: "Delhi tourism",
@@ -1709,7 +1674,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 42,
+      project_id: 41,
       owner_name: "Praful Mohanan & Prajakta Mane",
       github_username: "Praful932",
       project_name: "Kitabe",
@@ -1741,7 +1706,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 43,
+      project_id: 42,
       owner_name: "Harshit Sharma",
       github_username: "threefreespirited",
       project_name: "Jssconnect",
@@ -1782,7 +1747,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 44,
+      project_id: 43,
       owner_name: "Yash Kumar Verma",
       github_username: "uniauth",
       project_name: "UniAuth",
@@ -1823,7 +1788,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 45,
+      project_id: 44,
       owner_name: "Manvi Tyagi",
       github_username: "Girl-Code-It",
       project_name: "Opportunity Calendar (FrontEnd)",
@@ -1864,7 +1829,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 46,
+      project_id: 45,
       owner_name: "Manvi Tyagi",
       github_username: "Girl-Code-It",
       project_name: "Opportunity Calendar (BackEnd)",
@@ -1905,7 +1870,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 47,
+      project_id: 46,
       owner_name: "Arya Soni",
       github_username: "CodeTrophs",
       project_name: "CodeTrophs",
@@ -1946,7 +1911,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 48,
+      project_id: 47,
       owner_name: "IndianOpenSourceFoundation",
       github_username: "IndianOpenSourceFoundation",
       project_name: "Dynamic-CLI",
@@ -1987,7 +1952,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 49,
+      project_id: 48,
       owner_name: "Harsh Bardhan Mishra",
       github_username: "harshcasper",
       project_name: "SpeakEd",
@@ -2028,7 +1993,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 50,
+      project_id: 49,
       owner_name: "Vaibhav Arra",
       github_username: "CodeFlow201",
       project_name: "Forest Tree Tagging",
@@ -2069,7 +2034,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 51,
+      project_id: 50,
       owner_name: "Rhythm Agrawal",
       github_username: "rhythm98",
       project_name: "Food Ordering Application for cloud kitchen",
@@ -2110,7 +2075,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 52,
+      project_id: 51,
       owner_name: "Rhythm Agrawal",
       github_username: "rhythm98",
       project_name: "Food Ordering Application for cloud kitchen",
@@ -2151,7 +2116,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 54,
+      project_id: 52,
       owner_name: "Rituraj Jain",
       github_username: "riturajjain2000",
       project_name: "CSwala-android",
@@ -2192,7 +2157,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 55,
+      project_id: 53,
       owner_name: "Vishal",
       github_username: "Vishal-raj-1",
       project_name: "Awesome JavaScript Projects",
@@ -2233,7 +2198,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 56,
+      project_id: 54,
       owner_name: "Ankit Dobhal",
       github_username: "ankitdobhal",
       project_name: "Ashok",
@@ -2274,7 +2239,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 57,
+      project_id: 55,
       owner_name: "Altamas Bari",
       github_username: "Developer-Student-Clubs-VSSUT-Burla",
       project_name: "College Comrade",
@@ -2315,7 +2280,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 58,
+      project_id: 56,
       owner_name: "Rittik Biswal",
       github_username: "Developer-Student-Clubs-VSSUT-Burla",
       project_name: "CamOps",
@@ -2356,7 +2321,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 59,
+      project_id: 57,
       owner_name: "Aditya Bisoi",
       github_username: "adityabisoi",
       project_name: "REST-fetch",
@@ -2397,7 +2362,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 60,
+      project_id: 58,
       owner_name: "Gagandeep Singh",
       github_username: "codezonediitj",
       project_name: "PyDataStructs",
@@ -2438,7 +2403,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 61,
+      project_id: 59,
       owner_name: "Ankita Puri",
       github_username: "ankitapuri",
       project_name: "Pixelvibe",
@@ -2479,7 +2444,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 62,
+      project_id: 60,
       owner_name: "Chiraag Kakar",
       github_username: "chiraag-kakar",
       project_name: "Share N Learn",
@@ -2519,7 +2484,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 63,
+      project_id: 61,
       owner_name: "Masudha Meher",
       github_username: "N/A",
       project_name: "Artseum",
@@ -2559,7 +2524,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 64,
+      project_id: 62,
       owner_name: "AYAN BISWAS",
       github_username: "ayan-biswas0412",
       project_name: "HotelonTouch",
@@ -2599,7 +2564,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 65,
+      project_id: 63,
       owner_name: "Shankhanil Borthakur",
       github_username: "shankhanil007",
       project_name: "EduHelp",
@@ -2639,7 +2604,7 @@ const project_list = {
       ],
     },
     {
-      project_id: 66,
+      project_id: 64,
       owner_name: "Praveen Kumar Purushothaman",
       github_username: "praveenscience",
       project_name: "DevTernShip",
