@@ -7,8 +7,7 @@ const project_list = {
       project_name: "Manthan ",
       project_description:
         "We will provide an online testing platform which can be used to conduct tests wrapped with all necessary precautions to reduce the chances of cheating. Here the educator will can create classes and test on web portal and all the questions will be randomly distributed among the students resulting in large number of sets.",
-      // project_video_link:
-      //   "To share anyone's views and read other's opinion related to any topic. It is a way to connect with people and to know how the world is thinking",
+      project_video_link: "https://youtu.be/mWX6hYbJ5Ec",
       technology_used: "Mongodb, Reactjs, Expressjs, Nodejs",
       repo_fullname: "Manthan933/Manthan",
       // project_slack_channel: "proj_blogman",
@@ -1242,8 +1241,7 @@ const project_list = {
       project_name: "NeoAlgo",
       project_description:
         "The goal of this project is to have in a single place all possible algorithms and data structures - in multiple languages.",
-      // project_video_link:
-      //   "The tool is built to help the community with free books that are available in the online public libraries. The tool, under the hood, compiles all the book images/pdf and its meta data at one place where it can be accessed by anyone in the world.",
+      project_video_link: "https://youtu.be/fMkfU7GncQE",
       technology_used: "C++, C, Java, Javascript, Q#, Python, Kotlin, Markdown, Golang",
       repo_fullname: "TesseractCoding/NeoAlgo",
       // project_slack_channel: "proj_bookuploaderbot",
@@ -1713,7 +1711,6 @@ const project_list = {
       project_description:
         "Provides a common platform to all the students of JSSATE(and other engineering colleges) to connect with each other , find all study related resources (can even contribute some) , read and add blogs . Engineering students can *Get books, notes and previous year papers. *Read and write Blogs that will help you and others too. *With our Built in Blog Previewer you can customize and design your blog in a way that seems more appealing and interesting. *Resources like books and notes(pdfs) sharing made easier. So you can help us in providing Resources that are helpful to engineering students.",
       project_video_link: "https://youtu.be/prXRpP6URgU",
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
       technology_used: "Node JS, Express JS, Mongo DB, EJS, HTML5, CSS3, JAVASCRIPT",
       repo_fullname: "threefreespirited/Jssconnect",
       // project_slack_channel: "proj_mentorfix",
@@ -1753,8 +1750,7 @@ const project_list = {
       project_name: "UniAuth",
       project_description:
         "UniAuth is a suite of services that allows anyone to launch a secure, stable, private, and customizable identity manager within seconds, something that organizations desperately need. It packs a fully functional OAuth Server written in JS, and client libraries are being written in numerous languages to allow swift integration with any framework. UniAuth stands for security and allows organizations to deploy their own sign-in services comparable to Google-SignIn. There is no central data storage or governing body to restrict its privacy-first model, and provisions to compete with big industry players, the open-source way.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/EAShCWaWC0g",
       technology_used: "MERN, Golang, Python Java, Kotlin, Swift",
       repo_fullname: "uniauth",
       // project_slack_channel: "proj_mentorfix",
@@ -1835,8 +1831,7 @@ const project_list = {
       project_name: "Opportunity Calendar (BackEnd)",
       project_description:
         "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/AMFKx5RG5Ws",
       technology_used: "Backend: Framework - Django Rest Framework Database - PostgreSQL Python - version 3.8.2",
       repo_fullname: "Girl-Code-It/Opportunity-Calendar-Backend",
       // project_slack_channel: "proj_mentorfix",
@@ -1958,8 +1953,7 @@ const project_list = {
       project_name: "SpeakEd",
       project_description:
         "SpeakEd is a Community Platform developed for Community Leads and Volunteers as well as Speakers to come on a single Unified Platforms leading to greater visibility, helping you to find the right Speaker for your Event. With an integrated Portfolio Feature for Speakers, you would be able to find the Events, Workshops or Podcasts they have spoken at, and will allow you to contact them at ease in a secure manner. Speakers would be able to build their Portfolio around this, showcasing the speaking skills they have got along with the expertise and clarity that possess while teaching or instructing someone. This Community Application would allow Speakers to connect with Community Leads/Volunteers over their love for Community Building and helping out each other in an effective way, benefitting the Community in the longer run.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/GVU5_9RDpiA",
       technology_used: "MongoDB, Flask, ReactJS, AWS, Github Actions",
       repo_fullname: "harshcasper/speaked",
       // project_slack_channel: "proj_mentorfix",
@@ -2122,8 +2116,7 @@ const project_list = {
       project_name: "CSwala-android",
       project_description:
         "An app that is a one-stop destination for all the CS enthusiasts, providing resources like best YT channels, courses available free-of-cost, etc.  & knowledge about every domain and field that exists on the Internet related to Computer Science along with News, Jobs, and Internships opportunities in these domains along with valuable tips and hacks from mentors for a particular domain.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/dLgvWp7jiaI",
       technology_used: "Android, Kotlin/Java, XML, Firebase Real Time Database, Firebase Fire Store, Firebase Authentication, Google Analytics, Material I/O",
       repo_fullname: "CSwala/CSwala-android",
       // project_slack_channel: "proj_mentorfix",
@@ -2163,8 +2156,7 @@ const project_list = {
       project_name: "Awesome JavaScript Projects",
       project_description:
         "I am Open Source Enthusiasts. I know the value of open source programs. I want to aware more and more students toward open sourcing.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/YpufpDOuffQ",
       technology_used: "HTML5, CSS, Vanilla JS, Bootstrap",
       repo_fullname: "Vishal-raj-1/Awesome-JavaScript-Projects",
       // project_slack_channel: "proj_mentorfix",
@@ -2204,8 +2196,7 @@ const project_list = {
       project_name: "Ashok",
       project_description:
         "Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned .So Ashok is one of the Incredible & fastest recon tool for penetration tester which is specially designed for Reconnaissance phase. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/yIg4YRMsRN4",
       technology_used: "Python3, Docker, LInux, Shell Scripting",
       repo_fullname: "ankitdobhal/Ashok",
       // project_slack_channel: "proj_mentorfix",
@@ -2245,8 +2236,7 @@ const project_list = {
       project_name: "College Comrade",
       project_description:
         "A student portal application for University students. It's an ALL-IN-ONE app. Notes, syllabus, holiday list you name it. The whole idea revolves around making students life a whole lot easier.  Its exciting features enables a user to upload timetable(image or document) which can be converted into Attendance Manager. It also tags along a handy to-do list to keep you on track. Students can also share cool hangout places nearby.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/ZhvFX_iZLE4",
       technology_used: "Android, Java, Firebase",
       repo_fullname: "Developer-Student-Clubs-VSSUT-Burla/College-Comrade",
       // project_slack_channel: "proj_mentorfix",
@@ -2286,8 +2276,7 @@ const project_list = {
       project_name: "CamOps",
       project_description:
         "This project is developed to count the number of faces in a live video stream captured from the phone camera . This is implemented using Haar Cascading library of OpenCv module in Java Android . The best part is that the app works completely offline . Future prospects include applying image processing algorithms on the captured live stream , image modifications such as size and format as well as saving the captured image .",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/4Q9imPiNWcg",
       technology_used: "Java , OpenCV , Android",
       repo_fullname: "Developer-Student-Clubs-VSSUT-Burla/CamOps",
       // project_slack_channel: "proj_mentorfix",
@@ -2327,8 +2316,7 @@ const project_list = {
       project_name: "REST-fetch",
       project_description:
         "A community-owned REST API service for testers and developers. Fetch provides REST API endpoints for different types of placeholders, which can be easily used during testing and development without the need for creating sample data manually. It aims to create a free-for-all REST API service that is open-sourced so that developers can have the ease of making feature requests for a new end-point, or report a security bug. The code should be explicit and easy to contribute to for beginners with no or less apparent knowledge of REST APIs. The standalone API endpoints should be easy to use during development, with minimal setup effort.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/iafIbG0QB3w",
       technology_used: "NodeJS, MongoBD, REST API, TypeScript, JavaScript, CI/CD, ReactJS",
       repo_fullname: "adityabisoi/REST-fetch",
       // project_slack_channel: "proj_mentorfix",
@@ -2368,8 +2356,7 @@ const project_list = {
       project_name: "PyDataStructs",
       project_description:
         "Currently, the project aims to be a Python package for various data structures in computer science. Besides, we are also working on including parallel algorithms. To the best of our knowledge, a well-designed library/package which has covered most of the data structures and algorithms including their parallel implementation doesn't exist. In future, i.e, after a few releases of the package when the software design will become stable, we also aim to provide APIs for the code in C++ and Java as well.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/Pz9jtrsM30A",
       technology_used: "Python 3.0, Git",
       repo_fullname: "codezonediitj/pydatastructs",
       // project_slack_channel: "proj_mentorfix",
@@ -2409,8 +2396,7 @@ const project_list = {
       project_name: "Pixelvibe",
       project_description:
         "A front end project where a user can create his pixel artwork and also save for future. Moreover it can also convert an imported image from the desktop into pixel format .",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/-EsgG5ApIAI",
       technology_used: "Front-End Web tools",
       repo_fullname: "ankitapuri/pixelvibe",
       // project_slack_channel: "proj_mentorfix",
@@ -2530,7 +2516,7 @@ const project_list = {
       project_name: "HotelonTouch",
       project_description:
         "In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like laundry service, Room Service Management, Bar, Restraunt Order Management.There will be one customer end system and hotel end system and customer can request hotel for one of the above service. We will use the basic ReactJS, MongoDB and ExpressJS for the web development purpose and the entire project will be open source and free to use for the end users. This project aims to give a hands on experience to the beginners a hand on experience in the open source journey",				
-      // vision_for_project: "https://youtu.be/3EEs6uL7tLM",
+      project_video_link: "https://youtu.be/3EEs6uL7tLM",
       technology_used: "ReactJS, MongoDB and ExpressJS, Firebase",
       repo_fullname: "ayan-biswas0412/gssoc2021-HotelOnTouch",
       // project_slack_channel: "proj_mentorfix",
@@ -2570,7 +2556,7 @@ const project_list = {
       project_name: "EduHelp",
       project_description:
         "Our project intends to make it easier for a person with any challenge of sight, hearing or physical amputation to attend online classes, webinars or courses. It captures the audio, unique screenshots and generates lecture notes during any online class, conference, etc. The audio is converted to text and a file containing its summary in .txt format as well as a braille scripted file is saved. The audio files can be used by a blind person for taking note of what happened during the class. The screenshots are stored in a PDF file and can be used by a deaf person or any other person for revisiting concepts they might have missed during a class. A TicTacToe game that can be played with slight eye movements was also developed. This project has the potential to be upgraded to a full scale application, useful for persons with disability. Contributors would have a good scope of improving the frontend UI, improving speech-to-text summarization using NLP, gesture control, working on backend and lots more. This project has received the likes of many people and we would love to see our idea turn into a full-scale Desktop Application at the hands of Open Source.",				
-      // vision_for_project: "https://youtu.be/3EEs6uL7tLM",
+      project_video_link: "https://youtu.be/3EEs6uL7tLM",
       technology_used: "Python, OpenCV, NLTK, Electron.js ( Or any desktop app framework), speech-to-text",
       repo_fullname: "shankhanil007/DotSlash-4.0-EduHelp.git",
       // project_slack_channel: "proj_mentorfix",
@@ -2610,7 +2596,7 @@ const project_list = {
       project_name: "DevTernShip",
       project_description:
         "We are in the mission of solving a crisis for a lot of small and medium enterprises, who are trying to recruit interns for their projects. This platform aims to onboard new interns, who have applied to the companies and help them understand the process and make the transition smooth.",				
-      // vision_for_project: "https://youtu.be/3EEs6uL7tLM",
+      project_video_link: "https://youtu.be/3EEs6uL7tLM",
       technology_used: "React JS, HTML, CSS, JavaScript",
       repo_fullname: "praveenscience/Internship-LMS-FrontEnd",
       // project_slack_channel: "proj_mentorfix",
