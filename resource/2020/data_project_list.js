@@ -1201,7 +1201,7 @@ const project_list = {
       project_name: "Pentesting-and-Hacking-Scripts",
       project_description:
         "A curated collection of Pentesting-and-Hacking-Scripts for Script Kidde to Advance Pentesters. One Place for pentesting and hacking scripts to exploit vulnerablities of a system or pull a prank on friends computer.",
-      project_video_link: "ttps://youtu.be/eadYFek0J2U",
+      project_video_link: "https://youtu.be/eadYFek0J2U",
       technology_used: "Python, NodeJS, C, Go, Java, HTML, CSS, JS",
       repo_fullname: "dscciem/Pentesting-and-Hacking-Scripts",
       // project_slack_channel: "proj_root-the-box-ctf-framework",
@@ -1790,8 +1790,7 @@ const project_list = {
       project_name: "Opportunity Calendar (FrontEnd)",
       project_description:
         "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
+      project_video_link: "https://youtu.be/AMFKx5RG5Ws",
       technology_used: "Frontend: Wireframing & Designing - AdobeXD Library - ReactJs Framework - React-Bootstrap",
       repo_fullname: "Girl-Code-It/Opportunity-Calendar-Frontend",
       // project_slack_channel: "proj_mentorfix",
@@ -2516,7 +2515,7 @@ const project_list = {
       project_name: "HotelonTouch",
       project_description:
         "In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like laundry service, Room Service Management, Bar, Restraunt Order Management.There will be one customer end system and hotel end system and customer can request hotel for one of the above service. We will use the basic ReactJS, MongoDB and ExpressJS for the web development purpose and the entire project will be open source and free to use for the end users. This project aims to give a hands on experience to the beginners a hand on experience in the open source journey",				
-      project_video_link: "https://youtu.be/3EEs6uL7tLM",
+      project_video_link: "https://youtu.be/ZQyRe5jQ3Gs",
       technology_used: "ReactJS, MongoDB and ExpressJS, Firebase",
       repo_fullname: "ayan-biswas0412/gssoc2021-HotelOnTouch",
       // project_slack_channel: "proj_mentorfix",
@@ -2556,7 +2555,7 @@ const project_list = {
       project_name: "EduHelp",
       project_description:
         "Our project intends to make it easier for a person with any challenge of sight, hearing or physical amputation to attend online classes, webinars or courses. It captures the audio, unique screenshots and generates lecture notes during any online class, conference, etc. The audio is converted to text and a file containing its summary in .txt format as well as a braille scripted file is saved. The audio files can be used by a blind person for taking note of what happened during the class. The screenshots are stored in a PDF file and can be used by a deaf person or any other person for revisiting concepts they might have missed during a class. A TicTacToe game that can be played with slight eye movements was also developed. This project has the potential to be upgraded to a full scale application, useful for persons with disability. Contributors would have a good scope of improving the frontend UI, improving speech-to-text summarization using NLP, gesture control, working on backend and lots more. This project has received the likes of many people and we would love to see our idea turn into a full-scale Desktop Application at the hands of Open Source.",				
-      project_video_link: "https://youtu.be/3EEs6uL7tLM",
+      project_video_link: "https://youtu.be/K1oPvsSKjRk",
       technology_used: "Python, OpenCV, NLTK, Electron.js ( Or any desktop app framework), speech-to-text",
       repo_fullname: "shankhanil007/DotSlash-4.0-EduHelp.git",
       // project_slack_channel: "proj_mentorfix",
@@ -2596,7 +2595,7 @@ const project_list = {
       project_name: "DevTernShip",
       project_description:
         "We are in the mission of solving a crisis for a lot of small and medium enterprises, who are trying to recruit interns for their projects. This platform aims to onboard new interns, who have applied to the companies and help them understand the process and make the transition smooth.",				
-      project_video_link: "https://youtu.be/3EEs6uL7tLM",
+      project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
       technology_used: "React JS, HTML, CSS, JavaScript",
       repo_fullname: "praveenscience/Internship-LMS-FrontEnd",
       // project_slack_channel: "proj_mentorfix",
