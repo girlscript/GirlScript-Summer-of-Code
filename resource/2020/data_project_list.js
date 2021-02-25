@@ -1991,21 +1991,17 @@ const project_list = {
       github_username: "CodeFlow201",
       project_name: "Forest Tree Tagging",
       project_description:
-        "In forests or any locality, maintaining the count of tree and diversity of species is a very significant task, For making this task to be done in an efficient way, we propose this project, in which the official responsible for this task could use this interface to tag the tree by arguments: tree species, exact location( by OCR), and more. Initially, data is stored locally, but once the device gets a network it is uploaded to the main database.",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
-      technology_used: "Flutter, Python, Django",
+        "In this project, we are aiming to create an app (Android /Web) which could give user or forest official to have an tag over different species of trees and do data analysis over collected data. In this one could generate QR code for all trees one by one which would contain unique ID on local server and whole data on firebase.Further on proceeding to second element along wih making QR code we are having option to scan the QR code and locate all its discription. and also needs to locate it on live map once its being tagged and given unique id. In web app we will be training the model on data collected on single click functionality, taking predictions over updated model and that to on single click functionality.",// project_video_link:
+      technology_used: "Flutter, Machine Learning, Deep Learning",
       repo_fullname: "CodeFlow201/forestTreesTagging",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/CodeFlow201/forestTreesTagging",
-          email: "aroravaibhav102@gmail.com",
+      email: "aroravaibhav102@gmail.com",
       mentors_id: [
-        // {
-        //   name: "Jayshree Panda",
-        //   github: "https://github.com/Jayashree-panda",
-        //   email: "jayashreepanda12345@gmail.com ",
-        //   slackId: "UUC8L15G8",
-        // },
+         {
+           name: "Gautam Behal",
+           email: "gautambeha20@gmail.com",
+         },
         // {
         //   name: "Avikant Wadhwa",
         //   github: "https://github.com/avikantwadhwa",
