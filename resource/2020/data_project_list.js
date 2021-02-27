@@ -2904,5 +2904,308 @@ const project_list = {
         // },
       ],
     },
+    {
+      project_id: 72,
+      owner_name: "Avinash Kumar Ranjan",
+      github_username: "avinashkranjan",
+      project_name: "Amazing-Python-Scripts",
+      project_description:
+        "A curated collection of Amazing Python scripts from Basics to Advance with automation task scripts. This is your Personal space to find or add any new script that can make Life Easier for you, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.",
+      technology_used: "Python, HTML, CSS, JS",
+      repo_fullname: "avinashkranjan/Amazing-Python-Scripts",
+          email: "ranjan.avinash@hotmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 73,
+      owner_name: "Khushi Gautam, Shipra Verma",
+      github_username: "Feminine-Divine",
+      project_name: "Periodo - The tracker",
+      project_description:
+        "Our project focuses on the young girls who are going to face their first periods or the females who have been facing problems with tracking their period dates and remembering their dates and end up embarrassing themselves when they face their periods at wrong time at wrong places. Our application periodo can help these girls and women by keeping a track of their periods and notifying them on their upcoming dates along with keeping track on the level of flow of their periods also helping them with their correct diet in their period dates. We have planned to add more features in the application as it grows with the help of contributors. The Project is very beginner friendly to contribute to as well as has a user-friendly interface which can help in attracting young audience.",
+      technology_used: "Next-js, ReactJs, NodeJs, Html, Css, Javascript, Figma, bootsrap, Material-Ui, Webpack,",
+      repo_fullname: "Feminine-Divine/periodo",
+          email: "dpskhu13108@gmai.com, vaaishpra19@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 74,
+      owner_name: "Ayush Agarwal",
+      github_username: "aagarwal1012",
+      project_name: "Animated Text Kit",
+      project_description:
+        "Expanding the domain of the flutter package by adding more animated texts.",
+      technology_used: "Flutter",
+      repo_fullname: "aagarwal1012/Animated-Text-Kit",
+          email: "aagarwal9782@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 75,
+      owner_name: "Dhruv Kothari",
+      github_username: "kothariji",
+      project_name: "SyntaxMeets",
+      project_description:
+        "SyntaxMeets is a real-time, collaborative coding platform to group with other members and code. A user can create/join a room. A code editor with 19 language support and 10+ themes, code compiler, Drawing pad to design algorithm, Chat Box to discuss and code.",
+      technology_used: "React - Frontend, Express - Backend, Socket-IO for Web RTC",
+      repo_fullname: "kothariji/SyntaxMeets",
+          email: "kotharidhruv25@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 76,
+      owner_name: "Sruti Chatterjee",
+      github_username: "sruti2024",
+      project_name: "PRO_Act",
+      project_description:
+        "Pro_Act provides you with an efficient way of managing your tasks. It works on the principals of divide and conquer, allows the user to enter tasks and then divide them further into sub-tasks and handle them efficiently! Additional features of adding time limit for completion and updating the amount of work that has been completed .Best when working with a large team to be updated of the amount of work done and the amount of work left to be completed .",
+      technology_used: "Django ,Python, SQLite, html, CSS",
+      repo_fullname: "sruti2024/PRO_Act",
+          email: "srutichatterjee2024@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 77,
+      owner_name: "Arun Teltia",
+      github_username: "projectsakura",
+      project_name: "Project Sakura",
+      project_description:
+        "It is an open source custom rom building website that is being used by thousands of people and more than 70 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
+      technology_used: "React, Vue, Javascript, Java",
+      repo_fullname: "projectsakura",
+          email: "teltia.arun18@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 78,
+      owner_name: "Sivaram D",
+      github_username: "siv2r",
+      project_name: "Kidney Exchange",
+      project_description:
+         "Let's say a person wants to donate his/her kidney to a loved one but cannot do so because they have some medical incompatibility. This problem can be solved by curating similar patients and swapping the kidney within themselves. This problem is called the living donor kidney exchange problem, and in most places of India, doctors solve it manually. This project aims to automate a part of this process. This project's primary focus is to provide a platform to facilitate automized inter-hospital kidney transplants.This platform allows interested hospitals to register. The doctors from the registered hospitals can create their account and add their patients' (having kidney problems) medical details to this platform. After a doctor completes this process, this platform provides two main features. The first feature is an option to view only the essential details of a patient required for a kidney transplant. Second, for a given patient, all suitable matches from all the registered hospitals are displayed. These suitable matches are ranked from best to worst.",
+      technology_used: "PHP, Python, JavaScript, HTML, CSS",
+      repo_fullname: "siv2r/kidney-exchange",
+          email: "siv2ram@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 79,
+      owner_name: "Deepesh Garg",
+      github_username: "deepeshgarg09",
+      project_name: "Farmo-Consultant",
+      project_description:
+         "An intelligent crop recommendation system, which can be easily used by farmers all over India. This system would assist the farmers in making an informed decision about which crop to grow depending on a variety of environmental and geographical factors. The proposed system takes into consideration the data related to soil, weather and past year production and suggests which are the best profitable crops which can be cultivated in the apropos environmental condition. As the system lists out all possible crops, it helps the farmer in decision making of which crop to cultivate. Also, this system takes into consideration the past production of data which will help the farmer get insight into the demand and the cost of various crops in market. As maximum types of crops will be covered under this system, farmer may get to know about the crop which may never have been cultivated.",
+      technology_used: "Python, Machine Learning, Flask, HTML5, CSS3, JavaScript",
+      repo_fullname: "deepeshgarg09/Farmo-Consultant",
+          email: "deepeshrishu09@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 80,
+      owner_name: "Vedha Krishna Yarasuri",
+      github_username: "low2ml",
+      project_name: "Flow2Ml",
+      project_description:
+         "Write only a Few Lines of Machine learning code using Flow2Ml Quickly design and customize pre-processing workflow in machine learning. Obtain training, validating samples with only 3 lines of code using Flow2ML toolkit Check Installation and sample code to flow into your ml model fastly. Flow2ML is an open source library to make machine learning process much simpler. It loads the image data and applies the selected filters and returns train data, train labels, validation data and validation labels. For all these steps it just take 3 lines of code. It mostly helps beginners in the field of machine learning and deep learning where the user would deal with image related data.",
+      technology_used: "Python",
+      repo_fullname: "low2ml/Flow2ML",
+          email: "vedhakrishnapanchami@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 81,
+      owner_name: "Priyansh Garg",
+      github_username: "garg3133",
+      project_name: "Jagrati WebApp",
+      project_description:
+         "Jagrati is an initiative by the students of IIITDM Jabalpur (started in 2009) to teach poor and under-privileged children of nearby villages at IIITDM Jabalpur, completely free of cost.Before COVID, we had around 100 students, from the 4 villages adopted by us in the vicinity of our institute, who used to come to our institute in the evening to take classes Apart from the basic classes, we also prepare students of Class 5 for Navodaya Entrance Examination and we've received great results in past years where one of our students got selected in Navodaya in 2018, one in 2019 and two in 2020.So, this project is a little initiative from my side to help volunteers manage the classes and other day-to-day operations at Jagrati in a better way and make it easier for them to keep track of students, classwork-homework given to them, their attendances and other things and focus more on teaching than these side activities.",
+      technology_used: "Python/Django, HTML, CSS (+ Bootstrap 4), JavaScript",
+      repo_fullname: "garg3133/JagratiWebApp",
+          email: "priyanshgarg30@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 82,
+      owner_name: "Ayush",
+      github_username: "garg3133",
+      project_name: "Chords",
+      project_description:
+         "The basic idea is to develop a browser extension from scratch that will detect the mood of the user based on the input events emitted by the user and will stream in-browser music. It will consist all the basic music controls, basically when an user enters some keywords, an input event will be emitted, the input keywords will serve the purpose of input for the machine learning model and the model will process the output mood (i.e. Happy, Romantic), all this output will be processed locally, on the browser itself, so there will be no privacy concerns. NodeJs server will serve as backend and will stream music either through http or web socket protocol through mongoDB database.",
+      technology_used: "JavaScript, HTML, CSS, nodeJs, MongoDB, React.js, Tensorflow.js",
+      repo_fullname: "Ayush-projects/chords",
+          email: "kayush479@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 83,
+      owner_name: "Md Arshad Khan",
+      github_username: "ADRE9",
+      project_name: "Bunk Manager",
+      project_description:
+         `Managing Attendance in a university is a big problem when universities don't have their own attendance management system. This is a MERN stack Attendance manager app build on top of Material UI React framework and animation library Framer Motion is used. It uses the Redux state management library and the REST Api . The backend has been build on top of Express JS and MongoDB is used as a database. It's an open source project that is unfinished. It's main job is to help students easily balance their attendance had help them to manage it efficiently.
+         1.Material UI for frontend in React.
+         2.Redux as state management library.
+         3. Redux Thunk as frontend middleware.(for async fetching of data in React-Redux).
+         4. JWT authentication.
+         5.Bcrypt js for password hashing and salting.
+         6.Mongoose as ORM.
+         8. Yup for form validation and Formik for handling forms.
+         9.Framer Motion for animations
+         10.MongoDB as database.`,
+      technology_used: "MERN stack",
+      repo_fullname: "ADRE9/bunk-manager-mern",
+          email: "adrenine13@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 84,
+      owner_name: "Harsh Bardhan Mishra",
+      github_username: "harshcasper",
+      project_name: "Rotten Scripts",
+      project_description:
+         "Rotten Scripts contains amazing and awesome scripts written in Python, JavaScript, Bash, Powershell, and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.",
+      technology_used: "Python, Javascript, Golang, BASH",
+      repo_fullname: "harshcasper/rotten-scripts",
+          email: "erbeusgriffincasper@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 85,
+      owner_name: "Priyabrata Biswas",
+      github_username: "fave77",
+      project_name: "pbchess",
+      project_description:
+         "An open-sourced free online chess platform for playing chess online with other members, practicing with a chess engine, learning about opening theories as well as endgame tactics, solving daily puzzles, and a lot more features. It has been only 6 months since this project's inception, and many of the above-mentioned features are yet to be implemented. Hence, the scope of the project is huge and there is a lot of ground to cover. Having said that, the project's features that did get implemented till now include - authentication, basic multiplayer socket-based gameplay, users can create or join games using game-ids, can check each other's profile, and also edit their profile. The roadmap of the project for the next 6 months include - creating timers for gameplay, categorizing games into Bullet, Blitz, or Rapid based on time, start implementing daily puzzle section, add blogs or video-based material on the learning section, create a record of all games by PGN, implement ranking in all the categories including puzzles, include matchmaking on the lobby based on ranking, and lastly integrate an open-sourced chess engine (possibly Stockfish) with our existing architecture for more features like analyzing games, and evaluation. ",
+      technology_used: "HTML, CSS, JavaScript, React, Bootstrap, Node.js, Express, Socket, Redis,  MongoDB, Jest",
+      repo_fullname: "fave77/pbchess",
+          email: "pbiswas101b@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 86,
+      owner_name: "Ashish Sahu",
+      github_username: "ashishsahu1",
+      project_name: "ML-Projectyard",
+      project_description:
+         "ML-PROJECTYARD is a complete machine learning projects playlist, in which any one can find machine learning/deep learning/NLP/CV project with complete backend and frontend.",
+      technology_used: "Python, machine learning, deep learning, frontend developement, backend development",
+      repo_fullname: "ashishsahu1/ML-ProjectYard",
+          email: "ashishsahu10428@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 87,
+      owner_name: "Dhairya Bahl",
+      github_username: "DhairyaBahl",
+      project_name: "React Messenger App",
+      project_description:
+         "This is a beginner friendly messenger app. Beginners can contribute to this app and improve its features and can even add more functionality. React and firebase are the skills required to contribute to this project. ( If someone knows react native then they can help in development of mobile application of this project )",
+      technology_used: "React or react native and Firebase",
+      repo_fullname: "DhairyaBahl/React-Messenger-App/",
+          email: "dhairyabahl5@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 88,
+      owner_name: "Rupesh Chanda Mohanty",
+      github_username: "Spectrum-CETB",
+      project_name: "LesKollab",
+      project_description:
+         "LesKollab is a project sharing and collaborations application to help both beginners and veterans work together. Be it a beginner or a veteran, if you have an idea, you can post it and search for collaborators to work with. Not only that, if you are an explorer who has just started on a new stack, and want to work on it, you can search people as per your choice of interest, and request to work with them. It is a platform to connect developers of all levels to work together and gain more experience and knowledge.",
+      technology_used: "HTML, CSS, Javascript, PHP",
+      repo_fullname: "Spectrum-CETB/LesKollab",
+          email: "drupeshmohanty67@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 89,
+      owner_name: "Pratyush M",
+      github_username: "pratyushmp",
+      project_name: "Batua",
+      project_description:
+         "A Personal App to track and manage your expenses! Batua is the best money manager and daily expense tracker to automatically and securely track your monthly spends. Stay within budget, pay bills on time and SAVE more money every month. Find out how much you spend on food, shopping, groceries, etc. and how you are saving month on month.",
+      technology_used: "Flutter, Firebase, REST",
+      repo_fullname: "pratyushmp/Batua",
+          email: "mpratyush2008@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 90,
+      owner_name: "Swapnil Srivastava",
+      github_username: "swapnilsparsh",
+      project_name: "Rescue",
+      project_description:
+         "Our project i.e a responsive website to help women in panic and unsafe situations. The website has an Emergency button. If the person feels unsafe in any situtation, then they can click on that emergency button and within no time an alert message will be sent to her Trusted contacts with her Location credentials that she is in need of help. Our main aim is to help women with the support of new technologies",
+      technology_used: "HTML, CSS, Django",
+      repo_fullname: "swapnilsparsh/Rescue",
+          email: "arezona.lucky55@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 91,
+      owner_name: "Pankaj Kumar Bijarniya",
+      github_username: "pankajkumarbij",
+      project_name: "Easy Job Intern",
+      project_description:
+         "The main motive behind the design of this project to provide the best job and internship opportunities. Companies can post here open application for job and internship so students can make own profile and apply in multiple companies.",
+      technology_used: "MERN Stack (MongoDB, Express Js, React Js, Node.js",
+      repo_fullname: "pankajkumarbij/easy-job-intern",
+          email: "pankajbijarniya2004@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 92,
+      owner_name: "Tejas",
+      github_username: "Tejas1510",
+      project_name: "Athavani",
+      project_description:
+         "Athavani/Memories is a full-stack MERN Tool built in order to save all your memories in a single place and rejoice them through the years.",
+      technology_used: "MERN",
+      repo_fullname: "Tejas1510/Athavani",
+          email: "tapasts@rknec.edu",
+      mentors_id: [
+        
+      ],
+    },
   ],
 };
