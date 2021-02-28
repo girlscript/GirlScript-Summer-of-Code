@@ -3207,5 +3207,99 @@ const project_list = {
         
       ],
     },
+    {
+      project_id: 93,
+      owner_name: "Rohit Singh Rathaur",
+      github_username: "osDFS",
+      project_name: "YouthIcon",
+      project_description:
+         "YouthIcon as the name suggest will be a research effort for NLP for Indian languages that is LOW RESOURCED, OPEN SOURCE, CONTRY-WIDE, DISTRIBUTED and ONLINE. The YouthIcon will contain the data, code, results and research for building open baseline NLP results for Indian languages. YouthIcon-MT will contain the Machine Transaltion model. As Machine Translation (MT), an application area of Natural Language Processing (NLP) and a subfield of computational linguistics, facilitates automated translation of text or speech in a source natural language to corresponding text or speech in a different target natural language. Language incomprehensibility has wide-ranging adverse impacts on several aspects of human living, and the same can be reasonably alleviated with effective use of MT. Besides, the crucial idea of MT is to bridge communication barriers among people from different linguistic backgrounds. YouthIcon project will run under osDFS.",
+      technology_used: "PyTorch, Tensorflow, Python, ML, DL, NLP",
+      repo_fullname: "osDFS/YouthIcon",
+          email: "rohitrathore.imh55@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 94,
+      owner_name: "Yasin Shah",
+      github_username: "Technocolabs100",
+      project_name: "Stack Overflow Tag Predictions web application",
+      project_description:
+         "This project aims to predict the tag's of stack overflow posts to identify the post is related to which category's.",
+      technology_used: "Python, Data analysis, Data Science,Machine Learning, Deep learning, Flask, Cloud Platform",
+      repo_fullname: "Technocolabs100/Stack-Overflow-Tag-Predictions",
+          email: "shahyaseen71@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 95,
+      owner_name: "Aitik Dandapat",
+      github_username: "Developer-Student-Clubs-VSSUT-Burla",
+      project_name: "Master PyAlgo",
+      project_description:
+         "Master PyAlgo is a complete handbook for competitive coders using Python or PYPY as their primary language. Not only creating and designing algorithms but solving problems in a systematic manner is also required to crack tech giants. This project consists of data structure algorithms along with a set of questions (topic wise) with their solutions in python, pypy language.",
+      technology_used: "Python or PYPY",
+      repo_fullname: "Developer-Student-Clubs-VSSUT-Burla/Master-PyAlgo",
+          email: "aitikdandapat@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 96,
+      owner_name: "Aitik Dandapat",
+      github_username: "i-tick",
+      project_name: "Go Corona",
+      project_description: "As we install this app, there will be a user registration following the input of details like age and symptoms by speech to text method. After which the user will be told about the suspect percentage of Corona Virus using ML kit which uses the database. If suspect percentage is alarming, we will quarantine the suspect and provide him with a wrist band having GSM which will be driven by another application.",
+      technology_used: "Android Studio, IBM Watson",
+      repo_fullname: "i-tick/HackNitr-2020",
+          email: "aitikdandapat@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 97,
+      owner_name: "Kaushik Rishi",
+      github_username: "kaushik-rishi",
+      project_name: "Rocket Competitive Programming",
+      project_description: "A command line client for parsing and making folders and files for test cases using the competitive companion extension and testing the solution. It listens to post requests from the competitve companion extension of the browser and parses the request and make folders and make files for testing the users solution. There is an aim of making it bigger by developing the own chrome extension and extending it futher to enable submissions to codeforces using http post requests. Building this with an 🎯 aim of making Competitive Programming More Productive.",
+      technology_used: "Node JS, Javascript, Bash",
+      repo_fullname: "kaushik-rishi/rocketcp",
+          email: "rishi.cp01@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 98,
+      owner_name: "Ambuj Raj",
+      github_username: "ambujraj",
+      project_name: "AmbSQL",
+      project_description: "AmbSQL is a Relational Database Management System which created with keeping in focus the speed and the ease to operate on.",
+      technology_used: "Python, SQL",
+      repo_fullname: "ambujraj/ambsql",
+          email: "Ambujm143@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 99,
+      owner_name: "Vinit Shahdeo",
+      github_username: "vinitshahdeo",
+      project_name: "Network Scanner",
+      project_description: "A go-to tool for scanning network with following features:\n 1. Port Scanning\n 2. Token Scanning\n 3. Complete DNS Lookup\n 4. Vulnerability Scanner (SSRF, CSRF, etc.)\n 5. Intercept/Proxy requests.\n\n The idea here is to build an open-source version of Burp suite community edition",
+      technology_used: "Python, SQL",
+      repo_fullname: "vinitshahdeo/PortScanner",
+          email: "vinitshahdeo@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
   ],
 };
