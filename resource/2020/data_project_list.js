@@ -2927,6 +2927,7 @@ const project_list = {
       project_name: "SyntaxMeets",
       project_description:
         "SyntaxMeets is a real-time, collaborative coding platform to group with other members and code. A user can create/join a room. A code editor with 19 language support and 10+ themes, code compiler, Drawing pad to design algorithm, Chat Box to discuss and code.",
+      project_video_link:"https://youtu.be/XL-N4ocbqq8",
       technology_used: "React - Frontend, Express - Backend, Socket-IO for Web RTC, Node JS, Javascript, HTML, CSS, Bootstrap, Material UI",
       repo_fullname: "kothariji/SyntaxMeets",
           email: "kotharidhruv25@gmail.com",
