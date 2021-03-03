@@ -1347,6 +1347,7 @@ const project_list = {
       repo_fullname: "cod-ed/simulate",
       // project_slack_channel: "proj_bossy",
       github: "https://github.com/cod-ed/simulate",
+      email:"garg.y2001@gmail.com",
       mentors_id: [
         // {
         //   name: "Suhani Chawla",
@@ -1791,7 +1792,7 @@ const project_list = {
       project_description:
         "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
       project_video_link: "https://youtu.be/AMFKx5RG5Ws",
-      technology_used: "Frontend: Wireframing & Designing - AdobeXD Library - ReactJs Framework - React-Bootstrap",
+      technology_used: "Frontend: Wireframing & Designing, AdobeXD Library, ReactJs Framework, React-Bootstrap",
       repo_fullname: "Girl-Code-It/Opportunity-Calendar-Frontend",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/Girl-Code-It/Opportunity-Calendar-Frontend",
@@ -1831,7 +1832,7 @@ const project_list = {
       project_description:
         "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
       project_video_link: "https://youtu.be/AMFKx5RG5Ws",
-      technology_used: "Backend: Framework - Django Rest Framework Database - PostgreSQL Python - version 3.8.2",
+      technology_used: "Backend: Framework - Django Rest, Framework Database - PostgreSQL, Python - version 3.8.2",
       repo_fullname: "Girl-Code-It/Opportunity-Calendar-Backend",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/Girl-Code-It/Opportunity-Calendar-Backend",
@@ -1917,7 +1918,7 @@ const project_list = {
       repo_fullname: "IndianOpenSourceFoundation/dynamic-cli",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/IndianOpenSourceFoundation/dynamic-cli",
-          email: "aryasoni98@gmail.com",
+          email: "ping@iosf.in",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2466,42 +2467,15 @@ const project_list = {
     },
     {
       project_id: 61,
-      owner_name: "Masudha Meher",
-      github_username: "N/A",
-      project_name: "Artseum",
-      project_description:
-        "The main problem that the art community now a days face is exposure. Being an artist myself, I know how hard it is to gather enough audience to showcase your artworks and even if you manage to do so, there is no way you will get 100% honest insights. Almost all of the world's population is now on the internet and yet, it is hard to find a perfect audience that has a keen eye for art. Instagram, for example, gives enough platform to artists to showcase their work but due to lack of a proper showcasing algorithm, artists somehow get lost in the crowd. Artseum solves such problems. It is an application where artists can browse, share and sell artwork. Since the users are artists themselves, the feedback is honest. It also allows the users to create a moodboard of artworks they like for inspiration, thus, solving another one of art related problems called 'Art Block'. Furthermore, the users can directly connect to the art community to stay up to date with upcoming trends and styles and with the help of a dedicated news panel, the users will get updates regarding upcoming art events, or helpful art tips by renowned artists. In addition to the above features, Artseum also allows the users to build a creative resume comprising of their best artworks, making it easy for the companies to hire them. Four specific functions : Browse and Share Artworks, Buy and Sell Artworks, Create a moodboard for inspiration, Build creative resume comprising of user's best artworks. ",				
-      project_video_link: "https://youtu.be/3EEs6uL7tLM",
-      technology_used: "Flutter, Nodejs or Firebase",
-      repo_fullname: "N/A",
-      // project_slack_channel: "proj_mentorfix",
-      github: "N/A",
-          email: "kasturimeh@gmail.com",
+      owner_name: "Vinit Shahdeo",
+      github_username: "vinitshahdeo",
+      project_name: "Network Scanner",
+      project_description: "A go-to tool for scanning network with following features:\n 1. Port Scanning\n 2. Token Scanning\n 3. Complete DNS Lookup\n 4. Vulnerability Scanner (SSRF, CSRF, etc.)\n 5. Intercept/Proxy requests.\n\n The idea here is to build an open-source version of Burp suite community edition",
+      technology_used: "Python, SQL",
+      repo_fullname: "vinitshahdeo/PortScanner",
+          email: "vinitshahdeo@gmail.com",
       mentors_id: [
-        // {
-        //   name: "Jayshree Panda",
-        //   github: "https://github.com/Jayashree-panda",
-        //   email: "jayashreepanda12345@gmail.com ",
-        //   slackId: "UUC8L15G8",
-        // },
-        // {
-        //   name: "Avikant Wadhwa",
-        //   github: "https://github.com/avikantwadhwa",
-        //   email: "avikantwadhwa@gmail.com",
-        //   slackId: "UTZH4BELS",
-        // },
-        // {
-        //   name: "Laveesh  Gupta",
-        //   github: "https://github.com/laveesh",
-        //   email: "laveeshgupta@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-        // },
-        // {
-        //   name: "Surisetty Harshavardhan",
-        //   github: "https://github.com/harsha-iiiv",
-        //   email: "201752039@iiitvadodara.ac.in",
-        //   slackId: "UUE2B5JHM",
-        // },
+        
       ],
     },
     {
@@ -2667,7 +2641,7 @@ const project_list = {
     {
       project_id: 66,
       owner_name: "Sitaram Rathi",
-      github_username: "N/A",
+      github_username: "srrathi",
       project_name: "Hire Smart",
       project_description:
         "Build a platform to analyze and gather information about your connections from different popular professional and social portals like LinkedIn, GitHub, Stack-overflow. To Scrape the data and use API from various social platforms and analyze and represent it according to our need. It typically takes 52 days for hiring through many hiring channels along with traditional hiring ranges between $4k to $20k. But a referral who gets an interview has a 40% better chance of getting hired than any other sourced candidates and get hired in 29 days. In the scenario with the referrals, hiring can be much faster with a reduction in cost per hire and a better chance of getting hired. It will make the process much faster as within some minutes the Recruiter will get the Data of Potential Candidates and thus make the hiring Process much faster, will reduce the cost of per hire and better chance for an individual to get hired. There are many peoples who lost their jobs in 2020 due the COVID-19 Pandemic and there are many IT professionals and individuals who are in urgent need of Jobs. So it will definitely help them a lot by taking their skills , experience and all the other information to the Right Person who can offer them a job. Thus establishing the connection between recruiter and job seeker faster. As the data gathered will be personal data of individuals So, we have to protect it from unfair use that's where Blockchain comes into the picture as we can put all the scraped data on Blockchain so that we cannot connect to data directly and it get stored on blockchain network and can be accessible only through smart contract.",
@@ -2675,8 +2649,8 @@ const project_list = {
       technology_used: "Nodejs, Reactjs, Rest API's, DL, Ethereum Blockchain, Matic",
       repo_fullname: "N/A",
       // project_slack_channel: "proj_mentorfix",
-      //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+      github: "srrathi/Hire-Smart",
+          email: "srrathi2000@gmail.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2716,7 +2690,7 @@ const project_list = {
       repo_fullname: "klarEDA/klar-EDA",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "ashishkshirsagar10@gmail.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2756,7 +2730,7 @@ const project_list = {
       repo_fullname: "gokulprathin8/Jaisalmer-E-Commerce",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "gokulprathin8@gmail.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2925,7 +2899,7 @@ const project_list = {
       project_name: "Periodo - The tracker",
       project_description:
         "Our project focuses on the young girls who are going to face their first periods or the females who have been facing problems with tracking their period dates and remembering their dates and end up embarrassing themselves when they face their periods at wrong time at wrong places. Our application periodo can help these girls and women by keeping a track of their periods and notifying them on their upcoming dates along with keeping track on the level of flow of their periods also helping them with their correct diet in their period dates. We have planned to add more features in the application as it grows with the help of contributors. The Project is very beginner friendly to contribute to as well as has a user-friendly interface which can help in attracting young audience.",
-      technology_used: "Next-js, ReactJs, NodeJs, Html, Css, Javascript, Figma, bootsrap, Material-Ui, Webpack,",
+      technology_used: "Next-js, ReactJs, NodeJs, Html, CSS, Javascript, Figma, bootsrap, Material-Ui, Webpack",
       repo_fullname: "Feminine-Divine/periodo",
           email: "dpskhu13108@gmai.com, vaaishpra19@gmail.com",
       mentors_id: [
@@ -2953,7 +2927,7 @@ const project_list = {
       project_name: "SyntaxMeets",
       project_description:
         "SyntaxMeets is a real-time, collaborative coding platform to group with other members and code. A user can create/join a room. A code editor with 19 language support and 10+ themes, code compiler, Drawing pad to design algorithm, Chat Box to discuss and code.",
-      technology_used: "React - Frontend, Express - Backend, Socket-IO for Web RTC",
+      technology_used: "React - Frontend, Express - Backend, Socket-IO for Web RTC, Node JS, Javascript, HTML, CSS, Bootstrap, Material UI",
       repo_fullname: "kothariji/SyntaxMeets",
           email: "kotharidhruv25@gmail.com",
       mentors_id: [
@@ -2981,7 +2955,8 @@ const project_list = {
       project_name: "Project Sakura",
       project_description:
         "It is an open source custom rom building website that is being used by thousands of people and more than 70 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
-      technology_used: "React, Vue, Javascript, Java",
+      project_video_link:"https://www.youtube.com/watch?v=Vs2I68Qkt9Q&ab_channel=ArunTeltia",
+      technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
       repo_fullname: "projectsakura",
           email: "teltia.arun18@gmail.com",
       mentors_id: [
@@ -3004,14 +2979,13 @@ const project_list = {
     },
     {
       project_id: 79,
-      owner_name: "Deepesh Garg",
-      github_username: "deepeshgarg09",
-      project_name: "Farmo-Consultant",
-      project_description:
-         "An intelligent crop recommendation system, which can be easily used by farmers all over India. This system would assist the farmers in making an informed decision about which crop to grow depending on a variety of environmental and geographical factors. The proposed system takes into consideration the data related to soil, weather and past year production and suggests which are the best profitable crops which can be cultivated in the apropos environmental condition. As the system lists out all possible crops, it helps the farmer in decision making of which crop to cultivate. Also, this system takes into consideration the past production of data which will help the farmer get insight into the demand and the cost of various crops in market. As maximum types of crops will be covered under this system, farmer may get to know about the crop which may never have been cultivated.",
-      technology_used: "Python, Machine Learning, Flask, HTML5, CSS3, JavaScript",
-      repo_fullname: "deepeshgarg09/Farmo-Consultant",
-          email: "deepeshrishu09@gmail.com",
+      owner_name: "Salil Naik",
+      github_username: "salil-naik",
+      project_name: "Feminist Bible (Phase 2)",
+      project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy",
+      technology_used: "HTML, CSS(SCSS), React JS, Node JS, Mongo DB",
+      repo_fullname: "girlscript/feminist-bible-phase-2",
+          email: "salil.naik27@gmail.com",
       mentors_id: [
         
       ],
@@ -3146,7 +3120,7 @@ const project_list = {
          "LesKollab is a project sharing and collaborations application to help both beginners and veterans work together. Be it a beginner or a veteran, if you have an idea, you can post it and search for collaborators to work with. Not only that, if you are an explorer who has just started on a new stack, and want to work on it, you can search people as per your choice of interest, and request to work with them. It is a platform to connect developers of all levels to work together and gain more experience and knowledge.",
       technology_used: "HTML, CSS, Javascript, PHP",
       repo_fullname: "Spectrum-CETB/LesKollab",
-          email: "drupeshmohanty67@gmail.com",
+          email: "rupeshmohanty67@gmail.com",
       mentors_id: [
         
       ],
@@ -3209,14 +3183,14 @@ const project_list = {
     },
     {
       project_id: 93,
-      owner_name: "Rohit Singh Rathaur",
-      github_username: "osDFS",
-      project_name: "YouthIcon",
+      owner_name: "Rajinderpal Singh",
+      github_username: "sairish2001",
+      project_name: "Makes Math Easy",
       project_description:
-         "YouthIcon as the name suggest will be a research effort for NLP for Indian languages that is LOW RESOURCED, OPEN SOURCE, CONTRY-WIDE, DISTRIBUTED and ONLINE. The YouthIcon will contain the data, code, results and research for building open baseline NLP results for Indian languages. YouthIcon-MT will contain the Machine Transaltion model. As Machine Translation (MT), an application area of Natural Language Processing (NLP) and a subfield of computational linguistics, facilitates automated translation of text or speech in a source natural language to corresponding text or speech in a different target natural language. Language incomprehensibility has wide-ranging adverse impacts on several aspects of human living, and the same can be reasonably alleviated with effective use of MT. Besides, the crucial idea of MT is to bridge communication barriers among people from different linguistic backgrounds. YouthIcon project will run under osDFS.",
-      technology_used: "PyTorch, Tensorflow, Python, ML, DL, NLP",
-      repo_fullname: "osDFS/YouthIcon",
-          email: "rohitrathore.imh55@gmail.com",
+         "Web App for solving Various Math Problems along with Steps, The main aim of this Web app is Speed i.e. to solve all Problems at Client side only.It is so beginner friendly Project that a complete beginner can also contribute to it, only additional requirement is a good Problem Solving skills(Medium Level)",
+      technology_used: "JavaScript, HTML5, CSS3, Bootstrap, LaTeX",
+      repo_fullname: "sairish2001/makesmatheasy.github.io",
+          email: "sairish2001@gmail.com",
       mentors_id: [
         
       ],
@@ -3284,19 +3258,6 @@ const project_list = {
       technology_used: "Python, SQL",
       repo_fullname: "ambujraj/ambsql",
           email: "Ambujm143@gmail.com",
-      mentors_id: [
-        
-      ],
-    },
-    {
-      project_id: 99,
-      owner_name: "Vinit Shahdeo",
-      github_username: "vinitshahdeo",
-      project_name: "Network Scanner",
-      project_description: "A go-to tool for scanning network with following features:\n 1. Port Scanning\n 2. Token Scanning\n 3. Complete DNS Lookup\n 4. Vulnerability Scanner (SSRF, CSRF, etc.)\n 5. Intercept/Proxy requests.\n\n The idea here is to build an open-source version of Burp suite community edition",
-      technology_used: "Python, SQL",
-      repo_fullname: "vinitshahdeo/PortScanner",
-          email: "vinitshahdeo@gmail.com",
       mentors_id: [
         
       ],
