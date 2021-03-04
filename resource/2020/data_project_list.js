@@ -2066,43 +2066,15 @@ const project_list = {
     },
     {
       project_id: 51,
-      owner_name: "Rhythm Agrawal",
-      github_username: "rhythm98",
-      project_name: "Food Ordering Application for cloud kitchen",
-      project_description:
-        "A beginner friendly project which helps you to create a green corridor so that your meal can be delivered to you in a very efficient manner :)",
-      // project_video_link:
-      //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
-      technology_used: "Android Native (Kotlin)",
-      repo_fullname: "rhythm98/Food_Ordering_App",
-      // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/rhythm98/Food_Ordering_App",
-          email: "rhythm.agrawal98@gmail.com",
+      owner_name: "Rohit Agarwal",
+      github_username: "jackfrost13",
+      project_name: "HITK Community Website",
+      project_description: "This project aims to build the official site for the community page so that any student can use the resources shared by us.",
+      technology_used: "MERN, AWS, React, Node, Express, MongoDB",
+      repo_fullname: "HITK-TECH-Community/Community-Website",
+          email: "Ambujm143@gmail.com",
       mentors_id: [
-        // {
-        //   name: "Jayshree Panda",
-        //   github: "https://github.com/Jayashree-panda",
-        //   email: "jayashreepanda12345@gmail.com ",
-        //   slackId: "UUC8L15G8",
-        // },
-        // {
-        //   name: "Avikant Wadhwa",
-        //   github: "https://github.com/avikantwadhwa",
-        //   email: "avikantwadhwa@gmail.com",
-        //   slackId: "UTZH4BELS",
-        // },
-        // {
-        //   name: "Laveesh  Gupta",
-        //   github: "https://github.com/laveesh",
-        //   email: "laveeshgupta@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-        // },
-        // {
-        //   name: "Surisetty Harshavardhan",
-        //   github: "https://github.com/harsha-iiiv",
-        //   email: "201752039@iiitvadodara.ac.in",
-        //   slackId: "UUE2B5JHM",
-        // },
+        
       ],
     },
     {
@@ -3266,19 +3238,6 @@ const project_list = {
       technology_used: "Python, SQL",
       repo_fullname: "ambujraj/ambsql",
           email: "rohitagrl1302@gmail.com, kajolkumarisingh222@gmail.com",
-      mentors_id: [
-        
-      ],
-    },
-    {
-      project_id: 99,
-      owner_name: "Rohit Agarwal",
-      github_username: "jackfrost13",
-      project_name: "HITK Community WebsiteL",
-      project_description: "This project aims to build the official site for the community page so that any student can use the resources shared by us.",
-      technology_used: "MERN, AWS, React, Node, Express, MongoDB",
-      repo_fullname: "HITK-TECH-Community/Community-Website",
-          email: "Ambujm143@gmail.com",
       mentors_id: [
         
       ],
