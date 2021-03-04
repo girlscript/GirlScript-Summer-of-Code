@@ -2765,7 +2765,7 @@ const project_list = {
       project_name: "Bulk Mailer",
       project_description:
         "Bulk Mailer is a Mail Client web application that can be used by organizations to send bulk emails for different groups of subscribers. In general, a bulk email service is a company that allows its customers to send mass email messages to multiple lists of recipients at a specified time. With this service, you can send a single message to thousands of people on a mailing list or a personalized email to each address on a list that can be of any size.  Today, marketers prefer to use bulk email services to deliver important messages with minimal effort. Unlike junk emails sent without the recipients’ permission, bulk emails are legal marketing campaigns since the recipients subscribe to receive them. However, if bulk email marketing is not properly managed, users may consider it spam, and consequently, it may hurt sender reputation. Most of the bulk email service providers price their offerings based on the number and frequency of the emails one wants to send. But, after registering with Bulk Mailer, you can send bulk emails free of charge!  Our application has a feature-rich email builder that lets you build beautiful and responsive emails in minutes. It supports adding and using different email templates as well which ensures consistency and reduced human efforts.",
-        // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
+      project_video_link: "https://youtu.be/Si7LkiZV2_s",
       technology_used: "Bootstrap, JavaScript, Flask, Python",
       repo_fullname: "vigneshshettyin/Bulk-Mailer",
       // project_slack_channel: "proj_mentorfix",
@@ -2899,6 +2899,7 @@ const project_list = {
       project_name: "Periodo - The tracker",
       project_description:
         "Our project focuses on the young girls who are going to face their first periods or the females who have been facing problems with tracking their period dates and remembering their dates and end up embarrassing themselves when they face their periods at wrong time at wrong places. Our application periodo can help these girls and women by keeping a track of their periods and notifying them on their upcoming dates along with keeping track on the level of flow of their periods also helping them with their correct diet in their period dates. We have planned to add more features in the application as it grows with the help of contributors. The Project is very beginner friendly to contribute to as well as has a user-friendly interface which can help in attracting young audience.",
+      project_video_link: "https://youtu.be/3dxa599SPT4",
       technology_used: "Next-js, ReactJs, NodeJs, Html, CSS, Javascript, Figma, bootsrap, Material-Ui, Webpack",
       repo_fullname: "Feminine-Divine/periodo",
           email: "dpskhu13108@gmai.com, vaaishpra19@gmail.com",
@@ -2956,7 +2957,7 @@ const project_list = {
       project_name: "Project Sakura",
       project_description:
         "It is an open source custom rom building website that is being used by thousands of people and more than 70 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
-      project_video_link:"https://www.youtube.com/watch?v=Vs2I68Qkt9Q&ab_channel=ArunTeltia",
+      project_video_link:"https://youtu.be/7k7nnAVBh9Y",
       technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
       repo_fullname: "projectsakura",
           email: "teltia.arun18@gmail.com",
@@ -3012,6 +3013,7 @@ const project_list = {
       project_name: "Jagrati WebApp",
       project_description:
          "Jagrati is an initiative by the students of IIITDM Jabalpur (started in 2009) to teach poor and under-privileged children of nearby villages at IIITDM Jabalpur, completely free of cost.Before COVID, we had around 100 students, from the 4 villages adopted by us in the vicinity of our institute, who used to come to our institute in the evening to take classes Apart from the basic classes, we also prepare students of Class 5 for Navodaya Entrance Examination and we've received great results in past years where one of our students got selected in Navodaya in 2018, one in 2019 and two in 2020.So, this project is a little initiative from my side to help volunteers manage the classes and other day-to-day operations at Jagrati in a better way and make it easier for them to keep track of students, classwork-homework given to them, their attendances and other things and focus more on teaching than these side activities.",
+      project_video_link:"https://youtu.be/J5emetcite4",
       technology_used: "Python/Django, HTML, CSS (+ Bootstrap 4), JavaScript",
       repo_fullname: "garg3133/JagratiWebApp",
           email: "priyanshgarg30@gmail.com",
@@ -3049,7 +3051,8 @@ const project_list = {
          8. Yup for form validation and Formik for handling forms.
          9.Framer Motion for animations
          10.MongoDB as database.`,
-      technology_used: "MERN stack",
+      project_video_link:"https://youtu.be/7Gn7E0NikYo",
+      technology_used: "MongoDb, Express.js , Node.js , React.js , Mongoose, Material  UI ,Framer Motion",
       repo_fullname: "ADRE9/bunk-manager-mern",
           email: "adrenine13@gmail.com",
       mentors_id: [
@@ -3077,6 +3080,7 @@ const project_list = {
       project_name: "pbchess",
       project_description:
          "An open-sourced free online chess platform for playing chess online with other members, practicing with a chess engine, learning about opening theories as well as endgame tactics, solving daily puzzles, and a lot more features. It has been only 6 months since this project's inception, and many of the above-mentioned features are yet to be implemented. Hence, the scope of the project is huge and there is a lot of ground to cover. Having said that, the project's features that did get implemented till now include - authentication, basic multiplayer socket-based gameplay, users can create or join games using game-ids, can check each other's profile, and also edit their profile. The roadmap of the project for the next 6 months include - creating timers for gameplay, categorizing games into Bullet, Blitz, or Rapid based on time, start implementing daily puzzle section, add blogs or video-based material on the learning section, create a record of all games by PGN, implement ranking in all the categories including puzzles, include matchmaking on the lobby based on ranking, and lastly integrate an open-sourced chess engine (possibly Stockfish) with our existing architecture for more features like analyzing games, and evaluation. ",
+      project_video_link:"https://youtu.be/_x-j_0rM1kI",
       technology_used: "HTML, CSS, JavaScript, React, Bootstrap, Node.js, Express, Socket, Redis,  MongoDB, Jest",
       repo_fullname: "fave77/pbchess",
           email: "pbiswas101b@gmail.com",
@@ -3091,6 +3095,7 @@ const project_list = {
       project_name: "ML-Projectyard",
       project_description:
          "ML-PROJECTYARD is a complete machine learning projects playlist, in which any one can find machine learning/deep learning/NLP/CV project with complete backend and frontend.",
+      project_video_link:"https://youtu.be/S-meVVjV3yw",
       technology_used: "Python, machine learning, deep learning, frontend developement, backend development",
       repo_fullname: "ashishsahu1/ML-ProjectYard",
           email: "ashishsahu10428@gmail.com",
@@ -3119,6 +3124,7 @@ const project_list = {
       project_name: "LesKollab",
       project_description:
          "LesKollab is a project sharing and collaborations application to help both beginners and veterans work together. Be it a beginner or a veteran, if you have an idea, you can post it and search for collaborators to work with. Not only that, if you are an explorer who has just started on a new stack, and want to work on it, you can search people as per your choice of interest, and request to work with them. It is a platform to connect developers of all levels to work together and gain more experience and knowledge.",
+      project_video_link:"https://youtu.be/rafmsDzHJOs",
       technology_used: "HTML, CSS, Javascript, PHP",
       repo_fullname: "Spectrum-CETB/LesKollab",
           email: "rupeshmohanty67@gmail.com",
@@ -3133,6 +3139,7 @@ const project_list = {
       project_name: "Batua",
       project_description:
          "A Personal App to track and manage your expenses! Batua is the best money manager and daily expense tracker to automatically and securely track your monthly spends. Stay within budget, pay bills on time and SAVE more money every month. Find out how much you spend on food, shopping, groceries, etc. and how you are saving month on month.",
+      project_video_link:"https://youtu.be/5VXx33iW4MY",
       technology_used: "Flutter, Firebase, REST",
       repo_fullname: "pratyushmp/Batua",
           email: "mpratyush2008@gmail.com",
@@ -3258,6 +3265,19 @@ const project_list = {
       project_description: "AmbSQL is a Relational Database Management System which created with keeping in focus the speed and the ease to operate on.",
       technology_used: "Python, SQL",
       repo_fullname: "ambujraj/ambsql",
+          email: "rohitagrl1302@gmail.com, kajolkumarisingh222@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 99,
+      owner_name: "Rohit Agarwal",
+      github_username: "jackfrost13",
+      project_name: "HITK Community WebsiteL",
+      project_description: "This project aims to build the official site for the community page so that any student can use the resources shared by us.",
+      technology_used: "MERN, AWS, React, Node, Express, MongoDB",
+      repo_fullname: "HITK-TECH-Community/Community-Website",
           email: "Ambujm143@gmail.com",
       mentors_id: [
         
