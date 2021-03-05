@@ -2655,6 +2655,7 @@ const project_list = {
       owner_name: "Ashish Kshirsagar",
       github_username: "N/A",
       project_name: "klarEDA",
+      project_video_link: "https://youtu.be/FsDV6a-L-wo",
       project_description:
         "The aim of the library is to ease the data exploration and preprocessing steps and provide a smart and automated technique for exploratory analysis of the data The library consists of following modules CSV Data Visualization CSV Data Preprocessing Image Data Visualization Image Data Preprocessing This project will assist the naive machine learning beginners with smart heuristics for data processing.",
          // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
@@ -3168,6 +3169,7 @@ const project_list = {
       project_name: "Makes Math Easy",
       project_description:
          "Web App for solving Various Math Problems along with Steps, The main aim of this Web app is Speed i.e. to solve all Problems at Client side only.It is so beginner friendly Project that a complete beginner can also contribute to it, only additional requirement is a good Problem Solving skills(Medium Level)",
+      project_video_link: "https://youtu.be/bmyi7YdKTwQ",
       technology_used: "JavaScript, HTML5, CSS3, Bootstrap, LaTeX",
       repo_fullname: "sairish2001/makesmatheasy.github.io",
           email: "sairish2001@gmail.com",
