@@ -942,7 +942,7 @@ const project_list = {
     {
       project_id: 23,
       owner_name: "Ritesh Yadav",
-      github_username: "CoinShift-Imaging",
+      github_username: "DARK-art108",
       project_name: "CoinShift-Imaging-Box",
       project_description:
         "CoinShift Imaging Box: A collection of efficient and faster implementation of SOTA Object Detection and Segementation Models.",
@@ -1873,7 +1873,8 @@ const project_list = {
         "CodeTrophs is an open source project that provides an interactive user interface for beginners and aims at bridging the gap between students and research professors worldwide. Moreover, the platform plans on acting as a helping hand to individuals who are preparing for the coding interviews, providing them with real live interview experience. A distinguished point for the users is the application distinction feature that we provide to our users. This entails the bifurcation of projects based on the categorical arrangement in the language in which the code is written and its implementation for example, as kotlin links to android as python links to machine learning. The user will be able to save the repository that he/she wishes to explore more in their dashboard. The UI provides the user with the number of PR’s and issues in the repository that he/she is viewing. We are also expanding into the field of AI. We are aiming at making a feature on the platform that allows the student looking to intern under a professor to select a professor by assisting them with the professor's field of study, research papers and field of expertise, assigning each of his papers with specific tags given by the model and an abstract about each paper. Further we are opening a whole new avenue for the professors who are bombarded with emails from students willing to under him/her. This will be done by a list based on the professor's requirements from the student on the basis of his/her profile containing the skills, GPA, field of interest in a well categorised format created by them. In-short we are bridging the gap between a professor and a student, To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
       // project_video_link:
       //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
-      technology_used: "React.js , Next.js , MongoDB , Node.js .",
+      technology_used: "React.js , Next.js , MongoDB , Node.js, ML/AI",
+      project_video_link:"https://drive.google.com/file/d/1-ccue_5_zjUGxP2PeMdQg3O3JwOmJWJo/view",
       repo_fullname: "CodeTrophs",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/CodeTrophs",
@@ -2616,12 +2617,11 @@ const project_list = {
       github_username: "srrathi",
       project_name: "Hire Smart",
       project_description:
-        "Build a platform to analyze and gather information about your connections from different popular professional and social portals like LinkedIn, GitHub, Stack-overflow. To Scrape the data and use API from various social platforms and analyze and represent it according to our need. It typically takes 52 days for hiring through many hiring channels along with traditional hiring ranges between $4k to $20k. But a referral who gets an interview has a 40% better chance of getting hired than any other sourced candidates and get hired in 29 days. In the scenario with the referrals, hiring can be much faster with a reduction in cost per hire and a better chance of getting hired. It will make the process much faster as within some minutes the Recruiter will get the Data of Potential Candidates and thus make the hiring Process much faster, will reduce the cost of per hire and better chance for an individual to get hired. There are many peoples who lost their jobs in 2020 due the COVID-19 Pandemic and there are many IT professionals and individuals who are in urgent need of Jobs. So it will definitely help them a lot by taking their skills , experience and all the other information to the Right Person who can offer them a job. Thus establishing the connection between recruiter and job seeker faster. As the data gathered will be personal data of individuals So, we have to protect it from unfair use that's where Blockchain comes into the picture as we can put all the scraped data on Blockchain so that we cannot connect to data directly and it get stored on blockchain network and can be accessible only through smart contract.",
-        // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
+      "The main problem that the art community now a days face is exposure. Being an artist myself, I know how hard it is to gather enough audience to showcase your artworks and even if you manage to do so, there is no way you will get 100% honest insights. Almost all of the world's population is now on the internet and yet, it is hard to find a perfect audience that has a keen eye for art. Instagram, for example, gives enough platform to artists to showcase their work but due to lack of a proper showcasing algorithm, artists somehow get lost in the crowd. Artseum solves such problems. It is an application where artists can browse, share and sell artwork. Since the users are artists themselves, the feedback is honest. It also allows the users to create a moodboard of artworks they like for inspiration, thus, solving another one of art related problems called 'Art Block'. Furthermore, the users can directly connect to the art community to stay up to date with upcoming trends and styles and with the help of a dedicated news panel, the users will get updates regarding upcoming art events, or helpful art tips by renowned artists. In addition to the above features, Artseum also allows the users to build a creative resume comprising of their best artworks, making it easy for the companies to hire them. Four specific functions : Browse and Share Artworks, Buy and Sell Artworks, Create a moodboard for inspiration, Build creative resume comprising of user's best artworks. ",        // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
       technology_used: "Nodejs, Reactjs, Rest API's, DL, Ethereum Blockchain, Matic",
-      repo_fullname: "N/A",
+      repo_fullname: "srrathi/Hire-Smart",
       // project_slack_channel: "proj_mentorfix",
-      github: "srrathi/Hire-Smart",
+      //github: "srrathi/Hire-Smart",
           email: "srrathi2000@gmail.com",
       mentors_id: [
         // {
@@ -2653,7 +2653,7 @@ const project_list = {
     {
       project_id: 67,
       owner_name: "Ashish Kshirsagar",
-      github_username: "N/A",
+      github_username: "ask149",
       project_name: "klarEDA",
       project_video_link: "https://youtu.be/FsDV6a-L-wo",
       project_description:
@@ -2997,11 +2997,12 @@ const project_list = {
     {
       project_id: 82,
       owner_name: "Ayush",
-      github_username: "garg3133",
+      github_username: "Ayush-projects",
       project_name: "Chords",
       project_description:
          "The basic idea is to develop a browser extension from scratch that will detect the mood of the user based on the input events emitted by the user and will stream in-browser music. It will consist all the basic music controls, basically when an user enters some keywords, an input event will be emitted, the input keywords will serve the purpose of input for the machine learning model and the model will process the output mood (i.e. Happy, Romantic), all this output will be processed locally, on the browser itself, so there will be no privacy concerns. NodeJs server will serve as backend and will stream music either through http or web socket protocol through mongoDB database.",
       technology_used: "JavaScript, HTML, CSS, nodeJs, MongoDB, React.js, Tensorflow.js",
+      project_video_link:" https://drive.google.com/file/d/11HVgNiAKXNYP_kytF9EGDmZET4DS1C0f/view?usp=drivesdk",
       repo_fullname: "Ayush-projects/chords",
           email: "kayush479@gmail.com",
       mentors_id: [
@@ -3169,7 +3170,7 @@ const project_list = {
       project_name: "Makes Math Easy",
       project_description:
          "Web App for solving Various Math Problems along with Steps, The main aim of this Web app is Speed i.e. to solve all Problems at Client side only.It is so beginner friendly Project that a complete beginner can also contribute to it, only additional requirement is a good Problem Solving skills(Medium Level)",
-      project_video_link: "https://youtu.be/bmyi7YdKTwQ",
+      project_video_link: "https://drive.google.com/file/d/1Ix7_RbJVZmzNSHx8kCfVJsN3OfLpVD16/view?usp=drivesdk",
       technology_used: "JavaScript, HTML5, CSS3, Bootstrap, LaTeX",
       repo_fullname: "sairish2001/makesmatheasy.github.io",
           email: "sairish2001@gmail.com",
