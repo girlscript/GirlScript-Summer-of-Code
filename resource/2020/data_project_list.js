@@ -2072,8 +2072,9 @@ const project_list = {
       project_name: "HITK Community Website",
       project_description: "This project aims to build the official site for the community page so that any student can use the resources shared by us.",
       technology_used: "MERN, AWS, React, Node, Express, MongoDB",
+      project_video_link:"https://youtu.be/CVwdzeWCgXo",
       repo_fullname: "HITK-TECH-Community/Community-Website",
-          email: "Ambujm143@gmail.com",
+          email: "rohitagrl1302@gmail.com, kajolkumarisingh222@gmail.com",
       mentors_id: [
         
       ],
@@ -3244,7 +3245,7 @@ const project_list = {
       project_description: "AmbSQL is a Relational Database Management System which created with keeping in focus the speed and the ease to operate on.",
       technology_used: "Python, SQL",
       repo_fullname: "ambujraj/ambsql",
-          email: "rohitagrl1302@gmail.com, kajolkumarisingh222@gmail.com",
+          email: "Ambujm143@gmail.com",
       mentors_id: [
         
       ],
