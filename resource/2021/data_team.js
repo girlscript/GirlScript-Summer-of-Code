@@ -23,6 +23,16 @@ const team_data = {
         "teamcode": "gs"
       },
       {
+        "fullname": "Salil Naik",
+        "position": "Program Manager",
+        "image": "images/team/2021/SalilNaik.jpg",
+        "social": {
+          "github":"https://github.com/salil-naik",
+          "linkedin": "https://www.linkedin.com/in/salilnaik/",
+        },
+        "teamcode": "gs"
+      },
+      {
         "fullname": "Nihal Pandey",
         "position": "Program Manager",
         "image": "images/team/2021/NihalPandey.jpeg",
