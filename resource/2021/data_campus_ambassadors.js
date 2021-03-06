@@ -577,7 +577,7 @@ const campus_ambassadors = {
     "email": "panerigunjan871@gmail.com",
     "image": "images/campus_ambassador/2021/IMG_20210204_173809_511 - Gunjan Paneri.jpg",
     "social": {
-     "github": "https://www.github.com/iamgunjsn",
+     "github": "https://www.github.com/iamgunjan",
      "linkedin": "https://www.linkedin.com/in/gunjan-paneri-4281201a1"
     }
    },

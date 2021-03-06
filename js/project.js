@@ -48,8 +48,8 @@ function displayModalData(ele) {
       </div>
     `;
   }).join('');
-  modalSlack.innerHTML = `<span class="iconify" data-icon="logos:slack-icon" data-inline="false"></span>#${p_data.project_slack_channel}`;
-  modalSlackLink.setAttribute('href', `https://gssoc20.slack.com/messages/${p_data.project_slack_channel}`);
+  modalSlack.innerHTML = `<span class="iconify" data-icon="ion:mail-outline" data-inline="false"></span>${p_data.email}`;
+  modalSlackLink.setAttribute('href', `mailto:${p_data.email}`);
 }
 
 (function() {

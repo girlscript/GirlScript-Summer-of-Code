@@ -1871,7 +1871,6 @@ const project_list = {
       project_name: "CodeTrophs",
       project_description:
         "CodeTrophs is an open source project that provides an interactive user interface for beginners and aims at bridging the gap between students and research professors worldwide. Moreover, the platform plans on acting as a helping hand to individuals who are preparing for the coding interviews, providing them with real live interview experience. A distinguished point for the users is the application distinction feature that we provide to our users. This entails the bifurcation of projects based on the categorical arrangement in the language in which the code is written and its implementation for example, as kotlin links to android as python links to machine learning. The user will be able to save the repository that he/she wishes to explore more in their dashboard. The UI provides the user with the number of PR’s and issues in the repository that he/she is viewing. We are also expanding into the field of AI. We are aiming at making a feature on the platform that allows the student looking to intern under a professor to select a professor by assisting them with the professor's field of study, research papers and field of expertise, assigning each of his papers with specific tags given by the model and an abstract about each paper. Further we are opening a whole new avenue for the professors who are bombarded with emails from students willing to under him/her. This will be done by a list based on the professor's requirements from the student on the basis of his/her profile containing the skills, GPA, field of interest in a well categorised format created by them. In-short we are bridging the gap between a professor and a student, To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
-      project_video_link: "https://youtu.be/8kHLxeBn76g",
       //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
       technology_used: "React.js , Next.js , MongoDB , Node.js, ML/AI",
       project_video_link:"https://drive.google.com/file/d/1-ccue_5_zjUGxP2PeMdQg3O3JwOmJWJo/view",
@@ -2583,7 +2582,7 @@ const project_list = {
       repo_fullname: "N/A",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "manas.kashyap@knoldus.com , himanshu@knoldus.com , vikas@knoldus.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2743,7 +2742,7 @@ const project_list = {
       repo_fullname: "vigneshshettyin/Bulk-Mailer",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "vigneshshetty.in@gmail.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2783,7 +2782,7 @@ const project_list = {
       repo_fullname: "avinashkranjan/Recess",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "ranjan.avinash@hotmail.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2823,7 +2822,7 @@ const project_list = {
       repo_fullname: "avinashkranjan/Recess",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "ranjan.avinash@hotmail.com",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2946,8 +2945,10 @@ const project_list = {
       project_description:
          "Let's say a person wants to donate his/her kidney to a loved one but cannot do so because they have some medical incompatibility. This problem can be solved by curating similar patients and swapping the kidney within themselves. This problem is called the living donor kidney exchange problem, and in most places of India, doctors solve it manually. This project aims to automate a part of this process. This project's primary focus is to provide a platform to facilitate automized inter-hospital kidney transplants.This platform allows interested hospitals to register. The doctors from the registered hospitals can create their account and add their patients' (having kidney problems) medical details to this platform. After a doctor completes this process, this platform provides two main features. The first feature is an option to view only the essential details of a patient required for a kidney transplant. Second, for a given patient, all suitable matches from all the registered hospitals are displayed. These suitable matches are ranked from best to worst.",
       technology_used: "PHP, Python, JavaScript, HTML, CSS",
+      project_video_link:"https://drive.google.com/file/d/1Wp6K0wRsPjxwvTWzIIVIQMqYhe1ZMX_0/view",
       repo_fullname: "siv2r/kidney-exchange",
           email: "siv2ram@gmail.com",
+      project_slack_channel:"kidney-exchange",
       mentors_id: [
         
       ],
@@ -3001,7 +3002,6 @@ const project_list = {
       project_name: "Chords",
       project_description:
          "The basic idea is to develop a browser extension from scratch that will detect the mood of the user based on the input events emitted by the user and will stream in-browser music. It will consist all the basic music controls, basically when an user enters some keywords, an input event will be emitted, the input keywords will serve the purpose of input for the machine learning model and the model will process the output mood (i.e. Happy, Romantic), all this output will be processed locally, on the browser itself, so there will be no privacy concerns. NodeJs server will serve as backend and will stream music either through http or web socket protocol through mongoDB database.",
-      project_video_link: "https://youtu.be/GX9vVVlHCzg",
       technology_used: "JavaScript, HTML, CSS, nodeJs, MongoDB, React.js, Tensorflow.js",
       project_video_link:" https://drive.google.com/file/d/11HVgNiAKXNYP_kytF9EGDmZET4DS1C0f/view?usp=drivesdk",
       repo_fullname: "Ayush-projects/chords",
