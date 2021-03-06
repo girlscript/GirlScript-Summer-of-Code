@@ -2968,12 +2968,12 @@ const project_list = {
     {
       project_id: 80,
       owner_name: "Vedha Krishna Yarasuri",
-      github_username: "low2ml",
+      github_username: "yvkrishna",
       project_name: "Flow2Ml",
       project_description:
          "Write only a Few Lines of Machine learning code using Flow2Ml Quickly design and customize pre-processing workflow in machine learning. Obtain training, validating samples with only 3 lines of code using Flow2ML toolkit Check Installation and sample code to flow into your ml model fastly. Flow2ML is an open source library to make machine learning process much simpler. It loads the image data and applies the selected filters and returns train data, train labels, validation data and validation labels. For all these steps it just take 3 lines of code. It mostly helps beginners in the field of machine learning and deep learning where the user would deal with image related data.",
       technology_used: "Python",
-      repo_fullname: "low2ml/Flow2ML",
+      repo_fullname: "flow2ml/Flow2ML",
           email: "vedhakrishnapanchami@gmail.com",
       mentors_id: [
         
