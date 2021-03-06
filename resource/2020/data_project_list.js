@@ -1681,7 +1681,7 @@ const project_list = {
         "Book Recommendation System built for Book Lovers📖. Simply Rate ⭐ some books and get immediate recommendations.",
       project_video_link: "https://youtu.be/N2179jIbijw",
       technology_used:
-        "HTML, CSS, JavaScript, Python, Django, Surprise",
+        "HTML, CSS, JavaScript, Python, Django, Surprise, Machine Learning, Deep Learning",
       repo_fullname: "Praful932/Kitabe",
       // project_slack_channel: "proj_cats_in_tech",
       github: "https://github.com/Praful932/Kitabe",
