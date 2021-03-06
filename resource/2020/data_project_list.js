@@ -2074,7 +2074,7 @@ const project_list = {
       technology_used: "MERN, AWS, React, Node, Express, MongoDB",
       project_video_link:"https://youtu.be/CVwdzeWCgXo",
       repo_fullname: "HITK-TECH-Community/Community-Website",
-          email: "rohitagrl1302@gmail.com, kajolkumarisingh222@gmail.com",
+          email: "rohitagrl1302@gmail.com",
       mentors_id: [
         
       ],
