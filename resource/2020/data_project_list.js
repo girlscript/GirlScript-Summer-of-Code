@@ -1342,6 +1342,7 @@ const project_list = {
         "Simulate aims to be a collection of simulations and visualizations from various domains like mathematics, physics, computer science etc. in a cross platform app made using Flutter.",
       // project_video_link:
       //   "I see this project turning into a simple, effective, easy to use and attractive employee management platform that can be used easily on different devices. ",
+      project_video_link: "https://drive.google.com/file/d/1dwyRJh4dUNAFy-NVeD-LDZGF6s1SQl35/view?usp=drivesdk",
       technology_used:
         "Android, IOS, Cross-Platform, Algorithms, Mathematics, Physics, Simulations, Flutter, Dart, Visualizations",
       repo_fullname: "cod-ed/simulate",
@@ -2542,7 +2543,7 @@ const project_list = {
       repo_fullname: "praveenscience/Internship-LMS-FrontEnd",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
-          email: "",
+          email: "gssoc21@praveen.science",
       mentors_id: [
         // {
         //   name: "Jayshree Panda",
@@ -2945,10 +2946,10 @@ const project_list = {
       project_description:
          "Let's say a person wants to donate his/her kidney to a loved one but cannot do so because they have some medical incompatibility. This problem can be solved by curating similar patients and swapping the kidney within themselves. This problem is called the living donor kidney exchange problem, and in most places of India, doctors solve it manually. This project aims to automate a part of this process. This project's primary focus is to provide a platform to facilitate automized inter-hospital kidney transplants.This platform allows interested hospitals to register. The doctors from the registered hospitals can create their account and add their patients' (having kidney problems) medical details to this platform. After a doctor completes this process, this platform provides two main features. The first feature is an option to view only the essential details of a patient required for a kidney transplant. Second, for a given patient, all suitable matches from all the registered hospitals are displayed. These suitable matches are ranked from best to worst.",
       technology_used: "PHP, Python, JavaScript, HTML, CSS",
-      project_video_link:"https://drive.google.com/file/d/1Wp6K0wRsPjxwvTWzIIVIQMqYhe1ZMX_0/view",
+      project_video_link:"https://drive.google.com/file/d/1Wp6K0wRsPjxwvTWzIIVIQMqYhe1ZMX_0/view?usp=sharing",
       repo_fullname: "siv2r/kidney-exchange",
           email: "siv2ram@gmail.com",
-      project_slack_channel:"kidney-exchange",
+      project_slack_channel:"https://join.slack.com/t/kidney-exchange/shared_invite/zt-n54e89o7-yB5E6eZl7q3DAvLFdUAwgA",
       mentors_id: [
         
       ],
@@ -2973,8 +2974,10 @@ const project_list = {
       project_name: "Flow2Ml",
       project_description:
          "Write only a Few Lines of Machine learning code using Flow2Ml Quickly design and customize pre-processing workflow in machine learning. Obtain training, validating samples with only 3 lines of code using Flow2ML toolkit Check Installation and sample code to flow into your ml model fastly. Flow2ML is an open source library to make machine learning process much simpler. It loads the image data and applies the selected filters and returns train data, train labels, validation data and validation labels. For all these steps it just take 3 lines of code. It mostly helps beginners in the field of machine learning and deep learning where the user would deal with image related data.",
-      technology_used: "Python",
+         project_video_link: "https://drive.google.com/file/d/1FljCbutbipFYFpZKWfxtsR7Kw8mwnb7i/view?usp=sharing",
+         technology_used: "Python",
       repo_fullname: "flow2ml/Flow2ML",
+      github: "https://github.com/flow2ml/Flow2ML",
           email: "vedhakrishnapanchami@gmail.com",
       mentors_id: [
         
@@ -3226,6 +3229,7 @@ const project_list = {
       github_username: "kaushik-rishi",
       project_name: "Rocket Competitive Programming",
       project_description: "A command line client for parsing and making folders and files for test cases using the competitive companion extension and testing the solution. It listens to post requests from the competitve companion extension of the browser and parses the request and make folders and make files for testing the users solution. There is an aim of making it bigger by developing the own chrome extension and extending it futher to enable submissions to codeforces using http post requests. Building this with an 🎯 aim of making Competitive Programming More Productive.",
+      project_video_link: "https://youtu.be/2TUyVUQhMb8",
       technology_used: "Node JS, Javascript, Bash",
       repo_fullname: "kaushik-rishi/rocketcp",
           email: "rishi.cp01@gmail.com",
