@@ -1345,6 +1345,7 @@ const project_list = {
       project_video_link: "https://drive.google.com/file/d/1dwyRJh4dUNAFy-NVeD-LDZGF6s1SQl35/view?usp=drivesdk",
       technology_used:
         "Android, IOS, Cross-Platform, Algorithms, Mathematics, Physics, Simulations, Flutter, Dart, Visualizations",
+      project_video_link:"https://youtu.be/iOLcfR1SULk",
       repo_fullname: "cod-ed/simulate",
       // project_slack_channel: "proj_bossy",
       github: "https://github.com/cod-ed/simulate",
@@ -2072,8 +2073,9 @@ const project_list = {
       project_name: "HITK Community Website",
       project_description: "This project aims to build the official site for the community page so that any student can use the resources shared by us.",
       technology_used: "MERN, AWS, React, Node, Express, MongoDB",
+      project_video_link:"https://youtu.be/CVwdzeWCgXo",
       repo_fullname: "HITK-TECH-Community/Community-Website",
-          email: "Ambujm143@gmail.com",
+          email: "rohitagrl1302@gmail.com",
       mentors_id: [
         
       ],
@@ -2956,13 +2958,13 @@ const project_list = {
     },
     {
       project_id: 79,
-      owner_name: "Salil Naik",
-      github_username: "salil-naik",
+      owner_name: "Gaurav Das",
+      github_username: "gauravdas014",
       project_name: "Feminist Bible (Phase 2)",
       project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy",
       technology_used: "HTML, CSS(SCSS), React JS, Node JS, Mongo DB",
       repo_fullname: "girlscript/feminist-bible-phase-2",
-          email: "salil.naik27@gmail.com",
+          email: "gauravdas014@gmail.com",
       mentors_id: [
         
       ],
@@ -2973,9 +2975,9 @@ const project_list = {
       github_username: "yvkrishna",
       project_name: "Flow2Ml",
       project_description:
-         "Write only a Few Lines of Machine learning code using Flow2Ml Quickly design and customize pre-processing workflow in machine learning. Obtain training, validating samples with only 3 lines of code using Flow2ML toolkit Check Installation and sample code to flow into your ml model fastly. Flow2ML is an open source library to make machine learning process much simpler. It loads the image data and applies the selected filters and returns train data, train labels, validation data and validation labels. For all these steps it just take 3 lines of code. It mostly helps beginners in the field of machine learning and deep learning where the user would deal with image related data.",
-         project_video_link: "https://drive.google.com/file/d/1FljCbutbipFYFpZKWfxtsR7Kw8mwnb7i/view?usp=sharing",
-         technology_used: "Python",
+         "Write only a Few Lines of Machine learning code using Flow2Ml Quickly design and customize pre-processing workflow in machine learning. Obtain training, validating samples with only 3 lines of code using Flow2ML toolkit Check Installation and sample code to flow into your ml model fastly. Flow2ML is an open source library to make machine learning process much simpler. It loads the image data and applies the selected filters and returns train data, train labels, validation data and validation labels. For all these steps it just take 3 lines of code. It mostly helps beginners in the field of machine learning and deep learning where the user would deal with image related data.",         
+      technology_used: "Python",
+      project_video_link:"https://youtu.be/xELBDOQVUjY",
       repo_fullname: "flow2ml/Flow2ML",
       github: "https://github.com/flow2ml/Flow2ML",
           email: "vedhakrishnapanchami@gmail.com",
@@ -3045,6 +3047,7 @@ const project_list = {
       project_description:
          "Rotten Scripts contains amazing and awesome scripts written in Python, JavaScript, Bash, Powershell, and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.",
       technology_used: "Python, Javascript, Golang, BASH",
+      project_video_link:"https://youtu.be/FYvD40kzapM",
       repo_fullname: "harshcasper/rotten-scripts",
           email: "erbeusgriffincasper@gmail.com",
       mentors_id: [
@@ -3245,7 +3248,20 @@ const project_list = {
       project_description: "AmbSQL is a Relational Database Management System which created with keeping in focus the speed and the ease to operate on.",
       technology_used: "Python, SQL",
       repo_fullname: "ambujraj/ambsql",
-          email: "rohitagrl1302@gmail.com, kajolkumarisingh222@gmail.com",
+          email: "Ambujm143@gmail.com",
+      mentors_id: [
+        
+      ],
+    },
+    {
+      project_id: 99,
+      owner_name: "Anushka Jadhav",
+      github_username: "anna4j",
+      project_name: "Feminist Bible Phase 1",
+      project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy.",
+      technology_used: "React.js, Redux, NodeJS, MongoDB, JavaScript, HTML, CSS",
+      repo_fullname: "girlscript/Feminist-Bible-FrontEnd-Phase1",
+          email: "anushkajadhav004@gmail.com",
       mentors_id: [
         
       ],
