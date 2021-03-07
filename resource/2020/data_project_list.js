@@ -3256,7 +3256,7 @@ const project_list = {
       github_username: "gauravdas014",
       project_name: "Feminist Bible Phase 1",
       project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy.",
-      technology_used: "Python, SQL",
+      technology_used: "React.js, Redux, NodeJS, MongoDB, JavaScript, HTML, CSS",
       repo_fullname: "girlscript/Feminist-Bible-FrontEnd-Phase1",
           email: "gauravdas014@gmail.com",
       mentors_id: [
