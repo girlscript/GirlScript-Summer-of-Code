@@ -22,8 +22,8 @@ let contri_data = [];
 let url_params;
 
 // Change according to duration of GSSoC
-let gssoc_start_date = "2020-03-01"; // 2020-03-01
-let gssoc_end_date = "2020-06-08"; // 2020-06-08
+let gssoc_start_date = "2020-03-08"; // 2020-03-01
+let gssoc_end_date = "2021-06-08"; // 2020-06-08
 
 // Get GitHub username from URL query string
 let search = location.search.substring(1);
@@ -47,7 +47,6 @@ async function getUser(github_username) {
   }
 
   // console.log("User:\n", user_data);
-
   let gs_profile_pic_container = document.querySelector('.gs-profile-pic-container');
   let fullname = document.querySelector('.gs-fullname');
   let username = document.querySelector('.gs-username');
@@ -56,7 +55,7 @@ async function getUser(github_username) {
   let followers = document.querySelector('.gs-user-stats .followers');
   let following = document.querySelector('.gs-user-stats .following');
 
-  // Do something
+  // User Information
   gs_profile_pic_container.innerHTML = `<img class="gs-profile-pic" src="${user_data.avatar_url}" alt="Profile Pic" />`;
   fullname.innerHTML = user_data.name;
   username.innerHTML = user_data.login;
@@ -288,13 +287,13 @@ async function getPRs(github_username, start_date, end_date) {
   // console.log("Merged PRs:\n", prs_data_merged);
 
   // filter merged PRs so that only the ones with the label 'gssoc20' are left
-  prs_data_merged.items = prs_data_merged.items.filter(element => {
-    if(element.labels.map(label => label.name.replace(/\s/g,'').toLowerCase()).includes('gssoc20')) {
-      return true;
-    } else {
-      return false;
-    }
-  });
+  // prs_data_merged.items = prs_data_merged.items.filter(element => {
+  //   if(element.labels.map(label => label.name.replace(/\s/g,'').toLowerCase()).includes('gssoc21')) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // });
 
   // SCORE CALCULATION
   let possible_scores = {"beginner": 2, "easy": 4, "medium": 7, "hard": 10};
@@ -305,6 +304,7 @@ async function getPRs(github_username, start_date, end_date) {
     const labels = element.labels;
     merged_labels = merged_labels.concat(labels);
   });
+  // console.log(merged_labels);
 
   // keep only the scoring labels from possible_labels in the array
   const merged_labels_scoring = merged_labels.filter(label => {
@@ -471,6 +471,8 @@ async function getContributions(github_username, start_date, end_date) {
   //   }
   // });
 
+  // console.log(contri_data.contributions);
+
   // create initial array of contributions with dates and initial values that will later be filled with data
   let start_date_iso = new Date(start_date);
   let end_date_iso = new Date(end_date);
@@ -603,7 +605,7 @@ if(url_params != undefined) {
   });
   loadProjectListPromise.then(() => {
     let loadFilteredProjectListPromise = new Promise(async (resolve, reject) => {
-      await getCommits(url_params.id, "2020-02-29", gssoc_end_date)
+      await getCommits(url_params.id, gssoc_start_date, gssoc_end_date)
         .then(() => resolve())
         .catch(() => {
           $('#commitsContainer').html('<span class="fetch_error">Unable to fetch. Wait 1 minute, then try again.</span>');
