@@ -2371,13 +2371,13 @@ const project_list = {
     {
       project_id: 65,
       owner_name: "Manas Kashyap , Vikas Hazrati , Himanshu Gupta",
-      github_username: "N/A",
+      github_username: "knoldus",
       project_name: "Knoldus LeaderBoard",
       project_description:
         "This is a web application (running on GCP).This is the front page of the product, which would show the Knolders rankings Overall Score - Lifetime score of the Knolder (since they joined Knoldus) Overall Rank - Lifetime rank Monthly score - Score until today of this month. If the date today is March 23 then score for the last 23 days (The scores would be recalculated as a batch job? At midnight each night) Monthly rank - rank until today for the current month 3-month streak - Scores for the last 3 months i.e. Dec 2019, Jan 2020 and Feb 2020 New Additions: Sort the Knolders on the basis of Overall Score/Rank or Monthly Score/Rank on UI. It can be achieved with the Angular Template bought. If a Knolder clicks on any row on the page, it would open a details page.",
       // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
       technology_used: "Scala , Java , React / Angular / Ionic , Postgress",
-      repo_fullname: "N/A",
+      repo_fullname: "knoldus/leaderboard",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/knoldus/leaderboard",
           email: "manas.kashyap@knoldus.com , himanshu@knoldus.com , vikas@knoldus.com",
