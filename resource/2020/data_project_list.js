@@ -2379,7 +2379,7 @@ const project_list = {
       technology_used: "Scala , Java , React / Angular / Ionic , Postgress",
       repo_fullname: "N/A",
       // project_slack_channel: "proj_mentorfix",
-      //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
+      github: "https://github.com/knoldus/leaderboard",
           email: "manas.kashyap@knoldus.com , himanshu@knoldus.com , vikas@knoldus.com",
       mentors_id: [
          {
