@@ -36,12 +36,12 @@ function displayModalData(ele) {
     return `
       <div class="gs-mentor">
         <span class="gs-mentor-name">${ele.name}</span>
-        <a href="${ele.github}" target="_blank">
+        <!--<a href="${ele.github}" target="_blank">
           <span class="iconify" data-icon="logos:github-icon" data-inline="false"></span>
         </a>
         <a href="https://app.slack.com/client/TRN1H1V43/CRZ1UF82Y/user_profile/${ele.slackId}" target="_blank" class="gs-mentor-slack">
           <span class="iconify" data-icon="logos:slack-icon" data-inline="false"></span>
-        </a>
+        </a>-->
         <a href="mailto:${ele.email}" style="font-size:1.5rem">
           <span class="iconify icon:mdi-light:email icon-inline:false"></span>
         </a>
