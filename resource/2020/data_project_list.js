@@ -2311,7 +2311,7 @@ const project_list = {
       technology_used: "Python, OpenCV, NLTK, Electron.js ( Or any desktop app framework), speech-to-text",
       repo_fullname: "shankhanil007/DotSlash-4.0-EduHelp.git",
       // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/shankhanil007/DotSlash-4.0-EduHelp.git",
+      github: "https://github.com/CrewMates-Open-Source/EduHelp.git",
           email: "shankhanil974@gmail.com",
       mentors_id: [
          {
