@@ -3479,9 +3479,9 @@ const project_list = {
         
         {
           name: "Dishebh",
-        //   github: "https://github.com/avikantwadhwa",
+        
            email: "dishebh27@gmail.com",
-        //   slackId: "UTZH4BELS",
+        
          }
       ],
     },
