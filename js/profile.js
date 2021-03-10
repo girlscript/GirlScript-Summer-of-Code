@@ -22,8 +22,8 @@ let contri_data = [];
 let url_params;
 
 // Change according to duration of GSSoC
-let gssoc_start_date = "2020-03-01"; // 2020-03-01
-let gssoc_end_date = "2020-06-08"; // 2020-06-08
+let gssoc_start_date = "2021-03-08"; // 2021-03-08
+let gssoc_end_date = "2021-06-01"; // 2021-06-01
 
 // Get GitHub username from URL query string
 let search = location.search.substring(1);
@@ -287,9 +287,9 @@ async function getPRs(github_username, start_date, end_date) {
   // console.log("PRs:\n", prs_data);
   // console.log("Merged PRs:\n", prs_data_merged);
 
-  // filter merged PRs so that only the ones with the label 'gssoc20' are left
+  // filter merged PRs so that only the ones with the label 'gssoc21' are left
   prs_data_merged.items = prs_data_merged.items.filter(element => {
-    if(element.labels.map(label => label.name.replace(/\s/g,'').toLowerCase()).includes('gssoc20')) {
+    if(element.labels.map(label => label.name.replace(/\s/g,'').toLowerCase()).includes('gssoc21')) {
       return true;
     } else {
       return false;
@@ -297,7 +297,7 @@ async function getPRs(github_username, start_date, end_date) {
   });
 
   // SCORE CALCULATION
-  let possible_scores = {"beginner": 2, "easy": 4, "medium": 7, "hard": 10};
+  let possible_scores = {"level0": 5, "level1": 10, "level2": 15, "level3": 25};
   
   // combine all labels from all merged PRs into an array
   let merged_labels = [];
@@ -603,7 +603,7 @@ if(url_params != undefined) {
   });
   loadProjectListPromise.then(() => {
     let loadFilteredProjectListPromise = new Promise(async (resolve, reject) => {
-      await getCommits(url_params.id, "2020-02-29", gssoc_end_date)
+      await getCommits(url_params.id, gssoc_start_date, gssoc_end_date)
         .then(() => resolve())
         .catch(() => {
           $('#commitsContainer').html('<span class="fetch_error">Unable to fetch. Wait 1 minute, then try again.</span>');
