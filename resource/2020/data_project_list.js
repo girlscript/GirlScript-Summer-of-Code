@@ -3429,7 +3429,7 @@ const project_list = {
       github_username: "kaushik-rishi",
       project_name: "Rocket Competitive Programming",
       project_description: "A command line client for parsing and making folders and files for test cases using the competitive companion extension and testing the solution. It listens to post requests from the competitve companion extension of the browser and parses the request and make folders and make files for testing the users solution. There is an aim of making it bigger by developing the own chrome extension and extending it futher to enable submissions to codeforces using http post requests. Building this with an 🎯 aim of making Competitive Programming More Productive.",
-      project_video_link: "https://youtu.be/2TUyVUQhMb8",
+      project_video_link: "https://www.youtube.com/watch?v=3hCQKaUxKRQ",
       technology_used: "Node JS, Javascript, Bash",
       repo_fullname: "kaushik-rishi/rocketcp",
           email: "rishi.cp01@gmail.com",
