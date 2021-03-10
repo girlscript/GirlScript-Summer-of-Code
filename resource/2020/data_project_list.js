@@ -3464,7 +3464,7 @@ const project_list = {
       repo_fullname: "ambujraj/ambsql",
           email: "Ambujm143@gmail.com",
       mentors_id: [
-        
+        {
         name: "Aish Jain",
         //   github: "https://github.com/Jayashree-panda",
            email: "aish.96jain@gmail.com",
