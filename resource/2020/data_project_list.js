@@ -3465,6 +3465,24 @@ const project_list = {
           email: "Ambujm143@gmail.com",
       mentors_id: [
         
+        name: "Aish Jain",
+        //   github: "https://github.com/Jayashree-panda",
+           email: "aish.96jain@gmail.com",
+        //   slackId: "UUC8L15G8",
+        },
+         {
+          name: "Pratyush Raj",
+        //   github: "https://github.com/avikantwadhwa",
+           email: "pratyushraj2f@gmail.com",
+        //   slackId: "UTZH4BELS",
+         },
+        
+        {
+          name: "Dishebh",
+        //   github: "https://github.com/avikantwadhwa",
+           email: "dishebh27@gmail.com",
+        //   slackId: "UTZH4BELS",
+         }
       ],
     },
     {
