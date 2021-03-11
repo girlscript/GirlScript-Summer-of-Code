@@ -1672,7 +1672,7 @@ const project_list = {
       project_description:
         "Opportunity Calendar provides instant information on newly posted opportunities for techies. There are times when applicants miss deadlines or get to know about available opportunities only after the deadline of their application passes. Updates about the following opportunities are available: Full-Time Job Opportunities, Internship Opportunities, Scholarships, Tech-Conferences, Coding Competitions, Hackathons",
       project_video_link: "https://youtu.be/AMFKx5RG5Ws",
-      technology_used: "Backend: Framework - Django Rest, Framework Database - PostgreSQL, Python - version 3.8.2",
+      technology_used: "NodeJS, ExpressJS, MongoDB, JavaScript",
       repo_fullname: "Girl-Code-It/Opportunity-Calendar-Backend",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/Girl-Code-It/Opportunity-Calendar-Backend",
