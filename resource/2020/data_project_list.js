@@ -88,9 +88,9 @@ const project_list = {
       // project_slack_channel: "proj_webtech",
       mentors_id: [
         {
-          name: "Shashwat Gupta",
+          name: "Krishnen Bera",
           // github: "https://github.com/koderjoker",
-          email: "shashwatsatna@gmail.com",
+          email: "bera.krishnendu36@gmail.com",
           // slackId: "UUC91EH6U",
         },
         {
@@ -267,21 +267,27 @@ const project_list = {
       email: "srimanikantapalakollu@gmail.com",
        mentors_id: [
         {
-          name: "Suyash Gautam",
+          name: "SaiVardhan Poloju",
           // github: "https://github.com/Vaibhavraj10",
-          email: "suyash.gautam97@gmail.com",
+          email: "saivardhanpoloju326@gmail.com",
           // slackId: "UTYUV9X6W",
         },
         {
-          name: "Sarath Kaul",
+          name: "Sandip Palit",
           // github: "http://github.com/singh-shreya6",
-          email: "kaul.sarath@gmail.com",
+          email: "sandippalit009@gmail.com",
           // slackId: "UU134H2QJ",
         },
         {
-          name: "Bhubesh SR",
+          name: "Niket kumar dheeryan",
           // github: "http://github.com//MastersAbh",
-          email: "bhubesh2k19@gmail.com",
+          email: "Nkdheeryan01@gmail.com",
+          // slackId: "UU5DN4G1X",
+        },
+        {
+          name: "Anustup Mukherjee",
+          // github: "http://github.com//MastersAbh",
+          email: "anustup.mukherjee99@gmail.com",
           // slackId: "UU5DN4G1X",
         }
        ],
@@ -699,6 +705,18 @@ const project_list = {
           name: "Harikesh Pallantla",
           // github: "https://github.com/satyajiit",
           email: "p.harikesh409@gmail.com",
+          // slackId: "UUBP7SP5K",
+        },
+        {
+          name: "Adyasha Mohanty, Saswat",
+          // github: "https://github.com/satyajiit",
+          // email: "p.harikesh409@gmail.com",
+          // slackId: "UUBP7SP5K",
+        },
+        {
+          name: "Saswat",
+          // github: "https://github.com/satyajiit",
+          // email: "p.harikesh409@gmail.com",
           // slackId: "UUBP7SP5K",
         }
        ],
@@ -1284,21 +1302,21 @@ const project_list = {
           email: "goyalshagun25@gmail.com",
       mentors_id: [
          {
-           name: "Shagun goyal",
+           name: "Aish Jain",
         //   github: "https://github.com/IHackPy",
-           email: "goyalshagun25@gmail.com",
+           email: "aish.96jain@gmail.com",
         //   slackId: "UUCRFPAJU",
          },
          {
-           name: "Ankita Saloni",
+           name: " Pratyush Raj",
         //   github: "https://github.com/17-Vishal",
-           email: "saloniankita23@gmail.com",
+           email: "pratyushraj2f@gmail.com",
         //   slackId: "UUCRFPAJU",
          },
         {
-           name: "Ashutosh Singh",
+           name: "Dishebh",
         //   github: "https://github.com/dikshagoyal26",
-           email: "hiashutoshkumarsingh@gmail.com",
+           email: "dishebh27@gmail.com",
         //   slackId: "UUCRFPAJU",
          },
       ],
@@ -1471,7 +1489,7 @@ const project_list = {
         //   github: "https://github.com/ousnik",
           email: "venkata.nagahemanth2018@vitstudent.ac.in",
         //   slackId: "UTZ5C3XJN",
-         },
+         }
       ],
     },
     {
@@ -1983,6 +2001,12 @@ const project_list = {
            email: "991rajat@gmail.com",
         //   slackId: "UU0PYRJ3V",
          },
+         {
+          name: "Urvashi Anand",
+       //   github: "https://github.com/laveesh",
+          email: "urvashianand0906@gmail.com",
+       //   slackId: "UU0PYRJ3V",
+        }
       ],
     },
     {
@@ -2298,6 +2322,12 @@ const project_list = {
            email: "janvimahajan337@gmail.com",
         //   slackId: "UU0PYRJ3V",
          },
+         {
+          name: "Abhishek Rajput",
+       //   github: "https://github.com/laveesh",
+          email: "rajputabhisekhsingh53@gmail.com",
+       //   slackId: "UU0PYRJ3V",
+        }
       ],
     },
     {
@@ -2427,6 +2457,12 @@ const project_list = {
            email: "harshitjain1309@gmail.com",
         //   slackId: "UTZH4BELS",
          },
+         {
+          name: "Shashwat Gupta",
+       //   github: "https://github.com/avikantwadhwa",
+          // email: "",
+       //   slackId: "UTZH4BELS",
+        }
       ],
     },
     {
@@ -2462,6 +2498,12 @@ const project_list = {
            email: "ishaanbhallal21@gmail.com",
         //   slackId: "UU0PYRJ3V",
          },
+         {
+          name: "Rishabh",
+       //   github: "https://github.com/laveesh",
+          email: "rishabh5530@gmail.com",
+       //   slackId: "UU0PYRJ3V",
+        }
       ],
     },
     {
@@ -2536,7 +2578,7 @@ const project_list = {
       project_id: 70,
       owner_name: "Avinash Kumar Ranjan",
       github_username: "avinashkranjan",
-      project_name: "Recess",
+      project_name: " ",
       project_description:
         "Recess - A Social Media Platform for students to share their experience/knowledge they gained in their free time.",
         // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
@@ -2710,6 +2752,12 @@ const project_list = {
           email: "prince17.ps6@gmail.com",
        //   slackId: "UU0PYRJ3V",
         },
+        {
+          name: "Sameera S Kashyap",
+       //   github: "https://github.com/laveesh",
+          email: "sameera.s.kashyap@gmail.com",
+       //   slackId: "UU0PYRJ3V",
+        }
       ],
     },
     {
@@ -2773,6 +2821,12 @@ const project_list = {
           email: "1905523@kiit.ac.in",
        //   slackId: "UTZH4BELS",
         },
+        {
+          name: "Dharmpal Chaudhary",
+       //   github: "https://github.com/avikantwadhwa",
+          email: "chaudharydharmpal95@gmail.com",
+       //   slackId: "UTZH4BELS",
+        }
       ],
     },
     {
@@ -2850,13 +2904,30 @@ const project_list = {
       project_id: 79,
       owner_name: "Gaurav Das",
       github_username: "gauravdas014",
-      project_name: "Feminist Bible (Phase 2)",
+      project_name: " (Phase 2)",
       project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy",
       technology_used: "HTML, CSS(SCSS), React JS, Node JS, Mongo DB",
       repo_fullname: "girlscript/feminist-bible-phase-2",
           email: "gauravdas014@gmail.com",
       mentors_id: [
-        
+        {
+          name: "Joshua Poddoku",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "joshuapoddoku@gmail.com",
+       //   slackId: "UUC8L15G8",
+       },
+        {
+         name: "Shashank Motruri",
+       //   github: "https://github.com/avikantwadhwa",
+          email: "shashank.m19@iiits.in",
+       //   slackId: "UTZH4BELS",
+        },
+        {
+          name: "Shubhadarshie Nanda",
+       //   github: "https://github.com/laveesh",
+          email: "b518045@iiit-bh.ac.in",
+       //   slackId: "UU0PYRJ3V",
+        },
       ],
     },
     {
@@ -3001,6 +3072,12 @@ const project_list = {
           email: "adrenine13@gmail.com",
       //   slackId: "UU0PYRJ3V",
         },
+        {
+          name: "Kunal Jain",
+      //   github: "https://github.com/laveesh",
+          email: "jainkunal209@gmail.com",
+      //   slackId: "UU0PYRJ3V",
+        }
       ],
     },
     {
@@ -3080,21 +3157,21 @@ const project_list = {
           email: "ashishsahu10428@gmail.com",
       mentors_id: [
         {
-          name: "Rohit Kumar srivastava",
+          name: "Vaibhav Arora",
           // github: "https://github.com/xandao6",
-          email: "rohitsrivastava2303@gmail.com",
+          email: "aroravaibhav102@gmail.com",
           // slackId: "UU86919FA",
         },
         {
-          name: "Joshitha Gandra",
+          name: "Niket kumar Dheeryan",
           // github: "https://github.com/nileshpatra",
-          email: "180020009@iitdh.ac.in",
+          email: "Nkdheeryan01@gmail.com",
           // slackId: "UU276H3AM",
         },
         {
-          name: "Rasika Kedia",
+          name: "Priyanka Gupya",
           // github: "https://github.com/Bhupesh-V",
-          email: "rashrey2308@gmail.com",
+          email: "priyagupta55@gmail.com",
           // slackId: "UUEA9F80P",
         }
       ],
@@ -3360,6 +3437,12 @@ const project_list = {
           email: "yukti845@gmail.com",
        //   slackId: "UU0PYRJ3V",
         },
+        {
+          name: "Anurag",
+       //   github: "https://github.com/laveesh",
+          email: "anurags.jadon10@gmail.com",
+       //   slackId: "UU0PYRJ3V",
+        }
       ],
     },
     {
@@ -3514,6 +3597,48 @@ const project_list = {
         //   slackId: "UU0PYRJ3V",
          },
         
+      ],
+    },
+
+    {
+      project_id: 100,
+      owner_name: "Dharm Narayan",
+      // github_username: "",
+      project_name: "Girlscript Community Website ",
+      project_description:
+        "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.",
+      // project_video_link: "",
+      technology_used:
+        "MERN Stack, Django",
+      // repo_fullname: "",
+      // project_slack_channel: "proj_cropai",
+      // github: "",
+          // email: "",
+      mentors_id: [
+        {
+          name: "Chandrika Deb",
+          // github: "https://github.com/gshanbhag525",
+          email: "chandrikadeb7@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Vivekkumar Javiya",
+          // github: "https://github.com/Sulekhiya",
+          email: "codewithvk256@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Kajol Kumari,Amisha Agarwal",
+          // github: "https://github.com/rajats98",
+          email: "kajolkumarisingh222@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Amisha Agarwal",
+          // github: "https://github.com/rajats98",
+          email: "amishaagarwal1998@gmail.com",
+          // slackId: "UUCRFPAJU",
+        }
       ],
     },
   ],
