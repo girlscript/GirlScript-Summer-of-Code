@@ -2618,7 +2618,7 @@ const project_list = {
         "Automating Healthcare Our Mission is to automate Healthcare and make Health facilities available to everyone regardless of their limitations Our Goals : 1. Automate Healthcare Medical Appointments 2. Online Disease Severity Prediction based on input symptoms through AI enabled chat-bots 3. Online Medical Document Storage for Doctor-Patient Interactions 4. e-Ambulance Tracking",
         // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
       technology_used: "ReactJS, Firebase, Django, Python, NLP",
-      repo_fullname: "avinashkranjan/Recess",
+      repo_fullname: "avinashkranjan/lifeMEDeasy",
       // project_slack_channel: "proj_mentorfix",
       //github: "https://github.com/praveenscience/Internship-LMS-FrontEnd",
           email: "ranjan.avinash@hotmail.com",
