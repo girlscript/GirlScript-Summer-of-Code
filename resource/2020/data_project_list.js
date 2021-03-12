@@ -2015,7 +2015,7 @@ const project_list = {
       // github_username: "",
       project_name: "Girlscript Community Website ",
       project_description:
-        "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.",
+        "The GirlScript Foundation is a well-acclaimed organization in the EdTech field. It has been successfully equipping modern youth with the new age technologies that are revolutionising the world today.It is a sturdy initiative that inspires the youth to learn, grow and diversify their reach in the competitive world. Our mission is to impinge on every individual who has the zeal to learn more. Around the year we conduct several educational programs and offer internship opportunities to the youngsters so that they become industry-ready. Today our network has expanded to a great extent and has culminated the submit of success.",
       // project_video_link: "",
       technology_used:
         "MERN Stack, Django",
