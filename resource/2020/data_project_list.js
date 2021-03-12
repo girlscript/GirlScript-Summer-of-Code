@@ -2579,7 +2579,7 @@ const project_list = {
       project_id: 70,
       owner_name: "Avinash Kumar Ranjan",
       github_username: "avinashkranjan",
-      project_name: " ",
+      project_name: "Recess",
       project_description:
         "Recess - A Social Media Platform for students to share their experience/knowledge they gained in their free time.",
         // project_video_link: "https://youtu.be/Pm6o6M1Kg7A",
@@ -2905,7 +2905,7 @@ const project_list = {
       project_id: 79,
       owner_name: "Gaurav Das",
       github_username: "gauravdas014",
-      project_name: " (Phase 2)",
+      project_name: "Feminist Bible (Phase 2)",
       project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy",
       technology_used: "HTML, CSS(SCSS), React JS, Node JS, Mongo DB",
       repo_fullname: "girlscript/feminist-bible-phase-2",
