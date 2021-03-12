@@ -2010,46 +2010,6 @@ const project_list = {
       ],
     },
     {
-      project_id: 54,
-      owner_name: "Ankit Dobhal",
-      github_username: "ankitdobhal",
-      project_name: "Ashok",
-      project_description:
-        "Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned .So Ashok is one of the Incredible & fastest recon tool for penetration tester which is specially designed for Reconnaissance phase. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
-      project_video_link: "https://youtu.be/yIg4YRMsRN4",
-      technology_used: "Python3, Docker, LInux, Shell Scripting",
-      repo_fullname: "ankitdobhal/Ashok",
-      // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/ankitdobhal/Ashok",
-          email: "dobhal.ankit@protonmail.com",
-      mentors_id: [
-         {
-           name: "Yadvi Bhalla",
-        //   github: "https://github.com/Jayashree-panda",
-           email: "yadvibhalla2002@gmail.com",
-        //   slackId: "UUC8L15G8",
-         },
-         {
-           name: "Vadisina Sai Sudha",
-        //   github: "https://github.com/avikantwadhwa",
-           email: "saisudhavadisina@gmail.com",
-        //   slackId: "UTZH4BELS",
-         },
-         {
-           name: "Pratibha Gupta",
-        //   github: "https://github.com/laveesh",
-           email: "gupta.juhi941999@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-         },
-         {
-           name: "Nenad Pantelić",
-        //   github: "https://github.com/harsha-iiiv",
-           email: "nenadpantelickg@gmail.com",
-        //   slackId: "UUE2B5JHM",
-         },
-      ],
-    },
-    {
       project_id: 55,
       owner_name: "Altamas Bari",
       github_username: "Developer-Student-Clubs-VSSUT-Burla",
