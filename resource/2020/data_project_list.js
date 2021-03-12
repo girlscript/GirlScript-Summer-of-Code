@@ -1469,7 +1469,7 @@ const project_list = {
       technology_used: "Python, Flask",
       repo_fullname: "vikasdo/Retailer_Book_recommendation",
       // project_slack_channel: "",
-      github: "https://github.com/vikasdo/Book-Recommendation-Analysis",
+      github: "vikasdo/Book-Recommendation-Analysis",
           email: "donthulavikas1999@gmail.com",
       mentors_id: [
          {
