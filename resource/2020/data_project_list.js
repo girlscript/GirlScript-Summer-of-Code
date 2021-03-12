@@ -2011,42 +2011,43 @@ const project_list = {
     },
     {
       project_id: 54,
-      owner_name: "Ankit Dobhal",
-      github_username: "ankitdobhal",
-      project_name: "Ashok",
+      owner_name: "Dharm Narayan",
+      // github_username: "",
+      project_name: "Girlscript Community Website ",
       project_description:
-        "Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned .So Ashok is one of the Incredible & fastest recon tool for penetration tester which is specially designed for Reconnaissance phase. To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
-      project_video_link: "https://youtu.be/yIg4YRMsRN4",
-      technology_used: "Python3, Docker, LInux, Shell Scripting",
-      repo_fullname: "ankitdobhal/Ashok",
-      // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/ankitdobhal/Ashok",
-          email: "dobhal.ankit@protonmail.com",
+        "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.",
+      // project_video_link: "",
+      technology_used:
+        "MERN Stack, Django",
+      // repo_fullname: "",
+      // project_slack_channel: "proj_cropai",
+      // github: "",
+          // email: "",
       mentors_id: [
-         {
-           name: "Yadvi Bhalla",
-        //   github: "https://github.com/Jayashree-panda",
-           email: "yadvibhalla2002@gmail.com",
-        //   slackId: "UUC8L15G8",
-         },
-         {
-           name: "Vadisina Sai Sudha",
-        //   github: "https://github.com/avikantwadhwa",
-           email: "saisudhavadisina@gmail.com",
-        //   slackId: "UTZH4BELS",
-         },
-         {
-           name: "Pratibha Gupta",
-        //   github: "https://github.com/laveesh",
-           email: "gupta.juhi941999@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-         },
-         {
-           name: "Nenad Pantelić",
-        //   github: "https://github.com/harsha-iiiv",
-           email: "nenadpantelickg@gmail.com",
-        //   slackId: "UUE2B5JHM",
-         },
+        {
+          name: "Chandrika Deb",
+          // github: "https://github.com/gshanbhag525",
+          email: "chandrikadeb7@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Vivekkumar Javiya",
+          // github: "https://github.com/Sulekhiya",
+          email: "codewithvk256@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Kajol Kumari,Amisha Agarwal",
+          // github: "https://github.com/rajats98",
+          email: "kajolkumarisingh222@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Amisha Agarwal",
+          // github: "https://github.com/rajats98",
+          email: "amishaagarwal1998@gmail.com",
+          // slackId: "UUCRFPAJU",
+        }
       ],
     },
     {
@@ -3600,46 +3601,6 @@ const project_list = {
       ],
     },
 
-    {
-      project_id: 100,
-      owner_name: "Dharm Narayan",
-      // github_username: "",
-      project_name: "Girlscript Community Website ",
-      project_description:
-        "GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.",
-      // project_video_link: "",
-      technology_used:
-        "MERN Stack, Django",
-      // repo_fullname: "",
-      // project_slack_channel: "proj_cropai",
-      // github: "",
-          // email: "",
-      mentors_id: [
-        {
-          name: "Chandrika Deb",
-          // github: "https://github.com/gshanbhag525",
-          email: "chandrikadeb7@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Vivekkumar Javiya",
-          // github: "https://github.com/Sulekhiya",
-          email: "codewithvk256@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Kajol Kumari,Amisha Agarwal",
-          // github: "https://github.com/rajats98",
-          email: "kajolkumarisingh222@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Amisha Agarwal",
-          // github: "https://github.com/rajats98",
-          email: "amishaagarwal1998@gmail.com",
-          // slackId: "UUCRFPAJU",
-        }
-      ],
-    },
+    
   ],
 };
