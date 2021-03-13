@@ -2013,16 +2013,16 @@ const project_list = {
       project_id: 54,
       owner_name: "Dharm Narayan",
       // github_username: "",
-      project_name: "Girlscript Community Website ",
+      project_name: "Girlscript Community Website",
       project_description:
         "The GirlScript Foundation is a well-acclaimed organization in the EdTech field. It has been successfully equipping modern youth with the new age technologies that are revolutionising the world today.It is a sturdy initiative that inspires the youth to learn, grow and diversify their reach in the competitive world. Our mission is to impinge on every individual who has the zeal to learn more. Around the year we conduct several educational programs and offer internship opportunities to the youngsters so that they become industry-ready. Today our network has expanded to a great extent and has culminated the submit of success.",
       // project_video_link: "",
       technology_used:
         "MERN Stack, Django",
-      // repo_fullname: "",
+      repo_fullname: "girlscript/Girscript-Community-Website.git",
       // project_slack_channel: "proj_cropai",
       // github: "",
-          // email: "",
+      email: "",
       mentors_id: [
         {
           name: "Chandrika Deb",
