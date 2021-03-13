@@ -1,6 +1,6 @@
 // display modal data
 function displayModalData(ele) {
-  // console.log(ele.getAttribute('data-repo'));
+  
 
   let modalTitle = document.querySelector('.gs-modal-name');
   let modalDesc = document.querySelector('.gs-modal-desc');
@@ -166,13 +166,13 @@ function displayModalData(ele) {
     }
   })
   search_box.addEventListener('keyup', (e) => {
-    console.log(e.target.value, typeof e.target.value);
+    
     if(search_box.value.length <= 0 && e.key === 'Backspace') {
-      console.log(2);
+      
       displayProjects(project_list.list);
     }
     else if(e.target.value != "" || !e.target.value) {
-      console.log(1);
+      
       searchWithDebounce(filterData(e.target.value));
     }
   });
