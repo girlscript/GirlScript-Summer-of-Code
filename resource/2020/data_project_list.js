@@ -74,37 +74,33 @@ const project_list = {
     },
     {
       project_id: 3,
-      owner_name: "Padmini d",
-      github_username: "kaiiyer",
-      project_name: "WhatsApp-play",
-      project_description:
-        "It is command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, WhatsApp chat.. This software aims to provide all facilities which we can do with WhatsApp. This CLI software does not require any API key for the execution.",
-      // project_video_link:
-      //   "Identifying tech stack used in any website or web app",
-      technology_used: "Python",
-      repo_fullname: "rpotter12/whatsapp-play.git",
-      github: "https://github.com/rpotter12/whatsapp-play.git",
-      email: "pdmndvrenu@gmail.com",
-      // project_slack_channel: "proj_webtech",
+      owner_name: "Anushka Jadhav",
+      github_username: "anna4j",
+      project_name: "Feminist Bible Phase 1",
+      project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy.",
+      technology_used: "React.js, Redux, NodeJS, MongoDB, JavaScript, HTML, CSS",
+      repo_fullname: "girlscript/Feminist-Bible-FrontEnd-Phase1",
+          email: "anushkajadhav004@gmail.com",
       mentors_id: [
-        {
-          name: "Krishnen Bera",
-          // github: "https://github.com/koderjoker",
-          email: "bera.krishnendu36@gmail.com",
-          // slackId: "UUC91EH6U",
+         {
+           name: "Ritish Kr Singh",
+        //   github: "https://github.com/Jayashree-panda",
+           email: "ritish.rks@gmail.com",
+        //   slackId: "UUC8L15G8",
         },
-        {
-          name: "Kushal Das",
-          // github: "https://github.com/utkarsh-raj",
-          email: "daskushal980@gmail.com",
-          // slackId: "UUDK7PBF1",
-        },
-        {
-          name: "Shrishti Goyal",
-          // github: "https://github.com/utkarsh-raj",
-          email: "shrishtigoyal2608@gmail.com",
-          // slackId: "UUDK7PBF1",
-        }
+         {
+          name: "Debasmita Das",
+        //   github: "https://github.com/avikantwadhwa",
+           email: "debasmitad76@gmail.com",
+        //   slackId: "UTZH4BELS",
+         },
+         {
+           name: "Ananya Mahato",
+        //   github: "https://github.com/laveesh",
+           email: "ananyaiit123@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+         },
+        
       ],
     },
     {
@@ -3569,37 +3565,7 @@ const project_list = {
          }
       ],
     },
-    {
-      project_id: 99,
-      owner_name: "Anushka Jadhav",
-      github_username: "anna4j",
-      project_name: "Feminist Bible Phase 1",
-      project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy.",
-      technology_used: "React.js, Redux, NodeJS, MongoDB, JavaScript, HTML, CSS",
-      repo_fullname: "girlscript/Feminist-Bible-FrontEnd-Phase1",
-          email: "anushkajadhav004@gmail.com",
-      mentors_id: [
-         {
-           name: "Ritish Kr Singh",
-        //   github: "https://github.com/Jayashree-panda",
-           email: "ritish.rks@gmail.com",
-        //   slackId: "UUC8L15G8",
-        },
-         {
-          name: "Debasmita Das",
-        //   github: "https://github.com/avikantwadhwa",
-           email: "debasmitad76@gmail.com",
-        //   slackId: "UTZH4BELS",
-         },
-         {
-           name: "Ananya Mahato",
-        //   github: "https://github.com/laveesh",
-           email: "ananyaiit123@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-         },
-        
-      ],
-    },
+   
 
     
   ],
