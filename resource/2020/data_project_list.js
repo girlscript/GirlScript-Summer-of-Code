@@ -1935,14 +1935,14 @@ const project_list = {
       project_id: 52,
       owner_name: "Rituraj Jain",
       github_username: "riturajjain2000",
-      project_name: "CSwala-android",
+      project_name: "CSwala",
       project_description:
         "An app that is a one-stop destination for all the CS enthusiasts, providing resources like best YT channels, courses available free-of-cost, etc.  & knowledge about every domain and field that exists on the Internet related to Computer Science along with News, Jobs, and Internships opportunities in these domains along with valuable tips and hacks from mentors for a particular domain.",
       project_video_link: "https://youtu.be/dLgvWp7jiaI",
       technology_used: "Android, Kotlin/Java, XML, Firebase Real Time Database, Firebase Fire Store, Firebase Authentication, Google Analytics, Material I/O",
-      repo_fullname: "CSwala/CSwala-android",
+      repo_fullname: "CSwala",
       // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/CSwala/CSwala-android",
+      github: "https://github.com/CSwala",
           email: "rrjain20122000@gmail.com",
       mentors_id: [
          {
