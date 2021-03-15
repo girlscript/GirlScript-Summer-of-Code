@@ -1457,13 +1457,13 @@ const project_list = {
       project_id: 39,
       owner_name: "Vikas",
       github_username: "vikasdo",
-      project_name: "Retailer Book recommendation analysis",
+      project_name: "Book Recommendation Analysis",
       project_description:
         "It's a recommendation for retailers inorder to get analysis of recommendation working.",
       // project_video_link:
       //   "From having the option to portray the member's achievements to announcements regarding various opportunities, we want it to be knit into a single platform. Also, the web-app is made by the community for the community is something that shall add on to its elegance.",
       technology_used: "Python, Flask",
-      repo_fullname: "vikasdo/Retailer_Book_recommendation",
+      repo_fullname: "vikasdo/Book-Recommendation-Analysis",
       // project_slack_channel: "",
       github: "vikasdo/Book-Recommendation-Analysis",
           email: "donthulavikas1999@gmail.com",
