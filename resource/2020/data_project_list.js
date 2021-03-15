@@ -1726,7 +1726,7 @@ const project_list = {
       project_description:
         "CodeTrophs is an open source project that provides an interactive user interface for beginners and aims at bridging the gap between students and research professors worldwide. Moreover, the platform plans on acting as a helping hand to individuals who are preparing for the coding interviews, providing them with real live interview experience. A distinguished point for the users is the application distinction feature that we provide to our users. This entails the bifurcation of projects based on the categorical arrangement in the language in which the code is written and its implementation for example, as kotlin links to android as python links to machine learning. The user will be able to save the repository that he/she wishes to explore more in their dashboard. The UI provides the user with the number of PR’s and issues in the repository that he/she is viewing. We are also expanding into the field of AI. We are aiming at making a feature on the platform that allows the student looking to intern under a professor to select a professor by assisting them with the professor's field of study, research papers and field of expertise, assigning each of his papers with specific tags given by the model and an abstract about each paper. Further we are opening a whole new avenue for the professors who are bombarded with emails from students willing to under him/her. This will be done by a list based on the professor's requirements from the student on the basis of his/her profile containing the skills, GPA, field of interest in a well categorised format created by them. In-short we are bridging the gap between a professor and a student, To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash",
       //   "To help mentors and mentees share knowledge in multiple different aspects. We also want to let the mentor and the mentee have power to get personalized knowledge from their mentors.",
-      technology_used: "React.js , Next.js , MongoDB , Node.js, ML/AI",
+      technology_used: "Machine Learning",
       project_video_link:"https://drive.google.com/file/d/1-ccue_5_zjUGxP2PeMdQg3O3JwOmJWJo/view",
       repo_fullname: "CodeTrophs",
       // project_slack_channel: "proj_mentorfix",
@@ -1749,6 +1749,12 @@ const project_list = {
            name: "Soumik Chaudhuri",
         //   github: "https://github.com/laveesh",
            email: "soumik.chaudhuri2000@gmail.com",
+        //   slackId: "UU0PYRJ3V",
+         },
+        {
+           name: "Juhi Gupta",
+        //   github: "https://github.com/laveesh",
+           email: "gupta.juhi941999@gmail.com",
         //   slackId: "UU0PYRJ3V",
          },
       ],
@@ -1927,6 +1933,12 @@ const project_list = {
            name: "Rohit Agarwal",
         //   github: "https://github.com/harsha-iiiv",
            email: "rohitagrl1302@gmail.com",
+        //   slackId: "UUE2B5JHM",
+         },
+        {
+           name: "Yadvi Bhalla",
+        //   github: "https://github.com/harsha-iiiv",
+           email: "yadvibhalla2002@gmail.com",
         //   slackId: "UUE2B5JHM",
          },
       ],
@@ -2802,7 +2814,7 @@ const project_list = {
       project_name: "PRO_Act",
       project_description:
         "Pro_Act provides you with an efficient way of managing your tasks. It works on the principals of divide and conquer, allows the user to enter tasks and then divide them further into sub-tasks and handle them efficiently! Additional features of adding time limit for completion and updating the amount of work that has been completed .Best when working with a large team to be updated of the amount of work done and the amount of work left to be completed .",
-      technology_used: "Django ,Python, SQLite, html, CSS",
+      technology_used: "Python, Angular, Django, HTML, Java, C, C++, Rust",
       repo_fullname: "sruti2024/PRO_Act",
           email: "srutichatterjee2024@gmail.com",
       mentors_id: [
@@ -2823,7 +2835,13 @@ const project_list = {
        //   github: "https://github.com/avikantwadhwa",
           email: "chaudharydharmpal95@gmail.com",
        //   slackId: "UTZH4BELS",
-        }
+        },
+        {
+          name: "Sudha Vadisia",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "saisudhavadisina@gmail.com",
+       //   slackId: "UUC8L15G8",
+        },
       ],
     },
     {
