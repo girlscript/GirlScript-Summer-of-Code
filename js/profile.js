@@ -289,7 +289,7 @@ async function getPRs(github_username, start_date, end_date) {
 
   // filter merged PRs so that only the ones with the label 'gssoc' are left
   prs_data_merged.items = prs_data_merged.items.filter(element => {
-    if(element.labels.map(label => (label.name.toLowerCase().includes('gssoc21') || label.name.toLowerCase().includes('gssoc-21') || label.name.toLowerCase().includes(`gssoc'21`)))) {
+    if(element.labels.map(label => label.name.toLowerCase()).includes('gssoc21') || element.labels.map(label => label.name.toLowerCase()).includes('gssoc-21') || element.labels.map(label => label.name.toLowerCase()).includes(`gssoc'21`) ) {
       return true;
     } else {
       return false;
