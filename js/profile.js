@@ -287,9 +287,9 @@ async function getPRs(github_username, start_date, end_date) {
   // console.log("PRs:\n", prs_data);
   // console.log("Merged PRs:\n", prs_data_merged);
 
-  // filter merged PRs so that only the ones with the label 'gssoc21' are left
+  // filter merged PRs so that only the ones with the label 'gssoc' are left
   prs_data_merged.items = prs_data_merged.items.filter(element => {
-    if(element.labels.map(label => label.name.replace(/\s/g,'').toLowerCase()).includes('gssoc21')) {
+    if(element.labels.map(label => (label.name.toLowerCase().includes('gssoc21') || label.name.toLowerCase().includes('gssoc-21') || label.name.toLowerCase().includes(`gssoc'21`)))) {
       return true;
     } else {
       return false;
@@ -305,6 +305,7 @@ async function getPRs(github_username, start_date, end_date) {
     const labels = element.labels;
     merged_labels = merged_labels.concat(labels);
   });
+  console.log(merged_labels);
 
   // keep only the scoring labels from possible_labels in the array
   const merged_labels_scoring = merged_labels.filter(label => {
