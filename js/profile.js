@@ -319,7 +319,7 @@ async function getPRs(github_username, start_date, end_date) {
 
   // convert scoring labels into respective numbers
   const scores_array = merged_labels_scoring.map(label => {
-    return possible_scores[label.name.toLowerCase()];
+    return possible_scores[label.name.replace(/\s/g,'').toLowerCase()];
   });
   // console.log("SCORES ARRAY\n", scores_array);
 
