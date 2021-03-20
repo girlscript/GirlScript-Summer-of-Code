@@ -1178,14 +1178,14 @@ const project_list = {
     {
       project_id: 31,
       owner_name: "Chetna Sharma",
-      github_username: "",
+      github_username: "ChetnaNSharma",
       project_name: "Alumni Connect",
       project_description:
         "Alumini Connect is a long awaited dream project for our college, JSS Academy Of Technical Education, Noida. Concerning the ever increasing competitive and challenging atmosphere, the opportunity of connections among college students and alumini may serve a professional and heart warming support. We aim to build a website that serves to connect our college folk, which would bring the clan support and nostalgia in few clicks.",
       project_video_link: "https://youtu.be/aD-dgnwkQfc",
       //   "To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.",
       technology_used: "",
-      repo_fullname: "",
+      repo_fullname: "ChetnaNSharma/Alumni-Connect",
       // project_slack_channel: "proj_spotify-recommendation-engine",
       github: "",
           email: "chetna.ns.sharma@gmail.com",
