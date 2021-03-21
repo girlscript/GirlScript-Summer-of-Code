@@ -2690,6 +2690,7 @@ const project_list = {
         {
            name: "Kushal Das",
            email: "daskushal980@gmail.com",
+        },
         {
           name: "Kaustubh Gupta",
        //   github: "https://github.com/harsha-iiiv",
