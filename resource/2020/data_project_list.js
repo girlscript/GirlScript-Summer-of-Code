@@ -3399,7 +3399,7 @@ const project_list = {
          "Web App for solving Various Math Problems along with Steps, The main aim of this Web app is Speed i.e. to solve all Problems at Client side only.It is so beginner friendly Project that a complete beginner can also contribute to it, only additional requirement is a good Problem Solving skills(Medium Level)",
       project_video_link: "https://drive.google.com/file/d/1Ix7_RbJVZmzNSHx8kCfVJsN3OfLpVD16/view?usp=drivesdk",
       technology_used: "JavaScript, HTML5, CSS3, Bootstrap, LaTeX",
-      repo_fullname: "sairish2001/makesmatheasy.github.io",
+      repo_fullname: "sairish2001/MakesMathEasy",
           email: "sairish2001@gmail.com",
       mentors_id: [
         {
