@@ -2688,6 +2688,9 @@ const project_list = {
        //   slackId: "UU0PYRJ3V",
         },
         {
+           name: "Kushal Das",
+           email: "daskushal980@gmail.com",
+        {
           name: "Kaustubh Gupta",
        //   github: "https://github.com/harsha-iiiv",
           email: "kaustubhgupta1828@gmail.com",
