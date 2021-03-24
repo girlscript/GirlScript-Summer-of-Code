@@ -1184,10 +1184,10 @@ const project_list = {
         "Alumini Connect is a long awaited dream project for our college, JSS Academy Of Technical Education, Noida. Concerning the ever increasing competitive and challenging atmosphere, the opportunity of connections among college students and alumini may serve a professional and heart warming support. We aim to build a website that serves to connect our college folk, which would bring the clan support and nostalgia in few clicks.",
       project_video_link: "https://youtu.be/aD-dgnwkQfc",
       //   "To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.",
-      technology_used: "",
+      technology_used: "HTML, CSS, JAVASCRIPT , React JS, Node JS",
       repo_fullname: "ChetnaNSharma/Alumni-Connect",
       // project_slack_channel: "proj_spotify-recommendation-engine",
-      github: "",
+      github: "https://github.com/ChetnaNSharma/Alumni-Connect",
           email: "chetna.ns.sharma@gmail.com",
       mentors_id: [
         {
@@ -2027,7 +2027,7 @@ const project_list = {
       // project_video_link: "",
       technology_used:
         "MERN Stack, Django",
-      repo_fullname: "girlscript/Girscript-Community-Website.git",
+      repo_fullname: "girlscript/Girscript-Community-Website",
       // project_slack_channel: "proj_cropai",
       // github: "",
       email: "community@girlscript.tech",
@@ -2209,9 +2209,9 @@ const project_list = {
         "A front end project where a user can create his pixel artwork and also save for future. Moreover it can also convert an imported image from the desktop into pixel format .",
       project_video_link: "https://youtu.be/-EsgG5ApIAI",
       technology_used: "Front-End Web tools",
-      repo_fullname: "ankitapuri/pixelvibe",
+      repo_fullname: "FOSS-Cell-GECPKD/pixelvibe",
       // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/ankitapuri/pixelvibe",
+      // github: "https://github.com/ankitapuri/pixelvibe",
           email: "puriankita30@gmail.com",
       mentors_id: [
          {
@@ -2858,7 +2858,7 @@ const project_list = {
         "It is an open source custom rom building website that is being used by thousands of people and more than 70 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
       project_video_link:"https://youtu.be/7k7nnAVBh9Y",
       technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
-      repo_fullname: "projectsakura",
+      repo_fullname: "ProjectSakura/Mirai",
           email: "teltia.arun18@gmail.com",
       mentors_id: [
         {
@@ -3204,7 +3204,7 @@ const project_list = {
       project_description:
          "This is a beginner friendly messenger app. Beginners can contribute to this app and improve its features and can even add more functionality. React and firebase are the skills required to contribute to this project. ( If someone knows react native then they can help in development of mobile application of this project )",
       technology_used: "React or react native and Firebase",
-      repo_fullname: "DhairyaBahl/React-Messenger-App/",
+      repo_fullname: "DhairyaBahl/React-Messenger-App",
           email: "dhairyabahl5@gmail.com",
       mentors_id: [
         {
@@ -3399,7 +3399,7 @@ const project_list = {
          "Web App for solving Various Math Problems along with Steps, The main aim of this Web app is Speed i.e. to solve all Problems at Client side only.It is so beginner friendly Project that a complete beginner can also contribute to it, only additional requirement is a good Problem Solving skills(Medium Level)",
       project_video_link: "https://drive.google.com/file/d/1Ix7_RbJVZmzNSHx8kCfVJsN3OfLpVD16/view?usp=drivesdk",
       technology_used: "JavaScript, HTML5, CSS3, Bootstrap, LaTeX",
-      repo_fullname: "sairish2001/makesmatheasy.github.io",
+      repo_fullname: "sairish2001/makesmatheasy",
           email: "sairish2001@gmail.com",
       mentors_id: [
         {
@@ -3588,7 +3588,38 @@ const project_list = {
          }
       ],
     },
-   
+    {
+      project_id: 99,
+      owner_name: "Rajinderpal Singh",
+      github_username: "sairish2001",
+      project_name: "Makes Math Easy Documentation",
+      project_description:
+         "Web App for solving Various Math Problems along with Steps, The main aim of this Web app is Speed i.e. to solve all Problems at Client side only.It is so beginner friendly Project that a complete beginner can also contribute to it, only additional requirement is a good Problem Solving skills(Medium Level)",
+      project_video_link: "https://drive.google.com/file/d/1Ix7_RbJVZmzNSHx8kCfVJsN3OfLpVD16/view?usp=drivesdk",
+      technology_used: "JavaScript, HTML5, CSS3, Bootstrap, LaTeX",
+      repo_fullname: "sairish2001/makesmatheasy-documentation",
+          email: "sairish2001@gmail.com",
+      mentors_id: [
+        {
+          name: "Shrey Tripathi",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "shreytripathi27@gmail.com",
+       //   slackId: "UUC8L15G8",
+       },
+        {
+         name: "Apeksha Manchanda",
+       //   github: "https://github.com/avikantwadhwa",
+          email: "manchanda.apeksha@gmail.com",
+       //   slackId: "UTZH4BELS",
+        },
+        {
+          name: "Nidhi Rajput",
+       //   github: "https://github.com/laveesh",
+          email: "nidhirajput1301@gmail.com",
+       //   slackId: "UU0PYRJ3V",
+        },
+      ],
+    },
 
     
   ],
