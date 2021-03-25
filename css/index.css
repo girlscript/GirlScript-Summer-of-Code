@@ -1075,4 +1075,22 @@
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+.sponsor-container{
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top:0;
+  width:100%;
+}
+
+.sponsor-image{
+  margin: 30px;
+}
+
+.sponsor-image img{
+  width:auto;
+  height:50px;
+  object-fit: contain;
+}
 /* SPONSOR end */
