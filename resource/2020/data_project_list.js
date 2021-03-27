@@ -2444,13 +2444,13 @@ const project_list = {
     {
       project_id: 66,
       owner_name: "Sitaram Rathi",
-      github_username: "srrathi",
+      github_username: "imrathiii",
       project_name: "Hire Smart",
       project_description:
       "Building a Web platform to analyze and gather information about your connections from different popular professional and social portals like LinkedIn, GitHub, Stack-overflow. To Scrape the data and use API from various social platforms and analyze and represent it according to our needs. It typically takes 52 days for hiring through many hiring channels along with traditional hiring ranges between $4k to $20k. But a referral who gets an interview has a 40% better chance of getting hired than any other sourced candidate and gets hired in 29 days. In the scenario with the referrals, hiring can be much faster with a reduction in cost per hire and a better chance of getting hired. It will make the process much faster as within some minutes the Recruiter will get the Data of Potential Candidates and thus make the hiring Process much faster, will reduce the cost of per hire and better chance for an individual to get hired. There are many peoples who lost their jobs in 2020 due the COVID-19 Pandemic and there are many IT professionals and individuals who are in urgent need of Jobs. So it will definitely help them a lot by taking their skills , experience and all the other information to the Right Person who can offer them a job. Thus establishing the connection between recruiter and job seeker faster. As the data gathered will be personal data of individuals So, we have to protect it from unfair use that's where Blockchain comes into the picture as we can put all the scraped data on Blockchain so that we cannot connect to data directly and it get stored on blockchain network and can be accessible only through smart contract.",        
       project_video_link: "https://drive.google.com/file/d/1kk53i-QvH3F9CO7riofupOeQgbSkAOnh/view?usp=sharing",
       technology_used: "Nodejs, Reactjs, Rest API's, MERN stack, Ethereum Blockchain, Solidity, UI/UX",
-      repo_fullname: "srrathi/Hire-Smart",
+      repo_fullname: "imrathiii/Hire-Smart",
       // project_slack_channel: "proj_mentorfix",
       //github: "srrathi/Hire-Smart",
           email: "srrathi2000@gmail.com",
