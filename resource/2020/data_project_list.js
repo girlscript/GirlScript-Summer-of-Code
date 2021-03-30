@@ -2266,6 +2266,10 @@ const project_list = {
            email: "avsadityavardhan18bcs@iiitkottayam.ac.in",
         //   slackId: "UU0PYRJ3V",
          },
+         {
+            name: "S Harshita",
+            email: "harshita2216@gmail.com",
+         },
       ],
     },
     {
