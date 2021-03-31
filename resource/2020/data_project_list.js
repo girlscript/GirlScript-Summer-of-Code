@@ -2134,7 +2134,7 @@ const project_list = {
       project_description:
         "A community-owned REST API service for testers and developers. Fetch provides REST API endpoints for different types of placeholders, which can be easily used during testing and development without the need for creating sample data manually. It aims to create a free-for-all REST API service that is open-sourced so that developers can have the ease of making feature requests for a new end-point, or report a security bug. The code should be explicit and easy to contribute to for beginners with no or less apparent knowledge of REST APIs. The standalone API endpoints should be easy to use during development, with minimal setup effort.",
       project_video_link: "https://youtu.be/iafIbG0QB3w",
-      technology_used: "NodeJS, MongoBD, REST API, TypeScript, JavaScript, CI/CD, ReactJS",
+      technology_used: "NodeJS, MongoDB, REST API, TypeScript, JavaScript, CI/CD, Docker, ReactJS",
       repo_fullname: "adityabisoi/REST-fetch",
       // project_slack_channel: "proj_mentorfix",
       github: "https://github.com/adityabisoi/REST-fetch",
@@ -2157,6 +2157,11 @@ const project_list = {
         //   github: "https://github.com/laveesh",
            email: "shauryaag14@gmail.com",
         //   slackId: "UU0PYRJ3V",
+         },
+         {
+          name: "Param Siddharth",
+        //   github: "https://github.com/paramsiddharth",
+           email: "contact@paramsid.com",
          },
       ],
     },
