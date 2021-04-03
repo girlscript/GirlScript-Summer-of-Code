@@ -297,7 +297,7 @@ async function getPRs(github_username, start_date, end_date) {
   });
 
   // SCORE CALCULATION
-  let possible_scores = {"level0": 5, "level1": 10, "level2": 15, "level3": 25};
+  let possible_scores = {"level0": 5, "level1": 10, "level2": 25, "level3": 45};
   
   // combine all labels from all merged PRs into an array
   let merged_labels = [];
