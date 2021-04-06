@@ -305,7 +305,7 @@ const project_list = {
         {
           name: "Priya Pandya",
           // github: "https://github.com/janakrajchadha",
-          email: "priyapandya274@gmail.com",
+         
           // slackId: "UTWBMJRMY",
         },
         {
