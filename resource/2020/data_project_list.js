@@ -2508,7 +2508,7 @@ const project_list = {
          {
            name: "Himanshu Mangal",
         //   github: "https://github.com/avikantwadhwa",
-           email: "himanshumangal09@gmail.com",
+           
         //   slackId: "UTZH4BELS",
          },
          {
