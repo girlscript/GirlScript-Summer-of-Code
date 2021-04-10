@@ -2851,7 +2851,7 @@ const project_list = {
        //   slackId: "UTZH4BELS",
         },
         {
-          name: "Sudha Vadisia",
+          name: "Sai Sudha Vadisina",
        //   github: "https://github.com/Jayashree-panda",
           email: "saisudhavadisina@gmail.com",
        //   slackId: "UUC8L15G8",
