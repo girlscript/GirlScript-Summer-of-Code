@@ -72,37 +72,37 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 3,
-      owner_name: "Anushka Jadhav",
-      github_username: "anna4j",
-      project_name: "Feminist Bible Phase 1",
-      project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy.",
-      technology_used: "React.js, Redux, NodeJS, MongoDB, JavaScript, HTML, CSS",
-      repo_fullname: "girlscript/Feminist-Bible-FrontEnd-Phase1",
-          email: "anushkajadhav004@gmail.com",
-      mentors_id: [
-         {
-           name: "Ritish Kr Singh",
-        //   github: "https://github.com/Jayashree-panda",
-           email: "ritish.rks@gmail.com",
-        //   slackId: "UUC8L15G8",
-        },
-         {
-          name: "Debasmita Das",
-        //   github: "https://github.com/avikantwadhwa",
-           email: "debasmitad76@gmail.com",
-        //   slackId: "UTZH4BELS",
-         },
-         {
-           name: "Ananya Mahato",
-        //   github: "https://github.com/laveesh",
-           email: "ananyaiit123@gmail.com",
-        //   slackId: "UU0PYRJ3V",
-         },
+    // {
+    //   project_id: 3,
+    //   owner_name: "Anushka Jadhav",
+    //   github_username: "anna4j",
+    //   project_name: "Feminist Bible Phase 1",
+    //   project_description: "A platform where the Feminist Bible community can interact by posting their stories, blogs, articles etc. This fullstack web app is built using ReactJS. Feminist Bible is an inclusive space for all. A place where we empathize, acknowledge, and promote diversity by creating an inclusive ecosystem powered by shared stories, culturally sensitive content, and equity-driven community philosophy.",
+    //   technology_used: "React.js, Redux, NodeJS, MongoDB, JavaScript, HTML, CSS",
+    //   repo_fullname: "girlscript/Feminist-Bible-FrontEnd-Phase1",
+    //       email: "anushkajadhav004@gmail.com",
+    //   mentors_id: [
+    //      {
+    //        name: "Ritish Kr Singh",
+    //     //   github: "https://github.com/Jayashree-panda",
+    //        email: "ritish.rks@gmail.com",
+    //     //   slackId: "UUC8L15G8",
+    //     },
+    //      {
+    //       name: "Debasmita Das",
+    //     //   github: "https://github.com/avikantwadhwa",
+    //        email: "debasmitad76@gmail.com",
+    //     //   slackId: "UTZH4BELS",
+    //      },
+    //      {
+    //        name: "Ananya Mahato",
+    //     //   github: "https://github.com/laveesh",
+    //        email: "ananyaiit123@gmail.com",
+    //     //   slackId: "UU0PYRJ3V",
+    //      },
         
-      ],
-    },
+    //   ],
+    // },
     {
       project_id: 4,
       owner_name: "Vaibhavi Rohilla",
@@ -1031,46 +1031,46 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 28,
-      owner_name: "Srimathij",
-      github_username: "Srimathij",
-      project_name: "Indra-A virtual assistant",
-      project_description:
-        "Indra-A virtual assistant has been developed using NLP Technology(TTS-TEXT-TO-SPEECH) & (STT-SPEECH-TO-TEXT), AI, ML. She (Indra)will give useful methods for preventing ourselves from the corona(Ayurvedic measures). I've been added multiple responses for the Indra bot so that users can easily understand. Indra has the capability to predict disease and will give solutions according to that particular problem. I hope it would be helpful for users!!",
-      project_video_link: "https://youtu.be/b7er3lsaxfM",
-      technology_used: "AI Technology-Chatbots ,Voice app,NLP(NATURAL LANGUAGE PROCESSING),TTS(TEXT-TO-SPEECH),STT(SPEECH-TO-TEXT)",
-      repo_fullname: "Srimathij/Indra_Bot",
-      // project_slack_channel: "proj_awesome-react-modules",
-      github: "https://github.com/Srimathij/Indra_Bot",
-          email: "srimathijagadeesan51@gmail.com",
-      mentors_id: [
-        {
-          name: "Aadhitya A",
-          // github: "https://github.com/yellowwoods12",
-          email: "aadhitya864@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Tamanna Verma",
-          // github: "https://github.com/arpit9667",
-          email: "tamannav01@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Bhavita N",
-          // github: "https://github.com/AdityaSrivast",
-          email: "nbhavita24@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Hritik Bhandari",
-          // github: "https://github.com/amanintech",
-          email: "bhandari.hritik@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-      ],
-    },
+    // {
+    //   project_id: 28,
+    //   owner_name: "Srimathij",
+    //   github_username: "Srimathij",
+    //   project_name: "Indra-A virtual assistant",
+    //   project_description:
+    //     "Indra-A virtual assistant has been developed using NLP Technology(TTS-TEXT-TO-SPEECH) & (STT-SPEECH-TO-TEXT), AI, ML. She (Indra)will give useful methods for preventing ourselves from the corona(Ayurvedic measures). I've been added multiple responses for the Indra bot so that users can easily understand. Indra has the capability to predict disease and will give solutions according to that particular problem. I hope it would be helpful for users!!",
+    //   project_video_link: "https://youtu.be/b7er3lsaxfM",
+    //   technology_used: "AI Technology-Chatbots ,Voice app,NLP(NATURAL LANGUAGE PROCESSING),TTS(TEXT-TO-SPEECH),STT(SPEECH-TO-TEXT)",
+    //   repo_fullname: "Srimathij/Indra_Bot",
+    //   // project_slack_channel: "proj_awesome-react-modules",
+    //   github: "https://github.com/Srimathij/Indra_Bot",
+    //       email: "srimathijagadeesan51@gmail.com",
+    //   mentors_id: [
+    //     {
+    //       name: "Aadhitya A",
+    //       // github: "https://github.com/yellowwoods12",
+    //       email: "aadhitya864@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Tamanna Verma",
+    //       // github: "https://github.com/arpit9667",
+    //       email: "tamannav01@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Bhavita N",
+    //       // github: "https://github.com/AdityaSrivast",
+    //       email: "nbhavita24@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Hritik Bhandari",
+    //       // github: "https://github.com/amanintech",
+    //       email: "bhandari.hritik@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //   ],
+    // },
     {
       project_id: 29,
       owner_name: "Avinash Kr. Ranjan",
@@ -2450,40 +2450,40 @@ const project_list = {
          },
       ],
     },
-    {
-      project_id: 66,
-      owner_name: "Sitaram Rathi",
-      github_username: "imrathiii",
-      project_name: "Hire Smart",
-      project_description:
-      "Building a Web platform to analyze and gather information about your connections from different popular professional and social portals like LinkedIn, GitHub, Stack-overflow. To Scrape the data and use API from various social platforms and analyze and represent it according to our needs. It typically takes 52 days for hiring through many hiring channels along with traditional hiring ranges between $4k to $20k. But a referral who gets an interview has a 40% better chance of getting hired than any other sourced candidate and gets hired in 29 days. In the scenario with the referrals, hiring can be much faster with a reduction in cost per hire and a better chance of getting hired. It will make the process much faster as within some minutes the Recruiter will get the Data of Potential Candidates and thus make the hiring Process much faster, will reduce the cost of per hire and better chance for an individual to get hired. There are many peoples who lost their jobs in 2020 due the COVID-19 Pandemic and there are many IT professionals and individuals who are in urgent need of Jobs. So it will definitely help them a lot by taking their skills , experience and all the other information to the Right Person who can offer them a job. Thus establishing the connection between recruiter and job seeker faster. As the data gathered will be personal data of individuals So, we have to protect it from unfair use that's where Blockchain comes into the picture as we can put all the scraped data on Blockchain so that we cannot connect to data directly and it get stored on blockchain network and can be accessible only through smart contract.",        
-      project_video_link: "https://drive.google.com/file/d/1kk53i-QvH3F9CO7riofupOeQgbSkAOnh/view?usp=sharing",
-      technology_used: "Nodejs, Reactjs, Rest API's, MERN stack, Ethereum Blockchain, Solidity, UI/UX",
-      repo_fullname: "imrathiii/Hire-Smart",
-      // project_slack_channel: "proj_mentorfix",
-      //github: "srrathi/Hire-Smart",
-          email: "srrathi2000@gmail.com",
-      mentors_id: [
-         {
-           name: "Anushka Garg",
-        //   github: "https://github.com/Jayashree-panda",
-           email: "anushkagarg0811@gmail.com",
-        //   slackId: "UUC8L15G8",
-         },
-         {
-           name: "Harshit Jain",
-        //   github: "https://github.com/avikantwadhwa",
-           email: "harshitjain1309@gmail.com",
-        //   slackId: "UTZH4BELS",
-         },
-         {
-          name: "Shashwat Gupta",
-       //   github: "https://github.com/avikantwadhwa",
-          // email: "",
-       //   slackId: "UTZH4BELS",
-        }
-      ],
-    },
+    // {
+    //   project_id: 66,
+    //   owner_name: "Sitaram Rathi",
+    //   github_username: "imrathiii",
+    //   project_name: "Hire Smart",
+    //   project_description:
+    //   "Building a Web platform to analyze and gather information about your connections from different popular professional and social portals like LinkedIn, GitHub, Stack-overflow. To Scrape the data and use API from various social platforms and analyze and represent it according to our needs. It typically takes 52 days for hiring through many hiring channels along with traditional hiring ranges between $4k to $20k. But a referral who gets an interview has a 40% better chance of getting hired than any other sourced candidate and gets hired in 29 days. In the scenario with the referrals, hiring can be much faster with a reduction in cost per hire and a better chance of getting hired. It will make the process much faster as within some minutes the Recruiter will get the Data of Potential Candidates and thus make the hiring Process much faster, will reduce the cost of per hire and better chance for an individual to get hired. There are many peoples who lost their jobs in 2020 due the COVID-19 Pandemic and there are many IT professionals and individuals who are in urgent need of Jobs. So it will definitely help them a lot by taking their skills , experience and all the other information to the Right Person who can offer them a job. Thus establishing the connection between recruiter and job seeker faster. As the data gathered will be personal data of individuals So, we have to protect it from unfair use that's where Blockchain comes into the picture as we can put all the scraped data on Blockchain so that we cannot connect to data directly and it get stored on blockchain network and can be accessible only through smart contract.",        
+    //   project_video_link: "https://drive.google.com/file/d/1kk53i-QvH3F9CO7riofupOeQgbSkAOnh/view?usp=sharing",
+    //   technology_used: "Nodejs, Reactjs, Rest API's, MERN stack, Ethereum Blockchain, Solidity, UI/UX",
+    //   repo_fullname: "imrathiii/Hire-Smart",
+    //   // project_slack_channel: "proj_mentorfix",
+    //   //github: "srrathi/Hire-Smart",
+    //       email: "srrathi2000@gmail.com",
+    //   mentors_id: [
+    //      {
+    //        name: "Anushka Garg",
+    //     //   github: "https://github.com/Jayashree-panda",
+    //        email: "anushkagarg0811@gmail.com",
+    //     //   slackId: "UUC8L15G8",
+    //      },
+    //      {
+    //        name: "Harshit Jain",
+    //     //   github: "https://github.com/avikantwadhwa",
+    //        email: "harshitjain1309@gmail.com",
+    //     //   slackId: "UTZH4BELS",
+    //      },
+    //      {
+    //       name: "Shashwat Gupta",
+    //    //   github: "https://github.com/avikantwadhwa",
+    //       // email: "",
+    //    //   slackId: "UTZH4BELS",
+    //     }
+    //   ],
+    // },
     {
       project_id: 67,
       owner_name: "Ashish Kshirsagar",
@@ -3431,49 +3431,49 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 94,
-      owner_name: "Yasin Shah",
-      github_username: "Technocolabs100",
-      project_name: "Stack Overflow Tag Predictions web application",
-      project_description:
-         "This project aims to predict the tag's of stack overflow posts to identify the post is related to which category's.",
-      technology_used: "Python, Data analysis, Data Science,Machine Learning, Deep learning, Flask, Cloud Platform",
-      repo_fullname: "Technocolabs100/Stack-Overflow-Tag-Predictions",
-          email: "shahyaseen71@gmail.com",
-      mentors_id: [
-        {
-          name: "Ritesh Singh Soun",
-       //   github: "https://github.com/Jayashree-panda",
-          email: "sounritesh@gmail.com",
-       //   slackId: "UUC8L15G8",
-       },
-        {
-         name: "Vivek Anand",
-       //   github: "https://github.com/avikantwadhwa",
-          email: "vivek.a@research.iiit.ac.in",
-       //   slackId: "UTZH4BELS",
-        },
-        {
-          name: "Yasin Shah",
-       //   github: "https://github.com/laveesh",
-          email: "shahyaseen71@gmail.com",
-       //   slackId: "UU0PYRJ3V",
-        },
-        {
-          name: "Yukti Sachdeva",
-       //   github: "https://github.com/laveesh",
-          email: "yukti845@gmail.com",
-       //   slackId: "UU0PYRJ3V",
-        },
-        {
-          name: "Anurag",
-       //   github: "https://github.com/laveesh",
-          email: "anurags.jadon10@gmail.com",
-       //   slackId: "UU0PYRJ3V",
-        }
-      ],
-    },
+    // {
+    //   project_id: 94,
+    //   owner_name: "Yasin Shah",
+    //   github_username: "Technocolabs100",
+    //   project_name: "Stack Overflow Tag Predictions web application",
+    //   project_description:
+    //      "This project aims to predict the tag's of stack overflow posts to identify the post is related to which category's.",
+    //   technology_used: "Python, Data analysis, Data Science,Machine Learning, Deep learning, Flask, Cloud Platform",
+    //   repo_fullname: "Technocolabs100/Stack-Overflow-Tag-Predictions",
+    //       email: "shahyaseen71@gmail.com",
+    //   mentors_id: [
+    //     {
+    //       name: "Ritesh Singh Soun",
+    //    //   github: "https://github.com/Jayashree-panda",
+    //       email: "sounritesh@gmail.com",
+    //    //   slackId: "UUC8L15G8",
+    //    },
+    //     {
+    //      name: "Vivek Anand",
+    //    //   github: "https://github.com/avikantwadhwa",
+    //       email: "vivek.a@research.iiit.ac.in",
+    //    //   slackId: "UTZH4BELS",
+    //     },
+    //     {
+    //       name: "Yasin Shah",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "shahyaseen71@gmail.com",
+    //    //   slackId: "UU0PYRJ3V",
+    //     },
+    //     {
+    //       name: "Yukti Sachdeva",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "yukti845@gmail.com",
+    //    //   slackId: "UU0PYRJ3V",
+    //     },
+    //     {
+    //       name: "Anurag",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "anurags.jadon10@gmail.com",
+    //    //   slackId: "UU0PYRJ3V",
+    //     }
+    //   ],
+    // },
     {
       project_id: 95,
       owner_name: "Aitik Dandapat",
@@ -3505,36 +3505,36 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 96,
-      owner_name: "Aitik Dandapat",
-      github_username: "i-tick",
-      project_name: "Go Corona",
-      project_description: "As we install this app, there will be a user registration following the input of details like age and symptoms by speech to text method. After which the user will be told about the suspect percentage of Corona Virus using ML kit which uses the database. If suspect percentage is alarming, we will quarantine the suspect and provide him with a wrist band having GSM which will be driven by another application.",
-      technology_used: "Android Studio, IBM Watson",
-      repo_fullname: "i-tick/HackNitr-2020",
-          email: "aitikdandapat@gmail.com",
-      mentors_id: [
-        {
-          name: "MAINAK CHAUDHURI",
-       //   github: "https://github.com/Jayashree-panda",
-          email: "mainakc24365@gmail.com",
-       //   slackId: "UUC8L15G8",
-       },
-        {
-         name: "Vatsal Verma",
-       //   github: "https://github.com/avikantwadhwa",
-          email: "vatsal22072001@gmail.com",
-       //   slackId: "UTZH4BELS",
-        },
-        {
-          name: "Raj Kumar Sony",
-       //   github: "https://github.com/laveesh",
-          email: "raku19mca@cmrit.ac.in",
-       //   slackId: "UU0PYRJ3V",
-        },
-      ],
-    },
+    // {
+    //   project_id: 96,
+    //   owner_name: "Aitik Dandapat",
+    //   github_username: "i-tick",
+    //   project_name: "Go Corona",
+    //   project_description: "As we install this app, there will be a user registration following the input of details like age and symptoms by speech to text method. After which the user will be told about the suspect percentage of Corona Virus using ML kit which uses the database. If suspect percentage is alarming, we will quarantine the suspect and provide him with a wrist band having GSM which will be driven by another application.",
+    //   technology_used: "Android Studio, IBM Watson",
+    //   repo_fullname: "i-tick/HackNitr-2020",
+    //       email: "aitikdandapat@gmail.com",
+    //   mentors_id: [
+    //     {
+    //       name: "MAINAK CHAUDHURI",
+    //    //   github: "https://github.com/Jayashree-panda",
+    //       email: "mainakc24365@gmail.com",
+    //    //   slackId: "UUC8L15G8",
+    //    },
+    //     {
+    //      name: "Vatsal Verma",
+    //    //   github: "https://github.com/avikantwadhwa",
+    //       email: "vatsal22072001@gmail.com",
+    //    //   slackId: "UTZH4BELS",
+    //     },
+    //     {
+    //       name: "Raj Kumar Sony",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "raku19mca@cmrit.ac.in",
+    //    //   slackId: "UU0PYRJ3V",
+    //     },
+    //   ],
+    // },
     {
       project_id: 97,
       owner_name: "Kaushik Rishi",
@@ -3566,37 +3566,37 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 98,
-      owner_name: "Ambuj Raj",
-      github_username: "ambujraj",
-      project_name: "AmbSQL",
-      project_description: "AmbSQL is a Relational Database Management System which created with keeping in focus the speed and the ease to operate on.",
-      technology_used: "Python, SQL",
-      repo_fullname: "ambujraj/ambsql",
-          email: "Ambujm143@gmail.com",
-      mentors_id: [
-        {
-        name: "Aish Jain",
-        //   github: "https://github.com/Jayashree-panda",
-           email: "aish.96jain@gmail.com",
-        //   slackId: "UUC8L15G8",
-        },
-         {
-          name: "Pratyush Raj",
-        //   github: "https://github.com/avikantwadhwa",
-           email: "pratyushraj2f@gmail.com",
-        //   slackId: "UTZH4BELS",
-         },
+    // {
+    //   project_id: 98,
+    //   owner_name: "Ambuj Raj",
+    //   github_username: "ambujraj",
+    //   project_name: "AmbSQL",
+    //   project_description: "AmbSQL is a Relational Database Management System which created with keeping in focus the speed and the ease to operate on.",
+    //   technology_used: "Python, SQL",
+    //   repo_fullname: "ambujraj/ambsql",
+    //       email: "Ambujm143@gmail.com",
+    //   mentors_id: [
+    //     {
+    //     name: "Aish Jain",
+    //     //   github: "https://github.com/Jayashree-panda",
+    //        email: "aish.96jain@gmail.com",
+    //     //   slackId: "UUC8L15G8",
+    //     },
+    //      {
+    //       name: "Pratyush Raj",
+    //     //   github: "https://github.com/avikantwadhwa",
+    //        email: "pratyushraj2f@gmail.com",
+    //     //   slackId: "UTZH4BELS",
+    //      },
         
-        {
-          name: "Dishebh",
+    //     {
+    //       name: "Dishebh",
         
-           email: "dishebh27@gmail.com",
+    //        email: "dishebh27@gmail.com",
         
-         }
-      ],
-    },
+    //      }
+    //   ],
+    // },
     {
       project_id: 99,
       owner_name: "Rajinderpal Singh",
