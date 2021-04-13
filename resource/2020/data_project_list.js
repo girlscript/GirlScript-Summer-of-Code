@@ -2866,7 +2866,7 @@ const project_list = {
       project_description:
         "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
       project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-      technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+      technology_used: "Javascript,Express Node ,Logo Design, Adobe XD",
       repo_fullname: "ProjectSakura/Mirai",
           email: "teltia.arun18@gmail.com",
       mentors_id: [
@@ -3637,7 +3637,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "HTML,CSS,Javascript ,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/ProjectSakura.github.io",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3669,7 +3669,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "React, Javascript,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/wiki",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3701,8 +3701,8 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
-        repo_fullname: "ProjectSakura/wiki-redesign",
+        technology_used: "React, Javascript ,Logo Design, Adobe XD",
+        repo_fullname: "ProjectSakura/contributors",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
           {
@@ -3733,7 +3733,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: " Vue, Javascript,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/download",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3765,7 +3765,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "React, Javascript, Java, Node,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/maintainers",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3797,7 +3797,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "React,  Javascript, Postgresql Express Node Typescript ,Adobe XD",
         repo_fullname: "ProjectSakura/kord-app",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
