@@ -1,2132 +1,1068 @@
-const results = [
-    {
-        "username": "abhu-A-J",
-        "score": 1218,
-        "rank": 1,
-        "id": 1
-    },
-    {
-        "username": "Adyasha8105",
-        "score": 1030,
-        "rank": 2,
-        "id": 2
-    },
-    {
-        "username": "aashimgarg",
-        "score": 978,
-        "rank": 3,
-        "id": 3
-    },
-    {
-        "username": "shreyakapoor08",
-        "score": 529,
-        "rank": 4,
-        "id": 4
-    },
-    {
-        "username": "chttrjeankr",
-        "score": 450,
-        "rank": 5,
-        "id": 5
-    },
-    {
-        "username": "goyalmuskan",
-        "score": 413,
-        "rank": 6,
-        "id": 6
-    },
-    {
-        "username": "ashishnagpal2498",
-        "score": 404,
-        "rank": 7,
-        "id": 7
-    },
-    {
-        "username": "himanshusharma89",
-        "score": 395,
-        "rank": 8,
-        "id": 8
-    },
-    {
-        "username": "irshadjsr21",
-        "score": 216,
-        "rank": 9,
-        "id": 9
-    },
-    {
-        "username": "Rits1272",
-        "score": 194,
-        "rank": 10,
-        "id": 10
-    },
-    {
-        "username": "raksha009",
-        "score": 192,
-        "rank": 11,
-        "id": 11
-    },
-    {
-        "username": "Aman-Codes",
-        "score": 183,
-        "rank": 12,
-        "id": 12
-    },
-    {
-        "username": "adityabisoi",
-        "score": 182,
-        "rank": 13,
-        "id": 13
-    },
-    {
-        "username": "abhishekgupta368",
-        "score": 180,
-        "rank": 14,
-        "id": 14
-    },
-    {
-        "username": "Satyam3976",
-        "score": 176,
-        "rank": 15,
-        "id": 15
-    },
-    {
-        "username": "shwetagurnani",
-        "score": 174,
-        "rank": 16,
-        "id": 16
-    },
-    {
-        "username": "SinghHimadri",
-        "score": 158,
-        "rank": 17,
-        "id": 17
-    },
-    {
-        "username": "Rukmini-Meda",
-        "score": 152,
-        "rank": 18,
-        "id": 18
-    },
-    {
-        "username": "BhardwajShweta25",
-        "score": 144,
-        "rank": 19,
-        "id": 19
-    },
-    {
-        "username": "BhuwanChandra",
-        "score": 136,
-        "rank": 20,
-        "id": 20
-    },
-    {
-        "username": "Dishebh",
-        "score": 135,
-        "rank": 21,
-        "id": 21
-    },
-    {
-        "username": "lakshyajit165",
-        "score": 110,
-        "rank": 22,
-        "id": 22
-    },
-    {
-        "username": "HarshMehta2468",
-        "score": 105,
-        "rank": 23,
-        "id": 23
-    },
-    {
-        "username": "Kashish-max",
-        "score": 104,
-        "rank": 24,
-        "id": 24
-    },
-    {
-        "username": "guptavarun619",
-        "score": 98,
-        "rank": 25,
-        "id": 25
-    },
-    {
-        "username": "NikitaMasand",
-        "score": 98,
-        "rank": 25,
-        "id": 26
-    },
-    {
-        "username": "ritish099",
-        "score": 91,
-        "rank": 26,
-        "id": 27
-    },
-    {
-        "username": "rashrey2308",
-        "score": 90,
-        "rank": 27,
-        "id": 28
-    },
-    {
-        "username": "HarsheetKakar",
-        "score": 88,
-        "rank": 28,
-        "id": 29
-    },
-    {
-        "username": "simrann20",
-        "score": 86,
-        "rank": 29,
-        "id": 30
-    },
-    {
-        "username": "Swarnimashukla",
-        "score": 85,
-        "rank": 30,
-        "id": 31
-    },
-    {
-        "username": "annu12340",
-        "score": 84,
-        "rank": 31,
-        "id": 32
-    },
-    {
-        "username": "HariniJeyaraman",
-        "score": 82,
-        "rank": 32,
-        "id": 33
-    },
-    {
-        "username": "Sapna2001",
-        "score": 82,
-        "rank": 32,
-        "id": 34
-    },
-    {
-        "username": "Kajol-Kumari",
-        "score": 80,
-        "rank": 33,
-        "id": 35
-    },
-    {
-        "username": "Yashank18",
-        "score": 78,
-        "rank": 34,
-        "id": 36
-    },
-    {
-        "username": "m-code12",
-        "score": 73,
-        "rank": 35,
-        "id": 37
-    },
-    {
-        "username": "iharshit009",
-        "score": 72,
-        "rank": 36,
-        "id": 38
-    },
-    {
-        "username": "Xtremilicious",
-        "score": 68,
-        "rank": 37,
-        "id": 39
-    },
-    {
-        "username": "Endowmissy",
-        "score": 67,
-        "rank": 38,
-        "id": 40
-    },
-    {
-        "username": "HardevKhandhar",
-        "score": 64,
-        "rank": 39,
-        "id": 41
-    },
-    {
-        "username": "Mansi145",
-        "score": 64,
-        "rank": 39,
-        "id": 42
-    },
-    {
-        "username": "Samriddhi25",
-        "score": 64,
-        "rank": 39,
-        "id": 43
-    },
-    {
-        "username": "AdityaSingh17",
-        "score": 62,
-        "rank": 40,
-        "id": 44
-    },
-    {
-        "username": "SDakshit",
-        "score": 60,
-        "rank": 41,
-        "id": 45
-    },
-    {
-        "username": "darkmatter18",
-        "score": 59,
-        "rank": 42,
-        "id": 46
-    },
-    {
-        "username": "bharat-1809",
-        "score": 57,
-        "rank": 43,
-        "id": 47
-    },
-    {
-        "username": "infiniteoverflow",
-        "score": 54,
-        "rank": 44,
-        "id": 48
-    },
-    {
-        "username": "Muskan-Mangal",
-        "score": 54,
-        "rank": 44,
-        "id": 49
-    },
-    {
-        "username": "Anushka-shukla",
-        "score": 47,
-        "rank": 45,
-        "id": 50
-    },
-    {
-        "username": "Kuljeet-123",
-        "score": 45,
-        "rank": 46,
-        "id": 51
-    },
-    {
-        "username": "amandhamija98",
-        "score": 44,
-        "rank": 47,
-        "id": 52
-    },
-    {
-        "username": "svensevenslow",
-        "score": 44,
-        "rank": 47,
-        "id": 53
-    },
-    {
-        "username": "vineeta786",
-        "score": 42,
-        "rank": 48,
-        "id": 54
-    },
-    {
-        "username": "huonggiangbui",
-        "score": 41,
-        "rank": 49,
-        "id": 55
-    },
-    {
-        "username": "aayanksinghai",
-        "score": 40,
-        "rank": 50,
-        "id": 56
-    },
-    {
-        "username": "Castella1313",
-        "score": 40,
-        "rank": 50,
-        "id": 57
-    },
-    {
-        "username": "namitamutha",
-        "score": 40,
-        "rank": 50,
-        "id": 58
-    },
-    {
-        "username": "ravireddy07",
-        "score": 40,
-        "rank": 50,
-        "id": 59
-    },
-    {
-        "username": "SonaliGupta25",
-        "score": 40,
-        "rank": 50,
-        "id": 60
-    },
-    {
-        "username": "SubhradeepSS",
-        "score": 40,
-        "rank": 50,
-        "id": 61
-    },
-    {
-        "username": "kichloo",
-        "score": 38,
-        "rank": 51,
-        "id": 62
-    },
-    {
-        "username": "prshnt19",
-        "score": 35,
-        "rank": 52,
-        "id": 63
-    },
-    {
-        "username": "chandbud5",
-        "score": 34,
-        "rank": 53,
-        "id": 64
-    },
-    {
-        "username": "chandrikadeb7",
-        "score": 34,
-        "rank": 53,
-        "id": 65
-    },
-    {
-        "username": "prajwal714",
-        "score": 34,
-        "rank": 53,
-        "id": 66
-    },
-    {
-        "username": "sukritishah15",
-        "score": 33,
-        "rank": 54,
-        "id": 67
-    },
-    {
-        "username": "jamesjose03",
-        "score": 31,
-        "rank": 55,
-        "id": 68
-    },
-    {
-        "username": "arghac14",
-        "score": 30,
-        "rank": 56,
-        "id": 69
-    },
-    {
-        "username": "Meenakshi2000",
-        "score": 30,
-        "rank": 56,
-        "id": 70
-    },
-    {
-        "username": "pa7ri",
-        "score": 30,
-        "rank": 56,
-        "id": 71
-    },
-    {
-        "username": "rudrakshi99",
-        "score": 30,
-        "rank": 56,
-        "id": 72
-    },
-    {
-        "username": "ShauryaBhandari",
-        "score": 30,
-        "rank": 56,
-        "id": 73
-    },
-    {
-        "username": "rabeehrz",
-        "score": 29,
-        "rank": 57,
-        "id": 74
-    },
-    {
-        "username": "SaranshDawra",
-        "score": 29,
-        "rank": 57,
-        "id": 75
-    },
-    {
-        "username": "FrozenGirl-spd",
-        "score": 28,
-        "rank": 58,
-        "id": 76
-    },
-    {
-        "username": "Geesa-Vihara",
-        "score": 28,
-        "rank": 58,
-        "id": 77
-    },
-    {
-        "username": "RaghavAwasthi",
-        "score": 28,
-        "rank": 58,
-        "id": 78
-    },
-    {
-        "username": "sandhyabhan",
-        "score": 28,
-        "rank": 58,
-        "id": 79
-    },
-    {
-        "username": "HarshCasper",
-        "score": 27,
-        "rank": 59,
-        "id": 80
-    },
-    {
-        "username": "JanaSabuj",
-        "score": 27,
-        "rank": 59,
-        "id": 81
-    },
-    {
-        "username": "Alaska18",
-        "score": 26,
-        "rank": 60,
-        "id": 82
-    },
-    {
-        "username": "habeeba-naaz",
-        "score": 26,
-        "rank": 60,
-        "id": 83
-    },
-    {
-        "username": "zulkernine",
-        "score": 26,
-        "rank": 60,
-        "id": 84
-    },
-    {
-        "username": "atrip10",
-        "score": 25,
-        "rank": 61,
-        "id": 85
-    },
-    {
-        "username": "keshakaneria",
-        "score": 25,
-        "rank": 61,
-        "id": 86
-    },
-    {
-        "username": "msk4862",
-        "score": 25,
-        "rank": 61,
-        "id": 87
-    },
-    {
-        "username": "siddhishree",
-        "score": 25,
-        "rank": 61,
-        "id": 88
-    },
-    {
-        "username": "syedareehaquasar",
-        "score": 25,
-        "rank": 61,
-        "id": 89
-    },
-    {
-        "username": "dibakar95",
-        "score": 24,
-        "rank": 62,
-        "id": 90
-    },
-    {
-        "username": "dibakar95",
-        "score": 24,
-        "rank": 62,
-        "id": 91
-    },
-    {
-        "username": "parthsharma07",
-        "score": 24,
-        "rank": 62,
-        "id": 92
-    },
-    {
-        "username": "robot-with-feelings",
-        "score": 24,
-        "rank": 62,
-        "id": 93
-    },
-    {
-        "username": "coderprasukj",
-        "score": 23,
-        "rank": 63,
-        "id": 94
-    },
-    {
-        "username": "NVS16",
-        "score": 22,
-        "rank": 64,
-        "id": 95
-    },
-    {
-        "username": "Tahanima",
-        "score": 22,
-        "rank": 64,
-        "id": 96
-    },
-    {
-        "username": "aman-atg",
-        "score": 21,
-        "rank": 65,
-        "id": 97
-    },
-    {
-        "username": "eaglewarrior",
-        "score": 21,
-        "rank": 65,
-        "id": 98
-    },
-    {
-        "username": "shreoshi-roy",
-        "score": 21,
-        "rank": 65,
-        "id": 99
-    },
-    {
-        "username": "adad20",
-        "score": 20,
-        "rank": 66,
-        "id": 100
-    },
-    {
-        "username": "anmolkaur18",
-        "score": 20,
-        "rank": 66,
-        "id": 101
-    },
-    {
-        "username": "Harikrishnan6336",
-        "score": 20,
-        "rank": 66,
-        "id": 102
-    },
-    {
-        "username": "iamdeb28",
-        "score": 20,
-        "rank": 66,
-        "id": 103
-    },
-    {
-        "username": "minolipvartak",
-        "score": 20,
-        "rank": 66,
-        "id": 104
-    },
-    {
-        "username": "Priya-Raut",
-        "score": 20,
-        "rank": 66,
-        "id": 105
-    },
-    {
-        "username": "ShebinJoseph",
-        "score": 20,
-        "rank": 66,
-        "id": 106
-    },
-    {
-        "username": "simranaggarwal1999",
-        "score": 20,
-        "rank": 66,
-        "id": 107
-    },
-    {
-        "username": "Vaidehi0421",
-        "score": 20,
-        "rank": 66,
-        "id": 108
-    },
-    {
-        "username": "AdityaAshvin",
-        "score": 19,
-        "rank": 67,
-        "id": 109
-    },
-    {
-        "username": "heisastark",
-        "score": 19,
-        "rank": 67,
-        "id": 110
-    },
-    {
-        "username": "hritikpapa",
-        "score": 19,
-        "rank": 67,
-        "id": 111
-    },
-    {
-        "username": "Mustafiz04",
-        "score": 19,
-        "rank": 67,
-        "id": 112
-    },
-    {
-        "username": "991rajat",
-        "score": 18,
-        "rank": 68,
-        "id": 113
-    },
-    {
-        "username": "asthacs",
-        "score": 18,
-        "rank": 68,
-        "id": 114
-    },
-    {
-        "username": "disha2sinha",
-        "score": 18,
-        "rank": 68,
-        "id": 115
-    },
-    {
-        "username": "manan-bedi2908",
-        "score": 18,
-        "rank": 68,
-        "id": 116
-    },
-    {
-        "username": "manasakalaga",
-        "score": 18,
-        "rank": 68,
-        "id": 117
-    },
-    {
-        "username": "vngarg",
-        "score": 18,
-        "rank": 68,
-        "id": 118
-    },
-    {
-        "username": "RiaJha02",
-        "score": 17,
-        "rank": 69,
-        "id": 119
-    },
-    {
-        "username": "Aakansha99",
-        "score": 16,
-        "rank": 70,
-        "id": 120
-    },
-    {
-        "username": "aayush1205",
-        "score": 16,
-        "rank": 70,
-        "id": 121
-    },
-    {
-        "username": "abhinashgiri",
-        "score": 16,
-        "rank": 70,
-        "id": 122
-    },
-    {
-        "username": "algokun",
-        "score": 16,
-        "rank": 70,
-        "id": 123
-    },
-    {
-        "username": "csharp489",
-        "score": 16,
-        "rank": 70,
-        "id": 124
-    },
-    {
-        "username": "divyaprakash-Rx",
-        "score": 16,
-        "rank": 70,
-        "id": 125
-    },
-    {
-        "username": "saloniankita",
-        "score": 16,
-        "rank": 70,
-        "id": 126
-    },
-    {
-        "username": "AjinkyaTaranekar",
-        "score": 15,
-        "rank": 71,
-        "id": 127
-    },
-    {
-        "username": "CipherGirl",
-        "score": 15,
-        "rank": 71,
-        "id": 128
-    },
-    {
-        "username": "ishaan2908",
-        "score": 15,
-        "rank": 71,
-        "id": 129
-    },
-    {
-        "username": "prince-09",
-        "score": 15,
-        "rank": 71,
-        "id": 130
-    },
-    {
-        "username": "AkanshaKamboj",
-        "score": 14,
-        "rank": 72,
-        "id": 131
-    },
-    {
-        "username": "BALaka-18",
-        "score": 14,
-        "rank": 72,
-        "id": 132
-    },
-    {
-        "username": "imabp",
-        "score": 14,
-        "rank": 72,
-        "id": 133
-    },
-    {
-        "username": "JasbirCodeSpace",
-        "score": 14,
-        "rank": 72,
-        "id": 134
-    },
-    {
-        "username": "JyotiJauhari",
-        "score": 14,
-        "rank": 72,
-        "id": 135
-    },
-    {
-        "username": "Manish-Cloud",
-        "score": 14,
-        "rank": 72,
-        "id": 136
-    },
-    {
-        "username": "Mit-Patel",
-        "score": 14,
-        "rank": 72,
-        "id": 137
-    },
-    {
-        "username": "Pihu1998",
-        "score": 14,
-        "rank": 72,
-        "id": 138
-    },
-    {
-        "username": "sakshikhachane",
-        "score": 14,
-        "rank": 72,
-        "id": 139
-    },
-    {
-        "username": "sheen404",
-        "score": 14,
-        "rank": 72,
-        "id": 140
-    },
-    {
-        "username": "shivam1423",
-        "score": 14,
-        "rank": 72,
-        "id": 141
-    },
-    {
-        "username": "shubhamgoel90",
-        "score": 14,
-        "rank": 72,
-        "id": 142
-    },
-    {
-        "username": "thakran14",
-        "score": 14,
-        "rank": 72,
-        "id": 143
-    },
-    {
-        "username": "MdAkdas",
-        "score": 13,
-        "rank": 73,
-        "id": 144
-    },
-    {
-        "username": "puneethkanna",
-        "score": 13,
-        "rank": 73,
-        "id": 145
-    },
-    {
-        "username": "HeroicHitesh",
-        "score": 12,
-        "rank": 74,
-        "id": 146
-    },
-    {
-        "username": "narender2031",
-        "score": 12,
-        "rank": 74,
-        "id": 147
-    },
-    {
-        "username": "rbjoshi1309",
-        "score": 12,
-        "rank": 74,
-        "id": 148
-    },
-    {
-        "username": "Ankita1811",
-        "score": 11,
-        "rank": 75,
-        "id": 149
-    },
-    {
-        "username": "anushka-12-lal",
-        "score": 11,
-        "rank": 75,
-        "id": 150
-    },
-    {
-        "username": "codermuskanj",
-        "score": 11,
-        "rank": 75,
-        "id": 151
-    },
-    {
-        "username": "garimasingh128",
-        "score": 11,
-        "rank": 75,
-        "id": 152
-    },
-    {
-        "username": "kmrakash",
-        "score": 11,
-        "rank": 75,
-        "id": 153
-    },
-    {
-        "username": "pragyajaiswa05l",
-        "score": 11,
-        "rank": 75,
-        "id": 154
-    },
-    {
-        "username": "radhikasethi2011",
-        "score": 11,
-        "rank": 75,
-        "id": 155
-    },
-    {
-        "username": "sanxy",
-        "score": 11,
-        "rank": 75,
-        "id": 156
-    },
-    {
-        "username": "satvikchachra",
-        "score": 11,
-        "rank": 75,
-        "id": 157
-    },
-    {
-        "username": "steric85",
-        "score": 11,
-        "rank": 75,
-        "id": 158
-    },
-    {
-        "username": "SubCoder1",
-        "score": 11,
-        "rank": 75,
-        "id": 159
-    },
-    {
-        "username": "suryadevsingh",
-        "score": 11,
-        "rank": 75,
-        "id": 160
-    },
-    {
-        "username": "suryadevsingh",
-        "score": 11,
-        "rank": 75,
-        "id": 161
-    },
-    {
-        "username": "Tawishi",
-        "score": 11,
-        "rank": 75,
-        "id": 162
-    },
-    {
-        "username": "UddeshJain",
-        "score": 11,
-        "rank": 75,
-        "id": 163
-    },
-    {
-        "username": "urbashi123",
-        "score": 11,
-        "rank": 75,
-        "id": 164
-    },
-    {
-        "username": "victoryTech",
-        "score": 11,
-        "rank": 75,
-        "id": 165
-    },
-    {
-        "username": "Aditi1709",
-        "score": 10,
-        "rank": 76,
-        "id": 166
-    },
-    {
-        "username": "adityasanil",
-        "score": 10,
-        "rank": 76,
-        "id": 167
-    },
-    {
-        "username": "ashwinijha6",
-        "score": 10,
-        "rank": 76,
-        "id": 168
-    },
-    {
-        "username": "avinash2201",
-        "score": 10,
-        "rank": 76,
-        "id": 169
-    },
-    {
-        "username": "carrisunrio",
-        "score": 10,
-        "rank": 76,
-        "id": 170
-    },
-    {
-        "username": "charan7386",
-        "score": 10,
-        "rank": 76,
-        "id": 171
-    },
-    {
-        "username": "DawoodBhai420",
-        "score": 10,
-        "rank": 76,
-        "id": 172
-    },
-    {
-        "username": "iamrajiv",
-        "score": 10,
-        "rank": 76,
-        "id": 173
-    },
-    {
-        "username": "mruna7",
-        "score": 10,
-        "rank": 76,
-        "id": 174
-    },
-    {
-        "username": "Nikhar444",
-        "score": 10,
-        "rank": 76,
-        "id": 175
-    },
-    {
-        "username": "Nikita-Sukhwal",
-        "score": 10,
-        "rank": 76,
-        "id": 176
-    },
-    {
-        "username": "Nishtha3512",
-        "score": 10,
-        "rank": 76,
-        "id": 177
-    },
-    {
-        "username": "nuje98",
-        "score": 10,
-        "rank": 76,
-        "id": 178
-    },
-    {
-        "username": "poojasahu10",
-        "score": 10,
-        "rank": 76,
-        "id": 179
-    },
-    {
-        "username": "Potential17",
-        "score": 10,
-        "rank": 76,
-        "id": 180
-    },
-    {
-        "username": "rajkothari634",
-        "score": 10,
-        "rank": 76,
-        "id": 181
-    },
-    {
-        "username": "Shadman-Ahmed-Chowdhury",
-        "score": 10,
-        "rank": 76,
-        "id": 182
-    },
-    {
-        "username": "shivamgupta57121",
-        "score": 10,
-        "rank": 76,
-        "id": 183
-    },
-    {
-        "username": "shivanidalmia1203",
-        "score": 10,
-        "rank": 76,
-        "id": 184
-    },
-    {
-        "username": "Shr03mink",
-        "score": 10,
-        "rank": 76,
-        "id": 185
-    },
-    {
-        "username": "LuGO0",
-        "score": 9,
-        "rank": 77,
-        "id": 186
-    },
-    {
-        "username": "aditianshu",
-        "score": 8,
-        "rank": 78,
-        "id": 187
-    },
-    {
-        "username": "Ajil5467",
-        "score": 8,
-        "rank": 78,
-        "id": 188
-    },
-    {
-        "username": "aldrinjenson",
-        "score": 8,
-        "rank": 78,
-        "id": 189
-    },
-    {
-        "username": "Anushka-Rajvanshi",
-        "score": 8,
-        "rank": 78,
-        "id": 190
-    },
-    {
-        "username": "bohemian98",
-        "score": 8,
-        "rank": 78,
-        "id": 191
-    },
-    {
-        "username": "chanpreet1999",
-        "score": 8,
-        "rank": 78,
-        "id": 192
-    },
-    {
-        "username": "debdutgoswami",
-        "score": 8,
-        "rank": 78,
-        "id": 193
-    },
-    {
-        "username": "gpsuhas20",
-        "score": 8,
-        "rank": 78,
-        "id": 194
-    },
-    {
-        "username": "j-shreya",
-        "score": 8,
-        "rank": 78,
-        "id": 195
-    },
-    {
-        "username": "kaavyajain",
-        "score": 8,
-        "rank": 78,
-        "id": 196
-    },
-    {
-        "username": "kamal-kaur04",
-        "score": 8,
-        "rank": 78,
-        "id": 197
-    },
-    {
-        "username": "Major2001",
-        "score": 8,
-        "rank": 78,
-        "id": 198
-    },
-    {
-        "username": "mharshita",
-        "score": 8,
-        "rank": 78,
-        "id": 199
-    },
-    {
-        "username": "Nikhil-Patro",
-        "score": 8,
-        "rank": 78,
-        "id": 200
-    },
-    {
-        "username": "p-soham11",
-        "score": 8,
-        "rank": 78,
-        "id": 201
-    },
-    {
-        "username": "PrachieNaik",
-        "score": 8,
-        "rank": 78,
-        "id": 202
-    },
-    {
-        "username": "prangya244",
-        "score": 8,
-        "rank": 78,
-        "id": 203
-    },
-    {
-        "username": "pratyushraj7",
-        "score": 8,
-        "rank": 78,
-        "id": 204
-    },
-    {
-        "username": "RedEye00",
-        "score": 8,
-        "rank": 78,
-        "id": 205
-    },
-    {
-        "username": "roshankcjha",
-        "score": 8,
-        "rank": 78,
-        "id": 206
-    },
-    {
-        "username": "sejalshri",
-        "score": 8,
-        "rank": 78,
-        "id": 207
-    },
-    {
-        "username": "skshahnawaz",
-        "score": 8,
-        "rank": 78,
-        "id": 208
-    },
-    {
-        "username": "soulhunter10737",
-        "score": 8,
-        "rank": 78,
-        "id": 209
-    },
-    {
-        "username": "sparkingdark",
-        "score": 8,
-        "rank": 78,
-        "id": 210
-    },
-    {
-        "username": "sunchit17",
-        "score": 8,
-        "rank": 78,
-        "id": 211
-    },
-    {
-        "username": "THEBEAST310",
-        "score": 8,
-        "rank": 78,
-        "id": 212
-    },
-    {
-        "username": "Vijay07102",
-        "score": 8,
-        "rank": 78,
-        "id": 213
-    },
-    {
-        "username": "VIJAY07102",
-        "score": 8,
-        "rank": 78,
-        "id": 214
-    },
-    {
-        "username": "abhishekjain35",
-        "score": 7,
-        "rank": 79,
-        "id": 215
-    },
-    {
-        "username": "afroz23",
-        "score": 7,
-        "rank": 79,
-        "id": 216
-    },
-    {
-        "username": "akt114",
-        "score": 7,
-        "rank": 79,
-        "id": 217
-    },
-    {
-        "username": "AnjaliSharma1234",
-        "score": 7,
-        "rank": 79,
-        "id": 218
-    },
-    {
-        "username": "chandelnitesh",
-        "score": 7,
-        "rank": 79,
-        "id": 219
-    },
-    {
-        "username": "DarthBenro008",
-        "score": 7,
-        "rank": 79,
-        "id": 220
-    },
-    {
-        "username": "dvitiarora",
-        "score": 7,
-        "rank": 79,
-        "id": 221
-    },
-    {
-        "username": "greyhatlinux",
-        "score": 7,
-        "rank": 79,
-        "id": 222
-    },
-    {
-        "username": "hitha2000",
-        "score": 7,
-        "rank": 79,
-        "id": 223
-    },
-    {
-        "username": "illseption",
-        "score": 7,
-        "rank": 79,
-        "id": 224
-    },
-    {
-        "username": "ka1shi",
-        "score": 7,
-        "rank": 79,
-        "id": 225
-    },
-    {
-        "username": "maze-runnar",
-        "score": 7,
-        "rank": 79,
-        "id": 226
-    },
-    {
-        "username": "Mighty-Geek",
-        "score": 7,
-        "rank": 79,
-        "id": 227
-    },
-    {
-        "username": "prakhar154",
-        "score": 7,
-        "rank": 79,
-        "id": 228
-    },
-    {
-        "username": "raniyer",
-        "score": 7,
-        "rank": 79,
-        "id": 229
-    },
-    {
-        "username": "SachindraFernando",
-        "score": 7,
-        "rank": 79,
-        "id": 230
-    },
-    {
-        "username": "santushtisharma10",
-        "score": 7,
-        "rank": 79,
-        "id": 231
-    },
-    {
-        "username": "shanmukhanitd",
-        "score": 7,
-        "rank": 79,
-        "id": 232
-    },
-    {
-        "username": "sonali623",
-        "score": 7,
-        "rank": 79,
-        "id": 233
-    },
-    {
-        "username": "Srashtimittal",
-        "score": 7,
-        "rank": 79,
-        "id": 234
-    },
-    {
-        "username": "suyashgautam",
-        "score": 7,
-        "rank": 79,
-        "id": 235
-    },
-    {
-        "username": "taran1515",
-        "score": 7,
-        "rank": 79,
-        "id": 236
-    },
-    {
-        "username": "TheDangerD0802",
-        "score": 7,
-        "rank": 79,
-        "id": 237
-    },
-    {
-        "username": "yuktirapartiwar",
-        "score": 7,
-        "rank": 79,
-        "id": 238
-    },
-    {
-        "username": "97shivank",
-        "score": 6,
-        "rank": 80,
-        "id": 239
-    },
-    {
-        "username": "Amitsharma45",
-        "score": 6,
-        "rank": 80,
-        "id": 240
-    },
-    {
-        "username": "Chanchal1603",
-        "score": 6,
-        "rank": 80,
-        "id": 241
-    },
-    {
-        "username": "CSElonewolf",
-        "score": 6,
-        "rank": 80,
-        "id": 242
-    },
-    {
-        "username": "ishukhanchi",
-        "score": 6,
-        "rank": 80,
-        "id": 243
-    },
-    {
-        "username": "poojasrinivass",
-        "score": 6,
-        "rank": 80,
-        "id": 244
-    },
-    {
-        "username": "pranesh6876",
-        "score": 6,
-        "rank": 80,
-        "id": 245
-    },
-    {
-        "username": "priyalbhatewara123",
-        "score": 6,
-        "rank": 80,
-        "id": 246
-    },
-    {
-        "username": "rasacharjee",
-        "score": 6,
-        "rank": 80,
-        "id": 247
-    },
-    {
-        "username": "Riyagoel2",
-        "score": 6,
-        "rank": 80,
-        "id": 248
-    },
-    {
-        "username": "Sourish-Mukherjee",
-        "score": 6,
-        "rank": 80,
-        "id": 249
-    },
-    {
-        "username": "srimani-programmer",
-        "score": 6,
-        "rank": 80,
-        "id": 250
-    },
-    {
-        "username": "TheTrailblazer09",
-        "score": 6,
-        "rank": 80,
-        "id": 251
-    },
-    {
-        "username": "Valdermaut",
-        "score": 6,
-        "rank": 80,
-        "id": 252
-    },
-    {
-        "username": "264pranjal",
-        "score": 4,
-        "rank": 81,
-        "id": 253
-    },
-    {
-        "username": "Aju100",
-        "score": 4,
-        "rank": 81,
-        "id": 254
-    },
-    {
-        "username": "amruta-n",
-        "score": 4,
-        "rank": 81,
-        "id": 255
-    },
-    {
-        "username": "Angshuman032001",
-        "score": 4,
-        "rank": 81,
-        "id": 256
-    },
-    {
-        "username": "anurajbhandari5",
-        "score": 4,
-        "rank": 81,
-        "id": 257
-    },
-    {
-        "username": "Anushka118",
-        "score": 4,
-        "rank": 81,
-        "id": 258
-    },
-    {
-        "username": "apoorvam25",
-        "score": 4,
-        "rank": 81,
-        "id": 259
-    },
-    {
-        "username": "atarax665",
-        "score": 4,
-        "rank": 81,
-        "id": 260
-    },
-    {
-        "username": "Basilleaf24",
-        "score": 4,
-        "rank": 81,
-        "id": 261
-    },
-    {
-        "username": "bhavyasinghal06",
-        "score": 4,
-        "rank": 81,
-        "id": 262
-    },
-    {
-        "username": "BishalKrChanda",
-        "score": 4,
-        "rank": 81,
-        "id": 263
-    },
-    {
-        "username": "chrischongyj",
-        "score": 4,
-        "rank": 81,
-        "id": 264
-    },
-    {
-        "username": "connectrv",
-        "score": 4,
-        "rank": 81,
-        "id": 265
-    },
-    {
-        "username": "dj373",
-        "score": 4,
-        "rank": 81,
-        "id": 266
-    },
-    {
-        "username": "falguniraina",
-        "score": 4,
-        "rank": 81,
-        "id": 267
-    },
-    {
-        "username": "gan3i",
-        "score": 4,
-        "rank": 81,
-        "id": 268
-    },
-    {
-        "username": "gauravdas014",
-        "score": 4,
-        "rank": 81,
-        "id": 269
-    },
-    {
-        "username": "gayathri-venu",
-        "score": 4,
-        "rank": 81,
-        "id": 270
-    },
-    {
-        "username": "gunjanmimo",
-        "score": 4,
-        "rank": 81,
-        "id": 271
-    },
-    {
-        "username": "iamsomraj",
-        "score": 4,
-        "rank": 81,
-        "id": 272
-    },
-    {
-        "username": "iBruceW",
-        "score": 4,
-        "rank": 81,
-        "id": 273
-    },
-    {
-        "username": "imrishabh18",
-        "score": 4,
-        "rank": 81,
-        "id": 274
-    },
-    {
-        "username": "KamalDGRT",
-        "score": 4,
-        "rank": 81,
-        "id": 275
-    },
-    {
-        "username": "kushagra-anand",
-        "score": 4,
-        "rank": 81,
-        "id": 276
-    },
-    {
-        "username": "maheshschand",
-        "score": 4,
-        "rank": 81,
-        "id": 277
-    },
-    {
-        "username": "mansikagrawal",
-        "score": 4,
-        "rank": 81,
-        "id": 278
-    },
-    {
-        "username": "me-bhavya",
-        "score": 4,
-        "rank": 81,
-        "id": 279
-    },
-    {
-        "username": "nandanasreeraj123",
-        "score": 4,
-        "rank": 81,
-        "id": 280
-    },
-    {
-        "username": "Nandini9634",
-        "score": 4,
-        "rank": 81,
-        "id": 281
-    },
-    {
-        "username": "nehasangeetajha",
-        "score": 4,
-        "rank": 81,
-        "id": 282
-    },
-    {
-        "username": "parjanyaacoder",
-        "score": 4,
-        "rank": 81,
-        "id": 283
-    },
-    {
-        "username": "payal-98",
-        "score": 4,
-        "rank": 81,
-        "id": 284
-    },
-    {
-        "username": "pixan198",
-        "score": 4,
-        "rank": 81,
-        "id": 285
-    },
-    {
-        "username": "pooja-git11",
-        "score": 4,
-        "rank": 81,
-        "id": 286
-    },
-    {
-        "username": "prashansag62",
-        "score": 4,
-        "rank": 81,
-        "id": 287
-    },
-    {
-        "username": "PratilipiAich",
-        "score": 4,
-        "rank": 81,
-        "id": 288
-    },
-    {
-        "username": "pratu098",
-        "score": 4,
-        "rank": 81,
-        "id": 289
-    },
-    {
-        "username": "rajraman786",
-        "score": 4,
-        "rank": 81,
-        "id": 290
-    },
-    {
-        "username": "rashish15",
-        "score": 4,
-        "rank": 81,
-        "id": 291
-    },
-    {
-        "username": "saks1209am",
-        "score": 4,
-        "rank": 81,
-        "id": 292
-    },
-    {
-        "username": "Schitiz",
-        "score": 4,
-        "rank": 81,
-        "id": 293
-    },
-    {
-        "username": "setika13",
-        "score": 4,
-        "rank": 81,
-        "id": 294
-    },
-    {
-        "username": "shweta0699",
-        "score": 4,
-        "rank": 81,
-        "id": 295
-    },
-    {
-        "username": "simrankoul",
-        "score": 4,
-        "rank": 81,
-        "id": 296
-    },
-    {
-        "username": "SohelRaja",
-        "score": 4,
-        "rank": 81,
-        "id": 297
-    },
-    {
-        "username": "subhashreetrip",
-        "score": 4,
-        "rank": 81,
-        "id": 298
-    },
-    {
-        "username": "suchi12j",
-        "score": 4,
-        "rank": 81,
-        "id": 299
-    },
-    {
-        "username": "sumanthst24",
-        "score": 4,
-        "rank": 81,
-        "id": 300
-    },
-    {
-        "username": "Tanmayi03",
-        "score": 4,
-        "rank": 81,
-        "id": 301
-    },
-    {
-        "username": "the-coder-dude",
-        "score": 4,
-        "rank": 81,
-        "id": 302
-    },
-    {
-        "username": "TheDudeThatCode",
-        "score": 4,
-        "rank": 81,
-        "id": 303
-    },
-    {
-        "username": "Varshney200",
-        "score": 4,
-        "rank": 81,
-        "id": 304
-    },
-    {
-        "username": "vedangi163",
-        "score": 4,
-        "rank": 81,
-        "id": 305
-    },
-    {
-        "username": "vineetjk",
-        "score": 4,
-        "rank": 81,
-        "id": 306
-    },
-    {
-        "username": "vishakha2108",
-        "score": 4,
-        "rank": 81,
-        "id": 307
-    },
-    {
-        "username": "vyom153069",
-        "score": 4,
-        "rank": 81,
-        "id": 308
-    },
-    {
-        "username": "Xxoliaxx",
-        "score": 4,
-        "rank": 81,
-        "id": 309
-    },
-    {
-        "username": "YaminiShrestha31",
-        "score": 4,
-        "rank": 81,
-        "id": 310
-    },
-    {
-        "username": "zeeshanovic",
-        "score": 4,
-        "rank": 81,
-        "id": 311
-    },
-    {
-        "username": "07ATUL",
-        "score": 2,
-        "rank": 82,
-        "id": 312
-    },
-    {
-        "username": "afrozchakure",
-        "score": 2,
-        "rank": 82,
-        "id": 313
-    },
-    {
-        "username": "agnes-sharan",
-        "score": 2,
-        "rank": 82,
-        "id": 314
-    },
-    {
-        "username": "AJAYSHARMA2012",
-        "score": 2,
-        "rank": 82,
-        "id": 315
-    },
-    {
-        "username": "akshaysingh5",
-        "score": 2,
-        "rank": 82,
-        "id": 316
-    },
-    {
-        "username": "AnkitaBIT",
-        "score": 2,
-        "rank": 82,
-        "id": 317
-    },
-    {
-        "username": "Ayush7-BIT",
-        "score": 2,
-        "rank": 82,
-        "id": 318
-    },
-    {
-        "username": "ayushmankumar7",
-        "score": 2,
-        "rank": 82,
-        "id": 319
-    },
-    {
-        "username": "BhanujaAggarwal",
-        "score": 2,
-        "rank": 82,
-        "id": 320
-    },
-    {
-        "username": "brainaxe123",
-        "score": 2,
-        "rank": 82,
-        "id": 321
-    },
-    {
-        "username": "cohky16",
-        "score": 2,
-        "rank": 82,
-        "id": 322
-    },
-    {
-        "username": "dharmykoya",
-        "score": 2,
-        "rank": 82,
-        "id": 323
-    },
-    {
-        "username": "dwvicy",
-        "score": 2,
-        "rank": 82,
-        "id": 324
-    },
-    {
-        "username": "GeniusLearner",
-        "score": 2,
-        "rank": 82,
-        "id": 325
-    },
-    {
-        "username": "imanishbarnwal",
-        "score": 2,
-        "rank": 82,
-        "id": 326
-    },
-    {
-        "username": "infiniteVerma",
-        "score": 2,
-        "rank": 82,
-        "id": 327
-    },
-    {
-        "username": "JasleenRandhawa",
-        "score": 2,
-        "rank": 82,
-        "id": 328
-    },
-    {
-        "username": "Jitmanew-Tyagi",
-        "score": 2,
-        "rank": 82,
-        "id": 329
-    },
-    {
-        "username": "jmuskaan72",
-        "score": 2,
-        "rank": 82,
-        "id": 330
-    },
-    {
-        "username": "kancherlakishorereddy",
-        "score": 2,
-        "rank": 82,
-        "id": 331
-    },
-    {
-        "username": "LovepreetSingh12",
-        "score": 2,
-        "rank": 82,
-        "id": 332
-    },
-    {
-        "username": "Manas2520",
-        "score": 2,
-        "rank": 82,
-        "id": 333
-    },
-    {
-        "username": "Medhavi-16",
-        "score": 2,
-        "rank": 82,
-        "id": 334
-    },
-    {
-        "username": "meghanagottapu",
-        "score": 2,
-        "rank": 82,
-        "id": 335
-    },
-    {
-        "username": "Neelaksh-Singh",
-        "score": 2,
-        "rank": 82,
-        "id": 336
-    },
-    {
-        "username": "NikhileshKatakam",
-        "score": 2,
-        "rank": 82,
-        "id": 337
-    },
-    {
-        "username": "nipeshkc7",
-        "score": 2,
-        "rank": 82,
-        "id": 338
-    },
-    {
-        "username": "nishantsharma09",
-        "score": 2,
-        "rank": 82,
-        "id": 339
-    },
-    {
-        "username": "NtaoMoloi",
-        "score": 2,
-        "rank": 82,
-        "id": 340
-    },
-    {
-        "username": "ramneek008",
-        "score": 2,
-        "rank": 82,
-        "id": 341
-    },
-    {
-        "username": "Ritacheta",
-        "score": 2,
-        "rank": 82,
-        "id": 342
-    },
-    {
-        "username": "rohg007",
-        "score": 2,
-        "rank": 82,
-        "id": 343
-    },
-    {
-        "username": "Rohittt728",
-        "score": 2,
-        "rank": 82,
-        "id": 344
-    },
-    {
-        "username": "sar99",
-        "score": 2,
-        "rank": 82,
-        "id": 345
-    },
-    {
-        "username": "shreyanshi2228",
-        "score": 2,
-        "rank": 82,
-        "id": 346
-    },
-    {
-        "username": "smriti111",
-        "score": 2,
-        "rank": 82,
-        "id": 347
-    },
-    {
-        "username": "srishti-nema",
-        "score": 2,
-        "rank": 82,
-        "id": 348
-    },
-    {
-        "username": "Suchana34",
-        "score": 2,
-        "rank": 82,
-        "id": 349
-    },
-    {
-        "username": "supu2701",
-        "score": 2,
-        "rank": 82,
-        "id": 350
-    },
-    {
-        "username": "Swadesh13",
-        "score": 2,
-        "rank": 82,
-        "id": 351
-    },
-    {
-        "username": "utkarshanehe",
-        "score": 2,
-        "rank": 82,
-        "id": 352
-    },
-    {
-        "username": "utkzas",
-        "score": 2,
-        "rank": 82,
-        "id": 353
-    },
-    {
-        "username": "VaishSiddharth",
-        "score": 2,
-        "rank": 82,
-        "id": 354
-    },
-    {
-        "username": "vipuldcoder",
-        "score": 2,
-        "rank": 82,
-        "id": 355
-    }
+let results = [
+  { Username: "Harikrishnan6336", PRCount: 84, Score: 2780 },
+  { Username: "nidh-ish", PRCount: 64, Score: 2240 },
+  { Username: "khareyash05", PRCount: 87, Score: 2020 },
+  { Username: "ashutoshkrris", PRCount: 40, Score: 1660 },
+  { Username: "nagasrihith608", PRCount: 49, Score: 1655 },
+  { Username: "kanishka8276", PRCount: 60, Score: 1495 },
+  { Username: "RaiyanMahin", PRCount: 39, Score: 1475 },
+  { Username: "arpit456jain", PRCount: 53, Score: 1410 },
+  { Username: "ashuvssut", PRCount: 40, Score: 1400 },
+  { Username: "Shubham-Kumar-2000", PRCount: 38, Score: 1360 },
+  { Username: "Nikitha2309", PRCount: 33, Score: 1270 },
+  { Username: "bitaashna", PRCount: 35, Score: 1265 },
+  { Username: "FireQueen-3010", PRCount: 35, Score: 1175 },
+  { Username: "TidbitsJS", PRCount: 30, Score: 1155 },
+  { Username: "SarthakKeshari", PRCount: 37, Score: 1150 },
+  { Username: "EkjotKaur", PRCount: 44, Score: 1100 },
+  { Username: "RaveenaBhasin", PRCount: 31, Score: 1070 },
+  { Username: "madihamallick", PRCount: 29, Score: 990 },
+  { Username: "Amit366", PRCount: 30, Score: 855 },
+  { Username: "aish2002", PRCount: 23, Score: 830 },
+  { Username: "satyampgt4", PRCount: 21, Score: 810 },
+  { Username: "AB-san", PRCount: 26, Score: 810 },
+  { Username: "rohanbabbar04", PRCount: 34, Score: 805 },
+  { Username: "Coder-Srinivas", PRCount: 21, Score: 790 },
+  { Username: "SamarpanCoder2002", PRCount: 25, Score: 780 },
+  { Username: "aaadddiii", PRCount: 24, Score: 745 },
+  { Username: "NEERAJAP2001", PRCount: 22, Score: 705 },
+  { Username: "SAY-droid427", PRCount: 16, Score: 620 },
+  { Username: "abhijeet141", PRCount: 24, Score: 605 },
+  { Username: "ritvij14", PRCount: 18, Score: 590 },
+  { Username: "sudipg4112001", PRCount: 14, Score: 575 },
+  { Username: "Ayushjain2205", PRCount: 17, Score: 525 },
+  { Username: "satcasm", PRCount: 25, Score: 520 },
+  { Username: "neha-b2001", PRCount: 14, Score: 495 },
+  { Username: "tanishq-arya", PRCount: 18, Score: 495 },
+  { Username: "zhcet19", PRCount: 13, Score: 490 },
+  { Username: "Saviour1001", PRCount: 13, Score: 485 },
+  { Username: "mehabhalodiya", PRCount: 20, Score: 460 },
+  { Username: "tk315", PRCount: 19, Score: 450 },
+  { Username: "Nidhideveloper", PRCount: 12, Score: 450 },
+  { Username: "CSAURABH", PRCount: 13, Score: 445 },
+  { Username: "aniketbiswas21", PRCount: 11, Score: 435 },
+  { Username: "rohank2502", PRCount: 57, Score: 430 },
+  { Username: "gayatri517", PRCount: 15, Score: 425 },
+  { Username: "AmeyaJain-25", PRCount: 18, Score: 425 },
+  { Username: "Saransh-cpp", PRCount: 13, Score: 420 },
+  { Username: "akshay1027", PRCount: 14, Score: 410 },
+  { Username: "hemant2705", PRCount: 26, Score: 400 },
+  { Username: "Ankita297", PRCount: 16, Score: 400 },
+  { Username: "Sukriti-sood", PRCount: 13, Score: 390 },
+  { Username: "ananddasani", PRCount: 9, Score: 385 },
+  { Username: "shonali2600", PRCount: 15, Score: 385 },
+  { Username: "Aditya201551", PRCount: 14, Score: 380 },
+  { Username: "jain-rishabh-21", PRCount: 10, Score: 370 },
+  { Username: "cryptofox17", PRCount: 16, Score: 370 },
+  { Username: "XZANATOL", PRCount: 9, Score: 365 },
+  { Username: "nicks101", PRCount: 11, Score: 360 },
+  { Username: "Meghag5", PRCount: 11, Score: 355 },
+  { Username: "anotherwebguy", PRCount: 16, Score: 355 },
+  { Username: "jonathanalvares9009", PRCount: 37, Score: 355 },
+  { Username: "Aayush-hub", PRCount: 24, Score: 340 },
+  { Username: "deeptea22", PRCount: 14, Score: 335 },
+  { Username: "Ayush0730", PRCount: 13, Score: 335 },
+  { Username: "priyanshu20", PRCount: 14, Score: 335 },
+  { Username: "vedikaag99", PRCount: 15, Score: 335 },
+  { Username: "ShrutiOmer", PRCount: 16, Score: 330 },
+  { Username: "A7abhilash", PRCount: 10, Score: 330 },
+  { Username: "D-Ajay-Kumar", PRCount: 15, Score: 330 },
+  { Username: "nishant23122000", PRCount: 12, Score: 325 },
+  { Username: "Subhangini", PRCount: 20, Score: 320 },
+  { Username: "himanshujaidka", PRCount: 13, Score: 320 },
+  { Username: "sumitgsh", PRCount: 7, Score: 315 },
+  { Username: "robin025", PRCount: 7, Score: 315 },
+  { Username: "RuchiGitHu", PRCount: 9, Score: 305 },
+  { Username: "rubyruins", PRCount: 8, Score: 305 },
+  { Username: "SapinderSingh", PRCount: 15, Score: 305 },
+  { Username: "gnikita432", PRCount: 13, Score: 295 },
+  { Username: "A-kriti", PRCount: 10, Score: 295 },
+  { Username: "soumik2012", PRCount: 9, Score: 285 },
+  { Username: "aishwaryachand", PRCount: 12, Score: 275 },
+  { Username: "devRawnie", PRCount: 7, Score: 275 },
+  { Username: "taruni-always", PRCount: 6, Score: 270 },
+  { Username: "garvitgupta13", PRCount: 9, Score: 270 },
+  { Username: "Saatvik21", PRCount: 16, Score: 265 },
+  { Username: "iamakkkhil", PRCount: 8, Score: 265 },
+  { Username: "prithwirajmitra2001", PRCount: 7, Score: 255 },
+  { Username: "Devansu-Yadav", PRCount: 6, Score: 250 },
+  { Username: "Suvraneel", PRCount: 7, Score: 245 },
+  { Username: "N-Shar-ma", PRCount: 9, Score: 245 },
+  { Username: "coding-geek21", PRCount: 8, Score: 245 },
+  { Username: "anshmishra010", PRCount: 10, Score: 240 },
+  { Username: "singhayushh", PRCount: 7, Score: 235 },
+  { Username: "Bhavya-Sehgal", PRCount: 25, Score: 230 },
+  { Username: "Tanya170620", PRCount: 5, Score: 225 },
+  { Username: "Amanduttbhagat", PRCount: 5, Score: 225 },
+  { Username: "TrojanTarun", PRCount: 5, Score: 225 },
+  { Username: "janvi01", PRCount: 8, Score: 225 },
+  { Username: "shriya030", PRCount: 10, Score: 220 },
+  { Username: "jhasuraj01", PRCount: 9, Score: 215 },
+  { Username: "AM1CODES", PRCount: 7, Score: 215 },
+  { Username: "Samdid", PRCount: 9, Score: 215 },
+  { Username: "hardikvarshney", PRCount: 7, Score: 215 },
+  { Username: "krishna-y2000", PRCount: 6, Score: 210 },
+  { Username: "VishvamPorwal", PRCount: 6, Score: 210 },
+  { Username: "kotwani2883", PRCount: 5, Score: 205 },
+  { Username: "hridhi", PRCount: 5, Score: 205 },
+  { Username: "ankan1811", PRCount: 9, Score: 205 },
+  { Username: "Sloth-Panda", PRCount: 17, Score: 205 },
+  { Username: "Avishake007", PRCount: 8, Score: 205 },
+  { Username: "Neha62-lit", PRCount: 8, Score: 205 },
+  { Username: "viralkumar28", PRCount: 18, Score: 205 },
+  { Username: "SandeepKrSuman", PRCount: 8, Score: 205 },
+  { Username: "leoshrey", PRCount: 8, Score: 200 },
+  { Username: "Abhinaba006", PRCount: 8, Score: 200 },
+  { Username: "Subham142", PRCount: 9, Score: 200 },
+  { Username: "Omar-Hegazi", PRCount: 7, Score: 195 },
+  { Username: "abhay27chauhan", PRCount: 15, Score: 195 },
+  { Username: "fin1te", PRCount: 6, Score: 195 },
+  { Username: "ShubhamSj07", PRCount: 7, Score: 195 },
+  { Username: "ELITA04", PRCount: 5, Score: 190 },
+  { Username: "Vi1234sh12", PRCount: 8, Score: 190 },
+  { Username: "HarshitPandey251", PRCount: 4, Score: 180 },
+  { Username: "captainra1", PRCount: 4, Score: 180 },
+  { Username: "AshuKV", PRCount: 10, Score: 180 },
+  { Username: "GowthamGoush", PRCount: 8, Score: 180 },
+  { Username: "Dhanush2612", PRCount: 7, Score: 180 },
+  { Username: "Jaagrav", PRCount: 4, Score: 180 },
+  { Username: "mitalirs", PRCount: 9, Score: 175 },
+  { Username: "sujoy-coder", PRCount: 6, Score: 175 },
+  { Username: "niksm7", PRCount: 6, Score: 175 },
+  { Username: "DEEPIKA-SUK", PRCount: 7, Score: 170 },
+  { Username: "K-jais", PRCount: 8, Score: 170 },
+  { Username: "malavikarajeshvikraman", PRCount: 6, Score: 170 },
+  { Username: "psyduck1203", PRCount: 7, Score: 170 },
+  { Username: "nikhilkotiya", PRCount: 6, Score: 170 },
+  { Username: "iaditichine", PRCount: 5, Score: 165 },
+  { Username: "vedant-jain03", PRCount: 7, Score: 165 },
+  { Username: "rajeshpanjiyar", PRCount: 18, Score: 165 },
+  { Username: "udaymittal7", PRCount: 7, Score: 165 },
+  { Username: "Vedant-Rahane", PRCount: 9, Score: 165 },
+  { Username: "nandinib1999", PRCount: 4, Score: 160 },
+  { Username: "ANUJAGRAWAL2000", PRCount: 4, Score: 160 },
+  { Username: "MayureeS", PRCount: 4, Score: 160 },
+  { Username: "guruc-134", PRCount: 4, Score: 160 },
+  { Username: "vismitap", PRCount: 9, Score: 160 },
+  { Username: "Maitryee-Choudhary", PRCount: 4, Score: 160 },
+  { Username: "aakriti1318", PRCount: 4, Score: 160 },
+  { Username: "amrzaki2000", PRCount: 5, Score: 160 },
+  { Username: "ShubhamGupta577", PRCount: 7, Score: 155 },
+  { Username: "promaroy", PRCount: 8, Score: 155 },
+  { Username: "Aryamanz29", PRCount: 15, Score: 155 },
+  { Username: "AnshikaAgrawal5501", PRCount: 6, Score: 150 },
+  { Username: "Sapna2001", PRCount: 8, Score: 150 },
+  { Username: "DEEPALI-SUK", PRCount: 5, Score: 150 },
+  { Username: "srimontidutta", PRCount: 5, Score: 150 },
+  { Username: "ChitvanRamani22", PRCount: 6, Score: 150 },
+  { Username: "Samridhi-98", PRCount: 6, Score: 150 },
+  { Username: "Castella1313", PRCount: 7, Score: 150 },
+  { Username: "ritik307", PRCount: 5, Score: 150 },
+  { Username: "mdPial", PRCount: 5, Score: 150 },
+  { Username: "Tarun-Kamboj", PRCount: 5, Score: 145 },
+  { Username: "saumyasrivastava08", PRCount: 8, Score: 145 },
+  { Username: "tend2infinity", PRCount: 5, Score: 145 },
+  { Username: "abstrxtInfinity", PRCount: 5, Score: 145 },
+  { Username: "nidhivanjare", PRCount: 5, Score: 145 },
+  { Username: "chinmoy12c", PRCount: 5, Score: 145 },
+  { Username: "anurag0singh", PRCount: 5, Score: 145 },
+  { Username: "codername-123", PRCount: 6, Score: 145 },
+  { Username: "SalmaZakaria", PRCount: 4, Score: 140 },
+  { Username: "RohiniRG", PRCount: 4, Score: 140 },
+  { Username: "ayushjha952", PRCount: 4, Score: 140 },
+  { Username: "AdityaNikhil", PRCount: 4, Score: 140 },
+  { Username: "animesh-007", PRCount: 4, Score: 140 },
+  { Username: "nijin26", PRCount: 4, Score: 140 },
+  { Username: "bhubesh757", PRCount: 4, Score: 140 },
+  { Username: "pranjwalsingh236", PRCount: 3, Score: 135 },
+  { Username: "sg-iitg", PRCount: 3, Score: 135 },
+  { Username: "rutujaingole", PRCount: 3, Score: 135 },
+  { Username: "batul02", PRCount: 3, Score: 135 },
+  { Username: "sukritidawar", PRCount: 3, Score: 135 },
+  { Username: "Jassi10000", PRCount: 3, Score: 135 },
+  { Username: "nandakishormpai2001", PRCount: 3, Score: 135 },
+  { Username: "ireneelizabethsabu", PRCount: 3, Score: 135 },
+  { Username: "iamvs-2002", PRCount: 3, Score: 135 },
+  { Username: "pm0824", PRCount: 3, Score: 135 },
+  { Username: "Alleny244", PRCount: 3, Score: 135 },
+  { Username: "SatYu26", PRCount: 3, Score: 135 },
+  { Username: "shantamsultania", PRCount: 3, Score: 135 },
+  { Username: "jhamadhav", PRCount: 3, Score: 135 },
+  { Username: "kartikpuri99", PRCount: 9, Score: 135 },
+  { Username: "sk1122", PRCount: 3, Score: 135 },
+  { Username: "anjali494", PRCount: 3, Score: 135 },
+  { Username: "dhruvinfo28", PRCount: 5, Score: 130 },
+  { Username: "Inventor77", PRCount: 6, Score: 130 },
+  { Username: "aanchalrakheja", PRCount: 6, Score: 130 },
+  { Username: "hrushikesh-git", PRCount: 5, Score: 130 },
+  { Username: "aayushbisen", PRCount: 6, Score: 130 },
+  { Username: "Manzee1609", PRCount: 5, Score: 130 },
+  { Username: "akshitakanojia", PRCount: 5, Score: 130 },
+  { Username: "shreyanshi16", PRCount: 7, Score: 130 },
+  { Username: "khusheekapoor", PRCount: 4, Score: 125 },
+  { Username: "Mohim-Singla", PRCount: 4, Score: 125 },
+  { Username: "aditi1403", PRCount: 22, Score: 125 },
+  { Username: "Chadha93", PRCount: 5, Score: 125 },
+  { Username: "muthuannamalai12", PRCount: 17, Score: 125 },
+  { Username: "ayush-raj8", PRCount: 4, Score: 125 },
+  { Username: "SnehaVeerakumar", PRCount: 4, Score: 125 },
+  { Username: "rohansharma4050", PRCount: 4, Score: 125 },
+  { Username: "jaiongit", PRCount: 4, Score: 125 },
+  { Username: "anjali7786", PRCount: 4, Score: 125 },
+  { Username: "Meghna180401", PRCount: 4, Score: 120 },
+  { Username: "somya51p", PRCount: 4, Score: 120 },
+  { Username: "Nkap23", PRCount: 4, Score: 120 },
+  { Username: "pganguli", PRCount: 4, Score: 120 },
+  { Username: "arnab031", PRCount: 4, Score: 120 },
+  { Username: "Aniket1103", PRCount: 4, Score: 120 },
+  { Username: "codeDamon", PRCount: 4, Score: 120 },
+  { Username: "Rishab-j", PRCount: 4, Score: 120 },
+  { Username: "pawan2806", PRCount: 4, Score: 120 },
+  { Username: "Devenkapoor7303", PRCount: 4, Score: 120 },
+  { Username: "Deeksha-Rawat", PRCount: 4, Score: 120 },
+  { Username: "mahesh-11102", PRCount: 6, Score: 120 },
+  { Username: "amaan-ahmad", PRCount: 6, Score: 120 },
+  { Username: "Manasi2001", PRCount: 4, Score: 120 },
+  { Username: "shahina-bano", PRCount: 6, Score: 115 },
+  { Username: "yr7000", PRCount: 3, Score: 115 },
+  { Username: "JanhaviSoni", PRCount: 3, Score: 115 },
+  { Username: "Karthik-Nayak98", PRCount: 3, Score: 115 },
+  { Username: "geekymeeky", PRCount: 3, Score: 115 },
+  { Username: "mis-coder", PRCount: 3, Score: 115 },
+  { Username: "JadeMaveric", PRCount: 3, Score: 115 },
+  { Username: "mohitms007", PRCount: 3, Score: 115 },
+  { Username: "nishihere19", PRCount: 3, Score: 115 },
+  { Username: "shrishti-c", PRCount: 6, Score: 115 },
+  { Username: "AnjaliPatle", PRCount: 6, Score: 115 },
+  { Username: "aashi2912", PRCount: 3, Score: 115 },
+  { Username: "mansi75", PRCount: 3, Score: 115 },
+  { Username: "rohithmsr", PRCount: 3, Score: 115 },
+  { Username: "Artistic18", PRCount: 5, Score: 115 },
+  { Username: "rahulraikwar00", PRCount: 3, Score: 115 },
+  { Username: "OmkarPh", PRCount: 3, Score: 115 },
+  { Username: "Saumya008", PRCount: 3, Score: 115 },
+  { Username: "WaderManasi", PRCount: 9, Score: 110 },
+  { Username: "mohammedjameel24", PRCount: 5, Score: 110 },
+  { Username: "anirudhsai20", PRCount: 11, Score: 105 },
+  { Username: "kunal299", PRCount: 4, Score: 105 },
+  { Username: "codeshruti", PRCount: 4, Score: 105 },
+  { Username: "gopichandpuli9", PRCount: 4, Score: 105 },
+  { Username: "syamala27", PRCount: 4, Score: 105 },
+  { Username: "jainaayush01", PRCount: 8, Score: 105 },
+  { Username: "ayan-biswas0412", PRCount: 4, Score: 105 },
+  { Username: "ishwari20", PRCount: 4, Score: 100 },
+  { Username: "ManuGupta9780", PRCount: 3, Score: 100 },
+  { Username: "AsthaDad", PRCount: 4, Score: 100 },
+  { Username: "tanvi355", PRCount: 6, Score: 100 },
+  { Username: "aishux", PRCount: 7, Score: 100 },
+  { Username: "aniketlodh", PRCount: 4, Score: 100 },
+  { Username: "Himika-Mishra", PRCount: 4, Score: 100 },
+  { Username: "SSHREYA71", PRCount: 4, Score: 100 },
+  { Username: "sakshi012000", PRCount: 3, Score: 100 },
+  { Username: "Jahnavi-Majji", PRCount: 3, Score: 95 },
+  { Username: "anuragmukherjee2001", PRCount: 3, Score: 95 },
+  { Username: "somya1252", PRCount: 3, Score: 95 },
+  { Username: "hritikgupta92", PRCount: 3, Score: 95 },
+  { Username: "Shreyash41", PRCount: 4, Score: 95 },
+  { Username: "BeAgarwal", PRCount: 3, Score: 95 },
+  { Username: "Abhishek765", PRCount: 5, Score: 95 },
+  { Username: "subhangi2731", PRCount: 5, Score: 95 },
+  { Username: "sakshi2707", PRCount: 6, Score: 95 },
+  { Username: "Udit-singh", PRCount: 3, Score: 95 },
+  { Username: "Sushi22", PRCount: 3, Score: 95 },
+  { Username: "vikashkumar2020", PRCount: 3, Score: 95 },
+  { Username: "Vishv07", PRCount: 3, Score: 95 },
+  { Username: "yashmita", PRCount: 5, Score: 90 },
+  { Username: "divya-rai-42", PRCount: 2, Score: 90 },
+  { Username: "pshivesh8", PRCount: 2, Score: 90 },
+  { Username: "mgncodes", PRCount: 2, Score: 90 },
+  { Username: "kushal13112001", PRCount: 2, Score: 90 },
+  { Username: "vishakha-aggarwal", PRCount: 2, Score: 90 },
+  { Username: "shivanshugarg12800", PRCount: 3, Score: 90 },
+  { Username: "Ashee-Kanungo", PRCount: 2, Score: 90 },
+  { Username: "Kirti1807", PRCount: 2, Score: 90 },
+  { Username: "SrishtiSingh2001", PRCount: 2, Score: 90 },
+  { Username: "piyush9311", PRCount: 2, Score: 90 },
+  { Username: "cintamg", PRCount: 2, Score: 90 },
+  { Username: "kavyasree-123", PRCount: 2, Score: 90 },
+  { Username: "sanskruti-shahu", PRCount: 2, Score: 90 },
+  { Username: "AmanBisht01", PRCount: 2, Score: 90 },
+  { Username: "Prakash-poka", PRCount: 2, Score: 90 },
+  { Username: "saimanoharhm", PRCount: 2, Score: 90 },
+  { Username: "osamamagdy", PRCount: 2, Score: 90 },
+  { Username: "sherin527", PRCount: 2, Score: 90 },
+  { Username: "shristi99", PRCount: 2, Score: 90 },
+  { Username: "innovation-platform", PRCount: 5, Score: 90 },
+  { Username: "sitamadex11", PRCount: 2, Score: 90 },
+  { Username: "asimaries", PRCount: 2, Score: 90 },
+  { Username: "anjiii-18", PRCount: 2, Score: 90 },
+  { Username: "skybluee2001", PRCount: 2, Score: 90 },
+  { Username: "sohini3062", PRCount: 2, Score: 90 },
+  { Username: "Mrinal81", PRCount: 2, Score: 90 },
+  { Username: "Divyang0601", PRCount: 2, Score: 90 },
+  { Username: "barnamensch056", PRCount: 2, Score: 90 },
+  { Username: "nathsagar24", PRCount: 2, Score: 90 },
+  { Username: "pallavidhere23", PRCount: 2, Score: 90 },
+  { Username: "AtharvaKamble", PRCount: 2, Score: 90 },
+  { Username: "ritikkumar55", PRCount: 2, Score: 90 },
+  { Username: "anshulsharma123", PRCount: 2, Score: 90 },
+  { Username: "paulamib123", PRCount: 4, Score: 85 },
+  { Username: "SpecTEviL", PRCount: 4, Score: 85 },
+  { Username: "Komal-99", PRCount: 5, Score: 85 },
+  { Username: "Borahb", PRCount: 4, Score: 85 },
+  { Username: "EANimesha", PRCount: 4, Score: 85 },
+  { Username: "aishwarya0816", PRCount: 7, Score: 85 },
+  { Username: "Khushi-agarwal", PRCount: 5, Score: 80 },
+  { Username: "mansi-9", PRCount: 3, Score: 80 },
+  { Username: "Muskan-creator", PRCount: 6, Score: 80 },
+  { Username: "Mayank0255", PRCount: 3, Score: 80 },
+  { Username: "srk224", PRCount: 3, Score: 80 },
+  { Username: "asmitsirohi", PRCount: 4, Score: 80 },
+  { Username: "zaverisanya", PRCount: 3, Score: 80 },
+  { Username: "healer9", PRCount: 3, Score: 80 },
+  { Username: "Shubhrima", PRCount: 3, Score: 80 },
+  { Username: "sejalshri", PRCount: 3, Score: 80 },
+  { Username: "sayantani11", PRCount: 7, Score: 80 },
+  { Username: "Spurthi7768", PRCount: 4, Score: 80 },
+  { Username: "shivammahajancse", PRCount: 3, Score: 75 },
+  { Username: "Krishan-2000", PRCount: 3, Score: 75 },
+  { Username: "Sakshi0401", PRCount: 3, Score: 75 },
+  { Username: "AakankshaShah", PRCount: 3, Score: 75 },
+  { Username: "Preeti2095", PRCount: 3, Score: 75 },
+  { Username: "anubhav201241", PRCount: 3, Score: 75 },
+  { Username: "anhushree", PRCount: 3, Score: 75 },
+  { Username: "Athira2199", PRCount: 3, Score: 75 },
+  { Username: "padmajabhol", PRCount: 3, Score: 75 },
+  { Username: "ShrutiJ-01", PRCount: 3, Score: 75 },
+  { Username: "namancoder", PRCount: 3, Score: 75 },
+  { Username: "Shikhar15606", PRCount: 3, Score: 75 },
+  { Username: "Haneesha123", PRCount: 3, Score: 75 },
+  { Username: "STARLORD3", PRCount: 3, Score: 75 },
+  { Username: "gaurav24072002", PRCount: 3, Score: 75 },
+  { Username: "WebVishal", PRCount: 3, Score: 75 },
+  { Username: "rithgan", PRCount: 5, Score: 75 },
+  { Username: "Lakhankumawat", PRCount: 3, Score: 75 },
+  { Username: "goelesha", PRCount: 3, Score: 75 },
+  { Username: "Khushboo85277", PRCount: 2, Score: 70 },
+  { Username: "nikitagarg29", PRCount: 2, Score: 70 },
+  { Username: "AkanshaUniyal", PRCount: 2, Score: 70 },
+  { Username: "Sweeti-Gupta", PRCount: 2, Score: 70 },
+  { Username: "soumyavemuri", PRCount: 2, Score: 70 },
+  { Username: "Aryaman1706", PRCount: 2, Score: 70 },
+  { Username: "Ratnesh4193", PRCount: 2, Score: 70 },
+  { Username: "Goheljay", PRCount: 4, Score: 70 },
+  { Username: "KKhushhalR2405", PRCount: 2, Score: 70 },
+  { Username: "jeelnathani", PRCount: 2, Score: 70 },
+  { Username: "bijankundu", PRCount: 2, Score: 70 },
+  { Username: "SalmaFarghaly", PRCount: 2, Score: 70 },
+  { Username: "123mansha", PRCount: 2, Score: 70 },
+  { Username: "akshitadixit", PRCount: 2, Score: 70 },
+  { Username: "KapilYadav-dev", PRCount: 2, Score: 70 },
+  { Username: "icoderharshit", PRCount: 2, Score: 70 },
+  { Username: "ricsin23", PRCount: 2, Score: 70 },
+  { Username: "AryaPatel1111", PRCount: 2, Score: 70 },
+  { Username: "shreyasZ10", PRCount: 2, Score: 70 },
+  { Username: "Bhavye-Malhotra", PRCount: 2, Score: 70 },
+  { Username: "nikitakapoor1919", PRCount: 4, Score: 70 },
+  { Username: "Fairspy", PRCount: 2, Score: 70 },
+  { Username: "yasht01", PRCount: 2, Score: 70 },
+  { Username: "Aditi0102", PRCount: 2, Score: 70 },
+  { Username: "amanjha21", PRCount: 2, Score: 70 },
+  { Username: "AbhipsaGuru1012", PRCount: 2, Score: 70 },
+  { Username: "ankitaugale23", PRCount: 2, Score: 70 },
+  { Username: "sejalxz", PRCount: 3, Score: 70 },
+  { Username: "aliya-rahmani", PRCount: 2, Score: 70 },
+  { Username: "etamys", PRCount: 2, Score: 70 },
+  { Username: "Oviyabalamurugan", PRCount: 2, Score: 70 },
+  { Username: "gaulghost", PRCount: 2, Score: 70 },
+  { Username: "aanchal-fatwani", PRCount: 4, Score: 70 },
+  { Username: "Sristi27", PRCount: 2, Score: 70 },
+  { Username: "A-HK", PRCount: 2, Score: 70 },
+  { Username: "SurbhiRathi23", PRCount: 2, Score: 70 },
+  { Username: "parulsurana", PRCount: 2, Score: 70 },
+  { Username: "sayna3311", PRCount: 2, Score: 70 },
+  { Username: "murtaza1112", PRCount: 2, Score: 70 },
+  { Username: "Saptar001", PRCount: 2, Score: 70 },
+  { Username: "rashmitha520", PRCount: 2, Score: 70 },
+  { Username: "Sheetal777", PRCount: 2, Score: 70 },
+  { Username: "Raghad-Khaled", PRCount: 2, Score: 70 },
+  { Username: "supriyagahoi", PRCount: 2, Score: 70 },
+  { Username: "sukhpreet-singh1", PRCount: 2, Score: 70 },
+  { Username: "dcs-soni", PRCount: 2, Score: 70 },
+  { Username: "maneprajakta", PRCount: 3, Score: 65 },
+  { Username: "ShambhaviSharma0110", PRCount: 4, Score: 65 },
+  { Username: "Praneeth-rdy", PRCount: 4, Score: 65 },
+  { Username: "Khushi-24", PRCount: 3, Score: 65 },
+  { Username: "harshb02", PRCount: 4, Score: 65 },
+  { Username: "Sahil-kachhap", PRCount: 4, Score: 65 },
+  { Username: "kanak22", PRCount: 8, Score: 65 },
+  { Username: "KIIRTHANA", PRCount: 3, Score: 65 },
+  { Username: "Yuvraj-kadale", PRCount: 4, Score: 65 },
+  { Username: "kiruba-r11", PRCount: 3, Score: 60 },
+  { Username: "Swetha126", PRCount: 4, Score: 60 },
+  { Username: "Kriti-bit", PRCount: 4, Score: 60 },
+  { Username: "Alenjojo", PRCount: 3, Score: 60 },
+  { Username: "ParthSingh0506", PRCount: 3, Score: 60 },
+  { Username: "shairanshrawat", PRCount: 4, Score: 60 },
+  { Username: "abhishek96k", PRCount: 3, Score: 60 },
+  { Username: "amanxnanda", PRCount: 3, Score: 60 },
+  { Username: "abhishek7997", PRCount: 3, Score: 60 },
+  { Username: "yash982000", PRCount: 4, Score: 60 },
+  { Username: "rakshitkamboj", PRCount: 3, Score: 60 },
+  { Username: "tushartiwari7", PRCount: 3, Score: 60 },
+  { Username: "itsIapetus", PRCount: 6, Score: 60 },
+  { Username: "AyushPradhan9", PRCount: 2, Score: 55 },
+  { Username: "sakshigoel19", PRCount: 2, Score: 55 },
+  { Username: "DevilAJ", PRCount: 3, Score: 55 },
+  { Username: "noob-26", PRCount: 2, Score: 55 },
+  { Username: "sg7801", PRCount: 4, Score: 55 },
+  { Username: "Diksha-11", PRCount: 3, Score: 55 },
+  { Username: "harshsinha03", PRCount: 3, Score: 55 },
+  { Username: "Anas-Issa", PRCount: 2, Score: 55 },
+  { Username: "ManviGoel26", PRCount: 2, Score: 55 },
+  { Username: "flyingsonu122", PRCount: 7, Score: 55 },
+  { Username: "lakshita15", PRCount: 2, Score: 55 },
+  { Username: "namitgpta", PRCount: 2, Score: 55 },
+  { Username: "abh33", PRCount: 2, Score: 55 },
+  { Username: "Bhavik-Ardeshna", PRCount: 2, Score: 55 },
+  { Username: "AishwaryaKaranth", PRCount: 3, Score: 55 },
+  { Username: "nandini040", PRCount: 2, Score: 55 },
+  { Username: "anandhu-eng", PRCount: 2, Score: 55 },
+  { Username: "SangeetR", PRCount: 2, Score: 55 },
+  { Username: "rishabhborn2win", PRCount: 2, Score: 55 },
+  { Username: "shikha-16", PRCount: 2, Score: 50 },
+  { Username: "agamgupta2015", PRCount: 2, Score: 50 },
+  { Username: "Aayushi-Mittal", PRCount: 2, Score: 50 },
+  { Username: "SwarnimaShishodia", PRCount: 2, Score: 50 },
+  { Username: "jyoti-anjaly", PRCount: 2, Score: 50 },
+  { Username: "Priya730", PRCount: 2, Score: 50 },
+  { Username: "javeed3157", PRCount: 2, Score: 50 },
+  { Username: "adiig7", PRCount: 2, Score: 50 },
+  { Username: "imsushant12", PRCount: 2, Score: 50 },
+  { Username: "atulya2109", PRCount: 2, Score: 50 },
+  { Username: "ShreyaJindal", PRCount: 2, Score: 50 },
+  { Username: "SachindraFernando", PRCount: 2, Score: 50 },
+  { Username: "Shivam-Shandilya1", PRCount: 2, Score: 50 },
+  { Username: "Priyanka7011", PRCount: 2, Score: 50 },
+  { Username: "abhinav5481", PRCount: 2, Score: 50 },
+  { Username: "Rohit-Parameswaran", PRCount: 2, Score: 50 },
+  { Username: "DOOMSTERR", PRCount: 6, Score: 50 },
+  { Username: "venkatesh1226", PRCount: 2, Score: 50 },
+  { Username: "Dishita2602", PRCount: 2, Score: 50 },
+  { Username: "EAsmithaShrree", PRCount: 2, Score: 50 },
+  { Username: "rohats871", PRCount: 2, Score: 50 },
+  { Username: "Vanshikaa00", PRCount: 2, Score: 50 },
+  { Username: "pranjalg13", PRCount: 2, Score: 50 },
+  { Username: "tjain1511", PRCount: 2, Score: 50 },
+  { Username: "rishabhlingam", PRCount: 2, Score: 50 },
+  { Username: "Priyanshu078", PRCount: 2, Score: 50 },
+  { Username: "Greeshma2903", PRCount: 2, Score: 50 },
+  { Username: "AmrutaKoshe", PRCount: 2, Score: 50 },
+  { Username: "wajeehamushtaq", PRCount: 6, Score: 50 },
+  { Username: "dhwaj1902", PRCount: 2, Score: 50 },
+  { Username: "Marim99", PRCount: 2, Score: 50 },
+  { Username: "narasimhareddy04", PRCount: 2, Score: 50 },
+  { Username: "sarala-2210", PRCount: 2, Score: 50 },
+  { Username: "SanskrutiRP", PRCount: 2, Score: 50 },
+  { Username: "kanikaaggar16", PRCount: 2, Score: 50 },
+  { Username: "Debashish-hub", PRCount: 2, Score: 50 },
+  { Username: "vinit-churi", PRCount: 2, Score: 50 },
+  { Username: "dhriti987", PRCount: 2, Score: 50 },
+  { Username: "smriti1313", PRCount: 2, Score: 50 },
+  { Username: "satavshreya", PRCount: 2, Score: 50 },
+  { Username: "Priyankcoder", PRCount: 2, Score: 50 },
+  { Username: "akshay399", PRCount: 2, Score: 50 },
+  { Username: "Arshanshagarwal", PRCount: 2, Score: 50 },
+  { Username: "arathib36", PRCount: 2, Score: 50 },
+  { Username: "Bijay555", PRCount: 2, Score: 50 },
+  { Username: "tarunsinghofficial", PRCount: 2, Score: 50 },
+  { Username: "anu-cn", PRCount: 2, Score: 50 },
+  { Username: "DevrajDC", PRCount: 2, Score: 50 },
+  { Username: "jnatishay78", PRCount: 2, Score: 50 },
+  { Username: "codeakki", PRCount: 1, Score: 45 },
+  { Username: "adityaiiitL", PRCount: 1, Score: 45 },
+  { Username: "nandita658", PRCount: 1, Score: 45 },
+  { Username: "abxhr", PRCount: 1, Score: 45 },
+  { Username: "anumshka", PRCount: 1, Score: 45 },
+  { Username: "deeqakkk", PRCount: 1, Score: 45 },
+  { Username: "loneWolf148", PRCount: 1, Score: 45 },
+  { Username: "mrunalthosar57", PRCount: 1, Score: 45 },
+  { Username: "Ananya9878", PRCount: 1, Score: 45 },
+  { Username: "Avantika782", PRCount: 1, Score: 45 },
+  { Username: "PrernaSingh587", PRCount: 1, Score: 45 },
+  { Username: "krishantraj", PRCount: 1, Score: 45 },
+  { Username: "sanjaysunil34", PRCount: 1, Score: 45 },
+  { Username: "keshav2508", PRCount: 1, Score: 45 },
+  { Username: "jaimehta1912", PRCount: 1, Score: 45 },
+  { Username: "Rishika30", PRCount: 1, Score: 45 },
+  { Username: "IShahnawazShaikh", PRCount: 1, Score: 45 },
+  { Username: "ansi22", PRCount: 1, Score: 45 },
+  { Username: "Bhawana0001", PRCount: 1, Score: 45 },
+  { Username: "nandinit02", PRCount: 1, Score: 45 },
+  { Username: "ainy-123", PRCount: 1, Score: 45 },
+  { Username: "sam2809", PRCount: 1, Score: 45 },
+  { Username: "weirdrag08", PRCount: 1, Score: 45 },
+  { Username: "Sakshi1007", PRCount: 1, Score: 45 },
+  { Username: "iamsachin45", PRCount: 2, Score: 45 },
+  { Username: "apoorva-s1301", PRCount: 1, Score: 45 },
+  { Username: "kratimitra", PRCount: 1, Score: 45 },
+  { Username: "Puja-Kumari-909", PRCount: 1, Score: 45 },
+  { Username: "Yukti-1", PRCount: 1, Score: 45 },
+  { Username: "Anshika-Srivastava", PRCount: 1, Score: 45 },
+  { Username: "tanya12181", PRCount: 1, Score: 45 },
+  { Username: "BeShraddha", PRCount: 1, Score: 45 },
+  { Username: "mohdarif8299", PRCount: 1, Score: 45 },
+  { Username: "ShreyashRoyzada", PRCount: 1, Score: 45 },
+  { Username: "Anu-123-gif", PRCount: 1, Score: 45 },
+  { Username: "gokulsoumya", PRCount: 1, Score: 45 },
+  { Username: "Aarushi3113", PRCount: 1, Score: 45 },
+  { Username: "Nivedita967", PRCount: 1, Score: 45 },
+  { Username: "hgoyal254", PRCount: 1, Score: 45 },
+  { Username: "Rohit-83", PRCount: 1, Score: 45 },
+  { Username: "Vishruta-Patil", PRCount: 1, Score: 45 },
+  { Username: "Somparna-c", PRCount: 1, Score: 45 },
+  { Username: "YashPaste", PRCount: 1, Score: 45 },
+  { Username: "priyadarshu", PRCount: 1, Score: 45 },
+  { Username: "sowmiya-venkatesan", PRCount: 1, Score: 45 },
+  { Username: "chiragagrawal9200", PRCount: 1, Score: 45 },
+  { Username: "aashishah", PRCount: 4, Score: 45 },
+  { Username: "walaa5", PRCount: 1, Score: 45 },
+  { Username: "manisha-27", PRCount: 1, Score: 45 },
+  { Username: "Ismail-Farahat", PRCount: 1, Score: 45 },
+  { Username: "BlazeAxel99", PRCount: 1, Score: 45 },
+  { Username: "EsraaAshraf99", PRCount: 1, Score: 45 },
+  { Username: "ahmed-cyber", PRCount: 1, Score: 45 },
+  { Username: "hrithikppawar", PRCount: 1, Score: 45 },
+  { Username: "akshitagupta15june", PRCount: 1, Score: 45 },
+  { Username: "BullHoN", PRCount: 1, Score: 45 },
+  { Username: "Mukta-Sawant", PRCount: 1, Score: 45 },
+  { Username: "niteshsinha17", PRCount: 1, Score: 45 },
+  { Username: "puru-ganda", PRCount: 1, Score: 45 },
+  { Username: "piyushpradhan", PRCount: 1, Score: 45 },
+  { Username: "RashikaJoshi-777", PRCount: 1, Score: 45 },
+  { Username: "SanjayDevTech", PRCount: 1, Score: 45 },
+  { Username: "prasannathapa", PRCount: 1, Score: 45 },
+  { Username: "ayushman999", PRCount: 1, Score: 45 },
+  { Username: "ibhavikamalhotra", PRCount: 3, Score: 45 },
+  { Username: "AkanchhaBhadani", PRCount: 1, Score: 45 },
+  { Username: "divyanshu887", PRCount: 1, Score: 45 },
+  { Username: "Surabhi0910", PRCount: 1, Score: 45 },
+  { Username: "dsrao711", PRCount: 1, Score: 45 },
+  { Username: "arpitmaheshwari213", PRCount: 1, Score: 45 },
+  { Username: "aqua0", PRCount: 1, Score: 45 },
+  { Username: "shikharcodes", PRCount: 1, Score: 45 },
+  { Username: "SAHU-01", PRCount: 4, Score: 45 },
+  { Username: "avinashjha1320", PRCount: 3, Score: 45 },
+  { Username: "Elizah550", PRCount: 1, Score: 45 },
+  { Username: "0xGhazy", PRCount: 1, Score: 45 },
+  { Username: "L3thal14", PRCount: 1, Score: 45 },
+  { Username: "shivaamm", PRCount: 1, Score: 45 },
+  { Username: "ssaksham", PRCount: 3, Score: 45 },
+  { Username: "aditisneh", PRCount: 3, Score: 45 },
+  { Username: "prachibansal2000", PRCount: 3, Score: 45 },
+  { Username: "aviiiij", PRCount: 2, Score: 45 },
+  { Username: "affan880", PRCount: 1, Score: 45 },
+  { Username: "kumarankm", PRCount: 1, Score: 45 },
+  { Username: "Kishore901", PRCount: 1, Score: 45 },
+  { Username: "Bhavyal9", PRCount: 1, Score: 45 },
+  { Username: "vinayak0127", PRCount: 1, Score: 45 },
+  { Username: "pushpakumari5117", PRCount: 1, Score: 45 },
+  { Username: "chiragasawa", PRCount: 1, Score: 45 },
+  { Username: "sahildotexe", PRCount: 1, Score: 45 },
+  { Username: "Equinox-13", PRCount: 1, Score: 45 },
+  { Username: "aastha1999", PRCount: 1, Score: 45 },
+  { Username: "Suvojit-roy", PRCount: 1, Score: 45 },
+  { Username: "smriti26raina", PRCount: 1, Score: 45 },
+  { Username: "asmita20aggarwal", PRCount: 1, Score: 45 },
+  { Username: "manastole03", PRCount: 1, Score: 45 },
+  { Username: "Anupreetadas", PRCount: 1, Score: 45 },
+  { Username: "dsg1320", PRCount: 1, Score: 45 },
+  { Username: "AasthaNautiyal", PRCount: 1, Score: 45 },
+  { Username: "prerna2712", PRCount: 1, Score: 45 },
+  { Username: "anshika208", PRCount: 1, Score: 45 },
+  { Username: "ritesh1731", PRCount: 1, Score: 45 },
+  { Username: "CoderInTheWoods", PRCount: 1, Score: 45 },
+  { Username: "kalpanapurohit", PRCount: 1, Score: 45 },
+  { Username: "friskycodeur", PRCount: 1, Score: 45 },
+  { Username: "Sanjana-03", PRCount: 1, Score: 45 },
+  { Username: "manas221", PRCount: 1, Score: 45 },
+  { Username: "SmritiAgrawal04", PRCount: 1, Score: 45 },
+  { Username: "sakar97", PRCount: 1, Score: 45 },
+  { Username: "kshittijagrawal", PRCount: 1, Score: 45 },
+  { Username: "joshi008", PRCount: 1, Score: 45 },
+  { Username: "prathameshThakur", PRCount: 1, Score: 45 },
+  { Username: "AakankshaKamal", PRCount: 1, Score: 45 },
+  { Username: "SanskritiKushik5", PRCount: 1, Score: 45 },
+  { Username: "AbhishekTiwari07", PRCount: 1, Score: 45 },
+  { Username: "geniusbharti", PRCount: 1, Score: 45 },
+  { Username: "surbhi594", PRCount: 1, Score: 45 },
+  { Username: "Raj142", PRCount: 1, Score: 45 },
+  { Username: "nidhi-08", PRCount: 1, Score: 45 },
+  { Username: "Itashi19", PRCount: 1, Score: 45 },
+  { Username: "mridulabatra", PRCount: 1, Score: 45 },
+  { Username: "Abhisheka394", PRCount: 1, Score: 45 },
+  { Username: "LalitMishra1504", PRCount: 1, Score: 45 },
+  { Username: "harshil15999", PRCount: 1, Score: 45 },
+  { Username: "SwarupKharul", PRCount: 1, Score: 45 },
+  { Username: "Muditxofficial", PRCount: 6, Score: 40 },
+  { Username: "deepthiteki", PRCount: 3, Score: 40 },
+  { Username: "pragati-kumar", PRCount: 3, Score: 40 },
+  { Username: "ankit-kmar", PRCount: 3, Score: 40 },
+  { Username: "SilverGraph", PRCount: 3, Score: 40 },
+  { Username: "yogitasaini", PRCount: 2, Score: 35 },
+  { Username: "Op-panda", PRCount: 2, Score: 35 },
+  { Username: "M2kishore", PRCount: 3, Score: 35 },
+  { Username: "AasthaSinha2305", PRCount: 2, Score: 35 },
+  { Username: "Priyanshu-U", PRCount: 2, Score: 35 },
+  { Username: "believeInJha", PRCount: 2, Score: 35 },
+  { Username: "Ananya-Misra", PRCount: 4, Score: 35 },
+  { Username: "RubenFalcao14", PRCount: 3, Score: 35 },
+  { Username: "kumar-tushar", PRCount: 3, Score: 35 },
+  { Username: "barsha119", PRCount: 3, Score: 35 },
+  { Username: "archana-9430", PRCount: 3, Score: 35 },
+  { Username: "jaypatel31", PRCount: 2, Score: 35 },
+  { Username: "SiddhantChadha", PRCount: 2, Score: 35 },
+  { Username: "balarka135", PRCount: 2, Score: 35 },
+  { Username: "with-mahimasingh", PRCount: 2, Score: 35 },
+  { Username: "aniketsingh98571", PRCount: 4, Score: 35 },
+  { Username: "Rupa-421", PRCount: 3, Score: 35 },
+  { Username: "2001asjad", PRCount: 3, Score: 35 },
+  { Username: "lopamudra2000", PRCount: 2, Score: 35 },
+  { Username: "dig9074vijay", PRCount: 2, Score: 35 },
+  { Username: "debjitpal5040", PRCount: 2, Score: 35 },
+  { Username: "adithyanarayana", PRCount: 2, Score: 30 },
+  { Username: "Rayman-Sodhi", PRCount: 2, Score: 30 },
+  { Username: "ASLManasa", PRCount: 2, Score: 30 },
+  { Username: "kumarishalini6", PRCount: 3, Score: 30 },
+  { Username: "Alik-Kumar-Ghosh", PRCount: 2, Score: 30 },
+  { Username: "alkatrivedi", PRCount: 2, Score: 30 },
+  { Username: "ishii22", PRCount: 3, Score: 30 },
+  { Username: "Astrodevil", PRCount: 2, Score: 30 },
+  { Username: "SuryaSachan", PRCount: 2, Score: 30 },
+  { Username: "lavanya243", PRCount: 2, Score: 30 },
+  { Username: "guptaaastha", PRCount: 2, Score: 30 },
+  { Username: "himanshu007-creator", PRCount: 3, Score: 30 },
+  { Username: "honeybhardwaj", PRCount: 2, Score: 30 },
+  { Username: "ishita-sehgal", PRCount: 2, Score: 30 },
+  { Username: "ishani02", PRCount: 2, Score: 30 },
+  { Username: "deepshikha007", PRCount: 2, Score: 30 },
+  { Username: "harsha-sam", PRCount: 1, Score: 25 },
+  { Username: "dikshajoshi18", PRCount: 1, Score: 25 },
+  { Username: "omniasalah276", PRCount: 1, Score: 25 },
+  { Username: "ankitabasera", PRCount: 1, Score: 25 },
+  { Username: "jtomar24", PRCount: 1, Score: 25 },
+  { Username: "hw0105", PRCount: 1, Score: 25 },
+  { Username: "adhi-2311", PRCount: 1, Score: 25 },
+  { Username: "OnewayShruti", PRCount: 1, Score: 25 },
+  { Username: "eksdee-sama", PRCount: 1, Score: 25 },
+  { Username: "Anurajaj21", PRCount: 1, Score: 25 },
+  { Username: "anshika272", PRCount: 1, Score: 25 },
+  { Username: "UG-SEP", PRCount: 1, Score: 25 },
+  { Username: "AnushkaS09", PRCount: 1, Score: 25 },
+  { Username: "Fab-Gaurav", PRCount: 1, Score: 25 },
+  { Username: "anishsingh935", PRCount: 1, Score: 25 },
+  { Username: "nagasaisriya", PRCount: 1, Score: 25 },
+  { Username: "abhishekhandacse", PRCount: 1, Score: 25 },
+  { Username: "tarunyadav148", PRCount: 1, Score: 25 },
+  { Username: "drishika2002", PRCount: 1, Score: 25 },
+  { Username: "SaloniSwagata", PRCount: 1, Score: 25 },
+  { Username: "aromal17", PRCount: 1, Score: 25 },
+  { Username: "Madhumitamoi", PRCount: 1, Score: 25 },
+  { Username: "krishmurarka", PRCount: 1, Score: 25 },
+  { Username: "VenomFate-619", PRCount: 1, Score: 25 },
+  { Username: "chauhanprakhar", PRCount: 1, Score: 25 },
+  { Username: "Soham-Official", PRCount: 3, Score: 25 },
+  { Username: "mani9896", PRCount: 1, Score: 25 },
+  { Username: "Itsaadarsh", PRCount: 1, Score: 25 },
+  { Username: "ANSHIKA1806", PRCount: 3, Score: 25 },
+  { Username: "iampranavdhar", PRCount: 3, Score: 25 },
+  { Username: "avi-01", PRCount: 1, Score: 25 },
+  { Username: "Akash20x", PRCount: 3, Score: 25 },
+  { Username: "Avnish5", PRCount: 1, Score: 25 },
+  { Username: "kanishkaa24", PRCount: 1, Score: 25 },
+  { Username: "sankalp-srivastava", PRCount: 1, Score: 25 },
+  { Username: "subhasmitapradhan", PRCount: 1, Score: 25 },
+  { Username: "hardik7e", PRCount: 1, Score: 25 },
+  { Username: "ritanshoo", PRCount: 1, Score: 25 },
+  { Username: "encodeArnab", PRCount: 1, Score: 25 },
+  { Username: "shawavisek35", PRCount: 1, Score: 25 },
+  { Username: "vijayjoshi16", PRCount: 1, Score: 25 },
+  { Username: "sachinsom93", PRCount: 1, Score: 25 },
+  { Username: "jugalnagar", PRCount: 1, Score: 25 },
+  { Username: "Aayu231", PRCount: 1, Score: 25 },
+  { Username: "prajjwalarora", PRCount: 1, Score: 25 },
+  { Username: "Abhijay007", PRCount: 1, Score: 25 },
+  { Username: "Narotam-singh", PRCount: 1, Score: 25 },
+  { Username: "anshul3pathi", PRCount: 1, Score: 25 },
+  { Username: "Priyanshujha11", PRCount: 1, Score: 25 },
+  { Username: "4kashyadav", PRCount: 1, Score: 25 },
+  { Username: "lopeselio", PRCount: 1, Score: 25 },
+  { Username: "Twinkle-Shimmer", PRCount: 1, Score: 25 },
+  { Username: "anushka1309paul", PRCount: 1, Score: 25 },
+  { Username: "AJAYK-01", PRCount: 1, Score: 25 },
+  { Username: "rupanshi-chawda", PRCount: 1, Score: 25 },
+  { Username: "ThatOneTallKid", PRCount: 1, Score: 25 },
+  { Username: "sssash18", PRCount: 1, Score: 25 },
+  { Username: "nb9960", PRCount: 1, Score: 25 },
+  { Username: "hagerk720", PRCount: 1, Score: 25 },
+  { Username: "jatinjain29", PRCount: 1, Score: 25 },
+  { Username: "veenit1802", PRCount: 1, Score: 25 },
+  { Username: "hasanmdarif", PRCount: 1, Score: 25 },
+  { Username: "pro-vider", PRCount: 1, Score: 25 },
+  { Username: "neha-baisane", PRCount: 1, Score: 25 },
+  { Username: "oneknucklehead", PRCount: 1, Score: 25 },
+  { Username: "Snehakri022", PRCount: 1, Score: 25 },
+  { Username: "harikesh409", PRCount: 1, Score: 25 },
+  { Username: "harjasnagi", PRCount: 1, Score: 25 },
+  { Username: "parthpandyappp", PRCount: 1, Score: 25 },
+  { Username: "chaitanyashimpi", PRCount: 1, Score: 25 },
+  { Username: "pbpcodes", PRCount: 1, Score: 25 },
+  { Username: "HimanchalChandra", PRCount: 1, Score: 25 },
+  { Username: "shraiyya", PRCount: 1, Score: 25 },
+  { Username: "swarupbhanjachowdhury", PRCount: 1, Score: 25 },
+  { Username: "mohitsoni-dev", PRCount: 2, Score: 25 },
+  { Username: "Ruhika1417", PRCount: 1, Score: 25 },
+  { Username: "suraj0223", PRCount: 1, Score: 25 },
+  { Username: "GayatriMunde", PRCount: 1, Score: 25 },
+  { Username: "Vrushti24", PRCount: 1, Score: 25 },
+  { Username: "rakup444", PRCount: 1, Score: 25 },
+  { Username: "Ayan-10", PRCount: 1, Score: 25 },
+  { Username: "Junaid55", PRCount: 1, Score: 25 },
+  { Username: "deepdhar", PRCount: 1, Score: 25 },
+  { Username: "dsnehasish74", PRCount: 1, Score: 25 },
+  { Username: "GulshanKataria", PRCount: 1, Score: 25 },
+  { Username: "harinyadevi", PRCount: 1, Score: 25 },
+  { Username: "sneha-nitdgp", PRCount: 1, Score: 25 },
+  { Username: "akashbwj", PRCount: 1, Score: 25 },
+  { Username: "Kashish0423", PRCount: 1, Score: 25 },
+  { Username: "arnabsen1729", PRCount: 1, Score: 25 },
+  { Username: "chakravarthi-v", PRCount: 1, Score: 25 },
+  { Username: "mrunalvilas", PRCount: 1, Score: 25 },
+  { Username: "bishakhne0gi", PRCount: 1, Score: 25 },
+  { Username: "Nirbhayparmar", PRCount: 1, Score: 25 },
+  { Username: "Aarti002", PRCount: 1, Score: 25 },
+  { Username: "iamabhii1", PRCount: 1, Score: 25 },
+  { Username: "SatyaPrakash26", PRCount: 1, Score: 25 },
+  { Username: "Saumya-07", PRCount: 1, Score: 25 },
+  { Username: "shubhamjha25", PRCount: 1, Score: 25 },
+  { Username: "SanskaarPatni", PRCount: 1, Score: 25 },
+  { Username: "anushree71199", PRCount: 1, Score: 25 },
+  { Username: "yitik-kawatra", PRCount: 1, Score: 25 },
+  { Username: "Aman-kumar001", PRCount: 1, Score: 25 },
+  { Username: "Amisha-here", PRCount: 1, Score: 25 },
+  { Username: "SharmaTanish", PRCount: 1, Score: 25 },
+  { Username: "pranabprohit", PRCount: 1, Score: 25 },
+  { Username: "midhun-b-m", PRCount: 1, Score: 25 },
+  { Username: "bishalshaw-164", PRCount: 1, Score: 25 },
+  { Username: "vasanthgk02", PRCount: 1, Score: 25 },
+  { Username: "aditidewangan", PRCount: 1, Score: 25 },
+  { Username: "Harshal0902", PRCount: 1, Score: 25 },
+  { Username: "SHAGUN0312", PRCount: 1, Score: 25 },
+  { Username: "tanishq-123", PRCount: 1, Score: 25 },
+  { Username: "TanuSharma19", PRCount: 1, Score: 25 },
+  { Username: "anushka530", PRCount: 1, Score: 25 },
+  { Username: "RiyaKumar00", PRCount: 1, Score: 25 },
+  { Username: "aditya-190", PRCount: 1, Score: 25 },
+  { Username: "Anjali041", PRCount: 4, Score: 25 },
+  { Username: "sHiVaNgI821", PRCount: 1, Score: 25 },
+  { Username: "Nora2412", PRCount: 1, Score: 25 },
+  { Username: "deek121477", PRCount: 1, Score: 25 },
+  { Username: "Pratibha-Rawat", PRCount: 1, Score: 25 },
+  { Username: "poojapaliwal", PRCount: 1, Score: 25 },
+  { Username: "jkrlr", PRCount: 3, Score: 25 },
+  { Username: "nehathakur27", PRCount: 1, Score: 25 },
+  { Username: "saketh018", PRCount: 1, Score: 25 },
+  { Username: "AnjaliSrivastava722", PRCount: 1, Score: 25 },
+  { Username: "PuneetPunamiya", PRCount: 1, Score: 25 },
+  { Username: "atharvaze", PRCount: 1, Score: 25 },
+  { Username: "DineshKoushik", PRCount: 1, Score: 25 },
+  { Username: "Priyadarshan2000", PRCount: 1, Score: 25 },
+  { Username: "vivek-2000", PRCount: 1, Score: 25 },
+  { Username: "kagritu", PRCount: 1, Score: 25 },
+  { Username: "undetectablevirus", PRCount: 1, Score: 25 },
+  { Username: "vaishnavirshah", PRCount: 1, Score: 25 },
+  { Username: "Kirtan17", PRCount: 1, Score: 25 },
+  { Username: "MayankkumarTank", PRCount: 1, Score: 25 },
+  { Username: "Jade9ja", PRCount: 1, Score: 25 },
+  { Username: "saaalik", PRCount: 1, Score: 25 },
+  { Username: "ankurg132", PRCount: 1, Score: 25 },
+  { Username: "vanshika2906", PRCount: 1, Score: 25 },
+  { Username: "Vaishnavi798", PRCount: 1, Score: 25 },
+  { Username: "keshavga1209", PRCount: 1, Score: 25 },
+  { Username: "NeelamAryaa", PRCount: 1, Score: 25 },
+  { Username: "Chaitalishetty", PRCount: 1, Score: 25 },
+  { Username: "Nidhikamewar15", PRCount: 1, Score: 25 },
+  { Username: "drishtipeshwani", PRCount: 1, Score: 25 },
+  { Username: "codebuzzer01", PRCount: 1, Score: 25 },
+  { Username: "Shwetang550", PRCount: 1, Score: 25 },
+  { Username: "adya-13", PRCount: 1, Score: 25 },
+  { Username: "rray14", PRCount: 1, Score: 25 },
+  { Username: "Kritikaagra", PRCount: 1, Score: 25 },
+  { Username: "ThumarHarsh", PRCount: 1, Score: 25 },
+  { Username: "ASHISH-GITHUB2495", PRCount: 1, Score: 25 },
+  { Username: "Pretty-19", PRCount: 1, Score: 25 },
+  { Username: "madhurima99", PRCount: 1, Score: 25 },
+  { Username: "Rutikab12", PRCount: 1, Score: 25 },
+  { Username: "aditya113141", PRCount: 1, Score: 25 },
+  { Username: "dashingdiptu12345", PRCount: 1, Score: 25 },
+  { Username: "IronStark007", PRCount: 1, Score: 25 },
+  { Username: "Ankitasareen", PRCount: 1, Score: 25 },
+  { Username: "snehaamenon", PRCount: 1, Score: 25 },
+  { Username: "ishika07", PRCount: 1, Score: 25 },
+  { Username: "ankita-04", PRCount: 1, Score: 25 },
+  { Username: "hsnice16", PRCount: 1, Score: 25 },
+  { Username: "yokesh004", PRCount: 1, Score: 25 },
+  { Username: "capblack222", PRCount: 1, Score: 25 },
+  { Username: "CoderGaurav01", PRCount: 1, Score: 25 },
+  { Username: "Abhishek-dab", PRCount: 1, Score: 25 },
+  { Username: "jainayush362", PRCount: 1, Score: 25 },
+  { Username: "prisha-srivastava", PRCount: 1, Score: 25 },
+  { Username: "kernal053", PRCount: 1, Score: 25 },
+  { Username: "sparshsharma2510", PRCount: 1, Score: 25 },
+  { Username: "Piyushjakhar", PRCount: 1, Score: 25 },
+  { Username: "Supriya1702", PRCount: 1, Score: 25 },
+  { Username: "pratyushchamola", PRCount: 1, Score: 25 },
+  { Username: "jaiswalrobin", PRCount: 1, Score: 25 },
+  { Username: "Cgoyal48", PRCount: 1, Score: 25 },
+  { Username: "RoliGautam", PRCount: 1, Score: 25 },
+  { Username: "Drishtdyumnss", PRCount: 1, Score: 25 },
+  { Username: "Aanchal116", PRCount: 1, Score: 25 },
+  { Username: "vineetsingh0809", PRCount: 1, Score: 25 },
+  { Username: "Rishikakanojia", PRCount: 1, Score: 25 },
+  { Username: "vibhanshujainiiitr", PRCount: 1, Score: 25 },
+  { Username: "deephunt3r", PRCount: 3, Score: 20 },
+  { Username: "divyanshkhatana", PRCount: 2, Score: 20 },
+  { Username: "DhairyaDutt", PRCount: 3, Score: 20 },
+  { Username: "Jainish-shah", PRCount: 2, Score: 20 },
+  { Username: "Ashishsingh619", PRCount: 3, Score: 20 },
+  { Username: "pankaj892", PRCount: 2, Score: 20 },
+  { Username: "Sibasish-Padhy", PRCount: 2, Score: 20 },
+  { Username: "akshatvirmani", PRCount: 4, Score: 20 },
+  { Username: "PrathmeshSadake", PRCount: 2, Score: 20 },
+  { Username: "sonaljain067", PRCount: 2, Score: 20 },
+  { Username: "malay5", PRCount: 3, Score: 20 },
+  { Username: "rutuja2229", PRCount: 2, Score: 20 },
+  { Username: "SrishtiArya07", PRCount: 2, Score: 15 },
+  { Username: "Deek9399", PRCount: 2, Score: 15 },
+  { Username: "Naman-1234", PRCount: 2, Score: 15 },
+  { Username: "Sagnik220", PRCount: 2, Score: 15 },
+  { Username: "sadaffateema", PRCount: 2, Score: 15 },
+  { Username: "kulendu", PRCount: 2, Score: 15 },
+  { Username: "srisatya1197", PRCount: 3, Score: 15 },
+  { Username: "Abhi-1313", PRCount: 2, Score: 15 },
+  { Username: "sayantan1413", PRCount: 2, Score: 15 },
+  { Username: "RahulBansal0502", PRCount: 2, Score: 15 },
+  { Username: "VivanVatsa", PRCount: 3, Score: 15 },
+  { Username: "mrmayurgithub", PRCount: 2, Score: 15 },
+  { Username: "aj3011", PRCount: 2, Score: 15 },
+  { Username: "aaryanrr", PRCount: 2, Score: 15 },
+  { Username: "viraldevpb", PRCount: 2, Score: 15 },
+  { Username: "kanchi12P", PRCount: 3, Score: 15 },
+  { Username: "GurshehzadSingh", PRCount: 2, Score: 15 },
+  { Username: "MukulKolpe", PRCount: 3, Score: 15 },
+  { Username: "Venkatesh-tech", PRCount: 1, Score: 10 },
+  { Username: "ayush461", PRCount: 1, Score: 10 },
+  { Username: "arkumari2000", PRCount: 1, Score: 10 },
+  { Username: "Bhawna147", PRCount: 1, Score: 10 },
+  { Username: "vaibhavpathak999", PRCount: 1, Score: 10 },
+  { Username: "dheerajd5", PRCount: 1, Score: 10 },
+  { Username: "btanisha", PRCount: 2, Score: 10 },
+  { Username: "meghnabajoria", PRCount: 1, Score: 10 },
+  { Username: "Hrishita99", PRCount: 1, Score: 10 },
+  { Username: "ahmedtarek26", PRCount: 1, Score: 10 },
+  { Username: "Sanika1999", PRCount: 1, Score: 10 },
+  { Username: "Hamza3226", PRCount: 1, Score: 10 },
+  { Username: "rudrani05", PRCount: 1, Score: 10 },
+  { Username: "utkarsh147-del", PRCount: 2, Score: 10 },
+  { Username: "PankajGit2711", PRCount: 1, Score: 10 },
+  { Username: "Abhishekkr93", PRCount: 1, Score: 10 },
+  { Username: "Asmita-si", PRCount: 1, Score: 10 },
+  { Username: "iamansoni", PRCount: 2, Score: 10 },
+  { Username: "noviicee", PRCount: 1, Score: 10 },
+  { Username: "Mus2413", PRCount: 2, Score: 10 },
+  { Username: "AksV73", PRCount: 1, Score: 10 },
+  { Username: "Chirag018", PRCount: 1, Score: 10 },
+  { Username: "RGTechno", PRCount: 1, Score: 10 },
+  { Username: "Alifbhanvadiya14", PRCount: 1, Score: 10 },
+  { Username: "diksh735", PRCount: 1, Score: 10 },
+  { Username: "a7medayman6", PRCount: 1, Score: 10 },
+  { Username: "1vivekanand", PRCount: 1, Score: 10 },
+  { Username: "Sn0wGod", PRCount: 1, Score: 10 },
+  { Username: "26Vinayak", PRCount: 1, Score: 10 },
+  { Username: "Akp6528", PRCount: 1, Score: 10 },
+  { Username: "krishna408", PRCount: 1, Score: 10 },
+  { Username: "jahnavi0105", PRCount: 1, Score: 10 },
+  { Username: "debanjan-2002", PRCount: 1, Score: 10 },
+  { Username: "Shagunjain10", PRCount: 1, Score: 10 },
+  { Username: "SNIGDHA2654", PRCount: 1, Score: 10 },
+  { Username: "Simar05519", PRCount: 1, Score: 10 },
+  { Username: "aanchalsethi", PRCount: 1, Score: 10 },
+  { Username: "sal-glitch", PRCount: 1, Score: 10 },
+  { Username: "bajajanjana", PRCount: 1, Score: 10 },
+  { Username: "shitesh2607", PRCount: 1, Score: 10 },
+  { Username: "tier3guy", PRCount: 1, Score: 10 },
+  { Username: "sheetalj2205", PRCount: 1, Score: 10 },
+  { Username: "starlightknown", PRCount: 1, Score: 10 },
+  { Username: "ishanailwal", PRCount: 1, Score: 10 },
+  { Username: "KHUSHI-SANGAL", PRCount: 1, Score: 10 },
+  { Username: "Varun8216889", PRCount: 2, Score: 10 },
+  { Username: "Aniketbhanderi", PRCount: 2, Score: 10 },
+  { Username: "apoorvdwi", PRCount: 1, Score: 10 },
+  { Username: "APratham", PRCount: 2, Score: 10 },
+  { Username: "devansh-07", PRCount: 2, Score: 10 },
+  { Username: "Vaibhav-afk", PRCount: 2, Score: 10 },
+  { Username: "sonalisonawane", PRCount: 1, Score: 10 },
+  { Username: "raks924", PRCount: 1, Score: 10 },
+  { Username: "girkarkshitij", PRCount: 1, Score: 10 },
+  { Username: "khushboog12", PRCount: 1, Score: 10 },
+  { Username: "RituCs", PRCount: 1, Score: 10 },
+  { Username: "Solivagant14", PRCount: 1, Score: 10 },
+  { Username: "vmishra9", PRCount: 1, Score: 10 },
+  { Username: "sahilempire", PRCount: 1, Score: 10 },
+  { Username: "pritamkr1", PRCount: 1, Score: 10 },
+  { Username: "aastha621", PRCount: 1, Score: 10 },
+  { Username: "manognyaa", PRCount: 1, Score: 10 },
+  { Username: "anjujoseph555", PRCount: 1, Score: 10 },
+  { Username: "anjali-tejasvi", PRCount: 1, Score: 10 },
+  { Username: "Engineervinay", PRCount: 1, Score: 10 },
+  { Username: "rupal11", PRCount: 1, Score: 10 },
+  { Username: "kavita1403", PRCount: 1, Score: 10 },
+  { Username: "SHAIMA-HAQUE", PRCount: 1, Score: 10 },
+  { Username: "RahulPalve", PRCount: 1, Score: 10 },
+  { Username: "sahuaman83", PRCount: 1, Score: 10 },
+  { Username: "Anurag-bhatia", PRCount: 1, Score: 10 },
+  { Username: "lekshmissunil", PRCount: 1, Score: 10 },
+  { Username: "ashish-hacker", PRCount: 1, Score: 10 },
+  { Username: "saikeshari", PRCount: 1, Score: 10 },
+  { Username: "Akshu-on-github", PRCount: 1, Score: 10 },
+  { Username: "Pranjal-2001", PRCount: 1, Score: 10 },
+  { Username: "luckykumarirai", PRCount: 1, Score: 10 },
+  { Username: "96RadhikaJadhav", PRCount: 1, Score: 10 },
+  { Username: "Lavcodes", PRCount: 1, Score: 10 },
+  { Username: "simran2607", PRCount: 1, Score: 10 },
+  { Username: "nandini7637", PRCount: 1, Score: 10 },
+  { Username: "Jyoti-S-16", PRCount: 1, Score: 10 },
+  { Username: "Uyadav207", PRCount: 1, Score: 10 },
+  { Username: "MennaMagdy2019", PRCount: 1, Score: 10 },
+  { Username: "rahulrj1", PRCount: 1, Score: 10 },
+  { Username: "Gautam204", PRCount: 1, Score: 10 },
+  { Username: "soha28", PRCount: 1, Score: 10 },
+  { Username: "matrix2131", PRCount: 1, Score: 10 },
+  { Username: "viralvaghela", PRCount: 1, Score: 10 },
+  { Username: "Kavs-123", PRCount: 1, Score: 10 },
+  { Username: "arbazalam01", PRCount: 1, Score: 10 },
+  { Username: "ranasauravsingh", PRCount: 1, Score: 10 },
+  { Username: "Pranjal-Jayaswal", PRCount: 1, Score: 10 },
+  { Username: "Bayesian4042", PRCount: 2, Score: 10 },
+  { Username: "swarnalii", PRCount: 2, Score: 10 },
+  { Username: "kashika0112", PRCount: 1, Score: 10 },
+  { Username: "sayantikag98", PRCount: 1, Score: 10 },
+  { Username: "knavdeep152002", PRCount: 1, Score: 10 },
+  { Username: "rukundob451", PRCount: 1, Score: 10 },
+  { Username: "Vishal1003", PRCount: 1, Score: 10 },
+  { Username: "rk05-lenavo", PRCount: 1, Score: 5 },
+  { Username: "dudenayak", PRCount: 1, Score: 5 },
+  { Username: "anushkajain6459", PRCount: 1, Score: 5 },
+  { Username: "Spring-dot", PRCount: 1, Score: 5 },
+  { Username: "IdealisticINTJ", PRCount: 1, Score: 5 },
+  { Username: "rahulii", PRCount: 1, Score: 5 },
+  { Username: "pro-stack", PRCount: 1, Score: 5 },
+  { Username: "Anushka-Rajvanshi", PRCount: 1, Score: 5 },
+  { Username: "Shweta200126", PRCount: 1, Score: 5 },
+  { Username: "jyotsana3108", PRCount: 1, Score: 5 },
+  { Username: "SubratYeeshu", PRCount: 1, Score: 5 },
+  { Username: "aanya-trehan", PRCount: 1, Score: 5 },
+  { Username: "AkashChetia", PRCount: 1, Score: 5 },
+  { Username: "sejalvasan", PRCount: 1, Score: 5 },
+  { Username: "anisha1208", PRCount: 1, Score: 5 },
+  { Username: "Ayushee11", PRCount: 1, Score: 5 },
+  { Username: "ishuu7", PRCount: 1, Score: 5 },
+  { Username: "anandxkumar", PRCount: 1, Score: 5 },
+  { Username: "avishkar2001", PRCount: 1, Score: 5 },
+  { Username: "zenithexpo", PRCount: 1, Score: 5 },
+  { Username: "i-aayush711", PRCount: 1, Score: 5 },
+  { Username: "garvitraj", PRCount: 1, Score: 5 },
+  { Username: "achalesh27022003", PRCount: 1, Score: 5 },
+  { Username: "rahulsain", PRCount: 2, Score: 5 },
+  { Username: "BhaskarPaul", PRCount: 1, Score: 5 },
+  { Username: "ankitgoel25", PRCount: 1, Score: 5 },
+  { Username: "ritmojs", PRCount: 1, Score: 5 },
+  { Username: "adrishyantee", PRCount: 1, Score: 5 },
+  { Username: "shivangi-04", PRCount: 1, Score: 5 },
+  { Username: "chitrasingla", PRCount: 1, Score: 5 },
+  { Username: "rahulsrivastava1", PRCount: 1, Score: 5 },
+  { Username: "ankitasantape", PRCount: 1, Score: 5 },
+  { Username: "Shalvi-Singhal", PRCount: 1, Score: 5 },
+  { Username: "Pushpit07", PRCount: 1, Score: 5 },
+  { Username: "avishmehta68710", PRCount: 1, Score: 5 },
+  { Username: "PandeySomya77", PRCount: 1, Score: 5 },
+  { Username: "vlx01", PRCount: 1, Score: 5 },
+  { Username: "Srijan0519", PRCount: 1, Score: 5 },
+  { Username: "Anurag-0-1-A", PRCount: 1, Score: 5 },
+  { Username: "AnkushSinghGandhi", PRCount: 1, Score: 5 },
+  { Username: "rauniyarbsal", PRCount: 1, Score: 5 },
+  { Username: "sameeksharl", PRCount: 1, Score: 5 },
+  { Username: "aayushirai9900", PRCount: 1, Score: 5 },
+  { Username: "aelbasioni", PRCount: 1, Score: 5 },
+  { Username: "oreo-gif", PRCount: 1, Score: 5 },
+  { Username: "vanieka-sharma", PRCount: 1, Score: 5 },
+  { Username: "sakshamgurbhele", PRCount: 1, Score: 5 },
+  { Username: "Navya-amarneni", PRCount: 1, Score: 5 },
+  { Username: "varunkmr19", PRCount: 1, Score: 5 },
+  { Username: "NehaK745", PRCount: 1, Score: 5 },
+  { Username: "NOiR-07", PRCount: 1, Score: 5 },
+  { Username: "AlacritousCreature", PRCount: 1, Score: 5 },
+  { Username: "garima652001", PRCount: 1, Score: 5 },
+  { Username: "tanay13", PRCount: 1, Score: 5 },
+  { Username: "bug-debug-done", PRCount: 1, Score: 5 },
+  { Username: "chetan-rns", PRCount: 1, Score: 5 },
+  { Username: "chaitanyabisht", PRCount: 1, Score: 5 },
+  { Username: "Ishikakhurana", PRCount: 1, Score: 5 },
+  { Username: "KshitijDarekar", PRCount: 1, Score: 5 },
+  { Username: "VaibhavSharma24", PRCount: 1, Score: 5 },
+  { Username: "Ananyaagupta", PRCount: 1, Score: 5 },
+  { Username: "Tannusharma28", PRCount: 1, Score: 5 },
+  { Username: "ksh168", PRCount: 1, Score: 5 },
+  { Username: "nityaak5", PRCount: 1, Score: 5 },
+  { Username: "khushi935", PRCount: 1, Score: 5 },
+  { Username: "prajakta2809", PRCount: 1, Score: 5 },
+  { Username: "Polokghosh53", PRCount: 1, Score: 5 },
+  { Username: "sonal251001", PRCount: 1, Score: 5 },
+  { Username: "manankohlii", PRCount: 1, Score: 5 },
+  { Username: "shefali12-ab", PRCount: 1, Score: 5 },
+  { Username: "vtejaeta", PRCount: 1, Score: 5 },
+  { Username: "prateek-jpg", PRCount: 1, Score: 5 },
+  { Username: "BJSwaroop", PRCount: 1, Score: 5 },
+  { Username: "pi-squared-4", PRCount: 1, Score: 5 },
+  { Username: "haripriya9647", PRCount: 1, Score: 5 },
+  { Username: "sourabhkumar45", PRCount: 1, Score: 5 },
+  { Username: "Sanchit-Soni", PRCount: 1, Score: 5 },
+  { Username: "vmk8826", PRCount: 1, Score: 5 },
+  { Username: "DeepanshuSarswat", PRCount: 1, Score: 5 },
+  { Username: "rupal121", PRCount: 1, Score: 5 },
+  { Username: "JASKAMAL22", PRCount: 1, Score: 5 },
+  { Username: "Tanvie", PRCount: 1, Score: 5 },
+  { Username: "starrohan999", PRCount: 1, Score: 5 },
+  { Username: "Ritu01-git", PRCount: 1, Score: 5 },
+  { Username: "Joshitha18", PRCount: 1, Score: 5 },
+  { Username: "vaishnavipatil29", PRCount: 1, Score: 5 },
+  { Username: "rohitkanteti", PRCount: 1, Score: 0 },
+  { Username: "tanyarajhans", PRCount: 1, Score: 0 },
+  { Username: "av-arvind77", PRCount: 1, Score: 0 },
+  { Username: "imgbot[bot]", PRCount: 1, Score: 0 },
+  { Username: "adityabisoi", PRCount: 1, Score: 0 },
+  { Username: "ADRE9", PRCount: 1, Score: 0 },
+  { Username: "Vidit-jindal", PRCount: 1, Score: 0 },
+  { Username: "learneradarsh", PRCount: 1, Score: 0 },
+  { Username: "GuptaTanisha", PRCount: 1, Score: 0 }
 ];
+scores = results
+  .map(r => r.Score)
+  .filter((value, index, self) => self.indexOf(value) === index)
+  .sort((a, b) => +b - +a);
+results = results.map((r, id) => ({
+  username: r.Username,
+  score: r.Score,
+  rank: scores.indexOf(r.Score) + 1,
+  id: id + 1
+}));
