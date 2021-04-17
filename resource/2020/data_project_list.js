@@ -124,6 +124,12 @@ const project_list = {
           // slackId: "UU1KYMFJ5",
         },
         {
+          name: "Mainak Chaudhuri",
+          // github: "https://github.com/ramanaditya",
+          email: "mainakc24365@gmail.com",
+          // slackId: "UU1KYMFJ5",
+        },
+        {
           name: "ARYAN GULATI",
           // github: "https://github.com/jainpawan21",
           email: "aryangulati2810@gmail.com",
@@ -657,6 +663,12 @@ const project_list = {
           email: "tipaurush@gmail.com",
           // slackId: "URTT487KL",
         },
+        { 
+          name: "Yukti Sachdeva",
+          // github: "https://github.com/tanisha03",
+          email: "yukti845@gmail.com",
+          // slackId: "URTT487KL",
+        },
         {
           name: "Paurush Tiwari",
           // github: "https://github.com/sgpritam",
@@ -856,6 +868,12 @@ const project_list = {
           // slackId: "UUCRFPAJU",
         },
         {
+          name: "Pratyush Raj",
+          // github: "https://github.com/gshanbhag525",
+          email: "pratyushraj2f@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
           name: "RISHIKESH RAJ",
           // github: "https://github.com/Sulekhiya",
           email: "rishikeshrajrxl@gmail.com",
@@ -891,6 +909,12 @@ const project_list = {
           // slackId: "UUCRFPAJU",
         },
         {
+          name: "Aadhitya A",
+          // github: "https://github.com/gshanbhag525",
+          email: "aadhitya864@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
           name: "Himesh Nayak",
           // github: "https://github.com/Sulekhiya",
           email: "himeshnayak015@gmail.com",
@@ -900,6 +924,12 @@ const project_list = {
           name: "Oshi Gupta",
           // github: "https://github.com/rajats98",
           email: "oshiagupta36@gmail.com",
+          // slackId: "UUCRFPAJU",
+        },
+        {
+          name: "Vatsal Verma",
+          // github: "https://github.com/rajats98",
+          email: "vatsal22072001@gmail.com",
           // slackId: "UUCRFPAJU",
         }
       ],
@@ -1031,46 +1061,46 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 28,
-      owner_name: "Srimathij",
-      github_username: "Srimathij",
-      project_name: "Indra-A virtual assistant",
-      project_description:
-        "Indra-A virtual assistant has been developed using NLP Technology(TTS-TEXT-TO-SPEECH) & (STT-SPEECH-TO-TEXT), AI, ML. She (Indra)will give useful methods for preventing ourselves from the corona(Ayurvedic measures). I've been added multiple responses for the Indra bot so that users can easily understand. Indra has the capability to predict disease and will give solutions according to that particular problem. I hope it would be helpful for users!!",
-      project_video_link: "https://youtu.be/b7er3lsaxfM",
-      technology_used: "AI Technology-Chatbots ,Voice app,NLP(NATURAL LANGUAGE PROCESSING),TTS(TEXT-TO-SPEECH),STT(SPEECH-TO-TEXT)",
-      repo_fullname: "Srimathij/Indra_Bot",
-      // project_slack_channel: "proj_awesome-react-modules",
-      github: "https://github.com/Srimathij/Indra_Bot",
-          email: "srimathijagadeesan51@gmail.com",
-      mentors_id: [
-        {
-          name: "Aadhitya A",
-          // github: "https://github.com/yellowwoods12",
-          email: "aadhitya864@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Tamanna Verma",
-          // github: "https://github.com/arpit9667",
-          email: "tamannav01@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Bhavita N",
-          // github: "https://github.com/AdityaSrivast",
-          email: "nbhavita24@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Hritik Bhandari",
-          // github: "https://github.com/amanintech",
-          email: "bhandari.hritik@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-      ],
-    },
+    // {
+    //   project_id: 28,
+    //   owner_name: "Srimathij",
+    //   github_username: "Srimathij",
+    //   project_name: "Indra-A virtual assistant",
+    //   project_description:
+    //     "Indra-A virtual assistant has been developed using NLP Technology(TTS-TEXT-TO-SPEECH) & (STT-SPEECH-TO-TEXT), AI, ML. She (Indra)will give useful methods for preventing ourselves from the corona(Ayurvedic measures). I've been added multiple responses for the Indra bot so that users can easily understand. Indra has the capability to predict disease and will give solutions according to that particular problem. I hope it would be helpful for users!!",
+    //   project_video_link: "https://youtu.be/b7er3lsaxfM",
+    //   technology_used: "AI Technology-Chatbots ,Voice app,NLP(NATURAL LANGUAGE PROCESSING),TTS(TEXT-TO-SPEECH),STT(SPEECH-TO-TEXT)",
+    //   repo_fullname: "Srimathij/Indra_Bot",
+    //   // project_slack_channel: "proj_awesome-react-modules",
+    //   github: "https://github.com/Srimathij/Indra_Bot",
+    //       email: "srimathijagadeesan51@gmail.com",
+    //   mentors_id: [
+    //     {
+    //       name: "Aadhitya A",
+    //       // github: "https://github.com/yellowwoods12",
+    //       email: "aadhitya864@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Tamanna Verma",
+    //       // github: "https://github.com/arpit9667",
+    //       email: "tamannav01@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Bhavita N",
+    //       // github: "https://github.com/AdityaSrivast",
+    //       email: "nbhavita24@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Hritik Bhandari",
+    //       // github: "https://github.com/amanintech",
+    //       email: "bhandari.hritik@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //   ],
+    // },
     {
       project_id: 29,
       owner_name: "Avinash Kr. Ranjan",
@@ -1579,6 +1609,12 @@ const project_list = {
         //   slackId: "UUC8L15G8",
          },
          {
+          name: "Anushka Garg",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "anushkagarg0811@gmail.com",
+       //   slackId: "UUC8L15G8",
+        },
+         {
            name: "Shweta Gurnani",
         //   github: "https://github.com/avikantwadhwa",
            email: "18107@iiitu.ac.in",
@@ -1815,6 +1851,12 @@ const project_list = {
         //   slackId: "UUC8L15G8",
          },
          {
+          name: "Aishwarya Jain",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "aish.96jain@gmail.com",
+       //   slackId: "UUC8L15G8",
+        },
+         {
            name: "Araika Singh",
         //   github: "https://github.com/avikantwadhwa",
           email: "araikasingh@gmail.com",
@@ -1845,6 +1887,10 @@ const project_list = {
            name: "Gautam Behal",
            email: "gautambeha20@gmail.com",
          },
+         {
+          name: "Ritest Singh Soun",
+          email: "sounritesh@gmail.com",
+        },
          {
           name: "Ritesh Yadav",
         //   github: "https://github.com/avikantwadhwa",
@@ -1963,6 +2009,12 @@ const project_list = {
            email: "rrjain20122000@gmail.com",
         //   slackId: "UUC8L15G8",
          },
+         {
+          name: "Ritish Kr Singh",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "ritish.rks@gmail.com",
+       //   slackId: "UUC8L15G8",
+        },
          {
           name: "Dishit Duggar",
         //   github: "https://github.com/avikantwadhwa",
@@ -2329,6 +2381,12 @@ const project_list = {
         //   slackId: "UUC8L15G8",
          },
          {
+          name: "Bhavita Nalli",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "rbhavita24@gmail.com",
+       //   slackId: "UUC8L15G8",
+        },
+         {
            name: "Sahil Singh",
         //   github: "https://github.com/avikantwadhwa",
            email: "sahilit27996@gmail.com",
@@ -2545,6 +2603,12 @@ const project_list = {
            email: "927tanmay@gmail.com",
         //   slackId: "UUC8L15G8",
          },
+         {
+          name: "Rajkumar Sony",
+       //   github: "https://github.com/Jayashree-panda",
+          email: "raku19mca@cmrit.ac.in",
+       //   slackId: "UUC8L15G8",
+        },
          {
            name: "Vaishnavi Dwivedi",
         //   github: "https://github.com/avikantwadhwa",
@@ -2945,6 +3009,12 @@ const project_list = {
           email: "joshuapoddoku@gmail.com",
        //   slackId: "UUC8L15G8",
        },
+       {
+        name: "Debasmita Das",
+     //   github: "https://github.com/Jayashree-panda",
+        email: "debasmitad76@gmail.com",
+     //   slackId: "UUC8L15G8",
+     },
         {
          name: "Shashank Motruri",
        //   github: "https://github.com/avikantwadhwa",
@@ -3431,49 +3501,49 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 94,
-      owner_name: "Yasin Shah",
-      github_username: "Technocolabs100",
-      project_name: "Stack Overflow Tag Predictions web application",
-      project_description:
-         "This project aims to predict the tag's of stack overflow posts to identify the post is related to which category's.",
-      technology_used: "Python, Data analysis, Data Science,Machine Learning, Deep learning, Flask, Cloud Platform",
-      repo_fullname: "Technocolabs100/Stack-Overflow-Tag-Predictions",
-          email: "shahyaseen71@gmail.com",
-      mentors_id: [
-        {
-          name: "Ritesh Singh Soun",
-       //   github: "https://github.com/Jayashree-panda",
-          email: "sounritesh@gmail.com",
-       //   slackId: "UUC8L15G8",
-       },
-        {
-         name: "Vivek Anand",
-       //   github: "https://github.com/avikantwadhwa",
-          email: "vivek.a@research.iiit.ac.in",
-       //   slackId: "UTZH4BELS",
-        },
-        {
-          name: "Yasin Shah",
-       //   github: "https://github.com/laveesh",
-          email: "shahyaseen71@gmail.com",
-       //   slackId: "UU0PYRJ3V",
-        },
-        {
-          name: "Yukti Sachdeva",
-       //   github: "https://github.com/laveesh",
-          email: "yukti845@gmail.com",
-       //   slackId: "UU0PYRJ3V",
-        },
-        {
-          name: "Anurag",
-       //   github: "https://github.com/laveesh",
-          email: "anurags.jadon10@gmail.com",
-       //   slackId: "UU0PYRJ3V",
-        }
-      ],
-    },
+    // {
+    //   project_id: 94,
+    //   owner_name: "Yasin Shah",
+    //   github_username: "Technocolabs100",
+    //   project_name: "Stack Overflow Tag Predictions web application",
+    //   project_description:
+    //      "This project aims to predict the tag's of stack overflow posts to identify the post is related to which category's.",
+    //   technology_used: "Python, Data analysis, Data Science,Machine Learning, Deep learning, Flask, Cloud Platform",
+    //   repo_fullname: "Technocolabs100/Stack-Overflow-Tag-Predictions",
+    //       email: "shahyaseen71@gmail.com",
+    //   mentors_id: [
+    //     {
+    //       name: "Ritesh Singh Soun",
+    //    //   github: "https://github.com/Jayashree-panda",
+    //       email: "sounritesh@gmail.com",
+    //    //   slackId: "UUC8L15G8",
+    //    },
+    //     {
+    //      name: "Vivek Anand",
+    //    //   github: "https://github.com/avikantwadhwa",
+    //       email: "vivek.a@research.iiit.ac.in",
+    //    //   slackId: "UTZH4BELS",
+    //     },
+    //     {
+    //       name: "Yasin Shah",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "shahyaseen71@gmail.com",
+    //    //   slackId: "UU0PYRJ3V",
+    //     },
+    //     {
+    //       name: "Yukti Sachdeva",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "yukti845@gmail.com",
+    //    //   slackId: "UU0PYRJ3V",
+    //     },
+    //     {
+    //       name: "Anurag",
+    //    //   github: "https://github.com/laveesh",
+    //       email: "anurags.jadon10@gmail.com",
+    //    //   slackId: "UU0PYRJ3V",
+    //     }
+    //   ],
+    // },
     {
       project_id: 95,
       owner_name: "Aitik Dandapat",
