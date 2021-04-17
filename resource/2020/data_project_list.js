@@ -311,7 +311,7 @@ const project_list = {
         {
           name: "Priya Pandya",
           // github: "https://github.com/janakrajchadha",
-          email: "priyapandya274@gmail.com",
+         
           // slackId: "UTWBMJRMY",
         },
         {
@@ -968,58 +968,58 @@ const project_list = {
         },
       ],
     },
-    {
-      project_id: 26,
-      owner_name: "Anand Baburajan",
-      github_username: "RocketMeet",
-      project_name: "RocketMeet",
-      project_description:
-        "Quickly find the best time for team meetings and one-on-ones with RocketMeet — a free and open source meeting scheduling app.",
-      project_video_link: "https://youtu.be/2TUyVUQhMb8",
-      technology_used: "Typescript, Next.js, Express.js, MongoDB, Firebase, Redux",
-      repo_fullname: "RocketMeet",
-      // project_slack_channel: "proj_awesome-react-modules",
-      github: "https://github.com/RocketMeet",
-          email: "anandbaburajan@gmail.com",
-      mentors_id: [
-        {
-          name: "Muhammed Suhail",
-          // github: "https://github.com/yellowwoods12",
-          email: "msuhailbh07@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Anaswara T Rajan",
-          // github: "https://github.com/arpit9667",
-          email: "anaswaratrajan@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Vipin K P",
-          // github: "https://github.com/AdityaSrivast",
-          email: "kpvipin33@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Aravind K S",
-          // github: "https://github.com/amanintech",
-          email: "aravindkadaikattu@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Athul Joshi",
-          // github: "https://github.com/amanintech",
-          email: "athuljoshi7@gmail.com",
-          // slackId: "UUCRFPAJU",
-        },
-        {
-          name: "Anand Baburajan",
-          // github: "https://github.com/amanintech",
-          email: "anandbaburajan@gmail.com",
-          // slackId: "UUCRFPAJU",
-        }
-      ],
-    },
+    // {
+    //   project_id: 26,
+    //   owner_name: "Anand Baburajan",
+    //   github_username: "RocketMeet",
+    //   project_name: "RocketMeet",
+    //   project_description:
+    //     "Quickly find the best time for team meetings and one-on-ones with RocketMeet — a free and open source meeting scheduling app.",
+    //   project_video_link: "https://youtu.be/2TUyVUQhMb8",
+    //   technology_used: "Typescript, Next.js, Express.js, MongoDB, Firebase, Redux",
+    //   repo_fullname: "RocketMeet",
+    //   // project_slack_channel: "proj_awesome-react-modules",
+    //   github: "https://github.com/RocketMeet",
+    //       email: "anandbaburajan@gmail.com",
+    //   mentors_id: [
+    //     {
+    //       name: "Muhammed Suhail",
+    //       // github: "https://github.com/yellowwoods12",
+    //       email: "msuhailbh07@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Anaswara T Rajan",
+    //       // github: "https://github.com/arpit9667",
+    //       email: "anaswaratrajan@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Vipin K P",
+    //       // github: "https://github.com/AdityaSrivast",
+    //       email: "kpvipin33@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Aravind K S",
+    //       // github: "https://github.com/amanintech",
+    //       email: "aravindkadaikattu@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Athul Joshi",
+    //       // github: "https://github.com/amanintech",
+    //       email: "athuljoshi7@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     },
+    //     {
+    //       name: "Anand Baburajan",
+    //       // github: "https://github.com/amanintech",
+    //       email: "anandbaburajan@gmail.com",
+    //       // slackId: "UUCRFPAJU",
+    //     }
+    //   ],
+    // },
     {
       project_id: 27,
       owner_name: "Pankhuri Saxena",
@@ -2566,7 +2566,7 @@ const project_list = {
          {
            name: "Himanshu Mangal",
         //   github: "https://github.com/avikantwadhwa",
-           email: "himanshumangal09@gmail.com",
+           
         //   slackId: "UTZH4BELS",
          },
          {
@@ -2915,7 +2915,7 @@ const project_list = {
        //   slackId: "UTZH4BELS",
         },
         {
-          name: "Sudha Vadisia",
+          name: "Sai Sudha Vadisina",
        //   github: "https://github.com/Jayashree-panda",
           email: "saisudhavadisina@gmail.com",
        //   slackId: "UUC8L15G8",
@@ -2930,7 +2930,7 @@ const project_list = {
       project_description:
         "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
       project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-      technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+      technology_used: "Javascript,Express Node ,Logo Design, Adobe XD",
       repo_fullname: "ProjectSakura/Mirai",
           email: "teltia.arun18@gmail.com",
       mentors_id: [
@@ -3707,7 +3707,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "HTML,CSS,Javascript ,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/ProjectSakura.github.io",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3739,7 +3739,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "React, Javascript,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/wiki",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3771,8 +3771,8 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
-        repo_fullname: "ProjectSakura/wiki-redesign",
+        technology_used: "React, Javascript ,Logo Design, Adobe XD",
+        repo_fullname: "ProjectSakura/contributors",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
           {
@@ -3803,7 +3803,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: " Vue, Javascript,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/download",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3835,7 +3835,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "React, Javascript, Java, Node,Logo Design, Adobe XD",
         repo_fullname: "ProjectSakura/maintainers",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
@@ -3867,7 +3867,7 @@ const project_list = {
         project_description:
           "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
         project_video_link:"https://youtu.be/7k7nnAVBh9Y",
-        technology_used: "React, Vue, Javascript, Java, Mongo Express Node Typescript ,Logo Design, Adobe XD",
+        technology_used: "React,  Javascript, Postgresql Express Node Typescript ,Adobe XD",
         repo_fullname: "ProjectSakura/kord-app",
             email: "teltia.arun18@gmail.com",
         mentors_id: [
