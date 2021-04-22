@@ -2564,12 +2564,6 @@ const project_list = {
         //   slackId: "UUC8L15G8",
          },
          {
-           name: "Himanshu Mangal",
-        //   github: "https://github.com/avikantwadhwa",
-           
-        //   slackId: "UTZH4BELS",
-         },
-         {
            name: "Ishaan Bhallal",
         //   github: "https://github.com/laveesh",
            email: "ishaanbhallal21@gmail.com",
