@@ -2415,9 +2415,9 @@ const project_list = {
         "Our project intends to make it easier for a person with any challenge of sight, hearing or physical amputation to attend online classes, webinars or courses. It captures the audio, unique screenshots and generates lecture notes during any online class, conference, etc. The audio is converted to text and a file containing its summary in .txt format as well as a braille scripted file is saved. The audio files can be used by a blind person for taking note of what happened during the class. The screenshots are stored in a PDF file and can be used by a deaf person or any other person for revisiting concepts they might have missed during a class. A TicTacToe game that can be played with slight eye movements was also developed. This project has the potential to be upgraded to a full scale application, useful for persons with disability. Contributors would have a good scope of improving the frontend UI, improving speech-to-text summarization using NLP, gesture control, working on backend and lots more. This project has received the likes of many people and we would love to see our idea turn into a full-scale Desktop Application at the hands of Open Source.",				
       project_video_link: "https://youtu.be/K1oPvsSKjRk",
       technology_used: "Python, OpenCV, NLTK, Electron.js ( Or any desktop app framework), speech-to-text",
-      repo_fullname: "CrewMates-Open-Source/EduHelp.git",
+      repo_fullname: "CrewMates-Open-Source/EduHelp",
       // project_slack_channel: "proj_mentorfix",
-      github: "https://github.com/CrewMates-Open-Source/EduHelp.git",
+      github: "https://github.com/CrewMates-Open-Source/EduHelp",
           email: "shankhanil974@gmail.com",
       mentors_id: [
          {
