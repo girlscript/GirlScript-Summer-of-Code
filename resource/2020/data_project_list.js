@@ -366,22 +366,16 @@ const project_list = {
       project_id: 11,
       owner_name: "Pranav Mendiratta",
       github_username: "Pranav016",
-      project_name: "BlogSite",
+      project_name: "WordNook",
       project_description: "This is a dynamically updating Blog posting website developed primarily using HTML, CSS with EJS template engine, Node JS and Mongoose as ODM(Object Data Modeling library). It has been deployed using Heroku.",
       // project_video_link:
       //   "Make an Ovulation Calculator and Calendar that supports more 20+ official languages in India.",
         technology_used: "HTML, CSS, EJS, Node JS, Express JS, Mongoose, Mongo DB, Heroku",
-      repo_fullname: "ALPHAVIO/BlogSite",
+      repo_fullname: "ALPHAVIO/WordNook",
       // project_slack_channel: "proj_ovuli",
-      github: "https://github.com/ALPHAVIO/BlogSite",
+      github: "https://github.com/ALPHAVIO/WordNook",
       email: "pranavmendi@gmail.com",
        mentors_id: [
-        {
-          name: "Shudhanshu Ranjan",
-          // github: "https://github.com/ayushi59",
-          email: "sudhanshu03062002@gmail.com",
-          // slackId: "UU6TFV7M5",
-        },
         {
           name: "Rushan Khan",
           // github: "https://github.com/ayushi59",
