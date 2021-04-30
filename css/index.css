@@ -1081,6 +1081,7 @@
   justify-content: center;
   flex-wrap: wrap;
   padding-top:0;
+  padding-bottom: 60px;
   width:100%;
 }
 
@@ -1092,5 +1093,11 @@
   width:auto;
   height:50px;
   object-fit: contain;
+}
+
+.sponsor-slab-title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
 }
 /* SPONSOR end */
