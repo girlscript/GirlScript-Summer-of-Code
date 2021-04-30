@@ -1422,8 +1422,8 @@ const project_list = {
       project_name: "Certificate Generation and Verification System",
       project_description:
         "Certificate Generation and Verification System project aims in developing a computerized system to maintain and generate the certificate. It has admin login through which the admin can monitor the whole system .It also has a facility where user after logging in their account can monitor and generate certificate to their particular user. Admin will manage user logins, will have option to deactivate any user. Every time any changes is done an automated email will be sent depending on the update. Overall this project is being developed to help the users in the best way possible and also to reduce the human efforts.",
-      project_video_link: "https://youtu.be/grXypg1-Uc0",
-      technology_used: "Flask, Bootstrap, Python, JavaScript",
+      project_video_link: "https://youtu.be/h3VKpZDOVqw",
+      technology_used: "Flask, Bootstrap, Python, JavaScript, jQuery",
       repo_fullname: "vigneshshettyin/Flask-Generate-Certificate",
       // project_slack_channel: "proj_footsteps-app",
       github: "https://github.com/vigneshshettyin/Flask-Generate-Certificate",
