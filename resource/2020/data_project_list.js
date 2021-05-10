@@ -3879,5 +3879,37 @@ const project_list = {
           },
         ],
       },
+      {
+          project_id: 105,
+          owner_name: "Arun Teltia",
+          github_username: "projectsakura",
+          project_name: "Project Sakura",
+          project_description:
+            "It is an open source custom rom building website that is being used by thousands of people and more than 92 k download. The project is originally based on android and there are 35 mobiles that are being maintained by 20 maintainers, I am the sole web developer and require some help , It would be awesome to help people get started with web development ",
+          project_video_link:"https://youtu.be/7k7nnAVBh9Y",
+          technology_used: "React, Javascript,Adobe XD",
+          repo_fullname: "ProjectSakura/blog",
+              email: "teltia.arun18@gmail.com",
+          mentors_id: [
+            {
+              name: "Rhythm Jayee",
+           //   github: "https://github.com/Jayashree-panda",
+              email: "jayeerythm8@gmail.com",
+           //   slackId: "UUC8L15G8",
+            },
+            {
+              name: "Priyanshu Pandey",
+           //   github: "https://github.com/avikantwadhwa",
+              email: "shen.priyanshu@gmail.com",
+           //   slackId: "UTZH4BELS",
+            },
+            {
+              name: "Yasharth Dubey",
+           //   github: "https://github.com/avikantwadhwa",
+              email: "yashdubeywinner@gmail.com",
+           //   slackId: "UTZH4BELS",
+            },
+          ],
+        },
   ],
 };
