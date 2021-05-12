@@ -113,7 +113,7 @@ const team_data = {
       {
         "fullname": "Praveen Kumar",
         "position": "Web Developer",
-        "image": "https://i.imgur.com/5XSwOfp.png",
+        "image": "images/team/2021/praveen.png",
         "social": {
           "github": "https://github.com/praveenscience/",
           "linkedin": "https://www.linkedin.com/in/praveentech/",
