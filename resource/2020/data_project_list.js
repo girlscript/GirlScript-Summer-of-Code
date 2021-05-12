@@ -366,22 +366,16 @@ const project_list = {
       project_id: 11,
       owner_name: "Pranav Mendiratta",
       github_username: "Pranav016",
-      project_name: "BlogSite",
+      project_name: "WordNook",
       project_description: "This is a dynamically updating Blog posting website developed primarily using HTML, CSS with EJS template engine, Node JS and Mongoose as ODM(Object Data Modeling library). It has been deployed using Heroku.",
       // project_video_link:
       //   "Make an Ovulation Calculator and Calendar that supports more 20+ official languages in India.",
         technology_used: "HTML, CSS, EJS, Node JS, Express JS, Mongoose, Mongo DB, Heroku",
-      repo_fullname: "ALPHAVIO/BlogSite",
+      repo_fullname: "ALPHAVIO/WordNook",
       // project_slack_channel: "proj_ovuli",
-      github: "https://github.com/ALPHAVIO/BlogSite",
+      github: "https://github.com/ALPHAVIO/WordNook",
       email: "pranavmendi@gmail.com",
        mentors_id: [
-        {
-          name: "Shudhanshu Ranjan",
-          // github: "https://github.com/ayushi59",
-          email: "sudhanshu03062002@gmail.com",
-          // slackId: "UU6TFV7M5",
-        },
         {
           name: "Rushan Khan",
           // github: "https://github.com/ayushi59",
@@ -1422,8 +1416,8 @@ const project_list = {
       project_name: "Certificate Generation and Verification System",
       project_description:
         "Certificate Generation and Verification System project aims in developing a computerized system to maintain and generate the certificate. It has admin login through which the admin can monitor the whole system .It also has a facility where user after logging in their account can monitor and generate certificate to their particular user. Admin will manage user logins, will have option to deactivate any user. Every time any changes is done an automated email will be sent depending on the update. Overall this project is being developed to help the users in the best way possible and also to reduce the human efforts.",
-      project_video_link: "https://youtu.be/grXypg1-Uc0",
-      technology_used: "Flask, Bootstrap, Python, JavaScript",
+      project_video_link: "https://youtu.be/h3VKpZDOVqw",
+      technology_used: "Flask, Bootstrap, Python, JavaScript, jQuery",
       repo_fullname: "vigneshshettyin/Flask-Generate-Certificate",
       // project_slack_channel: "proj_footsteps-app",
       github: "https://github.com/vigneshshettyin/Flask-Generate-Certificate",
@@ -2564,12 +2558,6 @@ const project_list = {
         //   slackId: "UUC8L15G8",
          },
          {
-           name: "Himanshu Mangal",
-        //   github: "https://github.com/avikantwadhwa",
-           
-        //   slackId: "UTZH4BELS",
-         },
-         {
            name: "Ishaan Bhallal",
         //   github: "https://github.com/laveesh",
            email: "ishaanbhallal21@gmail.com",
@@ -2980,15 +2968,15 @@ const project_list = {
        //   slackId: "UTZH4BELS",
         },
         {
-          name: "Beniel Enosh Raj",
+          name: "Ria Tyagi",
        //   github: "https://github.com/laveesh",
-          email: "benielenoshraj@gmail.com",
+          email: "riatyagi28@gmail.com",
        //   slackId: "UU0PYRJ3V",
         },
         {
-          name: "Harshit Yadav",
+          name: "Priyanshu Agarwal",
        //   github: "https://github.com/laveesh",
-          email: "harshityadav2k@gmail.com",
+          email: "priyanshuone6@gmail.com",
        //   slackId: "UU0PYRJ3V",
         },
       ],

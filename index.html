@@ -182,9 +182,7 @@
             <span class="iconify" data-icon="fa-solid:medal" data-inline="false"></span>&nbsp;&nbsp;Results Out!
           </button>
         </a> -->
-        <a class="gs-button-link #register"
-          href="index.html#register"
-          class="center-margin">
+        <a class="gs-button-link #register" href="index.html#register" class="center-margin">
           <button class="gs-button gs-button-orange animate__animated">
             <span class="iconify" data-icon="ri:file-paper-2-line"
               data-inline="false"></span></span>&nbsp;&nbsp;Registrations Closed!
@@ -311,7 +309,7 @@
 
               <a data-end="" class="gs-button-link" target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd5tLKz31RWJwA_7nrx5A5k7D2SJNAJDeQpjx6nk5C3Ty3Xnw/viewform?usp=sf_link"
-                class="center-margin" >
+                class="center-margin">
                 <button class="gs-button gs-button-orange gs-button-disabled">Registration Closed</button>
                 <!-- <button class="gs-button gs-button-orange">Participate Now</button> -->
               </a>
@@ -572,7 +570,7 @@
   </div>
 
   <!-- SCHEDULE section -->
-  <section id="schedule" >
+  <section id="schedule">
     <div class="timeline-heading">
       <div>Schedule</div>
     </div>
@@ -708,28 +706,78 @@
           <div class="slide"><img src="images/sponsor/StickerMule.png" style="width: 200px; max-height: 100px;"
               class="img-fluid"></div>
         </section> -->
-        <section class="sponsor-container">
-          <div class="sponsor-image">
-            <a href="https://www.linode.com/" target="_blank">
-              <img src="images/sponsor/2021/linode.svg" alt="linode logo"/>
-            </a>
-          </div>
-          <div class="sponsor-image">
-            <a href="https://mule.to/p1na" target="_blank">
-              <img src="images/sponsor/2021/sticker-mule.png" alt="stickermule logo"/>
-            </a>
-          </div>
-          <div class="sponsor-image">
-            <a href="https://gen.xyz/" target="_blank">
-              <img src="images/sponsor/2021/xyz-logo-color.png" alt="gen xyz logo"/>
-            </a>
-          </div>
-          <div class="sponsor-image">
-            <a href="https://www.sketch.com/?gssoc" target="_blank">
-              <img src="images/sponsor/2021/sketch-logo-light.png" alt="sketch logo"/>
-            </a>
-          </div>
-        </section>
+         <!-- Gold sponsors -->
+         <div class="col-md-12">
+          <h3 class="sponsor-slab-title">Gold Sponsor</h3>
+          <section class="sponsor-container">
+            <div class="sponsor-image">
+              <a href="https://www.digitalocean.com/?gssoc" target="_blank">
+                <img src="images/sponsor/2021/do_blue.svg" alt="digital ocean logo" />
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <!-- silver sponsors -->
+        <div class="col-md-6">
+          <h3 class="sponsor-slab-title">Silver Sponsor</h3>
+          <section class="sponsor-container">
+            <div class="sponsor-image">
+              <a href="https://www.linode.com/" target="_blank">
+                <img src="images/sponsor/2021/linode.svg" alt="linode logo" />
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <!-- bronze sponsors -->
+        <div class="col-md-6">
+          <h3 class="sponsor-slab-title">Bronze Sponsor</h3>
+          <section class="sponsor-container">
+            <div class="sponsor-image">
+              <a href="https://www.honeybadger.io/?gssoc" target="_blank">
+                <img src="images/sponsor/2021/honeybadger.svg" alt="honeybadger logo" />
+              </a>
+            </div>
+          </section>
+        </div>
+
+        <!-- Other sponsors -->
+        <div class="col-12">
+          <h3 class="sponsor-slab-title">Other Sponsors</h3>
+          <section class="sponsor-container">
+            <div class="sponsor-image">
+              <a href="https://www.taskade.com/?gssoc" target="_blank">
+                <img src="images/sponsor/2021/taskade-logo.png" alt="taskade logo" />
+              </a>
+            </div>
+            <div class="sponsor-image">
+              <a href="https://mule.to/p1na" target="_blank">
+                <img src="images/sponsor/2021/sticker-mule.png" alt="stickermule logo" />
+              </a>
+            </div>
+            <div class="sponsor-image">
+              <a href="https://gen.xyz/" target="_blank">
+                <img src="images/sponsor/2021/xyz-logo-color.png" alt="gen xyz logo" />
+              </a>
+            </div>
+            <div class="sponsor-image">
+              <a href="https://www.sketch.com/?gssoc" target="_blank">
+                <img src="images/sponsor/2021/sketch-logo-light.png" alt="sketch logo" />
+              </a>
+            </div>
+            <div class="sponsor-image">
+              <a href="http://egghead.io/?gssoc" target="_blank">
+                <img src="images/sponsor/2021/egghead_logo.png" alt="egghead logo" />
+              </a>
+            </div>
+            <div class="sponsor-image">
+              <a href="https://www.oreilly.com/?gssoc" target="_blank">
+                <img src="images/sponsor/2021/ORM_logo_red_rgb.png" alt="oreilly logo" />
+              </a>
+            </div>
+          </section>
+        </div>
       </div>
       <div class="row justify-content-center">
         <a href="https://forms.gle/pimGMaonwcSU12oy6" target="_blank"><button class="gs-button gs-button-orange">Sponsor
@@ -776,14 +824,14 @@
 
     $("#slideshow > div:gt(0)").hide();
 
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-}, 3000);
+    setInterval(function () {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 3000);
   </script>
 
 </body>
