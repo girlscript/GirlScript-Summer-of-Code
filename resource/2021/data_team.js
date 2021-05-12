@@ -111,6 +111,16 @@ const team_data = {
         "teamcode": "web"
       },
       {
+        "fullname": "Praveen Kumar",
+        "position": "Web Developer",
+        "image": "https://i.imgur.com/5XSwOfp.png",
+        "social": {
+          "github": "https://github.com/praveenscience/",
+          "linkedin": "https://www.linkedin.com/in/praveentech/",
+        },
+        "teamcode": "web"
+      },
+      {
         "fullname": "Devraj Chatribin",
         "position": "Web Developer and Graphic Designer",
         "image": "images/team/2021/DevrajChatribin.jpg",
