@@ -3922,7 +3922,7 @@ const project_list = {
       owner_name: "Praveen Kumar",
       github_username: "praveenscience",
       project_name: "EasyA Website",
-      project_description: "",
+      project_description: "This is the source code for EasyA Website built for Enterprise entirely using React JS.",
       project_video_link: null,
       technology_used: "React, JavaScript, SCSS",
       repo_fullname: "praveenscience/easya-website",
