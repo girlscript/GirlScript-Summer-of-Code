@@ -2450,22 +2450,28 @@ const project_list = {
       mentors_id: [
         {
            name: "Shashwat Mishra",
-        //   github: "https://github.com/Jayashree-panda",
+        //   github: "https://github.com/praveenscience",
            email: "ampsteric@gmail.com",
         //   slackId: "UUC8L15G8",
          },
          {
            name: "Aditya Pahilwani",
-        //   github: "https://github.com/avikantwadhwa",
+        //   github: "https://github.com/praveenscience",
            email: "aditya.pahilwani@gmail.com",
         //   slackId: "UTZH4BELS",
          },
          {
            name: "Tejan Singh",
-        //   github: "https://github.com/laveesh",
+        //   github: "https://github.com/praveenscience",
            email: "tstejan@gmail.com",
         //   slackId: "UU0PYRJ3V",
          },
+         {
+           name: "Aadhitya",
+        //   github: "https://github.com/praveenscience",
+           email: "aadhitya864@gmail.com"
+            //   slackId: "UU0PYRJ3V",
+          }
       ],
     },
     {
@@ -3911,5 +3917,42 @@ const project_list = {
             },
           ],
         },
+        {
+      project_id: 116,
+      owner_name: "Praveen Kumar",
+      github_username: "praveenscience",
+      project_name: "EasyA Website",
+      project_description: "",
+      project_video_link: null,
+      technology_used: "React, JavaScript, SCSS",
+      repo_fullname: "praveenscience/easya-website",
+      email: "easya@praveen.science",
+      mentors_id: [
+        {
+          name: "Shashwat Mishra",
+          //   github: "https://github.com/praveenscience",
+          email: "ampsteric@gmail.com"
+          //   slackId: "UUC8L15G8",
+        },
+        {
+          name: "Aditya Pahilwani",
+          //   github: "https://github.com/praveenscience",
+          email: "aditya.pahilwani@gmail.com"
+          //   slackId: "UTZH4BELS",
+        },
+        {
+          name: "Tejan Singh",
+          //   github: "https://github.com/praveenscience",
+          email: "tstejan@gmail.com"
+          //   slackId: "UU0PYRJ3V",
+        },
+        {
+          name: "Aadhitya",
+          //   github: "https://github.com/praveenscience",
+          email: "aadhitya864@gmail.com"
+          //   slackId: "UU0PYRJ3V",
+        },
+      ],
+    },
   ],
 };
